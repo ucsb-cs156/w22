@@ -1,5 +1,5 @@
 ---
-title: CS56
+title: CS156 F20
 permalink: "/"
 ---
 
