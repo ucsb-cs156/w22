@@ -20,52 +20,49 @@ exclude:
 
 timezone: America/Los_Angeles
 
-url: https://ucsb-cs56.github.io # the base hostname & protocol for your site
-baseurl: /w20  # the subpath of your site, e.g. "/blog"
-github_url: https://github.com/ucsb-cs56/w20
+url: https://ucsb-cs156.github.io # the base hostname & protocol for your site
+baseurl: /f20  # the subpath of your site, e.g. "/blog"
+github_url: https://github.com/ucsb-cs156/f20
 
 
 
 course: "CS56"
-qtr: "W20"
-qxx: "w20"
-quarter: "Winter 2020"
+qtr: "F20"
+qxx: "f20"
+quarter: "Fall 2020"
 
-lecture_days_of_week: MTWR
+lecture_days_of_week: TR
 
-assigned_text: " assigned(MW)"
-assigned2_text: " assigned(TR)"
-due_text: " due(MW) "
-due2_text: " due(TR) "
+assigned_text: " assigned"
+due_text: " due "
 
-start_week: 1
-start_date: 2020-01-05
-num_weeks: 10
+start_week: 0
+start_date: 2020-09-27
+num_weeks: 11
 extra_exam_week: true
 
 cal_dates: >
   [
-    {"label":"W20 1st day of instruction", "date":"2020-01-06" },	
-    {"label":"Univ Holiday", "date":"2020-01-20" , "holiday": true},
-    {"label":"Univ Holiday", "date":"2020-02-17", "holiday": true},
-    {"label":"W20 instruction ends", "date":"2020-03-13" },
-    {"label":"W20 finals start", "date":"2020-03-14" },
-    {"label":"W20 finals end", "date":"2020-03-20" },
-    {"label":"TR final noon-3pm", "date":"2020-03-18" },
-    {"label":"MW final noon-3pm", "date":"2020-03-17" },		
-    {"label":"W20 qtr ends", "date":"2020-03-20" }
+    {"label":"F20 1st day of instruction", "date":"2020-10-01" },	
+    {"label":"Univ Holiday", "date":"2020-11-11" , "holiday": true},
+    {"label":"Univ Holiday", "date":"2020-11-26" , "holiday": true},
+    {"label":"Univ Holiday", "date":"2020-11-27" , "holiday": true},
+    {"label":"F20 instruction ends", "date":"2020-12-11" },
+    {"label":"F20 finals start", "date":"2020-12-12" },
+    {"label":"F20 finals end", "date":"2020-12-18" },
+    {"label":"F20 qtr ends", "date":"2020-12-18" }
   ]
 
 piazza_url: https://piazza.com
 gauchospace_course_page: https://gauchospace.ucsb.edu/courses/course/view.php?id=tbd
-github_org_name: ucsb-cs56-w20
-github_org_url: https://github.com/ucsb-cs56-w20
+github_org_name: ucsb-cs156-f20
+github_org_url: https://github.com/ucsb-cs156-f20
 
-ta_list: "Scott and Zachary"
-ta_list_full: "Scott Chow and Zachary Sisco"
+ta_list: "TA1Firstname and TA2Firstname"
+ta_list_full: "TA1FirstName LastName and TA2FirstName LastName"
 mentors_list: "TBA"
 discussion_section_times: "5pm,&nbsp;6pm,&nbsp;7pm"
-
+sections: "5pm,&nbsp;6pm,&nbsp;7pm"
 
 mentor_url: https://ucsb-cs56-pconrad-mentors.github.io
 
@@ -78,13 +75,7 @@ legacy_wiki_url: https://foo.cs.ucsb.edu/56wiki
 legacy_wiki_name: "56wiki"
 
 
-sections: "5pm,&nbsp;6pm,&nbsp;7pm"
-
-
 hwk_drop_lowest: three
-
-legacy_wiki_name: 56wiki
-legacy_wiki_url: "https://foo.cs.ucsb.edu/56wiki" 
 
 
 hfj_chapter_url_prefix: "http://ucsb-cs56-pconrad.github.io/hfj/HFJ_Chapter_"
