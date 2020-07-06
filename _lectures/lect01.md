@@ -22,6 +22,7 @@ ready: false
 * Plain old Java Apps vs. Spring Boot Web Apps
 
 * Git/Github
+  * Verified Commits <https://ucsb-cs156.github.io/topics/github_verified_commits/>
   * Multiple branches
   * Pull requests
   * Merge conflicts
