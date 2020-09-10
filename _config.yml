@@ -26,7 +26,7 @@ github_url: https://github.com/ucsb-cs156/f20
 
 
 
-course: "CS56"
+course: "CS156"
 qtr: "F20"
 qxx: "f20"
 quarter: "Fall 2020"
@@ -58,9 +58,9 @@ gauchospace_course_page: https://gauchospace.ucsb.edu/courses/course/view.php?id
 github_org_name: ucsb-cs156-f20
 github_org_url: https://github.com/ucsb-cs156-f20
 
-ta_list: "TA1Firstname and TA2Firstname"
-ta_list_full: "TA1FirstName LastName and TA2FirstName LastName"
-mentors_list: "TBA"
+ta_list: "Scott and Mara"
+ta_list_full: "Scott Chow and Mara Downing"
+mentors_list: "Andrew"
 discussion_section_times: "5pm,&nbsp;6pm,&nbsp;7pm"
 sections: "5pm,&nbsp;6pm,&nbsp;7pm"
 
