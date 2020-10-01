@@ -29,10 +29,31 @@ Why is this course different from all other courses?
 
 Because as a young software developer I saw a gap between what I learned in school, and what i needed in industry.
 
+# Homework for Tuesday
+
+* Read this article: <https://pconrad.github.io/files/paper028.pdf>
+* Be prepared to discuss the ways in which developers felt unprepared, and what experiences they wish they had during their courses at University.
+
+# What will we learn in this class:
+
+* How real world sofware is put together
+  - Coding to build applications, not just to learn a data structure, algorithm or language feature
+* Working with legacy code
+* Full stack web applications
+  - Java backend 
+  - JavaScript/React front end
+  - Databases and APIs
+
+Two halves:
+* First half: More traditional homework/programming assignments.
+* Second half: Teams, working on a three or four big applications
+
+Legacy Applications: They existed before this course started, and will continue to exist in the future.
+
 # Logistics
 
 * Check email for:
-  * Course survey invitation
+  * Research survey invitation 
   * Slack invitation
 * Join ucsb-cs156-f20 github org
   * Create account at github.com
@@ -44,8 +65,15 @@ Because as a young software developer I saw a gap between what I learned in scho
 
 # Homework for Monday
 
-* [h00]({{ 'hwk/h00' | relative_url }}): "Listening to Developers"
-   * What do new college graduates find when they go into industry?
+* Read Chapters 1,2 in HFJ (Head First Java)
+  * Free Online if you are on the UCSB VPN <https://proquest.safaribooksonline.com/book/programming/java/0596009208>
+  * Caution though, that there are a limited number of concurrent UC "seats" in our site license, and after those are all used,
+    you might get asked for a credit card.
+  * So having your own copy is a good idea.
+
+* Read this article: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript>
+
+
 
 # Where can you find info in this class?
 
@@ -178,6 +206,7 @@ What are you most interested to learn in this course?
 * Java
 * JavaScript
 * Basic HTML/CSS
+* Working with RESTFul APIs
 * Web app programming in any framework (the idea of a Web backend vs. frontend)
 * Spring or Spring Boot, specifically
 * React, specifically
