@@ -42,30 +42,10 @@ Because as a young software developer I saw a gap between what I learned in scho
   * Click link to accept the invite to the org
 
 
-# Homework for Wednesday
+# Homework for Monday
 
 * [h00]({{ 'hwk/h00' | relative_url }}): "Listening to Developers"
    * What do new college graduates find when they go into industry?
-
-*  The Rational tutorial <https://ucsb-cs56.github.io/tutorials/rational_ex01/>
-   * Start reading, and start coding.
-   * Your first lab assignment will be based on this code.
-   * Even if you are a Java expert, there is probably some new stuff
-   
-* What might be new?
-   * Ant, Maven
-   * JUnit testing
-   * Packages
-
-# Now we meet our first team
-
-We'll go into breakout rooms and you'll meet the first team you'll be working with during the course.
-
-Then we do 
-* [ic00]({{ 'hwk/ic00' | relative_url }}): "Meeting our first team"
-
-
-
 
 # Where can you find info in this class?
 
@@ -74,6 +54,22 @@ Then we do
    * [JN7](https://ucsb-cs156.github.io/textbooks/JN7) - Java in a Nutshell, 7th edition
 * Website: <https://ucsb-cs156.github.io>
    * Especially under <https://ucsb-cs156.github.io/topics>
-   * Also, the Rational tutorial <https://ucsb-cs156.github.io/tutorials/rational_ex00/>
+
+# Now we meet our first team
+
+We'll go into breakout rooms and you'll meet the first team you'll be working with during the course.
+
+Teams are by discussion section; there are three discussion sections, and 4 teams per discussion section.
+
+| Discussion Section | Team | Mentor (LA) |  TA  |
+|--------------------|------|-------------|------|
+| 5pm | team-5pm-a | Andrew | Mara | 
+| 5pm | team-5pm-b | Darragh | Mara | 
+| 5pm | team-5pm-c | Gabe | Scott | 
+| 5pm | team-5pm-d | Tanay | Scott | 
+
+Then we do 
+* [ic00]({{ 'hwk/ic00' | relative_url }}): "Meeting our first team"
+
 
 
