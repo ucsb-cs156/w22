@@ -5,7 +5,7 @@ desc: "Introduction to CS156"
 ready: false
 ---
 
-<div style="display:none;">https://ucsb-cs56.github.io/w20/lectures/lect01
+<div style="display:none;">https://ucsb-cs156.github.io/f20/lectures/lect00
 </div>
 
 
