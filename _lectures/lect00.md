@@ -61,6 +61,10 @@ We'll go into breakout rooms and you'll meet the first team you'll be working wi
 
 Teams are by discussion section; there are three discussion sections, and 4 teams per discussion section.
 
+Team assignments [are listed here](https://docs.google.com/spreadsheets/d/e/2PACX-1vQOCADvCf9G46uSJ2m6tpFiGqMDuMOlfG_sSfcHZ8YSmOuonXQTga0dF5ASO_5RiM-UH5Zpc9sMcNgm/pubhtml).
+
+Your mentor and TA are found in this table:
+
 | Discussion Section | Team | Mentor (LA) |  TA  |
 |--------------------|------|-------------|------|
 | 5pm | team-5pm-a | Andrew | Mara | 
