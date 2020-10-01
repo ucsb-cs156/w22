@@ -67,6 +67,15 @@ Teams are by discussion section; there are three discussion sections, and 4 team
 | 5pm | team-5pm-b | Darragh | Mara | 
 | 5pm | team-5pm-c | Gabe | Scott | 
 | 5pm | team-5pm-d | Tanay | Scott | 
+| 6pm | team-6pm-a | Andrew | Mara | 
+| 6pm | team-6pm-b | Darragh | Mara | 
+| 6pm | team-6pm-c | Gabe | Scott | 
+| 6pm | team-6pm-d | Tanay | Scott | 
+| 7pm | team-7pm-a | Andrew | Mara | 
+| 7pm | team-7pm-b | Darragh | Mara | 
+| 7pm | team-7pm-c | Gabe | Scott | 
+| 7pm | team-7pm-d | Tanay | Scott | 
+
 
 Then we do 
 * [ic00]({{ 'hwk/ic00' | relative_url }}): "Meeting our first team"
