@@ -84,5 +84,6 @@ Your mentor and TA are found in this table:
 Then we do 
 * [ic00]({{ 'hwk/ic00' | relative_url }}): "Meeting our first team"
 
-
+Note that while your LA and/or TA might drop in on your Breakout Room, they are not the discussion leader.  You need to self-organize to run your own 
+breakout room discussion.
 
