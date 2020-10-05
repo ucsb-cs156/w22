@@ -400,6 +400,19 @@ This is the wrong output!
 % 
 ```
 
+* Note: If you are working on CSIL and see this instead:
+  ```
+  Error: A JNI error has occurred, please check your installation and try again
+  ...
+  ```
+  followed by many lines of additional output, then try this instead:
+  ```
+  $JAVA_HOME/bin/java -cp target/hello-1.0.0.jar Hello
+  ```
+  This assumes you've done the [fix described here]() to define `JAVA_HOME` to point to Java 11.
+
+  
+
 The line `This is the wrong output!` is being produced by the line of code:
 
 ```
