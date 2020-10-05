@@ -433,9 +433,20 @@ To submit your work, you should be able to click on the GitHub link in Gradescop
 
 After you submit, it will take some time for Gradescope to process your submission.  Once it's processsed, you should see output similar to this:
 
+
+![Gradescope output from starter code](jpa00-gs-starter-code-50.png)
+
+The most important part is this:
+
 ```
-TODO ENTER OUTPUT OF STARTER CODE
+FAILED:
+expected:<[Hello, World]!
+> but was:<[This is the wrong output]!
+>
 ```
+
+Note that it tells you exactly what was different between the expected and actual output (the part in `[]`).  The `!` is the same in both parts, so it is outside the `[]`.
+
 
 Once you've understood this output,
 let's move on and see what happens when you submit code with a syntax error.
@@ -470,12 +481,33 @@ git push origin main
 
 Now, submit to Gradescope again.  You should see output like this:
 
-```
-THE OUTPUT WHEN COMPILATION FAILS
-```
+* At the right hand side, you'll see the following:
 
-Once you've seen that, you are ready to submit code that actually compiles.
+  ![mvn-compile-failed-50.png](mvn-compile-failed-50.png)
 
+  This is how you'll know that the Maven compile failed on Gradescope.
+
+  But where can you see what went wrong?  Read on:
+  
+  
+* Look in the main window, for
+  output with `mvn compile failed` at the top.  It will probably be very
+  long (the whole output is not shown):
+
+  ![mvn-compile-failed-top-50.png](mvn-compile-failed-top-50.png)
+
+  This output is really long because it shows every single file that was
+  downloaded by Maven in order to do it's work (which is quite a few).  However,
+  the really useful output is at the bottom, so you have to scroll down a while:
+
+* Look at the bottom of this section, and eventually you should see:
+
+  ![mvn-compile-failed-bottom-50.png](mvn-compile-failed-bottom-50.png)
+
+  Here, finally, you can see what's wrong with the compile (the missing semicolon).
+
+Now that you understand what a failed compile looks like, let's finally fix the code
+and finish the lab.
 
 ## Step 9: Submit correct Java code to Gradescope
 
