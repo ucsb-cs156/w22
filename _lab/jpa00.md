@@ -409,7 +409,7 @@ This is the wrong output!
   ```
   $JAVA_HOME/bin/java -cp target/hello-1.0.0.jar Hello
   ```
-  This assumes you've done the [fix described here]() to define `JAVA_HOME` to point to Java 11.
+  This assumes you've done the [fix described here](https://ucsb-cs156.github.io/topics/maven_faq/) to define `JAVA_HOME` to point to Java 11.
 
   
 
