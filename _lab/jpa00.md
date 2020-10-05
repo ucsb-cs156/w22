@@ -271,7 +271,7 @@ This is currently an empty repo.  In the next step, we'll clone this empty repo 
 
    ```
    Cloning into 'jpa00-cgaucho'...
-warning: You appear to have cloned an empty repository.
+   warning: You appear to have cloned an empty repository.
    ```
 
 4. If you use the `ls` command, you should now have a subdirectory called `jpa00-cgaucho` (except `cgaucho` will be your GitHub username.)  Use
