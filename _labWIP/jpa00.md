@@ -7,7 +7,10 @@ num: jpa00
 ready: false
 signup_app: https://ucsb-cs-github-linker.herokuapp.com/
 slack: https://ucsb-cs156-f20.slack.com
+course_org: https://github.com/ucsb-cs156-f20
 ---
+
+This assignment is `jpa00`, i.e "Java Programming Assignment 00".
 
 If you find typos or problems with the lab instructions, please report
 them on the #typos channel on Slack
@@ -17,9 +20,20 @@ them on the #typos channel on Slack
 This lab checks that you can succesfully edit, compile, run and submit a simple
 `HelloWorld.java` to Gradescope for grading.
 
-Note, however, that even if you have done Java programming before, there
-will be a few things about this HelloWorld.java program that may be
-unfamiliar to you.  These have to do with setting us up for real world
+You can do this lab from your own system if you have Java 11 and Maven installed.  Eventually, you'll probably find it helpful to install
+Java 11 and Maven on your own machine (i.e. your own Windows, Mac or Linux machine).   However, it's likely easier to just go ahead and do this lab directly on CSIL.
+
+# Do I really need Java 11?  
+
+You may be wondering whether it's ok if you have Java 15 or Java 8, or some other version of Java instead of Java 11.    This short answer is: for this simple `HelloWorld` lab, it probably won't make a difference, but eventually it probably *will*.  So if you are going to the trouble of installing Java on your system, try to make sure it's Java 11, *specifically*, which, unlike Java 12, 13, 14 or 15, it considered a *Long-Term Support* release of Java.
+
+Read more here if you are interested: <https://ucsb-cs156.github.io/topics/java_versions/>  
+
+# Something for everyone to learn
+
+Note that even if you have done Java programming before, **there
+may be a few things about this `HelloWorld.java` program that may be
+unfamiliar to you**.  These have to do with setting us up for real world
 programming practices used in large software projects.
 
 * Rather than compiling with command line tools such as `javac` and running
@@ -77,43 +91,41 @@ Fall 2020, so read through this carefully.
    but its likely in a directory called `.ssh` under your home directory.
    Keep in mind that `.ssh` may be a hidden file.
 
+   So the command you need might be something like this:
+
+   * `vim ~/.ssh/known_hosts` to edit the file and remove the line for `csil.cs.ucsb.edu`
+   * `emacs ~/.ssh/known_hosts` if you prefer that editor
+   * `rm ~/.ssh/known_hosts` if you just want to blow the file away 
+
+   Blowing the file away will just mean that the first time you connect to any particular system, you'll be asked whether you *really* want to connect to that system, and store it's identifying information in your `known_hosts` file, and you'll have to respond `yes`. 
+
 3. If you already have used an SSH client before, you can continue using
    that same client, but specify `csil.cs.ucsb.edu` as the hostname.
 
    If you haven't used an ssh client before, consult these pages for
    hints:
-
    * Windows: <https://ucsb-cs156.github.io/topics/csil_via_ssh_from_windows/>
-   * MacOS: <>
+   * MacOS: <https://ucsb-cs156.github.io/topics/csil_via_ssh_from_macos/>
+   * ECI's article with guides for Windows, Mac and Linux: <https://doc.engr.ucsb.edu/pages/viewpage.action?pageId=5112076>
 
    There are also channels on the course slack, <{{page.slack}}>, for
    `#help-windows` and `#help-macos`.  Use the `#help-other` if you need
    help for a system other than Windows or Mac (e.g. Linux, Chromebook, etc.)
 
-helping you come up to speed.
+4. Ideally, you will already 
+   know the following things from previous courses (CMPSC 16, 24, 32).  It is possible that if you are joining UCSB for the first time in this course, some of this may be unfamiliar to you.   The rest of these instructions will assume you know how to do the items in the list below. If not, then let a member of the course staff know,
+   and we'll point you to resources
+   where you can come up to speed.
 
--   knowing your College of Engineering/CSIL computer account username/password--and having an active working account.
--   knowing how to login to the systems in Phelps 3525 and the CSIL lab, and bring up both a web browser, and a terminal window.
--   knowing that "CSIL" is both a server you can log into, as well as a physical room full of computers--and knowing where to find that physical room, and what hours it is open.
--   knowing how to use a **basic text editor such as emacs or vim** to edit files on the Linux systems in Phelps 3525 and CSIL.
--   knowing basic Unix/Linux commands to create directories, change directory, manipulate files, etc., e.g. mkdir, cd, pwd, mv, rm, ls.
+   -  knowing how to use a **basic
+      text editor such as emacs or vim** to edit files.  (Here, for example, is some [basic instruction on vim](https://ucsb-cs156.github.io/topics/vim)
+)
+   -  knowing basic Unix/Linux
+      commands to create directories, change directory, manipulate files, i.e. commands such as: `mkdir`, `cd`, `pwd`, `mv`, `rm`, `ls`.
 
-The rest of these instructions will assume you know all of the
-above. If not, then let your TA know, and we'll point you to resources
-where you can come up to speed.
 
-Here, for example, is some [basic instruction on vim](https://ucsb-cs56.github.io/topics/vim)
 
-As a separate item, you should also know how to connect to CSIL from your own computer (WindowsNN/Mac/Linux)
-
-* [Windows](https://ucsb-cs56.github.io/topics/csil_via_ssh_from_windows/)
-* [Mac](https://ucsb-cs56.github.io/topics/csil_via_ssh_from_macos/)
-* [Linux](https://ucsb-cs56.github.io/topics/csil_via_ssh_from_linux/)
-
-But, you don't need that for today's lab---so let's continue.
-
-The rest of the lab: Step-by-Step
-=================================
+# The rest of the lab: Step-by-Step
 
 ## Step 1: Create a CoE account if you don't have one already
 
@@ -165,14 +177,155 @@ We will use gradescope to grade all your homeworks, exams and lab/programming as
 
 The lab assignment {{page.num}} should appear in your Gradescope dashboard in {{site.course}}. You will need to submit your code for {{page.num}} using this page.
 
-## Step 4: Some Java coding
+## Step 4 (Optional): Set up your local system
+
+We encourage you to skip this step for now, and just do the lab on CSIL.
+
+* You'll likely be able to get through it faster, and ensure that you get a grade of 100%.
+
+* After that you can return to this step, and try doing the relevant parts of the lab again on your own system to ensure that everything is working.
+
+But if you *really, really* want to do it on your own machine instead of CSIL, you can.  Here's what you'll need to have installed:
+
+* git
+* Java 11 JDK   
+* Maven
+
+There are instructions here for various platforms.  These include
+instructions for the Heroku CLI; you'll need that later in the quarter, but not for this assignment.
+
+* [Windows](https://ucsb-cs156.github.io/topics/windows)
+* [Mac OS](https://ucsb-cs156.github.io/topics/macos/)
+* [Windows Subsystem for Linux (WSL)](https://ucsb-cs156.github.io/topics/windows_wsl/)
+
+If you are running your own Linux box, you likely already know how to install software for your platform.
+
+Note that the reference platform for the course remains “CSIL”; we cannot commit to being “tech support” for every conceivable platform. On your own machine, you are your own tech support. But we’ll help as best we can, given the time constraints we are under.
+
+The remainder of the instructions mostly assume you are working on CSIL; you can likely adapt these for your own platform as needed.
+
+
+## Step 5: Configure your CSIL account for git/GitHub
+
+In this step, we'll configure your CSIL account for git and GitHub.
+
+We want to be able to use `git` and GitHub with ssh links, so we need to set up public-key/private-key pairs.
+
+We also want to set up `git` so that it records our commits properly.
+
+1. `git` configuration: [Detailed Instructions](https://ucsb-cs156.github.io/topics/csil_git_configuration/)
+
+    
+2.  Configure your CSIL account's ssh keys for git
+    - Detailed instructions: [Configuring your ssh key for Github.com](https://ucsb-cs156.github.io/topics/github_ssh_keys/)
+
+
+3.  If you are brand new to git and github, review a few basic facts about git and github.com 
+    - detailed information [here](https://ucsb-cs156.github.io/topics/git_overview/)
+
+
+## Step 4: Finding your jpa00 repo on GitHub
+
+Open a web browser and login to GitHub, then navigate to the course organization page, <{{course_org}}>.
+
+You should see that there is a private repo in this organization called `jpa00-yourGithubId`, where `yourGithubId` is replaced with your GitHub id.  This is the repo
+that you'll be using for this assignment.
+
+This is currently an empty repo.  In the next step, we'll clone this empty repo into a directory, either on your CSIL account, or on your local system.
+
+## Step 4: Cloning the repo
+
+
+1. Login to your CSIL account,  create a `~/cs156` subdirectory, and change directory into it
+   
+   ```
+   mkdir ~/cs156
+   cd ~/cs156
+   ```
+
+   (To be honest, you can actually use any directory you like; but we suggest this approach.  We'll refer
+   to `~/cs156` throughout the rest of
+   the instructions for consistency.
+
+2. Now, go to the `github.com` web page, and find your `jpa00-userid` repo. The page should look something like this:
+
+   ![jpa00-cgaucho.png](jpa00-cgaucho.png)
+
+   You should see a button for `SSH`;
+   select that button.  Then there is a button to copy the URL shown;
+   click that to copy the URL.
+
+3. Now type this command, replacing
+   `url` with the url that you copied.
+
+   That `url` should be something like
+   `git@github.com:ucsb-cs156-f20/jpa00-cgaucho.git` but with your GitHub id in place of `cgaucho`.
+
+   ```
+   git clone url
+   ```
+
+   You'll will see a warning message that you are cloning an empty repo; that's normal.
+
+   ```
+   Cloning into 'jpa00-cgaucho'...
+warning: You appear to have cloned an empty repository.
+   ```
+
+4. If you use the `ls` command, you should now have a subdirectory called `jpa00-cgaucho` (except `cgaucho` will be your GitHub username.)  Use
+   a `cd` command to change directory 
+   into that directory, e.g.
+
+   ```
+   cd jpa00-cgaucho
+   ```
+
+   An `ls -a` should reveal an empty
+   directory except for the `.git` subdirectory indicating that this is a GitHub repo.  
+
+   ```
+   % ls -a
+   .	..	.git
+   % 
+   ```
+
+   We are now ready to pull in some starter code.
+
+## Step 5: Adding the Starter Code remote
+
+If you've used `git` before, you
+may be familiar with the command:
+
+```
+git pull origin master
+```
+
+The word `origin` in this case refers to a *remote*, that is a repo that lives somewhere out there on the network.   
+
+The word `master` refers to the default branch of the repo.  The default branch of GitHub repos recently changed from `master` to `main`; we'll be using `main` throughout this course.
+
+If you type the following command, you'll see that `origin` is defined as a remote for the repo that you cloned from.  Your output will look similar, except that you'll have your GitHub in place of `cgaucho`:
+
+```
+% git remote -v
+origin	git@github.com:ucsb-cs156-f20/jpa00-cgaucho.git (fetch)
+origin	git@github.com:ucsb-cs156-f20/jpa00-cgaucho.git (push)
+% 
+```
+
+Next, we are going to add a second remote.  This remote will be the same for everyone in the class, so for this command, copy the url exactly.  This is the url for the starter code for this assignment:
+
+
+
+ You should see on that page In the `~/cs156` directory, 
 
 1.   Login to your CSIL account, and create a ~/cs56 subdirectory.
 
-2.   In that directory, use your favorite text editor (e.g. `vim`, `emacs`) to create a file containing
-   the following code.  Call the file `Hello.java`.  Put your name instead of `Your Name Here`.
 
-   (Side note: if you prefer it, two new editors are now available on CSIL staring Summer 2018: [atom](https://ucsb-cs16.github.io/topics/atom/) and [visual studio code](https://ucsb-cs16.github.io/topics/code/).  We may be making considerable use of Visual Studio Code, so if you haven't used either, and would like to try one, we would steer you towards VS Code.  You can type `code` at the command line on the CSIL machines to access VS Code.  This typically works well only when you are sitting at one of the machines in Phelps 3525 or CSIL though; it doesn't work so well over remote X11 forwarding).
+2.   In that directory, use your favorite text editor (e.g. `vim`, `emacs`) to create a file containing
+   the following code.  Call the file `HelloWorld.java`.  Put your own name in place of `Your Name Here`.
+
+   (Side note: if you prefer it, two new editors are now available on CSIL staring Summer 2018: [atom](https://ucsb-cs16.github.io/topics/atom/) and [visual studio code](https://ucsb-cs16.github.io/topics/code/).  We may be making considerable use of Visual Studio Code, so if you haven't used either, and would like to try one, we would steer you towards VS Code.  You can type `code` at the command line on the CSIL machines to access VS Code.  This will likely only work when using the *Remote Desktop Solution* for accessing CSIL, and does require a solid internet connection.).
 
    ```java
    /**
@@ -188,11 +341,11 @@ The lab assignment {{page.num}} should appear in your Gradescope dashboard in {{
    }
    ```
 
-   NOTE: Please don't put literally `Your Name Here` in the code above.  Write your actual name.  Thanks!
+   AGAIN: Please don't put literally `Your Name Here` in the code above.  Write your actual name.  Thanks!
 
    4. Compile the file with the command `javac Hello.java`
 
-   5. Run the file with the command `java Hello`
+   5. Run the file with the command `java Hello`.  You should see output
 
    6. Navigate to <https://gradescope.com>.   You should have an account invitation in your email.  If you don't, ask an instructor, TA or mentor for assistance.
 
