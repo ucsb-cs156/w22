@@ -306,7 +306,7 @@ You should see that the `README.md` for this repo has an explanation of the cont
 
 Next, we'll add this starter code as a second *remote* for our repo.  
 
-## Step 6: A remote for starter
+## Step 9: A remote for starter
 
 If you've used `git` before, you
 may be familiar with the command:
@@ -348,7 +348,7 @@ starter	git@github.com:ucsb-cs156-f20/STARTER-jpa00.git (fetch)
 starter	git@github.com:ucsb-cs156-f20/STARTER-jpa00.git (push)
 % 
 ```
-## Step 9: Pull Starter Code into your Repo
+## Step 10: Pull Starter Code into your Repo
 
 The next step is to pull the starter code into your repo, and then push
 that code to your origin repo on GitHub.
@@ -369,15 +369,15 @@ You should see that instead of an empty repo, you now have a copy of the starter
 
 The starter code should compile and run, and can even be submitted to Gradescope for a grade.   Of course, it won't be for full credit, but we can at least make sure that the mechanisms are working.  So let's give it a try.
 
-## Step 8: Compile and run the Starter code
+## Step 11: Compile and run the Starter code
 
 To compile the starter code, return to a shell prompt in the directory where your cloned your repo.  You should see, when you type `ls`, that 
 the file `pom.xml` is in the current directory.  For best results, you should always run Maven from this directory.
 
-## To compile
+To compile type `mvn compile`.   
 
-Type `mvn compile`.   
-* You should see no error messages
+* If you see the message `The JAVA_HOME environment variable is not defined correctly...` plus a few more lines of output, see [this link](https://ucsb-cs156.github.io/topics/maven_faq/) for a fix. 
+* Otherwise, you should see no error messages
 * There may be warning about missing `resources` and `UTF-8 encoding`, but you can safely ignore those for now.  If you are curious, see the the section "Warnings you May be able to Ignore" on [this page](https://ucsb-cs156.github.io/topics/maven_hello_world/).
 
 Then, type `mvn package`.  You should see a lot of output, but somewhere in that output, something like this:
@@ -411,7 +411,7 @@ But, don't do that just yet.  Let's first see what happens when you submit a pro
 
 
 
-## Step 10: Submit incorrect Java code to Gradescope
+## Step 12: Submit incorrect Java code to Gradescope
 
 In this step, we'll see what happens when you submit two incorrect program to Gradescope.  We aren't grading this step, so you *could* skip it, but we strongly encourage you to do it anyway, because it's important to be able to understand how the autograders work on a simple case before dealing with a more complex case.
 
@@ -509,7 +509,7 @@ Now, submit to Gradescope again.  You should see output like this:
 Now that you understand what a failed compile looks like, let's finally fix the code
 and finish the lab.
 
-## Step 11: Submit correct Java code to Gradescope
+## Step 13: Submit correct Java code to Gradescope
 
 Now, fix the code so that it produces the correct output.  Change the file `src/main/java/Hello.java` so that the `System.out.println` method call reads:
 
