@@ -406,13 +406,9 @@ The line `This is the wrong output!` is being produced by the line of code:
         System.out.println("This is the wrong output!");
 ```
 
-which you should eventually change to:
-
-```
-        System.out.println("Hello, World!");
-```
-
+You should eventually change this line to produce the correct output.
 But, don't do that just yet.  Let's first see what happens when you submit a program with errors in it to Gradescope.
+
 
 
 ## Step 9: Submit incorrect Java code to Gradescope
@@ -432,19 +428,82 @@ To submit to Gradescope, navigate to:
 You should have an account invitation in your email.  If you don't, ask an instructor, TA or mentor for assistance.
 
 To submit your work, you should be able to click on the GitHub link in Gradescope, and locate your repo.  The first time you do this, it may take a while; be patient before giving up.   If it still doesn't work after a while, you can either (a) ask the staff for assistance, or submit a zip file as an alternative.
-* For instructions on submitting a Zip file, see: [Gradscope Zip Submission]()
 
-   8. Once you see that you have a score of 100 for {{page.num}} on Gradescope, you are *done* with {{page.num}}, BUT there is STILL MORE TO DO TODAY!
+* For instructions on submitting a Zip file, see: [Gradscope Zip Submission](https://ucsb-cs156.github.io/topics/gradescope_zip_submission/)
 
-      Find a pair partner for lab01 from the students on your own team.
-      (The team that you were placed on in the first lecture, and that
-      you should be sitting together with in lab.)
+After you submit, it will take some time for Gradescope to process your submission.  Once it's processsed, you should see output similar to this:
 
-      If there is an odd number of students on your team (or an odd number
-      that has shown up today for lab), then check in with your team's mentor.
+```
+TODO ENTER OUTPUT OF STARTER CODE
+```
 
-      In that case, they'll help you find a pair partner, or in rare cases,
-      you may be given permission to work alone on lab01.
+Once you've understood this output,
+let's move on and see what happens when you submit code with a syntax error.
 
-      Then get started on [lab01](/w20/lab/lab01/).
+Go into the file `src/main/java/Hello.java`, and remove the semicolon at the end of the statement:
+
+```
+ System.out.println("This is the wrong output!");
+ ```
+ 
+ So that it reads:
+
+ ```
+  System.out.println("This is the wrong output!")
+ ```
+
+This, of course, has a syntax error.
+
+Try using `mvn compile` and see what happens when you submit this.
+
+Then, commit this change to Github.
+
+(Normally, we would NOT push code that has a syntax error, but for purposes of this experiment, we will.)
+
+Add/Commit/Push with these commands:
+
+```
+git add src/main/java/Hello.java
+git commit -m "commit code with syntax error to test autograder"
+git push origin main
+```
+
+Now, submit to Gradescope again.  You should see output like this:
+
+```
+THE OUTPUT WHEN COMPILATION FAILS
+```
+
+Once you've seen that, you are ready to submit code that actually compiles.
+
+
+## Step 9: Submit correct Java code to Gradescope
+
+Now, fix the code so that it produces the correct output.  Change the file `src/main/java/Hello.java` so that the `System.out.println` method call reads:
+
+```
+        System.out.println("Hello, World!");
+```
+
+Test this locally by compiling and running the code:
+
+```
+mvn compile
+mvn package
+java -cp target/hello-1.0.0.jar Hello
+```
+
+You should see the correct output, `Hello, World!`.
+
+Now, commit this change:
+
+```
+git add src/main/java/Hello.java
+git commit -m "correct the output"
+git push origin main
+```
+
+Then submit to Gradescope again.
+
+Once you see that you have a score of 100 for {{page.num}} on Gradescope, you are *done* with {{page.num}}.
 
