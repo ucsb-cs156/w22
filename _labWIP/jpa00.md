@@ -207,7 +207,9 @@ The remainder of the instructions mostly assume you are working on CSIL; you can
 
 ## Step 5: Configure your CSIL account for git/GitHub
 
-In this step, we'll configure your CSIL account for git and GitHub.
+In this step, we'll configure your CSIL account for git and GitHub.  
+
+(If you are doing this lab on your own system, you may still need to do this step, but at a command prompt on your computer.)
 
 We want to be able to use `git` and GitHub with ssh links, so we need to set up public-key/private-key pairs.
 
@@ -249,7 +251,7 @@ This is currently an empty repo.  In the next step, we'll clone this empty repo 
 
 2. Now, go to the `github.com` web page, and find your `jpa00-userid` repo. The page should look something like this:
 
-   ![jpa00-cgaucho.png](jpa00-cgaucho.png)
+   ![jpa00-cgaucho-50.png](jpa00-cgaucho.png)
 
    You should see a button for `SSH`;
    select that button.  Then there is a button to copy the URL shown;
@@ -315,6 +317,14 @@ origin	git@github.com:ucsb-cs156-f20/jpa00-cgaucho.git (push)
 
 Next, we are going to add a second remote.  This remote will be the same for everyone in the class, so for this command, copy the url exactly.  This is the url for the starter code for this assignment:
 
+First, let's take a look at this remote on GitHub, here:
+
+* <https://github.com/ucsb-cs156-f20/STARTER-jpa00>
+
+You should see that the `README.md` for this repo has an explanation of the contents of the starter code.  Read though this explanation to learn more about:
+* Maven
+* the `pom.xml`
+* the required directory structure
 
 
  You should see on that page In the `~/cs156` directory, 
