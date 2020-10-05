@@ -226,7 +226,7 @@ We also want to set up `git` so that it records our commits properly.
     - detailed information [here](https://ucsb-cs156.github.io/topics/git_overview/)
 
 
-## Step 4: Finding your jpa00 repo on GitHub
+## Step 6: Finding your jpa00 repo on GitHub
 
 Open a web browser and login to GitHub, then navigate to the course organization page, <{{course_org}}>.
 
@@ -235,7 +235,7 @@ that you'll be using for this assignment.
 
 This is currently an empty repo.  In the next step, we'll clone this empty repo into a directory, either on your CSIL account, or on your local system.
 
-## Step 4: Cloning the repo
+## Step 7: Cloning the repo
 
 
 1. Login to your CSIL account,  create a `~/cs156` subdirectory, and change directory into it
@@ -293,7 +293,7 @@ This is currently an empty repo.  In the next step, we'll clone this empty repo 
 
    We are now ready to pull in some starter code.
 
-## Step 5: Locate the starter code.
+## Step 8: Locate the starter code.
 
 First, let's take a look at this remote on GitHub, here:
 
@@ -348,7 +348,7 @@ starter	git@github.com:ucsb-cs156-f20/STARTER-jpa00.git (fetch)
 starter	git@github.com:ucsb-cs156-f20/STARTER-jpa00.git (push)
 % 
 ```
-## Step 7: Pull Starter Code into your Repo
+## Step 9: Pull Starter Code into your Repo
 
 The next step is to pull the starter code into your repo, and then push
 that code to your origin repo on GitHub.
@@ -411,7 +411,7 @@ But, don't do that just yet.  Let's first see what happens when you submit a pro
 
 
 
-## Step 9: Submit incorrect Java code to Gradescope
+## Step 10: Submit incorrect Java code to Gradescope
 
 In this step, we'll see what happens when you submit two incorrect program to Gradescope.  We aren't grading this step, so you *could* skip it, but we strongly encourage you to do it anyway, because it's important to be able to understand how the autograders work on a simple case before dealing with a more complex case.
 
@@ -509,7 +509,7 @@ Now, submit to Gradescope again.  You should see output like this:
 Now that you understand what a failed compile looks like, let's finally fix the code
 and finish the lab.
 
-## Step 9: Submit correct Java code to Gradescope
+## Step 11: Submit correct Java code to Gradescope
 
 Now, fix the code so that it produces the correct output.  Change the file `src/main/java/Hello.java` so that the `System.out.println` method call reads:
 
