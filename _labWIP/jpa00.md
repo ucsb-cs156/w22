@@ -18,27 +18,27 @@ them on the #typos channel on Slack
 # Goals
 
 This lab checks that you can succesfully edit, compile, run and submit a simple
-`HelloWorld.java` to Gradescope for grading.
+`Hello.java` to Gradescope for grading.
 
 You can do this lab from your own system if you have Java 11 and Maven installed.  Eventually, you'll probably find it helpful to install
 Java 11 and Maven on your own machine (i.e. your own Windows, Mac or Linux machine).   However, it's likely easier to just go ahead and do this lab directly on CSIL.
 
 # Do I really need Java 11?  
 
-You may be wondering whether it's ok if you have Java 15 or Java 8, or some other version of Java instead of Java 11.    This short answer is: for this simple `HelloWorld` lab, it probably won't make a difference, but eventually it probably *will*.  So if you are going to the trouble of installing Java on your system, try to make sure it's Java 11, *specifically*, which, unlike Java 12, 13, 14 or 15, it considered a *Long-Term Support* release of Java.
+You may be wondering whether it's ok if you have Java 15 or Java 8, or some other version of Java instead of Java 11.    This short answer is: for this simple `Hello` lab, it probably won't make a difference, but eventually it probably *will*.  So if you are going to the trouble of installing Java on your system, try to make sure it's Java 11, *specifically*, which, unlike Java 12, 13, 14 or 15, it considered a *Long-Term Support* release of Java.
 
 Read more here if you are interested: <https://ucsb-cs156.github.io/topics/java_versions/>  
 
 # Something for everyone to learn
 
 Note that even if you have done Java programming before, **there
-may be a few things about this `HelloWorld.java` program that may be
+may be a few things about this `Hello.java` program that may be
 unfamiliar to you**.  These have to do with setting us up for real world
 programming practices used in large software projects.
 
 * Rather than compiling with command line tools such as `javac` and running
   the program with the `java` command, we'll be using a package and build
-  manager called *Maven*.  For a small `HelloWorld` type program,
+  manager called *Maven*.  For a small `Hello World` type program,
   this will seem like overkill; but it will set us up for being able to
   manage much larger projects.
 * We are setting our code up in a GitHub repo right from the start.
@@ -251,7 +251,7 @@ This is currently an empty repo.  In the next step, we'll clone this empty repo 
 
 2. Now, go to the `github.com` web page, and find your `jpa00-userid` repo. The page should look something like this:
 
-   ![jpa00-cgaucho-50.png](jpa00-cgaucho.png)
+   ![jpa00-cgaucho-50.png](jpa00-cgaucho-50.png)
 
    You should see a button for `SSH`;
    select that button.  Then there is a button to copy the URL shown;
@@ -293,7 +293,20 @@ warning: You appear to have cloned an empty repository.
 
    We are now ready to pull in some starter code.
 
-## Step 5: Adding the Starter Code remote
+## Step 5: Locate the starter code.
+
+First, let's take a look at this remote on GitHub, here:
+
+* <https://github.com/ucsb-cs156-f20/STARTER-jpa00>
+
+You should see that the `README.md` for this repo has an explanation of the contents of the starter code.  Read though this explanation to learn more about:
+* Maven
+* the `pom.xml`
+* the required directory structure
+
+Next, we'll add this starter code as a second *remote* for our repo.  
+
+## Step 6: A remote for starter
 
 If you've used `git` before, you
 may be familiar with the command:
@@ -315,52 +328,111 @@ origin	git@github.com:ucsb-cs156-f20/jpa00-cgaucho.git (push)
 % 
 ```
 
-Next, we are going to add a second remote.  This remote will be the same for everyone in the class, so for this command, copy the url exactly.  This is the url for the starter code for this assignment:
+Now, we are going to add a second remote.  This remote will use the URL for the starter code.
 
-First, let's take a look at this remote on GitHub, here:
+The image below shows how to copy that URL: (1) Click the green `Code` button.  (2) Select `SSH` to choose that as the network protocol for the URL (3) Click the icon to copy the URL to your clipboard.
 
-* <https://github.com/ucsb-cs156-f20/STARTER-jpa00>
+Then, use this command to add a remote called `starter` for the starter code repo:
 
-You should see that the `README.md` for this repo has an explanation of the contents of the starter code.  Read though this explanation to learn more about:
-* Maven
-* the `pom.xml`
-* the required directory structure
+```
+git remote add starter paste-url-here
+```
+
+After this command, use `git remote -v` to list all your remotes. Your output should look like this (except your GitHub id in place of `cgaucho`):
+
+```
+% git remote -v
+origin	git@github.com:ucsb-cs156-f20/jpa00-cgaucho.git (fetch)
+origin	git@github.com:ucsb-cs156-f20/jpa00-cgaucho.git (push)
+starter	git@github.com:ucsb-cs156-f20/STARTER-jpa00.git (fetch)
+starter	git@github.com:ucsb-cs156-f20/STARTER-jpa00.git (push)
+% 
+```
+## Step 7: Pull Starter Code into your Repo
+
+The next step is to pull the starter code into your repo, and then push
+that code to your origin repo on GitHub.
+
+Here are the three commands:
+
+```
+git checkout -b main
+git pull starter main
+git push origin main
+```
+
+After these three commands, go look at your repo on GitHub, i.e. the repo at this url (but substituting your GitHub id for cgaucho:)
+
+* <https://github.com/ucsb-cs156-f20/jpa00-cgaucho>
+
+You should see that instead of an empty repo, you now have a copy of the starter code.
+
+The starter code should compile and run, and can even be submitted to Gradescope for a grade.   Of course, it won't be for full credit, but we can at least make sure that the mechanisms are working.  So let's give it a try.
+
+## Step 8: Compile and run the Starter code
+
+To compile the starter code, return to a shell prompt in the directory where your cloned your repo.  You should see, when you type `ls`, that 
+the file `pom.xml` is in the current directory.  For best results, you should always run Maven from this directory.
+
+## To compile
+
+Type `mvn compile`.   
+* You should see no error messages
+* There may be warning about missing `resources` and `UTF-8 encoding`, but you can safely ignore those for now.  If you are curious, see the the section "Warnings you May be able to Ignore" on [this page](https://ucsb-cs156.github.io/topics/maven_hello_world/).
+
+Then, type `mvn package`.  You should see a lot of output, but somewhere in that output, something like this:
+
+```
+ [INFO] Building jar: target/hello-1.0.0.jar
+```
+
+That indicates that you have built a `.jar` (or Java Archive) file.  This file is a compressed archive of all of the compiled Java code from your program.  You can run it with this command:
+
+```
+java -cp target/hello-1.0.0.jar Hello
+```
+
+You should see output like this:
+
+```
+% java -cp target/hello-1.0.0.jar Hello
+This is the wrong output!
+% 
+```
+
+The line `This is the wrong output!` is being produced by the line of code:
+
+```
+        System.out.println("This is the wrong output!");
+```
+
+which you should eventually change to:
+
+```
+        System.out.println("Hello, World!");
+```
+
+But, don't do that just yet.  Let's first see what happens when you submit a program with errors in it to Gradescope.
 
 
- You should see on that page In the `~/cs156` directory, 
+## Step 9: Submit incorrect Java code to Gradescope
 
-1.   Login to your CSIL account, and create a ~/cs56 subdirectory.
+In this step, we'll see what happens when you submit two incorrect program to Gradescope.  We aren't grading this step, so you *could* skip it, but we strongly encourage you to do it anyway, because it's important to be able to understand how the autograders work on a simple case before dealing with a more complex case.
 
 
-2.   In that directory, use your favorite text editor (e.g. `vim`, `emacs`) to create a file containing
-   the following code.  Call the file `HelloWorld.java`.  Put your own name in place of `Your Name Here`.
+First, we'll submit the starter code "as is" to Gradescope.  Gradescope will be expecting a program that produces, as it's output `Hello, World!` (followed by a newline).
 
-   (Side note: if you prefer it, two new editors are now available on CSIL staring Summer 2018: [atom](https://ucsb-cs16.github.io/topics/atom/) and [visual studio code](https://ucsb-cs16.github.io/topics/code/).  We may be making considerable use of Visual Studio Code, so if you haven't used either, and would like to try one, we would steer you towards VS Code.  You can type `code` at the command line on the CSIL machines to access VS Code.  This will likely only work when using the *Remote Desktop Solution* for accessing CSIL, and does require a solid internet connection.).
+Instead, your code currently produces: `This is the wrong output!` followed by a newline. 
 
-   ```java
-   /**
-     @author Your Name Here
-   */
+We want to see what the Gradescope output looks like in that case.
 
-   public class Hello {
+To submit to Gradescope, navigate to:
+<https://gradescope.com>.   
 
-     public static void main(String[] args) {
-        System.out.println("Hello World!");
-     }
+You should have an account invitation in your email.  If you don't, ask an instructor, TA or mentor for assistance.
 
-   }
-   ```
-
-   AGAIN: Please don't put literally `Your Name Here` in the code above.  Write your actual name.  Thanks!
-
-   4. Compile the file with the command `javac Hello.java`
-
-   5. Run the file with the command `java Hello`.  You should see output
-
-   6. Navigate to <https://gradescope.com>.   You should have an account invitation in your email.  If you don't, ask an instructor, TA or mentor for assistance.
-
-   7. Upload your work to Gradescope.com for grading.    If you are working from your own machine (i.e. ssh'ing into CSIL), you'll need to transfer the file to your own machine before you can upload it for grading.    
-      * If you aren't sure how, there is a link on the CS16 web page that explains [how to copy files between CSIL and your own machine](https://ucsb-cs16.github.io/topics/csil_copying_files/).
+To submit your work, you should be able to click on the GitHub link in Gradescope, and locate your repo.  The first time you do this, it may take a while; be patient before giving up.   If it still doesn't work after a while, you can either (a) ask the staff for assistance, or submit a zip file as an alternative.
+* For instructions on submitting a Zip file, see: [Gradscope Zip Submission]()
 
    8. Once you see that you have a score of 100 for {{page.num}} on Gradescope, you are *done* with {{page.num}}, BUT there is STILL MORE TO DO TODAY!
 
