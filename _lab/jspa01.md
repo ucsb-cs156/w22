@@ -41,10 +41,10 @@ If you haven't looked through it already, this [article](https://developer.mozil
 
 ## Setting up your repo
 
-- Create your repo with the name `jspa01_joegaucho`
+- You should find that you have a repo with the name `jspa01-joegaucho`, where `joegaucho` is your GitHub id.
   - **Note**: replace `joegaucho` with your actual GitHub username for all remaining steps!
-- Clone your repo: `git clone git@github.com:ucsb-cs156-f20/jspa01_joegaucho.git`
-- Move into your repo's directory: `cd jspa01_joegaucho`
+- Clone your repo: `git clone git@github.com:ucsb-cs156-f20/jspa01-joegaucho.git`
+- Move into your repo's directory: `cd jspa01-joegaucho`
 - Change your base branch to `main`: `git checkout -b main`
 - Add the starter code to your repo:
   - `git remote add starter git@github.com:ucsb-cs156-f20/STARTER_jspa01.git`
