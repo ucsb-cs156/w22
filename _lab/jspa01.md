@@ -1,3 +1,13 @@
+---
+desc: "Intro to JavaScript, React, Jest, and Codecov.io"
+assigned: 2020-10-06 16:00
+due: 2020-10-19 23:00
+layout: lab
+num: jspa00
+ready: true
+---
+
+
 # jspa01
 
 ## Learning goals
