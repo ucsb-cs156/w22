@@ -31,7 +31,9 @@ Your grade will be made up of activities from the following categories:
   The lowest three participation grades will be dropped; accordingly, if you need to miss a lecture every now and then because of illness,
   internet problems, etc., it shouldn't affect your grade unless it becomes a persistent problem (in which case you should speak to the instructor as soon as possible about your situation.)
   
-* Homeworks / Quizzes (20 %) - These will be administered through Gradescope.  
+* Homeworks / Quizzes (20 %) - These will sometimes be administered through Gradescope, and sometimes involve making contributions to
+  GitHub repos (as in today's Homework assignment, H00)
+  
   Some questions will be graded by hand (e.g. short answer/essay type questions), while others might be autograded
   (e.g. multiple choice, fill in the blank, true/false questions.)  These will typically be based on assigned readings.
   We will drop only the lowest two grades from this category.
@@ -131,9 +133,41 @@ Then, start typing the folder name `10.06`, as shown.  As soon as you type the f
 ![after-typing-folder-50.png](after-typing-folder-50.png)
 
 Finally, name your file as shown in the example, and fill in content as shown in the example.  For now, we *only* need the heading; the content can come later.
+The folder name shoudl be `10.061 and the file name should be one of these: `sect4.1.md1`, `sect4.2.md`, `sect4.3.md1`, `sect4.4.md`, `sect4.5.md1`, `sect4.6.md`. 
 
 ![fill-in-section-heading-50.png](fill-in-section-heading-50.png)
 
+You earn 50 points towards the individual part of today's participation when you create your individual part of the repo.
+
+# Homework for Thursday
+
+Between now and Thursday, read over the part of the paper that you were assigned, and think about these questions, and write something in your .md file
+for each of these questions.   This will count as an individual homework grade, H00, due Thursday.
+
+1. (40 pts) For the aspect of software development that you were assigned, the paper describes some aspects of what software development in school is like, vs.
+   what it is like in industry.  
+
+   Now consider your own personal experiences in school.  Do they line up with what was reported in the paper, or are they different?  Is it a mix?
+   
+   In your `10.01/sect4.x.md` file (where `x` is one of 1,2,3,4,5 or 6), 
+   write briefly about your own personal experiences in school that are relevant to this topic, and how they are the same or different
+ (or a mix of both), as compared to what the interview subjects in the paper reported.  Put this under the heading `# Question 1`.  
+ 
+2. (30 pts) Under the heading `# Question 2`, answer this question: What are the things that developers found suprising or different about industry in terms of
+   this aspect of software development?   
+   
+3. (30 pts) Under the heading `# Question 3`, answer this question: What are suggestions for things students could do in school to better prepare them for
+   this aspect of software development as practiced in industry?  
+   
+   These can be ideas from the paper, or ideas of your own; either is fine.  But in your answer, clearly identify whether each idea is your idea,
+   or one from the paper.
+   
+   
+After Thursday, we'll ask each of you to read the answers of your teammates, and be prepared for a full discussion of the paper.
+
+# Next Activity
+
+TBD...
 
 
 
