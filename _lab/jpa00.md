@@ -332,6 +332,8 @@ Now, we are going to add a second remote.  This remote will use the URL for the 
 
 The image below shows how to copy that URL: (1) Click the green `Code` button.  (2) Select `SSH` to choose that as the network protocol for the URL (3) Click the icon to copy the URL to your clipboard.
 
+![starter-ssh-url-50.png](starter-ssh-url-50.png)
+
 Then, use this command to add a remote called `starter` for the starter code repo:
 
 ```
