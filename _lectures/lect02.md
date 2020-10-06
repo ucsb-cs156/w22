@@ -1,8 +1,8 @@
 ---
 num: "Lecture 2"
 lecture_date: 2020-10-06
-desc: "TBD"
-ready: false
+desc: "Setting up team NOTES repo, video on Sohibe Java Code Generator for VSCode"
+ready: true
 ---
 
 <div style="display:none;">https://ucsb-cs156.github.io/f20/lectures/lect01
