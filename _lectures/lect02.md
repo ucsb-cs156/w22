@@ -20,6 +20,23 @@ On Gauchospace, you should find a participation grade for last Tuesday:
 * Ind-10/01 (50 pts) is for your individual participation; you earned this if you make a post with your five items (even if it was after class was over).
 * Team-10/01 (50 pts) is for the team portion of your grade; you earned this if you participated in the discussion last Tuesday.
 
+# Slack Tip: `/whois @name` and Time Zone
+
+We have implemented a Slack Bot that allows you to check the GitHub id and team membership of anyone that is part of the class.
+
+Type `/whois @slackid` in any channel, and you'll see the person's name, 
+
+Also: if you click on a person's name on the slack, it will show you the local time in their time zone.  This may be important to know if you are collaborating with students in a time zone very different from your own.
+
+# An invitation:
+
+* It's fine to keep your camera off if you need to for:
+  - Privacy, Bandwidth, Equipment reasons
+* On the other hand:
+  - Consider the benefits of turning it on.
+
+Similarly, adding your pronouns (e.g. `she/her`, `he/him`, `they/them`) to your Slack and Zoom handles will help other folks to get those correct.  It's optional but encouraged.
+
 # How will grading work in this class?
 
 Your grade will be made up of activities from the following categories:
@@ -164,10 +181,6 @@ for each of these questions.   This will count as an individual homework grade, 
    
    
 After Thursday, we'll ask each of you to read the answers of your teammates, and be prepared for a full discussion of the paper.
-
-# Next Activity
-
-TBD...
 
 
 
