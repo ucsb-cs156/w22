@@ -1,5 +1,5 @@
 ---
-num: "Lecture 1"
+num: "Lecture 2"
 lecture_date: 2020-10-06
 desc: "TBD"
 ready: false
