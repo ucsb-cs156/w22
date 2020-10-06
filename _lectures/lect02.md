@@ -112,6 +112,8 @@ Our focus will be Section 4, which is divided into 6 sections:
 | 4.4 | Why: Learning vs. User Needs | to learn something  | to address a user need |
 | 4.5 | How: Ad-Hoc vs. Professional | ad-hoc tools and practices |  professional tools and formal practices |
 | 4.6 | How Big: Small vs. Large Codebases | small programs | large complex systems |
+{:.table .table-sm .table-striped .table-bordered}
+
 
 You'll first assign one person from your team to each section; most teams have six people, so that's team member per section.
 
