@@ -8,6 +8,38 @@ ready: false
 <div style="display:none;">https://ucsb-cs156.github.io/f20/lectures/lect01
 </div>
 
+# More Programming Assignments coming soon
+
+Dilemma:
+* CS changes quickly
+* I learn a ton every time I teach the course.
+* Dilemma: Do I
+  - (a) incorporate everything new that I've learned each time I teach the course?
+  - (b) accept the fact that I might need to recycle some old, slightly out of date, slightly less than perfect materials?
+
+Right now, I'm trying for (a), which means I still don't quite have the next assignment ready.  Hopefully by Thursday.
+
+The main thing I'm trying to incorporate is:
+* Maven from the start.
+* Testing as early as possible.
+
+# I want to encourage everyone to learn:
+
+* A little bit of `vim` (Survival vim)
+  - Some `git` commands will through you into `vim`, and you need to know how to survive
+  - When configuring a VM or a new machine, sometimes `vim` is all you have
+* A lot of VSCode
+  - VSCode is right in the sweet spot, more than a text editor, but not as heavyweight as most IDES, but most of what you get from IDEs
+  - Multiplatform, free
+  - Well-maintained, and a great eco-system of extensions 
+  
+Links for learning basic vim:
+* <https://ucsb-cs156.github.io/topics/vim/> (the absolute basics)
+* <https://ucsb-cs156.github.io/topics/vim_basic_eight/> (the most eight more important commands)
+* <https://ucsb-cs156.github.io/topics/vim_customization/> (line numbers and syntax highlighting)
+
+A little bit on VSCode in today's video.
+
 # Recap of Last Tuesday
 
 Last Tuesday, we gathered in teams, and used the Slack channel to get to know our teammates.
@@ -39,7 +71,7 @@ Similarly, adding your pronouns (e.g. `she/her`, `he/him`, `they/them`) to your 
 
 # How will grading work in this class?
 
-Your grade will be made up of activities from the following categories:
+The syllabus is not yet updated (hope to have that by Thursday), but here's a breakdown of how your grade will be made up of activities from the following categories:
 
 * Participation Grades (10%) - Each participation grade will be out of 100 points.  The grade for 10/01 is an example of this category.
   
@@ -59,7 +91,7 @@ Your grade will be made up of activities from the following categories:
   responsible for all of them.   This may include individual assignments (such as jpa00), pair assignments, and/or team assignments.
 
 * Project Grade (40%) - Your project grade will be based on your contributions during the Project phase of the course.   We'll discuss that 
-  further in a few weeks, but there are details on the syllabus if you want to check them out.
+  further on Thursday.
 
   In addition, we'll be using peer evaluations through a tool called CATME to assess your individual contributions to the project's success.
   The peer evaluation may apply a multiplier to your project grade, increasing it or decreasing it, per your team's assessment 
@@ -117,7 +149,7 @@ Then, your screen will look something like the image below:
 What content should you type?  Type a list of who is assigned to each section, something like this (you can copy/paste this, then edit it for your group)
 
 ```
-# Notes from 10/02
+# Notes from 10/06
 
 Paper Section Assignments:
 
@@ -154,9 +186,11 @@ The folder name shoudl be `10.061 and the file name should be one of these: `sec
 
 ![fill-in-section-heading-50.png](fill-in-section-heading-50.png)
 
-You earn 50 points towards the individual part of today's participation when you create your individual part of the repo.
+You earn 50 points towards the individual part of today's participation when you create your individual part of the repo.   You only need the heading; no content yet,  that's for Thursday.
 
 # Homework for Thursday
+
+This is your homework for Thursday; you don't need to do it right now.  Just read over it and make sure you understand it.
 
 Between now and Thursday, read over the part of the paper that you were assigned, and think about these questions, and write something in your .md file
 for each of these questions.   This will count as an individual homework grade, H00, due Thursday.
@@ -179,10 +213,36 @@ for each of these questions.   This will count as an individual homework grade, 
    These can be ideas from the paper, or ideas of your own; either is fine.  But in your answer, clearly identify whether each idea is your idea,
    or one from the paper.
    
-   
-After Thursday, we'll ask each of you to read the answers of your teammates, and be prepared for a full discussion of the paper.
 
+# What happens after Thursday with this paper
 
+After Thursday, we'll ask each of you to read the answers of your teammates.  Then, next week, be prepared for a full discussion of the paper.  There will be more questions to answer then.
 
+# Checklist
+
+1. Double check that someone on the team has set the `README.md` of your team's `team-xpm-y-NOTES` repo to have the correct content (list of who is assigned to which section, with a heading of `# Notes from 10/06`
+
+2. Double check that each member of the team that's present has create a file in that repo under a folder called `10.06` with the correct content (a file that's one of (`sect4.1.md1`, `sect4.2.md`, etc.) and that the content of that file matches the instructions above.  It only needs to be a header at this point.
+
+# What then?  
+
+Three options:
+
+* Watch a 20 minute video about VS Code and the Sohibe Code Generators (now or sometime between now and Thursday)
+* Ask for help with jpa00
+* AMA with course staff
+
+# The video on VS Code
+
+Then, I have some lecture material.  Because it seems silly to have you sit for lecture material "synchronously", I will try my best to make videos when we have lecture material.   However, those take much longer to produce that you might think, even if you don't do a super fastidious job of editing.
+
+Here's the first video: my hope is that the SD version will be ready just in time for lecture.  The HD version might be ready a little later.
+
+As I type this, the link isn't quite ready.  My hope is that it will be ready really soon.
+
+* <insert-link-to-video-when-its-done-uploading>
+
+So, "lecture time" may be done early, but that time should be used to watch the video above 
+* Watch it now, or sometime between now and Thursday).
 
 
