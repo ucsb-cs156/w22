@@ -82,10 +82,57 @@ That member of the team should go to the repo for your team on GitHub.  Here are
 | [team-5pm-d-NOTES](https://github.com/ucsb-cs156-f20/team-5pm-d-NOTES) | [team-6pm-d-NOTES](https://github.com/ucsb-cs156-f20/team-6pm-d-NOTES) | [team-7pm-d-NOTES](https://github.com/ucsb-cs156-f20/team-7pm-d-NOTES)  |
 
 
+That should currently be an empty, private repo, accessible only to the course staff and the members of your team.   The scribe, when they bring up the repo,
+will see something like the image shown below.  Click on the README link to create a README.md file:
+
+![click to create README](click-to-create-README-50.png)
+
+Then, your screen will look something like the image below:  
+* You will see a text area where you can enter text for the README.md file for this repo.
+* There are tabs to toggle between Edit and Preview; the format is Markdown, which is explained on [This Markdown Cheat Sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* You may have to scroll down to find the "Commit New File" button, which is how you save your changes.
 
 
+![new README](new-README-50.png)
+
+What content should you type?  Type a list of who is assigned to each section, something like this (you can copy/paste this, then edit it for your group)
+
+```
+# Notes from 10/02
+
+Paper Section Assignments:
+
+* 4.1: Alice Z.
+* 4.2: Bob Y.
+* 4.3: Chris X.
+* 4.4: (unassigned)
+* 4.5: Danny W.
+* 4.6: Emily V.
+```
+
+Then, save the file.   This first part is worth 20% towards your group participation grade; each person assigned to a section earns this if/when this 
+gets committed to GitHub.
+
+# Each person now creates a file for their section
+
+Next, each member of the team (individually) should create a file pertaining to their own section.  You can do this by following the instructions/images below.
+
+Note: Please follow the naming conventions shown below STRICTLY, including upper vs. lower-case letters.  
 
 
+First, find the "Create New File" button:
+
+![Create-new-file-50.png](Create-new-file-50.png)
+
+Then, start typing the folder name `10.06`, as shown.  As soon as you type the forward slash `/`, you should see that the filename turns into a folder name.  If you have made a typo, you can hit the delete/backspace key, and it should go back so you can edit the folder name.
+
+![start-typing-folder-50.png](start-typing-folder-50.png)
+
+![after-typing-folder-50.png](after-typing-folder-50.png)
+
+Finally, name your file as shown in the example, and fill in content as shown in the example.  For now, we *only* need the heading; the content can come later.
+
+![fill-in-section-heading-50.png](fill-in-section-heading-50.png)
 
 
 
