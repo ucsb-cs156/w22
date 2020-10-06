@@ -240,9 +240,8 @@ Then, I have some lecture material.  Because it seems silly to have you sit for 
 
 Here's the first video: my hope is that the SD version will be ready just in time for lecture.  The HD version might be ready a little later.
 
-* <https://youtu.be/QvkOsNcvJ1g>
+* <https://youtu.be/mGrP-kfYHew>
 
-If it is not ready by the time we get to this part of the lecture, I'll play it live over the Zoom channel (or recreate the content live).
 
 
 
