@@ -77,6 +77,9 @@ That member of the team should go to the repo for your team on GitHub.  Here are
 | 5pm | 6pm | 7pm |
 |-----|-----|-----|
 | [team-5pm-a-NOTES](https://github.com/ucsb-cs156-f20/team-5pm-a-NOTES) | [team-6pm-a-NOTES](https://github.com/ucsb-cs156-f20/team-6pm-a-NOTES) | [team-7pm-a-NOTES](https://github.com/ucsb-cs156-f20/team-7pm-a-NOTES)  |
+| [team-5pm-b-NOTES](https://github.com/ucsb-cs156-f20/team-5pm-b-NOTES) | [team-6pm-b-NOTES](https://github.com/ucsb-cs156-f20/team-6pm-b-NOTES) | [team-7pm-b-NOTES](https://github.com/ucsb-cs156-f20/team-7pm-b-NOTES)  |
+| [team-5pm-c-NOTES](https://github.com/ucsb-cs156-f20/team-5pm-c-NOTES) | [team-6pm-c-NOTES](https://github.com/ucsb-cs156-f20/team-6pm-c-NOTES) | [team-7pm-c-NOTES](https://github.com/ucsb-cs156-f20/team-7pm-c-NOTES)  |
+| [team-5pm-d-NOTES](https://github.com/ucsb-cs156-f20/team-5pm-d-NOTES) | [team-6pm-d-NOTES](https://github.com/ucsb-cs156-f20/team-6pm-d-NOTES) | [team-7pm-d-NOTES](https://github.com/ucsb-cs156-f20/team-7pm-d-NOTES)  |
 
 
 
