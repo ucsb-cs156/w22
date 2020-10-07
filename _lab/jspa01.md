@@ -78,26 +78,74 @@ If you haven't looked through it already, this [article](https://developer.mozil
 
 You can find the instructions for getting started in the `README.md` file in the root project folder, but you'll find them restated below.
 
-> Always `cd javascript` before running any of these commands.
->
-> - `npm install` installs the necessary packages into `javascript/node_modules`. Note that the `javascript/node_modules`
->   directory can be completely deleted and rebuilt at any time (deleting
->   it is similar to a `make clean` or `mvn clean` command).
-> - `npm start` starts up a web server on [http://localhost:3000](http://localhost:3000) where you can interact
->   with a web page.
-> - `npm test` runs the unit tests for this project.
+Always `cd javascript` before running any of these commands.
 
-Keep in mind the following:
+- `npm install` installs the necessary packages into `javascript/node_modules`. Note that the `javascript/node_modules`
+  directory can be completely deleted and rebuilt at any time (deleting
+  it is similar to a `make clean` or `mvn clean` command).   It is normal for `npm install` to take a while to run, particularly
+  the first time you type it.   You typically only need to type this when it's a brand new project, or if/when you make changes to
+  the file `package.json`, *not* every time you make a change in the code.
+- `npm start` starts up a web server on <http://localhost:3000> where you can interact with a web page.
+  - Some notes on `npm start` appear below; the way you view the running web page will depend on whether you do the lab on 
+    CSIL or your own system, and how you connect to CSIL.
+- `npm test` runs the unit tests for this project.  
+  There should be 25 failing tests when you run `npm test`; don't worry, it's _supposed_ to be like that at the beginning.
 
-- `npm install` is going to take a long time to run, sometimes upwards of 10 minutes. This is particularly true if you've never worked with `npm` on your machine before.
-- There should be 25 failing tests when you run `npm test`; don't worry, it's _supposed_ to be like that at the beginning.
 
-If you're working over SSH on CSIL, the following notes may apply to you:
+## Notes on `npm start`
 
-- `npm start` runs the app on CSIL, not your own computer. You'll need to set up port forwarding as detailed [here](https://ucsb-cs156.github.io/topics/csil_ssh_port_forwarding/) in order to be able to see the running application on a browser on your computer.
-- Keep in mind that the port you want to capture on CSIL is `localhost:3000` and not `localhost:8080`.
+First, note that on all systems, `npm start` can take a while to start up.  Wait for a message like this one before trying
+to connect in your web browser:
 
-If you can open up the app in your web browser and run the tests with `npm test`, go ahead and push your starting point to GitHub with `git push origin main`.
+```
+Compiled successfully!
+
+You can now view intro-to-javascript in the browser.
+
+  Local:            http://localhost:3000
+```
+
+If you're working over SSH on CSIL (e.g. with PuTTY, MobaXTerm, or an `ssh username@csil.cs.ucsb.edu` at the command line,
+the following notes may apply to you.
+
+First, realize that `npm start` runs the app on CSIL, not your own computer.   The address <https://localhost:3000> only works
+if your web browser is running *on the same machine* as the web server.  If your browser is running on your own laptop or desktop,
+but the web server is running on CSIL, then <http://localhost:3000> *will not work*.
+
+Here are your alternative options.   Any of these should work; find the one that works best for you.
+
+1.  Type `hostname` at a prompt on the CSIL machine where you are running.  The output will be something like this:
+
+    ```
+    [pconrad@csilvm-01 ~]$ hostname
+    csilvm-01.cs.ucsb.edu
+    [pconrad@csilvm-01 ~]$ 
+    ```
+    
+    Use *that* string as your web address instead of `localhost`, e.g. <http://csilvm-01.cs.ucsb.edu:3000>.  You still need the `http://` and
+    the `:3000`.  
+
+2.  Use *port forwarding* as described [here](https://ucsb-cs156.github.io/topics/csil_ssh_port_forwarding/).  
+    
+    The command you want would be something like this: 
+    ```
+    ssh -L 1234:localhost:3000 username@csil.cs.ucsb.edu
+    ```
+    
+    Then, you can access the server from `localhost:3000` on the remote machine by visiting <http://localhost:1234> on your local machine.
+
+3.  Use the Remote Desktop solution instead, described here: <https://doc.engr.ucsb.edu/display/EPK/Remote+Access+to+Computer+Science+Computing+Labs>
+
+    With this "Remote Desktop" solution, 
+    you use software that shows an entire Linux Desktop on the CSIL machines in a window on your local Windows, Mac or Linux machine.  You'll
+    use a browser running on the CSIL vm, so that you can just access <http://localhost:3000> and everything just works.
+    
+4.  If the solutions above are too onerous, hard to figure out or slow, you always have the option to just install the needed software
+    (in this case, `git` and `npm`) on your local system.  You can find instructions on that here:
+    * [MacOS](https://ucsb-cs156.github.io/topics/macos/)
+    * [Windows](https://ucsb-cs156.github.io/topics/windows/)
+    * [Windows Subsystem for Linux (WSL)](https://ucsb-cs156.github.io/topics/windows_wsl/)
+
 
 ## Setting up CodeCov for your repo
 
