@@ -432,7 +432,7 @@ The next pair of files we're going to focus on are:
 
 The goal of this React component is to manage the top navigation bar of the running application, which is pictured below:
 
-![Starting AppNavbar](./jspa01/old-app-navbar.png)
+![Starting AppNavbar](old-app-navbar.png)
 
 <details>
   <summary>A quick aside on `.js` vs `.jsx`</summary>
@@ -578,7 +578,7 @@ const AppNavbar = () => {
 
 You should now be passing all tests with `npm test -- AppNavbar.test.jsx`, as well as see a new link you can click on in the AppNavbar, as pictured below:
 
-![Final AppNavbar](./jspa01/new-app-navbar.png)
+![Final AppNavbar](new-app-navbar.png)
 
 If you run all tests with `npm test` and using `a` to run all tests, you should now only have 3 failing tests. Don't forget to commit and push your changes to GitHub; we're now moving on to the final section!
 
@@ -803,7 +803,7 @@ You're ready to submit your lab if the following are true:
 - When you visit your repository on GitHub, you have a green checkmark next to your repo name (as pictured below).
 - When you visit your repository on CodeCov, it has 100% code coverage.
 
-![Green check on GitHub](./jspa01/github-green.png)
+![Green check on GitHub](github-green.png)
 
 If all of those are true, then you can submit your project to GradeScope.
 
