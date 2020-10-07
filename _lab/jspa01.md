@@ -82,6 +82,8 @@ We're now going to set up CodeCov for your project to track a testing metric cal
 
 You can follow the instructions found in `README.md` under the **Setting up Code Coverage** heading.
 
+__Once you log in, please message course staff to get your account activated.__
+
 If you want some guidance on how to approach the remainder of the lab, then the rest of the lab is for you. Otherwise, if you're feeling adventurous then you can just dive into the app and start fixing the failing tests.
 
 ## Fixing up the Rational Class
