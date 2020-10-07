@@ -7,6 +7,28 @@ num: jspa00
 ready: true
 ---
 
+<style>
+
+
+summary { 
+   border: 4px solid green;
+   padding: 1em;
+   background-color: #ffe;
+   margin-bottom: 1em;
+}
+
+details { 
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border: 4px solid blue;
+  padding: 1em;
+  }
+
+
+</style>
 
 # jspa01
 
@@ -435,7 +457,9 @@ The goal of this React component is to manage the top navigation bar of the runn
 ![Starting AppNavbar](old-app-navbar.png)
 
 <details>
-  <summary>A quick aside on `.js` vs `.jsx`</summary>
+<summary>
+A quick aside on `.js` vs `.jsx`
+</summary>
 
 There is generally no _real_ difference between the two file types. That being said, `.js` is meant to denote _pure_ JavaScript, while `.jsx` stands for JavaScript + XML. Files that feature React typically use `.jsx` because React components are built using an XML syntax ends up looking _a lot_ like HTML. You can read up more on this topic [here](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Main_features).
 
@@ -481,7 +505,9 @@ export default AppNavbar;
 4. This is how `AppNavbar` is exported from this module (aka file). You can read up on exports [here](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export).
 
 <details>
-  <summary>Component tags (in more detail)</summary>
+<summary>
+Component tags (in more detail)
+</summary>
 
 A helpful way to conceptualize these component tags is by treating each of them as a function call. For example, let's look at one of the `LinkContainer`s:
 
@@ -620,7 +646,9 @@ export default Add;
 ```
 
 <details >
-  <summary>What's the deal with tags and braces?</summary>
+<summary>
+What's the deal with tags and braces?
+</summary>
 
 You might notice that there seems to be a mix of syntax all of a sudden; there's `<tags></tags>` but now you have these strange braces (like `{... props}`) that seems to break into JavaScript?
 
@@ -810,7 +838,9 @@ If all of those are true, then you can submit your project to GradeScope.
 ## Bonus
 
 <details open>
-  <summary>The Calculator component</summary>
+<summary>
+The Calculator component
+</summary>
 
 # Breaking down the `Calculator` component
 
