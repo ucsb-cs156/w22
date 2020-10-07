@@ -743,7 +743,7 @@ export default Subtract;
 3. We're going to assign the different prop values we're passing to `Calculator` here. We need to pass `calculateFromUserInput`, `title`, `subtitle`, and `sign` in order to satisfy `Calculator`.
 4. We're going to create a `Calculator` component and pass the props into it using the spread operator.
 
-After making those changes, we should be able to see that the our test now passes.Don't forget to commit and push your changes as you fix tests.
+After making those changes, we should be able to see that the our test now passes. Don't forget to commit and push your changes as you fix tests.
 
 ### Fixing the Multiply Page
 
@@ -755,7 +755,42 @@ Don't forget to commit and push your changes as you fix tests.
 
 ### Fixing the Divide Page
 
-Again, same as `src/main/pages/Multiply.jsx` but the filename is `Divide.test.jsx`.
+While we also want to make the same changes as we did in `src/main/pages/Multiply.jsx` but in `src/main/pages/Divide.jsx`, we still need to make one more change. Currently, if you click on the `Divide` item in Navbar that we added, it doesn't go to the `Divide` page. In order to fix this, we need to visit `src/main/App.jsx`.
+
+In `src/main/App.jsx`, we should see the following:
+
+```jsx
+import React from "react";
+import "main/App.css";
+import Add from "main/pages/Add";
+import Subtract from "main/pages/Subtract";
+import Multiply from "main/pages/Multiply";
+import { Container } from "react-bootstrap";
+import { Route, Switch } from "react-router-dom";
+import AppNavbar from "main/components/AppNavbar";
+import AppFooter from "main/components/AppFooter";
+
+function App() {
+  return (
+    <div className="App">
+      <AppNavbar />
+      <Container className="flex-grow-1 mt-5">
+        <Switch>
+          <Route exact path="/" component={Add} />
+          <Route exact path="/add" component={Add} />
+          <Route exact path="/subtract" component={Subtract} />
+          <Route exact path="/multiply" component={Multiply} />
+        </Switch>
+      </Container>
+      <AppFooter />
+    </div>
+  );
+}
+
+export default App;
+```
+
+The change we need to make? Create a new `Route` component like so: `<Route exact path"/divide" component={Divide} />`. After this change, clicking on the `Divide` item in the Navbar should now bring us to a working division calculator.
 
 Don't forget to commit and push your changes as you fix tests.
 
