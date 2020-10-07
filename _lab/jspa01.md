@@ -294,7 +294,7 @@ Here's the specific test command for only running tests related to these methods
 npm test -- Rational.test.js -t divide
 ```
 
-You'll be ready to move on from this step once you pass all of the tests when running `npm test -- Rationals.test.js`. Once that's the case, make sure your changes are committed and pushed to GitHub.
+You'll be ready to move on from this step once you pass all of the tests when running `npm test -- Rational.test.js`. Once that's the case, make sure your changes are committed and pushed to GitHub.
 
 ## Fixing up the Rational Helpers
 
