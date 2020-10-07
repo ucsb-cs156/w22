@@ -101,7 +101,9 @@ If you can open up the app in your web browser and run the tests with `npm test`
 
 ## Setting up CodeCov for your repo
 
-We're now going to set up CodeCov for your project to track a testing metric called **code coverage** for your assignment.
+The first thing you're going to want to do is get the GitHub student developer pack so that you have free access to CodeCov. You can do so by visiting their page [here](https://education.github.com/students) and signing in with your GitHub account and provide them your `@ucsb.edu` email. This should grant you the developer pack within 15 minutes, so be patient with waiting for the email.
+
+Once you've completed that, we're now going to set up CodeCov for your project to track a testing metric called **code coverage** for your assignment.
 
 You can follow the instructions found in `README.md` under the **Setting up Code Coverage** heading.
 
