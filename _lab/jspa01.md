@@ -46,6 +46,7 @@ If you haven't looked through it already, this [article](https://developer.mozil
 - Clone your repo: `git clone git@github.com:ucsb-cs156-f20/jspa01-joegaucho.git`
 - Move into your repo's directory: `cd jspa01-joegaucho`
 - Change your base branch to `main`: `git checkout -b main`
+  - If you get the error `fatal: A branch named 'main' already exists.` that's ok; you can safely ignore that error.
 - Add the starter code to your repo:
   - `git remote add starter git@github.com:ucsb-cs156-f20/STARTER_jspa01.git`
   - `git pull starter main`
