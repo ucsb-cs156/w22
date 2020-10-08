@@ -149,15 +149,24 @@ Here are your alternative options.   Any of these should work; find the one that
 
 ## Setting up CodeCov for your repo
 
-The first thing you're going to want to do is get the GitHub student developer pack so that you have free access to CodeCov. You can do so by visiting their page [here](https://education.github.com/students) and signing in with your GitHub account and provide them your `@ucsb.edu` email. This should grant you the developer pack within 15 minutes, so be patient with waiting for the email.
+Codecov.io is a commerical service that provides hosting for Code Coverage reports.  We'll get into what code coverage is in more detail
+later, but the short version is is that it's a measure of how much of your code is covered by automated tests.  You can learn more here: <https://ucsb-cs156.github.io/topics/testing/>
+
+The first thing you're going to want to do is **Get the GitHub Student Developer Pack** so that you have free access to CodeCov.  To do so:
+* Visit <https://education.github.com/students>
+* Signing in with your GitHub account and provide them your `@ucsb.edu` email. 
+* This should grant you the developer pack within 15 minutes; be patient with waiting for the email.
 
 Once you've completed that, we're now going to set up CodeCov for your project to track a testing metric called **code coverage** for your assignment.
 
-You can follow the instructions found in `README.md` under the **Setting up Code Coverage** heading.
+You can follow the instructions found in [`README.md`](https://github.com/ucsb-cs156-f20/STARTER_jspa01/blob/main/README.md#setting-up-code-coverage) under the **Setting up Code Coverage** heading.
 
 __Once you log in, please message course staff to get your account activated.__
 
-If you want some guidance on how to approach the remainder of the lab, then the rest of the lab is for you. Otherwise, if you're feeling adventurous then you can just dive into the app and start fixing the failing tests.
+If you want some guidance on how to approach the remainder of the lab, then read the rest of the instructions below. 
+
+Or, if you're feeling adventurous then you can just dive into the app and start fixing the failing tests.  The goal is to get all of the tests to pass,
+both here, and on Gradescope.
 
 ## Fixing up the Rational Class
 
