@@ -877,7 +877,7 @@ function App() {
 export default App;
 ```
 
-The change we need to make? Create a new `Route` component like so: `<Route exact path"/divide" component={Divide} />`. After this change, clicking on the `Divide` item in the Navbar should now bring us to a working division calculator.
+The change we need to make? Create a new `Route` component like so: `<Route exact path"/divide" component={Divide} />`, for which we'll need to `import Divide from "main/pages/Divide"` at the top of the file. After this change, clicking on the `Divide` item in the Navbar should now bring us to a working division calculator.
 
 Don't forget to commit and push your changes as you fix tests.
 
