@@ -22,7 +22,7 @@ cover the difference between primitive and reference variables, which is somethi
 # New Programming Assignment
 
 There is also a new programming assignment here:
-* <https://ucsb-cs156.github.io/f20/lab/jpa01.md>
+* <https://ucsb-cs156.github.io/f20/lab/jpa01>
 
 This assignment covers JUnit, test coverage and mutation testing as applied to Java programming.  While you may be use to writing code, you may not be as used to writing
 your own test cases. That turns out to be a pretty important skill for real world software development, so are emphasizing it throughout the course.
