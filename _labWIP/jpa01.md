@@ -311,6 +311,14 @@ If you download the artifacts, you'll get a .zip file that you can download, and
 open.  Inside that zip file, you'll find an `index.html` file that you can open in a
 web browser.  That will show you the Pitest mutation report.
 
+![click the green check](click-green-check-50.png)
+
+![click where it says details](click-details-50.png)
+
+![click on artifacts](click-artifacts-50.png)
+
+![click to download zip](click-to-download-zip-50.png)
+
 # Mutation testing is 30% of your grade
 
 30% of your grade for this lab will come from the number of mutants you kill.   Kill 100% of the mutants, you get 30/30.  Kill only half of them, you get 15/30.
