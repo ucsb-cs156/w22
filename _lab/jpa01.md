@@ -71,8 +71,9 @@ To add the starter as a remote, cd into the repo you cloned, then do:
 
 Then do:
 ```
-git pull starter master
-git push origin master
+git checkout -b main
+git pull starter main
+git push origin main
 ```
 
 That should get you set up with the starter code.
