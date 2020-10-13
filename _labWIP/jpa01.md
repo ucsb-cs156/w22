@@ -239,9 +239,12 @@ website for [pitest](https://pitest.org) which is the package we are using for m
 >
 > Mutation testing is conceptually quite simple.
 >
-> Faults (or mutations) are automatically seeded into your code, > then your tests are run. If your tests fail then the mutation > is killed, if your tests pass then the mutation lived.
+> Faults (or mutations) are automatically seeded into your code, 
+> then your tests are run. If your tests fail then the mutation 
+> is killed, if your tests pass then the mutation lived.
 >
-> The quality of your tests can be gauged from the percentage of > mutations killed.
+> The quality of your tests can be gauged from the percentage of 
+> mutations killed.
 > 
 > ## What?
 > Really it is quite simple
