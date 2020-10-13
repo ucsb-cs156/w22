@@ -4,9 +4,7 @@ assigned: 2020-10-13 14:00
 due: 2020-10-19 23:00
 layout: lab
 num: jpa01
-ready: false
-signup_app: https://ucsb-cs-github-linker.herokuapp.com/
-slack: https://ucsb-cs156-f20.slack.com
+ready: true
 course_org: https://github.com/ucsb-cs156-f20
 starter_repo: https://github.com/ucsb-cs156-f20/STARTER-jpa01
 ---
