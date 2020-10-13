@@ -56,6 +56,11 @@ Step-by-Step
 
 # Step 0: Set up your repo
 
+When cloning your repo, be sure to use *only the ssh* links.
+* Using the `https` link may result in an error when you try to push the to the repo,
+  indicating that "a GitHub Action cannot be accessed from an OAuth login" or something like that.
+* Using ssh instead of https gets around this problem.
+
 You may work individually or as a pair on this lab.  However, if you work as a pair, please:
 * Pair with someone from your same team, or at least, from your same
   discussion section.
@@ -169,6 +174,14 @@ Here are the instance methods you'll need to implement for `MenuItem`
 | String	| toString() | return a string in csv format, in the order name,price,cateogry. <br> For example: `"Small Poke Bowl,1049,Poke Bowls"`<br>In this case, the price is unformatted; just an integer number of cents. |
 {:.table .table-sm .table-striped .table-bordered}
 
+
+## Checking the tests
+
+To check the code against the tests that you've written, use:
+
+* `mvn test`
+
+Interpreting the output can be 
 
 # Step 3: Learning about Test Coverage
 
