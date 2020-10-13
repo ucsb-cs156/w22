@@ -7,6 +7,7 @@ num: jpa01
 ready: true
 course_org: https://github.com/ucsb-cs156-f20
 starter_repo: https://github.com/ucsb-cs156-f20/STARTER-jpa01
+gradescope: https://www.gradescope.com/courses/126922/assignments/756927
 ---
 
 This assignment is `jpa01`, i.e "Java Programming Assignment 01".
@@ -58,7 +59,7 @@ Step-by-Step
 You may work individually or as a pair on this lab.  However, if you work as a pair, please:
 * Pair with someone from your same team, or at least, from your same
   discussion section.
-* Remember to name the repo correctly, and also to add your pair on Gradescope each time you submit
+* Remember to name the repo correctly, and also to add your pair on [Gradescope]({{page.gradescope}}) each time you submit
 
 The starter code is in <{{page.starter_repo}}>.  Visit that page for the approrpiate URL to add the `starter` remote.
 
@@ -329,7 +330,10 @@ Now: since the mutants are based on your *your individual solution*, it is impos
 
 # Step 6: Before final submission on Gradescope
 
-* Make sure that your README.md file has your github id(s) and name(s) (Both if you worked as a pair.)
+The assignment on Gradescope is here: <{{page.gradescope}}>.
+
+If working in a pair:
+* Make sure that your README.md file has your github id(s) and name(s) 
 * Make sure that both of your names are attached to your Gradescope submission.
 
 
