@@ -298,6 +298,16 @@ pitest, it will produce a new version of the report with a new timestamp.
 
 It may be convenient to use `mvn clean` before running a pitest mutation report; that way there will only be one such directory rather than multiple ones.
 
+# Another way to see the Pitest report: GitHub Actions artifacts
+
+Another way to see the pitest report is to let the GitHub Actions run for your
+repo (which happens each time you push a change to GitHub).   When you do, you should
+see that there is a link for "Artifacts" when you examine the Github Actions results.
+
+If you download the artifacts, you'll get a .zip file that you can download, and
+open.  Inside that zip file, you'll find an `index.html` file that you can open in a
+web browser.  That will show you the Pitest mutation report.
+
 # Mutation testing is 30% of your grade
 
 30% of your grade for this lab will come from the number of mutants you kill.   Kill 100% of the mutants, you get 30/30.  Kill only half of them, you get 15/30.
@@ -305,6 +315,7 @@ It may be convenient to use `mvn clean` before running a pitest mutation report;
 Gradescope will run the mutation testing on your solution, and award points proportionately depending on how many you kill.
 
 Now: since the mutants are based on your *your individual solution*, it is impossible to know in advance how many there will be, or what they will be.  But you can investigate by looking at the report.
+
 
 
 # Step 6: Before final submission on Gradescope
