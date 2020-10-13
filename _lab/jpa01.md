@@ -256,7 +256,7 @@ website for [pitest](https://pitest.org) which is the package we are using for m
 > not fail in this situation, it may indicate an issue with the
 >  test suite.
 >
-> #Why?
+> ## Why?
 > What's wrong with line coverage?
 >
 > Traditional test coverage (i.e line, statement, branch, etc.)
