@@ -3,7 +3,7 @@ desc: "Intro to JavaScript, React, Jest, and Codecov.io"
 assigned: 2020-10-06 16:00
 due: 2020-10-19 23:00
 layout: lab
-num: jspa00
+num: jspa01
 ready: true
 ---
 
@@ -68,7 +68,6 @@ If you haven't looked through it already, this [article](https://developer.mozil
 - Clone your repo: `git clone git@github.com:ucsb-cs156-f20/jspa01-joegaucho.git`
 - Move into your repo's directory: `cd jspa01-joegaucho`
 - Change your base branch to `main`: `git checkout -b main`
-  - If you get the error `fatal: A branch named 'main' already exists.` that's ok; you can safely ignore that error.
 - Add the starter code to your repo:
   - `git remote add starter git@github.com:ucsb-cs156-f20/STARTER_jspa01.git`
   - `git pull starter main`
@@ -78,36 +77,95 @@ If you haven't looked through it already, this [article](https://developer.mozil
 
 You can find the instructions for getting started in the `README.md` file in the root project folder, but you'll find them restated below.
 
-> Always `cd javascript` before running any of these commands.
->
-> - `npm install` installs the necessary packages into `javascript/node_modules`. Note that the `javascript/node_modules`
->   directory can be completely deleted and rebuilt at any time (deleting
->   it is similar to a `make clean` or `mvn clean` command).
-> - `npm start` starts up a web server on [http://localhost:3000](http://localhost:3000) where you can interact
->   with a web page.
-> - `npm test` runs the unit tests for this project.
+Always `cd javascript` before running any of these commands.
 
-Keep in mind the following:
+- `npm install` installs the necessary packages into `javascript/node_modules`. Note that the `javascript/node_modules`
+  directory can be completely deleted and rebuilt at any time (deleting
+  it is similar to a `make clean` or `mvn clean` command).   It is normal for `npm install` to take a while to run, particularly
+  the first time you type it.   You typically only need to type this when it's a brand new project, or if/when you make changes to
+  the file `package.json`, *not* every time you make a change in the code.
+- `npm start` starts up a web server on <http://localhost:3000> where you can interact with a web page.
+  - Some notes on `npm start` appear below; the way you view the running web page will depend on whether you do the lab on 
+    CSIL or your own system, and how you connect to CSIL.
+- `npm test` runs the unit tests for this project.  
+  There should be 25 failing tests when you run `npm test`; don't worry, it's _supposed_ to be like that at the beginning.
 
-- `npm install` is going to take a long time to run, sometimes upwards of 10 minutes. This is particularly true if you've never worked with `npm` on your machine before.
-- There should be 25 failing tests when you run `npm test`; don't worry, it's _supposed_ to be like that at the beginning.
 
-If you're working over SSH on CSIL, the following notes may apply to you:
+## Notes on `npm start`
 
-- `npm start` runs the app on CSIL, not your own computer. You'll need to set up port forwarding as detailed [here](https://ucsb-cs156.github.io/topics/csil_ssh_port_forwarding/) in order to be able to see the running application on a browser on your computer.
-- Keep in mind that the port you want to capture on CSIL is `localhost:3000` and not `localhost:8080`.
+First, note that on all systems, `npm start` can take a while to start up.  Wait for a message like this one before trying
+to connect in your web browser:
 
-If you can open up the app in your web browser and run the tests with `npm test`, go ahead and push your starting point to GitHub with `git push origin main`.
+```
+Compiled successfully!
+
+You can now view intro-to-javascript in the browser.
+
+  Local:            http://localhost:3000
+```
+
+If you're working over SSH on CSIL (e.g. with PuTTY, MobaXTerm, or an `ssh username@csil.cs.ucsb.edu` at the command line,
+the following notes may apply to you.
+
+First, realize that `npm start` runs the app on CSIL, not your own computer.   The address <https://localhost:3000> only works
+if your web browser is running *on the same machine* as the web server.  If your browser is running on your own laptop or desktop,
+but the web server is running on CSIL, then <http://localhost:3000> *will not work*.
+
+Here are your alternative options.   Any of these should work; find the one that works best for you.
+
+1.  Type `hostname` at a prompt on the CSIL machine where you are running.  The output will be something like this:
+
+    ```
+    [pconrad@csilvm-01 ~]$ hostname
+    csilvm-01.cs.ucsb.edu
+    [pconrad@csilvm-01 ~]$ 
+    ```
+    
+    Use *that* string as your web address instead of `localhost`, e.g. <http://csilvm-01.cs.ucsb.edu:3000>.  You still need the `http://` and
+    the `:3000`.  
+
+2.  Use *port forwarding* as described [here](https://ucsb-cs156.github.io/topics/csil_ssh_port_forwarding/).  
+    
+    The command you want would be something like this: 
+    ```
+    ssh -L 1234:localhost:3000 username@csil.cs.ucsb.edu
+    ```
+    
+    Then, you can access the server from `localhost:3000` on the remote machine by visiting <http://localhost:1234> on your local machine.
+
+3.  Use the Remote Desktop solution instead, described here: <https://doc.engr.ucsb.edu/display/EPK/Remote+Access+to+Computer+Science+Computing+Labs>
+
+    With this "Remote Desktop" solution, 
+    you use software that shows an entire Linux Desktop on the CSIL machines in a window on your local Windows, Mac or Linux machine.  You'll
+    use a browser running on the CSIL vm, so that you can just access <http://localhost:3000> and everything just works.
+    
+4.  If the solutions above are too onerous, hard to figure out or slow, you always have the option to just install the needed software
+    (in this case, `git` and `npm`) on your local system.  You can find instructions on that here:
+    * [MacOS](https://ucsb-cs156.github.io/topics/macos/)
+    * [Windows](https://ucsb-cs156.github.io/topics/windows/)
+    * [Windows Subsystem for Linux (WSL)](https://ucsb-cs156.github.io/topics/windows_wsl/)
+
 
 ## Setting up CodeCov for your repo
 
-We're now going to set up CodeCov for your project to track a testing metric called **code coverage** for your assignment.
+Codecov.io is a commerical service that provides hosting for Code Coverage reports.  We'll get into what code coverage is in more detail
+later, but the short version is is that it's a measure of how much of your code is covered by automated tests.  You can learn more here: <https://ucsb-cs156.github.io/topics/testing/>
 
-You can follow the instructions found in `README.md` under the **Setting up Code Coverage** heading.
+The first thing you're going to want to do is **Get the GitHub Student Developer Pack** so that you have free access to CodeCov.  To do so:
+* Visit <https://education.github.com/students>
+* Signing in with your GitHub account and provide them your `@ucsb.edu` email. 
+* This should grant you the developer pack within 15 minutes; be patient with waiting for the email.
+
+Once you've completed that, we're now going to set up CodeCov for your project to track a testing metric called **code coverage** for your assignment.
+
+You can follow the instructions found in [`README.md`](https://github.com/ucsb-cs156-f20/STARTER_jspa01/blob/main/README.md#setting-up-code-coverage) under the **Setting up Code Coverage** heading.
 
 __Once you log in, please message course staff to get your account activated.__
 
-If you want some guidance on how to approach the remainder of the lab, then the rest of the lab is for you. Otherwise, if you're feeling adventurous then you can just dive into the app and start fixing the failing tests.
+If you want some guidance on how to approach the remainder of the lab, then read the rest of the instructions below. 
+
+Or, if you're feeling adventurous then you can just dive into the app and start fixing the failing tests.  The goal is to get all of the tests to pass,
+both here, and on Gradescope.
 
 ## Fixing up the Rational Class
 
@@ -819,7 +877,7 @@ function App() {
 export default App;
 ```
 
-The change we need to make? Create a new `Route` component like so: `<Route exact path"/divide" component={Divide} />`. After this change, clicking on the `Divide` item in the Navbar should now bring us to a working division calculator.
+The change we need to make? Create a new `Route` component like so: `<Route exact path"/divide" component={Divide} />`, for which we'll need to `import Divide from "main/pages/Divide"` at the top of the file. After this change, clicking on the `Divide` item in the Navbar should now bring us to a working division calculator.
 
 Don't forget to commit and push your changes as you fix tests.
 
