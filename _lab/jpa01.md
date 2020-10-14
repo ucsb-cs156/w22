@@ -321,6 +321,32 @@ Another way to see the pitest report is to let the GitHub Actions run for your
 repo (which happens each time you push a change to GitHub).   When you do, you should
 see that there is a link for "Artifacts" when you examine the Github Actions results.
 
+Note: If you don't see the Artifacts as shown below:
+* There is a chance that you picked up an old version of the starter code&mdash;and to be clear, you didn't necessarily do anything wrong;
+  the first version of the instructions had `master` instead of `main`, and that branch didn't have everything in it.
+* Make sure you have these lines at the end of `.github/workflows/maven.yml`
+
+  Right after: 
+  ```
+      - name: Upload to Codecov
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+        run: bash <(curl -s https://codecov.io/bash)  
+  ```
+  
+  You should have this, indented to match the `- name` commands just above it (as seen [here in the file on GitHub](https://github.com/ucsb-cs156-f20/STARTER-jpa01/blob/main/.github/workflows/maven.yml)
+  
+  ```
+      - name: Pitest
+        run: mvn test org.pitest:pitest-maven:mutationCoverage
+      - name: Upload Pitest to Artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: pitest-mutation-testing
+          path: target/pit-reports/**/*  
+  ```
+
+
 If you download the artifacts, you'll get a .zip file that you can download, and
 open.  Inside that zip file, you'll find an `index.html` file that you can open in a
 web browser.  That will show you the Pitest mutation report.
