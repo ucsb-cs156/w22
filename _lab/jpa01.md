@@ -10,6 +10,29 @@ starter_repo: https://github.com/ucsb-cs156-f20/STARTER-jpa01
 gradescope: https://www.gradescope.com/courses/126922/assignments/756927
 ---
 
+<style>
+
+
+summary { 
+   border: 4px solid green;
+   padding: 1em;
+   background-color: #ffe;
+   margin-bottom: 1em;
+}
+
+details { 
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border: 4px solid blue;
+  padding: 1em;
+  }
+
+
+</style>
+
 This assignment is `jpa01`, i.e "Java Programming Assignment 01".
 
 If you find typos or problems with the lab instructions, please report
@@ -345,6 +368,8 @@ Note: If you don't see the Artifacts as shown below:
           name: pitest-mutation-testing
           path: target/pit-reports/**/*  
   ```
+
+
 
 
 If you download the artifacts, you'll get a .zip file that you can download, and
