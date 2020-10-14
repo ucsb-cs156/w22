@@ -271,46 +271,58 @@ once you've gotten to 100%, we'll check the quality of your tests with an even m
 Here is an explanation of *mutation testing* from the 
 website for [pitest](https://pitest.org) which is the package we are using for mutation testing.
 
-> ## What is mutation testing?
-> How it works in 51 words
->
-> Mutation testing is conceptually quite simple.
->
-> Faults (or mutations) are automatically seeded into your code, 
-> then your tests are run. If your tests fail then the mutation 
-> is killed, if your tests pass then the mutation lived.
->
-> The quality of your tests can be gauged from the percentage of 
-> mutations killed.
-> 
-> ## What?
-> Really it is quite simple
->
-> To put it another way - PIT runs your unit tests against 
-> automatically modified versions of your application code. When
-> the application code changes, it should produce different 
-> results and cause the unit tests to fail. If a unit test does
-> not fail in this situation, it may indicate an issue with the
->  test suite.
->
-> ## Why?
-> What's wrong with line coverage?
->
-> Traditional test coverage (i.e line, statement, branch, etc.)
-> measures only which code is executed by your tests. It does
->  not check that your tests are actually able to detect faults
-> in the executed code. It is therefore only able to identify
-> code that is definitely not tested.
->
-> The most extreme examples of the problem are tests with no 
-> assertions. Fortunately these are uncommon in most code bases.
-> Much more common is code that is only partially tested by its
-> suite. A suite that only partially tests code can still
-> execute all its branches (examples).
->
-> As it is actually able to detect whether each statement is 
-> meaningfully tested, mutation testing is the gold standard
-> against which all other types of coverage are measured.
+
+<details>
+<summary>
+Explanation of Mutation Testing (click the arrow to reveal)
+</summary>
+
+
+
+## What is mutation testing?
+
+How it works in 51 words
+
+Mutation testing is conceptually quite simple.
+
+Faults (or mutations) are automatically seeded into your code, 
+then your tests are run. If your tests fail then the mutation 
+is killed, if your tests pass then the mutation lived.
+
+The quality of your tests can be gauged from the percentage of 
+mutations killed.
+ 
+## What?
+Really it is quite simple
+
+To put it another way - PIT runs your unit tests against 
+automatically modified versions of your application code. When
+the application code changes, it should produce different 
+results and cause the unit tests to fail. If a unit test does
+not fail in this situation, it may indicate an issue with the
+test suite.
+
+## Why?
+What's wrong with line coverage?
+
+Traditional test coverage (i.e line, statement, branch, etc.)
+measures only which code is executed by your tests. It does
+not check that your tests are actually able to detect faults
+in the executed code. It is therefore only able to identify
+code that is definitely not tested.
+
+The most extreme examples of the problem are tests with no 
+assertions. Fortunately these are uncommon in most code bases.
+Much more common is code that is only partially tested by its
+suite. A suite that only partially tests code can still
+execute all its branches (examples).
+
+As it is actually able to detect whether each statement is 
+meaningfully tested, mutation testing is the gold standard
+against which all other types of coverage are measured.
+
+</details>
+
 
 So, to clarify, you will run mutation testing once you've
 gotten to 100% line/branch coverage, or as close to it as
@@ -344,22 +356,23 @@ Another way to see the pitest report is to let the GitHub Actions run for your
 repo (which happens each time you push a change to GitHub).   When you do, you should
 see that there is a link for "Artifacts" when you examine the Github Actions results.
 
-Note: If you don't see the Artifacts as shown below:
-* There is a chance that you picked up an old version of the starter code&mdash;and to be clear, you didn't necessarily do anything wrong;
-  the first version of the instructions had `master` instead of `main`, and that branch didn't have everything in it.
-* Make sure you have these lines at the end of `.github/workflows/maven.yml`
 
-  Right after: 
-  ```
-      - name: Upload to Codecov
-        env:
-          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
-        run: bash <(curl -s https://codecov.io/bash)  
-  ```
-  
-  You should have this, indented to match the `- name` commands just above it (as seen [here in the file on GitHub](https://github.com/ucsb-cs156-f20/STARTER-jpa01/blob/main/.github/workflows/maven.yml)
-  
-  ```
+<details>
+<summary>
+Note: If you don't see the Artifacts as shown below, click the arrow for hints on what might be wrong.
+</summary>
+
+First, you must be passing all of the regular JUnit tests, or you won't get a mutation testing report from pitest.  
+So check that you are passing *all* of the regular JUnit tests first.
+
+Second, there is a chance that you picked up an old version of the starter code&mdash;and to be clear, you didn't necessarily do anything wrong;
+the first version of the instructions had `master` instead of `main`, and that branch didn't have everything in it.
+
+To check, compare your `.github/workflows/maven.yml` file with the listing of the file here: [`.github/workflows/maven.yml` from starter code](https://github.com/ucsb-cs156-f20/STARTER-jpa01/blob/main/.github/workflows/maven.yml)
+
+Specifically, make sure the files ends with these lines, indented so that all of the `- name` commands line up (just like in the starter code at the link above)":
+
+```
       - name: Pitest
         run: mvn test org.pitest:pitest-maven:mutationCoverage
       - name: Upload Pitest to Artifacts
@@ -367,10 +380,9 @@ Note: If you don't see the Artifacts as shown below:
         with:
           name: pitest-mutation-testing
           path: target/pit-reports/**/*  
-  ```
+```
 
-
-
+</details>
 
 If you download the artifacts, you'll get a .zip file that you can download, and
 open.  Inside that zip file, you'll find an `index.html` file that you can open in a
