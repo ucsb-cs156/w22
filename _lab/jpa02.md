@@ -412,9 +412,9 @@ The instructions for doing so are here: <https://ucsb-cs156.github.io/topics/gau
 * (10 pts) Having a repo with the correct name in the correct organization
 * (20 pts) Having a running web app at <tt>https://cs56-{{site.qxx}}-<i>githubid</i>-{{page.num}}.herokuapp.com</tt>
 * (20 pts) Running web app has the correct "new" content as specified in Step 6
-* (20 pts) Test cases are updated for new content, and they pass (Step 7)
+* (15 pts) Test cases are updated for new content, and they pass (Step 7)
 * (10 pts) There is a post on Gauchospace that has the correct content
 * (10 pts) The links on Gauchospace are clickable links (to make it easier to test your app)
-* (10 pts) README has a link to your repo.
+* (15 pts) README has a link to your repo, your Heroku app, and your Codecov report.
 
 
