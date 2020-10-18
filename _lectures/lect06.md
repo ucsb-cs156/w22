@@ -1,7 +1,7 @@
 ---
 num: "Lecture 6"
 lecture_date: 2020-10-15
-desc: "Thursday Lecture (topic tbd)"
+desc: "Thursday Lecture (Student tutorial, ex01-ex04)"
 ready: false
 ---
 
