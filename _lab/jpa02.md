@@ -7,7 +7,7 @@ github_org: ucsb-cs156-f20
 layout: lab
 num: jpa02
 ready: true
-starter: https://github.com/ucsb-cs156-f20/STARTER_jpa02
+starter: https://github.com/ucsb-cs156-f20/STARTER-jpa02
 ---
 
 {% include drop_down_style.html %}
