@@ -6,7 +6,7 @@ gauchospace_url: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=513
 github_org: ucsb-cs156-f20
 layout: lab
 num: jpa02
-ready: false
+ready: true
 starter: https://github.com/ucsb-cs156-f20/STARTER_jpa02
 ---
 
