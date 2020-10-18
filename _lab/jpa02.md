@@ -1,20 +1,19 @@
 ---
 desc: Spring Boot and Heroku Hello World
-assigned: 2020-01-13 12:30
-assigned2: 2020-01-14 11:00
-due2: 2020-01-22 23:59
-due: 2020-01-22 23:59
-gauchospace_url: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=3114866
-github_org: ucsb-cs56-w20
+assigned: 2020-10-19 17:00
+due: 2020-10-26 23:59
+gauchospace_url: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=5137815
+github_org: ucsb-cs156-f20
 layout: lab
-num: lab02
-ready: true
-starter: https://github.com/ucsb-cs56-w20/STARTER_lab02
-
+num: jpa02
+ready: false
+starter: https://github.com/ucsb-cs156-f20/STARTER_jpa02
 ---
 
+{% include drop_down_style.html %}
+
 <div style="display:none" >
-Look here for formatted version: http://ucsb-cs56.github.io/w20/lab/lab02
+Look here for formatted version: http://ucsb-cs156.github.io/f20/lab/jpa02
 </div>
 
 This is an **individual** lab on the topic of Java web apps on Heroku.
@@ -27,18 +26,15 @@ If you are working on CSIL, you can skip this step.
 
 But if you are working on your own machine, you'll need to install a few things before proceeding.
 
-Here are some commands to let you be familiar with Maven in 5 mins! <https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html>
+* Java 11
+* Maven
+* git
+* Heroku CLI
 
-* Make sure you have Java 11
-   * Install instructions for Mac OS: <https://ucsb-cs56.github.io/topics/macos/>
-   * For Windows, see:  <https://ucsb-cs56.github.io/topics/windows/>
-   
-* Install Maven.  Instructions are here: <https://maven.apache.org/index.html>
-   * If you are a Mac user, try to install Maven using Homebrew. <https://ucsb-cs56.github.io/topics/macos/>
-		  Type "brew install maven" in your Terminal. (Check if your mac have Homebrew installed firstly)
-		  
-* Install the Heroku CLI.  Instructions are here: <https://devcenter.heroku.com/articles/heroku-cli#download-and-install>
+See guides for installing these on your machine at the links shown:
 
+* Windows: <https://ucsb-cs156.github.io/topics/windows/>
+* MacOS: <https://ucsb-cs156.github.io/topics/macos/>
 
 # Step 1: Understanding what we are trying to do
 
@@ -58,7 +54,6 @@ Here are some commands to let you be familiar with Maven in 5 mins! <https://mav
 -   This puts your application "on the web", for real, so that anyone in the world can access it 24/7
 
 
-
 ### Limitations of the free plan of Heroku
 
 TL;DR: You should NOT need to enter a credit card into Heroku.  If you are asked for one, something has gone wrong.
@@ -76,7 +71,7 @@ TL;DR: You should NOT need to enter a credit card into Heroku.  If you are asked
 You may already have some experience with creating static web pages, and/or with creating web applications (e.g. using PHP, Python (Django or Flask) or Ruby on Rails.) If so, then the "Learn More" section will be basic review.
 
 If you are new to writing software for the web, you are <em>strongly encouaged</em> to read the background information at the "learn more" link below.
--   [Web Pages vs. Web Apps](https://ucsb-cs56.github.io/topics/webapps_webapps_vs_websites/)
+-   [Web Pages vs. Web Apps](https://ucsb-cs156.github.io/topics/webapps_webapps_vs_websites/)
 
 ### What are we trying to accomplish again in this lab?
 
@@ -113,18 +108,21 @@ You'll be asked for:
 -   Last Name
 -   Email (you may use any email address you like)
 -   Company (you may leave this blank).
--   Preferred Development Language: We suggest you select "Java" if you are currently enrolled in CMPSC 56
+-   Preferred Development Language: We suggest you select "Java" if you are currently enrolled in CMPSC 156
     -   (Don't worry; this doesn't prevent you from using the account with other languages later.)
 
 
 # Step 3: Create your repo
 
+You should already have a repo under the course organization 
+<tt>{{page.github_org}}</tt> called 
+<tt>{{page.num}}-<i>githubid</i></tt>
+created for you by the staff, where <tt><i>github</i></tt> 
+is your github id.
 
-Create a new repo that is:
-* is in the GitHub organization <tt>{{page.github_org}}</tt>
-* has name <tt>{{page.num}}-<i>githubid</i></tt> where <tt><i>github</i></tt> is your github id
-* is public 
-* is initially empty, i.e. no README.md, no `.gitignore`, no license
+If not, create one for yourself following that naming convention;
+it should initially be private, and empty (no `README`, license or
+`.gitignore`.)
 
 Clone that repo somewhere and cd into it.
 
@@ -135,30 +133,123 @@ Then add this remote:
 Then do:
 
 ```
-git pull starter master
-git push origin master
+git checkout -b main
+git pull starter main
+git push origin main
 ```
 
 # Step 4: Start your webapp on `localhost`
 
-Assuming you are working on CSIL, you can use `mvn` to run Maven.
+The application should be ready to go out of the box; it
+starts up a web server that brings up a page with the message
+`Greetings from Spring Boot!`
 
-* If you are working on your own machine, you'll need to install Maven on your machine.
-* We've collected [advice on how to do that here](https://ucsb-cs56-pconrad.github.io/topics/maven_installing/).
+We are going to run a command
+to start up this web server
+and then try to connect with
+a browser.
 
-Use `mvn compile` and `mvn spring-boot:run` to try to run the code and get a web app running on `localhost`.
+* First, use `mvn compile` to make sure that the code compiles.
 
-Note that in order to see this web app running, you'll need to be in a web browser on the same host that you are running your program on.  
-* For example, if you are running on `csil-04.cs.ucsb.edu`, you'll need to be running your web browser on `csil-04.cs.ucsb.edu`.   
-* If you are working in Phelps 3525 on `cstl-07.cs.ucsb.edu`, you'll need to be running your web browser on `cstl-07.cs.ucsb.edu`.
+  * If you get the error about `JAVA_HOME` not being defined
+    correctly, you may need this command:
+    ```
+    export JAVA_HOME=/usr/lib/jvm/java-11-openjdk
+    ```
+* Next, try `mvn test` to be sure that the test cases pass.
+* Then, try `mvn spring-boot:run`.  This should start up a web
+  server on port 8080 running on `localhost`
 
+  The `mvn spring-boot:run` command is a shortcut that is provided for us to be able to run the jar file.  It does pretty much the same thing as 
+  if we ran the `.jar` file and specified the class containing our `main` on the command line.
+
+## Connecting with a browser
+
+Now, if you are running on your own machine, connecting with a browser is quite simple;
+the web server is running on the local machine (`localhost`) on port
+8080, so putting the address <http://localhost:8080> in your browser
+will just work.  If you are successful, you should see the message `Greetings from Spring Boot` appear in your browser.
+
+It's the case where you are running on CSIL where things can get more
+complicated.  
+
+First, there's the possibility that port 8080 may already be taken;
+in that case you'll see the error:
+
+```
+Web server failed to start. Port 8080 was already in use.
+```
+
+<details>
+<summary>
+To see how to fix the `Port 8080 was already in use` error, click the triangle:
+</summary>
+
+In this case, the fix is to choose another port number.  Any number between `8080` and `65535` is fair game; to try another port number, use the command shown below (change `12345` to whatever port number you like):
+
+```
+PORT=12345 mvn spring-boot:run
+```
+
+You'll need to substitute this number (e.g. `12345`) in place of `8080`
+when trying to load the website.
+
+</details>
+
+
+<details>
+<summary>
+To see strategies for bringing up a web page for a web server running on CSIL, click the triangle.
+</summary>
+
+## Strategy 1: Point browser directly at CSIL machine
+
+If you are running on CSIL, you can try to point your web browser *at the machine* where the server is running instead of `localhost`.
+
+For example, if you are running on CSIL and type in `hostname`, and 
+see this:
+
+```
+[pconrad@csilvm-01 ~]$ hostname
+csilvm-01.cs.ucsb.edu
+[pconrad@csilvm-01 ~]$ 
+``` 
+  
+Then substitute that name in place of `localhost`, e.g. point your browser as <http://csilvm-01.cs.ucsb.edu:8080> instead of <http://localhost:8080>
+
+This may not always work, because firewalls may prevent access.  Using
+the [UCSB VPN](https://www.it.ucsb.edu/pulse-secure-campus-vpn/get-connected-vpn) may help.
+
+## Strategy 2: Port Forwarding
+
+If you are using `ssh` to connect to CSIL, the solution shown here
+allows you to forward traffic on `localhost:8080` on your own machine
+to `localhost:8080` on the machine you are connecting to:
+
+* <https://ucsb-cs156.github.io/topics/csil_ssh_port_forwarding/>
+
+## Strategy 3: Remote Desktop 
+
+Using the Remote Desktop (RDP) Solution described in the articles below, you can load a complete "desktop" of a CSIL Linux environment and show it in a window on your Mac or Windows machine.  
+
+* Windows Instructions: <https://doc.engr.ucsb.edu/pages/viewpage.action?pageId=31785118>
+* Mac Instructions: <https://doc.engr.ucsb.edu/display/EPK/CS+Lab+RDP+Access+-+MacOS+Client>
+
+In the RDP window, you can open both a terminal window and a browser that are both
+running on CSIL.  Since that browser is running on the same system as
+the web server, you can just use <http://localhost:8080> to connect
+to the server.
+
+</details>
 
 ## About `localhost` and "Port Numbers"
 
 The code in this repo is configured to start up a webserver on port 8080, running on `localhost`, which is a name for the machine on which the code is running.  
 
-* If you are running the code on a Phelps 3526 or CSIL machine, either because you are sitting in Phelps 3526, or sitting in CSIL, or 
-  even if it is because you ssh'd into a CSIL machine from your laptop, then `localhost` refers to that CSIL machine.
+* If you are running the code on a CSIL machine, then `localhost` refers
+  to that machine.  
+* If you are running on your own machine, then `locahost` refers to that
+  machine.
 * The port number is a more specific "communications channel" on that machine.   You can find more information on port numbers
   at this short article, which you are encouraged to read if you are not already familiar with port numbers
   (or, for that matter, even if you are): <https://ucsb-cs56.github.io/topics/port_numbers/>
@@ -168,64 +259,6 @@ So the web address to acccess your server is: `http://localhost:8080`.
 * Note: You should use `http` not `https` when running on `localhost`. Using `http` is the unsecure, unencrypted version.   
 * It is possible to set up Spring Boot to run `https` (the secure, encrypted version), but it's complicated and typically
   unnecessary; Heroku sets up `https` for us automatically, so we really don't need to deal with those steps most of the time.
-
-## What if I get `port already in use`
-
-The error `port already in use` signifies that someone else on the same system (perhaps you, in another window?) is already using
-the port you are trying to use.
-
-In this case:
-* If it's you, shut down the server in the other window.
-* It it's not you, then you are probably ssh'd into CSIL, say `csil-14.cs.ucsb.edu`, and someone else is logged into the same machine,
-  doing the same assignment as you.  Therefore, they already grabbed that port number.
-* In that case, maybe:
-  * Try a different machine, say `csil-15.cs.ucsb.edu` OR
-  * Type `export PORT=8082` before running `mvn spring-boot:run`.  That should start your server on port 8082 instead of 8080.
-  * In that case, you'll need to change `http://localhost:8080` to `http://localhost:8082` of course.
-  
-## How do I access `http://localhost:8080` on CSIL from my laptop?
-
-Suppose you are running your Spring Boot application on `localhost:8080` on one of the CSIL 
-machines.
-
-You normally *will not* be able to access that application from any browser that is NOT directly
-running on that CSIL machine.
-
-If you are ssh'ing into CSIL on your laptop (e.g. using `ssh` in a terminal session, or using an app such as `PuTTY` or `MobaXTerm` on Windows) keep in mind that if you direct your browser (running on your laptop) to `localhost:8080`, that request *never leaves your laptop*.  It looks for a web app running *on your laptop*.
-
-So, how to solve this?  There are two ways:
-
-### (1) Use curl 
-
-This is the least satisfying way, because you won't see a proper web page.  You'll only see a dump of the HTML content of the page.  But for a simple 'Hello World' app, this works fine.
-
-
-The `curl` program is a command line web client (curl stands for "C" the "URL").  For example, this command should show you the output from the `/` route for your webapp.  Run this command at the shell prompt on the CSIL machine to which you are logged in:
-
-```
-curl http://localhost:8080
-```
-
-A better way, which allows you to see the full web page is to use SSH Tunneling, described next.
-
-### (2) Use SSH Tunneling
-
-In F19, CS56 student Darragh B offered this tip for when you are running your Spring Boot app on CSIL but your browser is on your laptop.    It involves setting up what's called an "SSH Tunnel".
-
-Suppose you are running on port 8080 on host `csil-10.cs.ucsb.edu`
-
-Then you'll type the command: 
-
-```
-ssh -L 12345:localhost:8080 username@csil-10.cs.ucsb.edu
-```
-
-* If you have Mac or Linux, this should "just work".   
-* On Windows, you may need to install [Git For Windows](https://git-scm.com/download/win) and use the `Git Bash Shell` to do this.
-
-What this does is make it so that when you navigate to `http://localhost:12345` on your local browser, it sends the web request and response through an "SSH Tunnel" to port `8080` on `csil-10.cs.ucsb.edu`
-
-Running on `localhost` is fine, but it has some limitations.  That's our next task: to understand those limitations, and why we need a cloud computing platform.
 
 # Step 5: Undertstanding `localhost` vs. Heroku
 
@@ -265,14 +298,15 @@ heroku login
 Then, use this command to create a new web app running on heroku.  Substitute your github id in place of `githubid`.  
 Note that you should convert your githubid to all lowercase; heroku web-app names do not permit uppercase letters.
 
-<tt>heroku create cs56-{{site.qxx}}-<i>githubid</i>-{{page.num}}</tt>
+<tt>heroku create cs156-{{site.qxx}}-<i>githubid</i>-{{page.num}}</tt>
 
 Notes:
 * A reminder that this is an individual lab, 
   so you should complete it for yourself, i.e. there is only one github id in the name, not a pair of github ids.   
 * Please do not literally put the letters <tt><i>githubid</i></tt> 
   in your app name; you are meant to substitute your own github id there.
-
+* If Heroku indicates that the name is too long, you may truncate any
+  part of it.   
 
 # Step 7: Login to the Heroku Dashboard
 
@@ -316,7 +350,7 @@ Change that code to the following.  Be sure to replace `mygithubid` with your ow
 ```
 String html = "<h1>Hello World!</h1>\n" +
     "<p>This web app is powered by \n" +
-    "<a href='https://github.com/ucsb-cs56-w20/lab02-mygithubid'>this github repo</a></p>\n";
+    "<a href='https://github.com/ucsb-cs156-f20/jpa02-mygithubid'>this github repo</a></p>\n";
 return html;
 ```
 
@@ -347,38 +381,13 @@ Then modify them so that they pass.   Note that we are doing TDD "wrong" this ti
 we should have modified the tests first, and then modified the code so that the tests pass.   We'll pivot to this
 style of working once we have a better grasp on all the moving parts here.
 
-# Step 10: Publishing the javadoc
 
-As in lab01, we want to publish the javadoc, and put links to the javadoc and the repo in your README.md
-
-To generate the javadoc and publish it to github pages, take these steps:
-
-1. `mvn javadoc:javadoc` to generate the regular javadoc
-2. `mvn javadoc:test-javadoc` to generate javadoc for the test classes
-3. `mvn site` to generate a web page for your project
-4. `mvn site:deploy` to copy that website to the `/docs` folder of your repo
-5. `git status` to verify see that the `/docs` folder now exists.
-6. `git add docs`
-7. `git commit -m "xx - add javadoc"`  where `xx` are your initials 
-8. `git push origin master`
-9.  Then, go to the `Settings` link for your repo, and turn on GitHub pages for the `docs` folder of the master branch.
-
-Finally, check the URL shown in the settings.  It can take 3-5 minutes before it shows up.
-
-Note:
-* If you are using Windows Subsystem Linux (WSL), an error `The environment variable JAVA_HOME is not correctly set.` may appear. If this does occur a temporary fix is this: 
-`export JAVA_HOME=/usr/lib/jvm/java-1.11.0-openjdk-amd64` 
-replace `java-1.11.0-openjdk-amd64` with whatever version of Java you have installed if needed.
-
-Look at the list of commits on the repo page on github.com, and you should see either a green check, a yellow circle, or a red X indicating the status of the commit.  These markers show the status of GitHub pages.   Later in the quarter, when we enable automatic testing (via a service called Travis-CI), these markers will show the status of our test cases as well.
-
-# Step 11: Adding links to javadoc and repo in the README.md
+# Step 11: Adding links to repo in the README.md
 
 Edit your README.md.  You'll find some TODO items inside indicating what edits you need to make.
 
-All quarter long, we want you to develop the habit of adding these links in your README.md:
-* A link to your javadoc
-* A link to your repo
+All quarter long, we want you to develop the habit of adjusting the 
+README.md in your repo to include a link to your repo.
 
 The link to your repo may seem redundant, but it helps your mentors, TAs and instructors; when you submit your work for grading to either Gradescope or Gauchospace, having those links handy really helps us navigate through your assignments quickly to evaluate them and assign grades.
 
@@ -389,13 +398,13 @@ When you have a running web app, visit <{{page.gauchospace_url}}> and make a sub
 In the text area, enter something like this, substituting your repo name and your Heroku app name:
 
 <div style="font-family:monospace;">
-repo name: https://github.com/chrislee123/spring-boot-minimal-webapp<br>
-on heroku: https://cs56-{{site.qxx}}-chrislee123-{{page.num}}.herokuapp.com<br>
+repo name: https://github.com/{{page.org}}/{{page.num}}-chrislee123<br><br>
+on heroku: https://cs156-{{site.qxx}}-chrislee123-{{page.num}}.herokuapp.com<br>
 </div>
 
 Then, **and this is super important**, please make both of those URLs **clickable urls**.
 
-The instructions for doing so are here: <https://ucsb-cs56.github.io/topics/gauchospace_clickable_urls/>
+The instructions for doing so are here: <https://ucsb-cs156.github.io/topics/gauchospace_clickable_urls/>
 
 
 # Grading Rubric:
@@ -406,6 +415,6 @@ The instructions for doing so are here: <https://ucsb-cs56.github.io/topics/gauc
 * (20 pts) Test cases are updated for new content, and they pass (Step 7)
 * (10 pts) There is a post on Gauchospace that has the correct content
 * (10 pts) The links on Gauchospace are clickable links (to make it easier to test your app)
-* (10 pts) README has links to javadoc, and javadoc is accesssible on GitHub pages
+* (10 pts) README has a link to your repo.
 
 
