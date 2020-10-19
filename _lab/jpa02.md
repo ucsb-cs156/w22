@@ -360,8 +360,12 @@ Then:
 * (optional, but suggested in case you need to debug)
    * use `mvn spring-boot:run` to test locally, perhaps with `curl http://localhost:8080`
 * Use git add, git commit, and git push to push your changes to github.
-* Visit the Heroku Dashboard, and you should see that your changes are deploying to the web.
-
+* Visit the Heroku Dashboard, go to the `Deploy` tab, and scroll down to `Manual Deploys`.
+  Select the `main` branch and click `Deploy Branch` to deploy your branch to the web.
+  
+  As before, wait until the script says that your branch is successfully deployed
+  (or, if there are errors, read the error message in the log and address the errors.)
+  
 If it works, then the words "this github repo" should become clickable links.  
 * The words "this github repo" should link to your github repo
 
