@@ -6,8 +6,8 @@ gauchospace_url: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=513
 github_org: ucsb-cs156-f20
 layout: lab
 num: jpa02
-ready: false
-starter: https://github.com/ucsb-cs156-f20/STARTER_jpa02
+ready: true
+starter: https://github.com/ucsb-cs156-f20/STARTER-jpa02
 ---
 
 {% include drop_down_style.html %}
@@ -360,8 +360,12 @@ Then:
 * (optional, but suggested in case you need to debug)
    * use `mvn spring-boot:run` to test locally, perhaps with `curl http://localhost:8080`
 * Use git add, git commit, and git push to push your changes to github.
-* Visit the Heroku Dashboard, and you should see that your changes are deploying to the web.
-
+* Visit the Heroku Dashboard, go to the `Deploy` tab, and scroll down to `Manual Deploys`.
+  Select the `main` branch and click `Deploy Branch` to deploy your branch to the web.
+  
+  As before, wait until the script says that your branch is successfully deployed
+  (or, if there are errors, read the error message in the log and address the errors.)
+  
 If it works, then the words "this github repo" should become clickable links.  
 * The words "this github repo" should link to your github repo
 
@@ -412,9 +416,9 @@ The instructions for doing so are here: <https://ucsb-cs156.github.io/topics/gau
 * (10 pts) Having a repo with the correct name in the correct organization
 * (20 pts) Having a running web app at <tt>https://cs56-{{site.qxx}}-<i>githubid</i>-{{page.num}}.herokuapp.com</tt>
 * (20 pts) Running web app has the correct "new" content as specified in Step 6
-* (20 pts) Test cases are updated for new content, and they pass (Step 7)
+* (15 pts) Test cases are updated for new content, and they pass (Step 7)
 * (10 pts) There is a post on Gauchospace that has the correct content
 * (10 pts) The links on Gauchospace are clickable links (to make it easier to test your app)
-* (10 pts) README has a link to your repo.
+* (15 pts) README has a link to your repo, your Heroku app, and your Codecov report.
 
 
