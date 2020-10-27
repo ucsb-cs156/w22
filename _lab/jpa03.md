@@ -101,7 +101,7 @@ git push origin main
 
 # Step 3: Configure your app as documented in the README.md
 
-The next step is to read through the README.md
+The next step is to read through the [README.md](https://github.com/ucsb-cs156-f20/STARTER-jpa03/blob/main/README.md)
 and configure your app as indicated there.
 
 This includes configuration for Auth0, and GitHub Actions
