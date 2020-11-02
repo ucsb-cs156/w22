@@ -1,7 +1,7 @@
 ---
 desc: "ArrayList, Sorting, Comparators, Lambdas"
-assigned: 2020-10-13 14:00
-due: 2020-10-19 23:00
+assigned: 2020-11-02 17:00
+due: 2020-11-09 23:00
 layout: lab
 num: jpa04
 ready: true
