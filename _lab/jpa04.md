@@ -211,7 +211,7 @@ you may need to do some additional work in the `MenuItem.java` class as well.
 * **`sortByCategoryThenName` method**: The `sortByCategoryThenName` sorts first by the category of the item, then within each category, the items are sorted by name.   One way to approach this is to build simple comparators for category and name, and then construct a composite comparator using the `thenComparing` method, as shown in ex17.
 
 
-* **`sortByCategoryThenPriceDescendingThenByName` method **: This method is described in the comment
+* **`sortByCategoryThenPriceDescendingThenByName` method**: This method is described in the comment
   in the source file:
 
   ```java
