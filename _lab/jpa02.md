@@ -332,7 +332,7 @@ If it doesn't work, try these things before asking a mentor, TA, or instructor f
 
 # Step 8: Changing what is shown on the page
 
-Go into the Java source code under `src` and locate the file `/src/main/java/hello/HelloController.java` 
+Go into the Java source code under `src` and locate the file `/src/main/java/edu/ucsb/cs156/spring/hello/HelloController.java` 
 
 In this file, locate the line of code that says:
 
