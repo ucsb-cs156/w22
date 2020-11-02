@@ -3,7 +3,7 @@ desc: "ArrayList, Sorting, Comparators, Lambdas"
 assigned: 2020-10-13 14:00
 due: 2020-10-19 23:00
 layout: lab
-num: jpa01
+num: jpa04
 ready: true
 course_org: https://github.com/ucsb-cs156-f20
 starter_repo: https://github.com/ucsb-cs156-f20/STARTER-jpa04
@@ -63,8 +63,8 @@ These concepts are covered in these online exercises and videos:
   [ex15](https://ucsb-cs156.github.io/tutorials/student_ex15/).
 
 * Exercises
-  [ex16](https://ucsb-cs156.github.io/tutorials/student_ex14/) and
-  [ex17](https://ucsb-cs156.github.io/tutorials/student_ex15/) on sorting by implementing
+  [ex16](https://ucsb-cs156.github.io/tutorials/student_ex16/) and
+  [ex17](https://ucsb-cs156.github.io/tutorials/student_ex17/) on sorting by implementing
   `Comparator` and using `arraylist.sort(comparator)`;
   
 * Lecture Video from [Thu 10/29 on Gauchocast](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=76306c97-cb85-42c7-b484-ac6400feeaec) that goes with [ex16](https://ucsb-cs156.github.io/tutorials/student_ex16/) and
