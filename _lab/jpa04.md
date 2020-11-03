@@ -7,7 +7,7 @@ num: jpa04
 ready: true
 course_org: https://github.com/ucsb-cs156-f20
 starter_repo: https://github.com/ucsb-cs156-f20/STARTER-jpa04
-gradescope: https://www.gradescope.com/courses/126922/assignments/TBD
+gradescope: https://www.gradescope.com/courses/126922/assignments/814483
 ---
 
 <style>
