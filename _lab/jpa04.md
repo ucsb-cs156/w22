@@ -202,6 +202,8 @@ you may need to do some additional work in the `MenuItem.java` class as well.
 
 * **`Menu` constructor**: You'll see that the `Menu` class has a constructor.  That constructor currently does nothing, but it should do is set the `menuitems` instance variable to refer to an empty `ArrayList<MenuItem>` object.
 
+* **`add` method**: You'll see that there is an `add` method. This method should take in a `MenuItem` object and add it to the `ArrayList` called `menuitems`.
+
 * **`lookup` method**:  You'll see that there is a `lookup` method.  This method should search the `ArrayList` for a `MenuItem` object with a name that matches the parameter passed in.  If one is found, return a reference to that `MenuItem`; otherwise, return `null`.
 
 * **`csv` method**: You'll see that there is a `csv` method.  This method returns a `String` consisting of the entire contents of the menu, one line at a time, where each line represents one item in the menu.  The lines are separated by *newline* characters.  Since the *newline* character can be different on different systems, instead of using `'\n'`, we use the value of `System.lineSeparator();` which we store in a variable called `nl`.   (You can get a better idea of what `csv()` is supposed to do by looking at the test cases for it in `MenuTest.java`).
