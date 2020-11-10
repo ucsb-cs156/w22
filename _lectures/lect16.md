@@ -44,11 +44,13 @@ The link to the paper is here:  <https://pconrad.github.io/files/paper028.pdf>
 Your first breakout group will be with other people that read the same section as you.   Look for breakout rooms labeled: `Sect 4.1`, `Sect 4.2`,
 etc.  Join the appropriate group.
 
-In this breakout room, choose one person as the "time keeper", and a second person as the "scribe".   The scribe should keep notes in a document of their own
-choosing; they will copy/paste from this document into the main chat window after returning to the main room.
+In this breakout room, choose one person as the "time keeper", and a second person as the "scribe".   
 
-The timekeeper should give each member of the room exactly 2 minutes to share what they thought
-the **most important takeaways** were from the paper, in terms of **what students in this class might need to learn to be well prepared for industry**.  
+The scribe should keep notes in a document of their own
+choosing; they will copy/paste from this document into the main chat window after returning to the main room.  Start by writing down the names 
+of the folks that joined your breakout room.
+
+The timekeeper should give each member of the room exactly 2 minutes (you can allocate longer if you have fewer than 4 students in your room) to share what they thought the **most important takeaways** were from the paper, in terms of **what students in this class might need to learn to be well prepared for industry**.  
 
 * The timekeeper should go last, and someone else should time them. 
 * The scribe should ask someone else to scribe (in the local zoom chat window) while they give their report.   
