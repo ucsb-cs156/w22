@@ -76,7 +76,7 @@ Make a list (as a group) of (at least) six learning goals you have between now a
 They may relate to the six themes in the paper, or they may be different; the point is that they are things that are meaningful
 to the members of your group, knowing what you know from your own experiences, as well as what you've learned from this paper.
 
-Put that list on the Slack channel, along with a list of the names of the group members that contributed to your discussion.
+Put that list on your team's Slack channel (e.g. team-5pm-a, etc.), along with a list of the names of the group members that contributed to your discussion.
 
 When that's done, you are finished with today's discussion section.
 
