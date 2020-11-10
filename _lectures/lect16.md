@@ -16,6 +16,21 @@ Today we return to the paper that we read earlier in the quarter.  Each of you c
 | [team-5pm-d-NOTES](https://github.com/ucsb-cs156-f20/team-5pm-d-NOTES) | [team-6pm-d-NOTES](https://github.com/ucsb-cs156-f20/team-6pm-d-NOTES) | [team-7pm-d-NOTES](https://github.com/ucsb-cs156-f20/team-7pm-d-NOTES)  |
 {:.table .table-sm .table-striped .table-bordered}
 
+As a reminder, you wrote a summary of material from Section 4 of this paper: <https://pconrad.github.io/files/paper028.pdf>
+
+
+Where Section 4 is divided up as follows:
+
+| Section | Title | Academia | Industry | 
+|---------|-------|----------|----------|
+| 4.1 | What: Differences in Scope | well-defined, fixed scope | vague, open-ended, evolving scope |
+| 4.2 | When: Short vs. Long Time Spans | short time spans (days, weeks)  | long time spans (months, years) |
+| 4.3 | Who: Individual vs. Large Team | individuals, pairs, small groups  | larger teams |
+| 4.4 | Why: Learning vs. User Needs | to learn something  | to address a user need |
+| 4.5 | How: Ad-Hoc vs. Professional | ad-hoc tools and practices |  professional tools and formal practices |
+| 4.6 | How Big: Small vs. Large Codebases | small programs | large complex systems |
+{:.table .table-sm .table-striped .table-bordered}
+
 
 # Step 1: (Individual, 10 minutes)
 
