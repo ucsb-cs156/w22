@@ -8,7 +8,9 @@ ready: true
 7pm_url: https://github.com/ucsb-cs156-f20/proj-mapache-search/projects
 ---
 
-<div style="display: none">http://ucsb-cs156.github.io/f20/lectures/lect21</div>
+<div style="display: none">
+http://ucsb-cs156.github.io/f20/lectures/lect21
+</div>
 
 Today we start work on the three projects for the course:
 
