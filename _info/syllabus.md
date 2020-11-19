@@ -1,10 +1,9 @@
 ---
-title: "Syllabus, CMPSC 56, Winter 2020"
+title: "Syllabus, CMPSC 156, Fall 2020"
 layout: handout
 ready: true
 ---
 
-<div style="font-size:110%;" markdown="1">
 
 Basic Facts
 -----------
@@ -12,16 +11,16 @@ Basic Facts
 * **Instructor**:  [Phill Conrad](http://www.cs.ucsb.edu/~pconrad) (contact via Slack)
    * Use the "instructor messsage" feature to contact Prof. Conrad, as well as all TAs, Readers and Mentors
 * **Lecture**:
-   * Mon/Wed 12:30-1:45pm OR Tue/Thu 11am-12:15pm Phelps 3526.
+   * Tue/Thu 2-3:15pm 
    * Attendance/Participation is expected/required.
 * **TAs**: {{site.ta_list_full}} (contact via Slack)
 * **Lab** (50 minute discussion section)
-  * Tuesday or Wednesday {{site.discussion_section_times}}, Phelps 3525.
+  * Monday {{site.discussion_section_times}}
   * Attendance/Participation is expected/required.
   * You must attend the section for which you are registered
 * Office Hours: See: <http://www.cs.ucsb.edu/~pconrad/ofchrs>  
 
-Course website: <https://ucsb-cs56.github.io/w20/>
+Course website: <https://ucsb-cs156.github.io/f20/>
 
 About the Course
 ----------------
@@ -47,44 +46,40 @@ Note that "sharing code" doesn't mean "stealing code". We still don't
 take credit for other people's work---academic honesty still
 applies. It just 'looks different' in this course.
 
-The official course description is here:
 
-<div style="background-color:#eee; border: 8px inset #333; font-size:90%; margin:1em; width:50em; padding: 0.5em;" markdown="1">
-
-CMPSC 56. Advanced Applications Programming
-(4) STAFF
-Prerequisite: Computer Science 24 and 32 with a grade of C or better
-
-Advanced application programming using a high-level, virtual-machine-based language. Topics include generic programming, exception handling, programming language implementation; automatic memory management, and application development, management, and maintenance tools; event handling, concurrency and threading, and advanced library use.
-
-</div>
-
-<div style="page-break-before: always; font-size:100%;" markdown="1">
 
 Final Course Grades
 ===================
 
-The formula to determine your course grade average is explained in the table below.
+Your grade will be made up of activities from the following categories:
 
-Regardless of any other policies spelled out here, the average used to determine your final letter grade may be no higher than one full letter grade higher than your exam average.
+* Participation Grades (10%) - Each participation grade will be out of 100 points.  The grade for 10/01 is an example of this category.
+  
+  Particpation grades may vary: some are individual, some are team, and some (like 10/01) may be a combination of the two that adds up to 100.
+  
+  The lowest three participation grades will be dropped; accordingly, if you need to miss a lecture every now and then because of illness,
+  internet problems, etc., it shouldn't affect your grade unless it becomes a persistent problem (in which case you should speak to the instructor as soon as possible about your situation.)
+  
+* Homeworks / Quizzes (20 %) - These will be administered through Gradescope.  
+  Some questions will be graded by hand (e.g. short answer/essay type questions), while others might be autograded
+  (e.g. multiple choice, fill in the blank, true/false questions.)  These will typically be based on assigned readings.
+  We will drop only the lowest two grades from this category.
+  
+* Auto-Graded Programming assignments (30 %) - jpa00 is an example of these programming assignments.  None of these will be dropped; you are
+  responsible for all of them.   This may include individual assignments (such as jpa00), pair assignments, and/or team assignments.
 
-Thus,
+* Project Grade (40%) - Your project grade will be based on your contributions during the Project phase of the course.   We'll discuss that 
+  further in a few weeks, but there are details on the syllabus if you want to check them out.
 
--   reasonably good performance on exams is very important to earning a good final grade in the course.
--   an A or B should not be out of reach for anyone that has a reasonably good mastery of course concepts (enough to earn a B or C on the exams), and puts in hard work on the labs and project points.
+  In addition, we'll be using peer evaluations through a tool called CATME to assess your individual contributions to the project's success.
+  The peer evaluation may apply a multiplier to your project grade, increasing it or decreasing it, per your team's assessment 
+  of your contributions.   It is important to be sure that you are meeting your committments to your team for a variety of reasons; your
+  grade is among those.
 
 To convert final averages to letter grades, a standard 10 point scale will be used, with the upper and lower ends of each range as +/- grades, except
 for A+ grades, see below.  There is no "rounding up"; a grade of 86.9999 is a B and a grade of 87.0000 is a B+.
 
 A+ grades: These may be awarded to the very best performing students in the class—but the cutoff for A+ grades will be determined at the end of the course at the discretion of the instructor (there is no pre-determined cutoff---an average of 97 or more doesn't guarantee you an A+ grade.)
-
-| Grade Item                                                                   | Percentage of Final Grade |
-|------------------------------------------------------------------------------|---------------------------|
-| Midterm 1 | 30 % |
-| Final | 30 % |
-| Hwks, In Class Assignments | 10 % |
-| Labs (typically closed source, some open source) | 10 % |
-| Projects (typically open source) | 20 % |
 
 Missing homework/in-class activities: Drop the lowest {{ site.hwk_drop_lowest }}
 -------------------------------------------------------
@@ -97,23 +92,8 @@ drop the lowest {{ site.hwk_drop_lowest }} homework/in-class-assignment grades (
 zeros if you miss an assignment.) Each homework and in-class-activity
 will be of equal value (100 pts).
 
-Notes sheets on exams
----------------------
-
--   You are permitted one 8.5 x 11 (standard US letter size paper) sheet of notes for each exam.
--   You are permitted only one sheet per exam.
--   Your notes sheet will be collected and WILL NOT BE RETURNED
--   So, if you need a copy of it, make a copy BEFORE you come to the exam.
-
-
 More On Grading
 ---------------
-
-We'll have two exams--a midterms and a final. That part of the course
-will be traditional. And, there will be some traditional lab and
-homework assignments (and perhaps quizzes) where "everybody in the
-class does roughly the same thing"---those make up another 20% of your
-grade.
 
 Some homework assignments might be submitted on Gradescope, and those
 may have the option of submitting as a pair or as a group.  If you
@@ -123,16 +103,6 @@ just work together as "homework buddies", you are not required to make
 a pair submission, but if you do, you both earn the same grade (even
 if you have an earlier submission in your submission history.)
 
-
-The remaining part of your grade--the last 20%--comes from project points which are explained in more detail later in this syllabus.
-
-</div>
-
-<div style="page-break-before:always;">
-&nbsp;
-</div>
-
-<div style="font-size: 120%;">
 
 Project Points
 ==============
@@ -149,38 +119,6 @@ If you accumulate more than 100 project points, up to 10 project points may be u
 
 You may not earn more than 110 total project points--any points in excess of 110 will not count towards your grade (though you'll probably learn a lot from having under taken the work to earn them.)
 
-Individual Track
-================
-
-At the discretion of the instructor, there may (or may not) be an alternative "individual track" option, a way to earn  the project points&mdash;either all, or a designated portion of the points&mdash;without participating in a project team.   In this track, you'll complete a series of assignments, and your average grade on those assignments will be used in place of the designated portion of your project grade.
-
-This is not guaranteed; if it is offered at all, the process by which students may opt-in to this option will be explained at an appropriate stage of the course.
-
-### Project Point Deadlines
-
--   You may earn up to 110 project points over the course of the quarter
--   There may be intermediate deadlines by which you need to accmulate certain numbers of points, e.g. 50, 80, etc.
--   The final deadline for project points is the last day of instruction at 5pm.
-
-How to interpret these "due dates":
-
-
--   Unless told otherwise in the instructions for a particular project points assignment, you may complete any project point assignment at any time.
--   However, the points have to be "recorded" somewhere to count towards your grade.
--   Before the first deadline , you have the possibility to earn up to 110 project points.
--   If there is a deadline for the first 30 points (Project deadine 1), if you haven't yet completed/submitted any project points work, the maximum number you can earn is now 80 (110-30).
--   If there is a second deadline for 300 more points (Project 2), if you haven't yet completed/submitted any project points work, the maximum number you can earn is now 110-60= 50.
--   You may "work ahead"---that is, if you earn 80 points for your first assignment, we'll count 30 towards Project 1, 30 towards Project 2, and 20 towards Project 3.
--   However, once a deadline has passed, only project points earned before that deadline may be applied to that assignment.
-
-
-</div>
-
-<div style="page-break-before:always;">
-&nbsp;
-</div>
-
-<div style="font-size: 120%;" markdown="1">
 
 Late Labs
 ---------
@@ -229,9 +167,7 @@ in-class activities  may not be made up, except by "dropping the lowest 4".
 Thus attendance is required, and reading the assigned readings is
 required.
 
-</div>
 
-<div style="page-break-before: always; font-size:120%;" markdown="1">
 
 Questions about grades
 ----------------------
@@ -267,13 +203,7 @@ accepting that the instructor, TA and grader have been given
 responsibility for determining course standards, and applying those in
 a fair way to all students.
 
-</div>
 
-<div style="page-break-before:always;">
-&nbsp;
-</div>
-
-<div style="font-size: 120%;">
 
 
 Accommodations for disabilities
@@ -301,4 +231,4 @@ the instructor's discretion, within the bounds of UC policy.
 
 (end of syllabus)
 
-</div>
+
