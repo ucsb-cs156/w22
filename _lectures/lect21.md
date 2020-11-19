@@ -10,7 +10,6 @@ ready: true
 
 <div style="display: none">
 Show: http://ucsb-cs156.github.io/f20/lectures/lect21
-Edit: https://github.com/ucsb-cs156/f20/edit/main/_lectures/lect21.md
 </div>
 
 Today we start work on the three projects for the course:
@@ -32,3 +31,15 @@ Each of your teams has a Kanban board, shown in this table:
 | c | [F20-5pm-c]({{page.5pm_url}}/5) | [F20-6pm-c]({{page.6pm_url}}/5)|  [F20-7pm-c]({{page.7pm_url}}/5)|
 | d | [F20-5pm-d]({{page.5pm_url}}/6) |[F20-6pm-d]({{page.6pm_url}}/6)|  [F20-7pm-d]({{page.7pm_url}}/6)|
 {:.table .table-sm .table-striped .table-bordered}
+
+In the "todo" column, on each of your pages, there is one issue that is labelled as an "Epic".   
+
+This issue should remain in your "todo" column on your board throughout the remainder of the course.   You can refer to it to come up with the issues that you'll work on throughout the remainder of the quarter.
+
+The project phase is worth 40% of your grade (see discussion from [Lecture 2](https://ucsb-cs156.github.io/f20/lectures/lect02/) and the newly updated [Syllabus](https://ucsb-cs156.github.io/f20/info/syllabus/)
+
+
+
+---
+
+[Edit Page](https://github.com/ucsb-cs156/f20/edit/main/_lectures/lect21.md)
