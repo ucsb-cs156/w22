@@ -9,7 +9,8 @@ ready: true
 ---
 
 <div style="display: none">
-http://ucsb-cs156.github.io/f20/lectures/lect21
+Show: http://ucsb-cs156.github.io/f20/lectures/lect21
+Edit: https://github.com/ucsb-cs156/f20/edit/main/_lectures/lect21.md
 </div>
 
 Today we start work on the three projects for the course:
