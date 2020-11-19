@@ -53,48 +53,71 @@ If you accumulate more than 100 project points, up to 10 project points may be u
 
 You may not earn more than 110 total project points–any points in excess of 110 will not count towards your grade (though you’ll probably learn a lot from having under taken the work to earn them.)
 
-# Breakout room activities
+# Breakout room activity: turning epics into stories
+
+Choose a leader/scribe.  The leader/scribe should share their screen (you may need the latest version of Zoom 5.3.1 to be able to share screens in breakout rooms.)
+
+What we will be doing today is turning our epics into stories.
+
+We want to break up the epic into different stories, and get each story into a separate issue on the Kanban board.
+This will help us be ready on Monday to start work on these stories.
 
 
-Choose a leader and a scribe.  The scribe should share their screen (you may need the latest version of Zoom 5.3.1 to be able to share screens in breakout rooms.)
-
-We want to accomplish two things today:
-
-* **Consolidating Teams By Time Zone**.   Determining what time zones everyone is in.   
-  * It may be helpful to reshuffle team membership to consolidate people in the same time zone, if that is possible.
-  * Note that there are also benefits to being in different time zones (multiple shifts of work) as long as you are able to coordinate well.
-* **Turning Epics into Stories**.  We want to break up the epic into different stories, and get each story into a separate issue on the Kanban board.
-  This will help us be ready on Monday to start work on these stories.
-
-# Time Zone Coordination
-
-Scribe: First, go to your team's channel (e.g. `#team-5pm-a`, `#team-5pm-b`, etc.)
-
-Each member of the team: determine what time zone you are in, and the GMT/UTC offset. You may be able to [ask Google "What time zone am I in?"](https://www.google.com/search?q=what+time+zone+am+i+in) and get this information.
-
-Time zones are expressed both with a name such as "Pacific Standard Time", "India Standard Time", "China Standard Time" as well as a GMT or UTC offset (these mean the same thing.)  
-
-Examples time zones:
-- Pacific UTC-8
-- Eastern UTC-5
-- India UTC+5:30
-- China UTC+8    
-
-Ask each member of the team to type into the team's channel their time zone (name and UTC offset).
-
-Scribe: compact this information into one line where you just tally up how many individuals are in each time zone, and post it to the channel `#section-5pm`, `#section-6pm` or `#section-7pm` as appropriate.
+A story is an issue on the Kanban board that has this format.
 
 ```
-Pacific(UTC-8): 3  Eastern(UTC-5):1  China(UTC+8): 2  
+# User Story
+
+As a ____ I can ____ so that ____
+
+# Acceptance Criteria
+
+- [ ] First thing that should be true when story is done.
+- [ ] Second thing that should be true when story is done.
+...
+
+# Implementation Todos
+
+Front end:
+
+- [ ] First thing that must be done in the front end code.
+- [ ] Second thing that must be done in the front end code.
+...
+
+Back end:
+
+- [ ] First thing that must be done in the back end code.
+- [ ] Second thing that must be done in the back end code.
+...
+
+
+Testing:
+
+- [ ] Front end tests pass and there is adequate coverage
+- [ ] Back end tests pass and there is adequate coverage
+...
 ```
 
-# Team Changes
+We'll talk about what goes into each of these placeholders in lecture, but here are some quick notes.
 
-There are two kinds of team changes that may be done at this point:
-* 1-for-1 swaps
-* 
-  
-  
----
+First, here's a concrete example of a user story that has all of these:
+* <https://github.com/ucsb-cs156-f20/proj-mapache-search/issues/11>
+
+
+* **User Story** is **REQUIRED** 
+  - This is a brief statement, from a user's perspective, of who is going to use the new feature, what the new features allows them to do, and why it is important to then.
+  - For more information on user stories, see: <https://ucsb-cs156.github.io/topics/user_stories/>
+* **Acceptance Criteria** are **REQUIRED** 
+  - The ACs are things that an end user should be able to observe in the application that are true when the story is finished.
+  - As a whole, the ACs should define everything that needs to be true for the story to be *done* from an end user perspective.
+  - They need to be clear and complete.
+  - The most common problem with ACs is that they leave out things that are important; so be sure they are completely specified.
+* **Implementation Todos** 
+  - These are optional, but highly recommended.
+  - They specify the steps the team needs to take to implement the story.
+  - A common mistake is to put things that are implementation todos in the ACs.   ACs should be generally be *end user facing* and  generally should not include
+    internal implementation details.
+  - We can separate into front end, back end, and testing.
+
 
 [Edit Page](https://github.com/ucsb-cs156/f20/edit/main/_lectures/lect21.md)
