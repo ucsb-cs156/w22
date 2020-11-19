@@ -57,6 +57,9 @@ You may not earn more than 110 total project points–any points in excess of 11
 
 Choose a leader/scribe.  The leader/scribe should share their screen (you may need the latest version of Zoom 5.3.1 to be able to share screens in breakout rooms.)
 
+First, please ask each member of the team to put their "time zone" into the team's slack channel (both as an attendance check, and to collect this information).
+(Time zone= Pacific, China, India, European, for example.  The notation UTC-8 or UTC+8 may be used also.)
+
 What we will be doing today is turning our epics into stories.
 
 We want to break up the epic into different stories, and get each story into a separate issue on the Kanban board.
