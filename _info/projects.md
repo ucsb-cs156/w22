@@ -5,18 +5,10 @@ layout: default
 
 | Project |   Production | QA | PRs |
 |---------|---------|-----|----|
-| [Open Lab Scheduler](https://github.com/ucsb-cs56-w20/open-lab-scheduler/) | [open-lab-scheduler](https://open-lab-scheduler.herokuapp.com) | [w20-open-lab-scheduler-qa](https://w20-open-lab-scheduler-qa.herokuapp.com) |[PRs](https://github.com/ucsb-cs56-w20/open-lab-scheduler/pulls) | 
-| [UCSB Courses Search](https://github.com/ucsb-cs56-w20/ucsb-courses-search/) |  [ucsb-courses-search](https://ucsb-courses-search.herokuapp.com) | [ucsb-courses-search-qa](https://ucsb-courses-search-qa.herokuapp.com) | [PRs](https://github.com/ucsb-cs56-w20/ucsb-courses-search/pulls) |
-|[Mapache Search](https://github.com/ucsb-cs56-w20/mapache-search) | [mapache-search](https://mapache-search.herokuapp.com) | [mapache-search-qa](https://mapache-search-qa.herokuapp.com) | [PRs](https://github.com/ucsb-cs56-w20/mapache-search/pulls) |
+| [proj-ucsb-cs-las](https://github.com/ucsb-cs156-f20/proj-ucsb-cs-las/) | [proj-ucsb-cs-las](https://proj-ucsb-cs-las.herokuapp.com) | [proj-ucsb-cs-las-qa](https://proj-ucsb-cs-las-qa.herokuapp.com) |[PRs](https://github.com/ucsb-cs156-f20/proj-ucsb-cs-las/pulls) | 
+| [proj-ucsb-courses-search](https://github.com/ucsb-cs156-w20/proj-ucsb-courses-search/) |  [ucsb-courses-search-f20](https://ucsb-courses-search-f20.herokuapp.com) | [ucsb-courses-search-f20-qa](https://ucsb-courses-search-f20-qa.herokuapp.com) | [PRs](https://github.com/ucsb-cs156-f20/proj-ucsb-courses-search/pulls) |
+|[proj-mapache-search](https://github.com/ucsb-cs156-f20/proj-mapache-search) | [proj-mapache-search](https://proj-mapache-search.herokuapp.com) | [proj-mapache-search-qa](https://proj-mapache-search-qa.herokuapp.com) | [PRs](https://github.com/ucsb-cs156-f20/proj-mapache-search/pulls) |
 {:.table .table-sm .table-striped .table-bordered}
 
-# W20 Epics
-
-
-
-<style>
-  iframe { width: 100%; height: 1000px; overflow: scroll; }  
-</style>
-
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSSyXoAgSQFnivqHvXxTaLgQNosTU2NzuFsrCihr3Q3-Z-skYQxRKxdrfQ04nMvnB35UaDg2Rov9DXK/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+# F20 Epics
 
