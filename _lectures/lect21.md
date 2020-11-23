@@ -37,7 +37,6 @@ Each of these Kanban boards should have these columns:
 | Planning | Todo | In Progress | In Review | Done |
 |-|-|-|-|-|
 | Your teams epic, and issues in the planning stages | Issues that are fully ready for someone on the team to pick up and work on | Issues that someone on the team is currently actively working on | Issues for which there is a pull request ready for review or being reviewed | Issues where the PR has been merged to `main`|
-
 {:.table .table-sm .table-striped .table-bordered}
 
 
