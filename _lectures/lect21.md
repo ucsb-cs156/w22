@@ -32,7 +32,16 @@ Each of your teams has a Kanban board, shown in this table:
 | d | Scott | Tanay | [F20-5pm-d]({{page.5pm_url}}/6)<br/> Basic Course Search UX + CSV |[F20-6pm-d]({{page.6pm_url}}/6) <br/> course info |  [F20-7pm-d]({{page.7pm_url}}/6) <br/> Custom Search via Google|
 {:.table .table-sm .table-striped .table-bordered}
 
-In the "todo" column, on each of your pages, there is one issue that is labelled as an "Epic".   
+Each of these Kanban boards should have these columns:
+
+| Planning | Todo | In Progress | In Review | Done |
+|-|-|-|-|-|
+| Your teams epic, and issues in the planning stages | Issues that are fully ready for someone on the team to pick up and work on | Issues that someone on the team is currently actively working on | Issues for which there is a pull request ready for review or being reviewed | Issues where the PR has been merged to `main`|
+
+{:.table .table-sm .table-striped .table-bordered}
+
+
+In the "planning" column, on each of your pages, there is one issue that is labelled as an "Epic".   
 
 This issue should remain in your "todo" column on your board throughout the remainder of the course.   You can refer to it to come up with the issues that you'll work on throughout the remainder of the quarter.
 
