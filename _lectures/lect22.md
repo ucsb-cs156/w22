@@ -71,9 +71,10 @@ Each team was asked to:
 
 # Tasks for today: 
 
-1. Getting your team's repo running on Localhost
-2. Getting your team's repo running on your team's private Heroku deployment
-3. Understanding the stories that the team will get started on
+1. Set up a shared Auth0 tenant
+2. Getting your team's repo running on Localhost
+3. Getting your team's repo running on your team's private Heroku deployment
+4. Understanding the stories that the team will get started on
 
 Your task today (and continuing into tomorrow's lecture as needed) is work as a team to 
 - decide what stories you will start on first
