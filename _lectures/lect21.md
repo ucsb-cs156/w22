@@ -1,7 +1,7 @@
 ---
 num: "Lecture 21"
-lecture_date: 2020-11-19
-desc: "Thursday: Forming Project Teams"
+lecture_date: 2020-11-23
+desc: "Monday: Getting Ready to Start Coding"
 ready: true
 5pm_url: https://github.com/ucsb-cs156-f20/proj-ucsb-courses-search/projects
 6pm_url: https://github.com/ucsb-cs156-f20/proj-ucsb-cs-las/projects
