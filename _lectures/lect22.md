@@ -98,16 +98,16 @@ be doing only code reviews and testing.
 
 The final exam slot on Tuesday, December 15, 2020 4:00 PM - 7:00 PM will be for demos:
 
-* 4pm - 5pm, proj-ucsb-courses-search
+* 4pm - 5pm, proj-ucsb-courses-search (normally 5pm section)
   - 4:05-4:15: team-5pm-a
   - 4:15-4:25: team-5pm-b
   - 4:25-4:35: team-5pm-c
   - 4:35-4:45: team-5pm-d
   - 4:45-4:50  wrap up
   - 4:50-5:00  break (or overflow time if needed).
-* 5pm - 6pm, proj-ucsb-cs-las
+* 5pm - 6pm, proj-ucsb-cs-las (normally 6pm section)
   - Divided in a similar manner
-* 7pm - 8pm, proj-mapache-search
+* 6pm - 7pm, proj-mapache-search (normally 7pm section)
   - Divided in a similar manner
 
 Anyway, back to coding: if/when you do start coding, please note that you should do it in this manner:
