@@ -1,5 +1,5 @@
 ---
-num: "Lecture 22"
+num: "Lecture 21"
 lecture_date: 2020-11-19
 desc: "Monday: Understanding our teams' epics"
 ready: true
