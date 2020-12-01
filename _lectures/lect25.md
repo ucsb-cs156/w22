@@ -1,6 +1,6 @@
 ---
 num: "Lecture 25"
-lecture_date: 2020-11-24
+lecture_date: 2020-12-01
 desc: "Tuesday: Peer Evaluation, Points Poker"
 ready: true
 5pm_url: https://github.com/ucsb-cs156-f20/proj-ucsb-courses-search/projects
