@@ -37,3 +37,4 @@ ready: true
   - It's really important to be discussing your team's work
   - It's helpful if at least one member is sharing their screen
   - If needed, break out into multiple break out rooms.
+  - You can let others control your machine in zoom
