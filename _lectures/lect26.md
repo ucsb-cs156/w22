@@ -8,3 +8,16 @@ ready: true
 7pm_url: https://github.com/ucsb-cs156-f20/proj-mapache-search/projects
 ---
 
+
+# Some items to discuss
+
+* "How much of this should we be expected to know how to do"?
+
+* "I still can't get my local setup working (on CSIL, on my own machine)
+  - Consider pairing with someone whose set up is working so that you can make contributions
+
+* In team meetings: 
+  - Let's talk about how a stand up goes
+  - It's really important to be discussing your team's work
+  - It's helpful if at least one member is sharing their screen
+  - If needed, break out into multiple break out rooms.
