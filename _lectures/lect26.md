@@ -12,6 +12,22 @@ ready: true
 # Some items to discuss
 
 * "How much of this should we be expected to know how to do"?
+  - Imposter Syndrome
+  - Learning from peers
+  - Discovery learning vs. direct instruction
+  - The skill to teach others is so valuable
+  - Scaling up the help from the staff 
+  - The importance of struggle 
+ 
+* Focus first on what the story is really about.
+  - Very often that's where you spend most of your time rather than the coding
+
+* Is it cheating to use code from the internet?
+  - No. That code isn't going to be plug and play.  You are going to have to tweak that code to suit your purposes.
+  
+* Use the slack!  
+  - Ask your teammates for help before the staff
+  - Use the help-general and project channels
 
 * "I still can't get my local setup working (on CSIL, on my own machine)
   - Consider pairing with someone whose set up is working so that you can make contributions
