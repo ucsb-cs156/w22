@@ -14,6 +14,8 @@ A few notes:
   - If you need help ask for help with that!
 - Two code reviews are needed: one from a peer on your team, and another from staff
 - If you have changes requested, get those done asap
+- If your PR has merge conflicts, you need to fix those.
+  - The staff can guide you through that process.
 
 Today, in your groups:
 
