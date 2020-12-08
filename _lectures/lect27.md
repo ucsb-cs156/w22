@@ -18,7 +18,28 @@ A few notes:
   - The staff can guide you through that process.
 - PR name should be descriptive, not just "issues 34 and 35".   Say what issues 34 and 35 are.
 
-Today, in your groups:
+# Rebasing your branches
+
+Periodically, you should rebase on main.  You shoudl CERTAINLY do this before you do a PR, and if your branch shows as "out of date with main".
+
+You can do this in the GitHub Web interface if it's a simple merge.
+
+But if there are merge conflicts, it's better to do it at command line:
+
+```
+git pull --rebase origin main
+```
+
+Then after you resolve the conflicts:
+
+```
+git push origin branch-name -f
+```
+
+You may want to get a staff member to help you through this the first time.
+
+
+# Today, in your groups:
 
 * Do the usual standup meeting
 * Review the CATME peer comments
