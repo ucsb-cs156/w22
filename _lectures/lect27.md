@@ -16,6 +16,7 @@ A few notes:
 - If you have changes requested, get those done asap
 - If your PR has merge conflicts, you need to fix those.
   - The staff can guide you through that process.
+- PR name should be descriptive, not just "issues 34 and 35".   Say what issues 34 and 35 are.
 
 Today, in your groups:
 
