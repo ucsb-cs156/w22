@@ -94,6 +94,8 @@ A+ grades: These may be awarded to the very best performing students in the clas
 
 You may do it live, or you may do it pre-recorded via Video (uploaded to YouTube or Vimeo, or any other video sharing service.).
 
+Here's a tutorial [video on making demo videos from CS48 S20](https://youtu.be/k0Je8ASh4jo) (Video inception)
+
 Based on the experience of CS48 students, **pre-recording is strongly recommended**.  You will *know for sure* in advance whether the
 demo is successful, and whether or not you've hit the target length of 5-10 minutes.
 
