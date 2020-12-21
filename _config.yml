@@ -1,3 +1,5 @@
+default_branch: main
+
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
