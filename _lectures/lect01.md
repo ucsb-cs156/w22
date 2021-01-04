@@ -56,6 +56,116 @@ That member of the team should go to the repo for your team on GitHub.  Here are
 {:.table .table-sm .table-striped .table-bordered}
 
 
+That should currently be an empty, private repo, accessible only to the course staff and the members of your team.   The scribe, when they bring up the repo,
+will see something like the image shown below.  Click on the README link to create a README.md file:
+
+![click to create README](click-to-create-README-50.png)
+
+Then, your screen will look something like the image below:  
+* You will see a text area where you can enter text for the README.md file for this repo.
+* There are tabs to toggle between Edit and Preview; the format is Markdown, which is explained on [This Markdown Cheat Sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* You may have to scroll down to find the "Commit New File" button, which is how you save your changes.
+
+
+![new README](new-README-50.png)
+
+What content should you type?  Type a list of who is assigned to each section, something like this (you can copy/paste this, then edit it for your group)
+
+```
+# Notes from 01/05
+
+Paper Section Assignments:
+
+* 4.1: Alice Z.
+* 4.2: Bob Y.
+* 4.3: Chris X.
+* 4.4: (unassigned)
+* 4.5: Danny W.
+* 4.6: Emily V.
+```
+
+Then, save the file.   This first part is worth 20% towards your group participation grade; each person assigned to a section earns this if/when this 
+gets committed to GitHub.
+
+# Each person now creates a file for their section
+
+Next, each member of the team (individually) should create a file pertaining to their own section.  You can do this by following the instructions/images below.
+
+Note: Please follow the naming conventions shown below STRICTLY, including upper vs. lower-case letters.  
+
+
+First, find the "Create New File" button:
+
+![Create-new-file-50.png](Create-new-file-50.png)
+
+Then, start typing the folder name `10.06`, as shown.  As soon as you type the forward slash `/`, you should see that the filename turns into a folder name.  If you have made a typo, you can hit the delete/backspace key, and it should go back so you can edit the folder name.
+
+![start-typing-folder-50.png](start-typing-folder-50.png)
+
+![after-typing-folder-50.png](after-typing-folder-50.png)
+
+Finally, name your file as shown in the example, and fill in content as shown in the example.  For now, we *only* need the heading; the content can come later.
+The folder name shoudl be `10.061 and the file name should be one of these: `sect4.1.md1`, `sect4.2.md`, `sect4.3.md1`, `sect4.4.md`, `sect4.5.md1`, `sect4.6.md`. 
+
+![fill-in-section-heading-50.png](fill-in-section-heading-50.png)
+
+You earn 50 points towards the individual part of today's participation when you create your individual part of the repo.   You only need the heading; no content yet,  that's for Thursday.
+
+# H01
+
+This is your homework H01 for Monday; you don't need to do it right now.  Just read over it and make sure you understand it.
+
+Between now and Monday, read over the part of the paper that you were assigned, and think about these questions, and write something in your .md file
+for each of these questions.   This will count as an individual homework grade, H01, due Thursday.
+
+1. (40 pts) For the aspect of software development that you were assigned, the paper describes some aspects of what software development in school is like, vs.
+   what it is like in industry.  
+
+   Now consider your own personal experiences in school.  Do they line up with what was reported in the paper, or are they different?  Is it a mix?
+   
+   In your `10.01/sect4.x.md` file (where `x` is one of 1,2,3,4,5 or 6), 
+   write briefly about your own personal experiences in school that are relevant to this topic, and how they are the same or different
+ (or a mix of both), as compared to what the interview subjects in the paper reported.  Put this under the heading `# Question 1`.  
+ 
+2. (30 pts) Under the heading `# Question 2`, answer this question: What are the things that developers found suprising or different about industry in terms of
+   this aspect of software development?   
+   
+3. (30 pts) Under the heading `# Question 3`, answer this question: What are suggestions for things students could do in school to better prepare them for
+   this aspect of software development as practiced in industry?  
+   
+   These can be ideas from the paper, or ideas of your own; either is fine.  But in your answer, clearly identify whether each idea is your idea,
+   or one from the paper.
+   
+
+# What happens after Monday?
+
+On Monday, we'll ask each of you to read the answers of your teammates.  Then Wednesday, be prepared for a full discussion of the paper.  There will be more questions to answer then.
+
+# Checklist for today's work
+
+1. Double check that someone on the team has set the `README.md` of your team's `team-xpm-y-NOTES` repo to have the correct content (list of who is assigned to which section, with a heading of `# Notes from 10/06`
+
+2. Double check that each member of the team that's present has create a file in that repo under a folder called `10.06` with the correct content (a file that's one of (`sect4.1.md1`, `sect4.2.md`, etc.) and that the content of that file matches the instructions above.  It only needs to be a header at this point.
+
+# What then?  
+
+Three options:
+
+* Watch a 20 minute video about VS Code and the Sohibe Code Generators (now or sometime between now and next week.)
+* Ask for help with jpa00
+* AMA with course staff
+
+# A 20 minute video on VS Code
+
+Here's a 20 video about using VSCode and some of the cool things you can do with it, including the use of the Sohibe code generators for automatically generating getters/setters and other "boilerplate" code for plain old Java classes.  
+
+If you watch it and understand how it works, it can save you a *lot* of time when writing Java classes.
+
+* <https://youtu.be/mGrP-kfYHew>
+
+
+
+
 
 
 
