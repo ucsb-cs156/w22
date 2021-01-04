@@ -37,12 +37,19 @@ The first programming assignment is here: <https://ucsb-cs156.github.io/w21/lab/
 It is an autograded assignment; you'll submit via Gradescope.  It's pretty straightforward; you should be able to complete it by the end of the week.
 
 
-# Homework for Wednesday
+# Homework for Tuesday, and next Monday
 
-* Read this article: <https://pconrad.github.io/files/paper028.pdf>
-* Be prepared to discuss the ways in which developers felt unprepared, and what experiences they wish they had during their courses at University.
+* Before tomorrow night's discussion seciton, skim this article: <https://pconrad.github.io/files/paper028.pdf>
+  - For tomorrow night, Read all of the "abstract" and Section 1 (about 1 page), and skim through Section 4 (about 5 pages)
+  - During discussion section tomorrow, you'll be dividing up the six parts of section 4 among the team members,
+    and then doing a more detailed read for a homework assignment due on Monday (<https://ucsb-cs156.github.io/w21/hwk/h01/>)
 
-# This week's reading assignment
+* As you read, be prepared to discuss the ways in which developers felt unprepared, 
+  and what experiences they wish they had during their courses at University.
+
+  The point of reading this paper is to try to understand *why* this course is structured the way it is.
+
+# Reading in the Textbook (reading for H00 due Friday).
 
 This homework assignment due Friday is based on:
 
@@ -57,16 +64,14 @@ Online links to the textbooks&mdash;note that you MUST first be on the UCSB VPN 
 * [HFJ2](https://www.oreilly.com/library/view/head-first-java/0596009208/)
 * [JN7](https://learning.oreilly.com/library/view/java-in-a/9781492037248/)
 
+# Homework H00 due Friday
 
-# Homework Assignment for Friday
+<https://ucsb-cs156.github.io/w21/hwk/h00>
 
-This assignment on Gradescope: <https://www.gradescope.com/courses/219931/assignments/918077>
-
-# Next week's reading assignment (for Monday 01/11)
+# Next week's reading assignment (for Tuesday 01/12)
 
 * Read this article: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript>
-* Homework assignment on this reading coming soon.
-
+* This will help prepare you for the JavaScript programming assignment coming next week.
 
 # What will we learn in this class:
 
