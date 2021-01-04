@@ -86,6 +86,7 @@ Legacy Applications: They existed before this course started, and will continue 
 
 # Logistics
 
+* Check website for software to install <https://ucsb-cs156.github.io/w21/info/software/>
 * Check email for:
   * Research survey invitation (coming soon)
   * Slack invitation
@@ -132,11 +133,12 @@ breakout room discussion.
    with a post.
    
    The post should include
-   * The name you like to be called
-   * Your pronouns (e.g. she/her/hers, he/him/his, they/them/theirs)
-   * Your year in school
-   * Something interesting about yourself (this may be unrelated to Computing)
-   * Something you are hoping to learn in this course
+   * (a) The name you like to be called
+   * (b) Your pronouns (e.g. she/her/hers, he/him/his, they/them/theirs)
+   * (c) Your year in school
+   * (d) The time zone you are in (e.g. Pacific (UTC-8), Eastern (UTC-5), China (UTC+8), etc.)
+   * (e) Something interesting about yourself (this may be unrelated to Computing)
+   * (f) Something you are hoping to learn in this course
 
    Completing this step earn you 60% of the participation points for today's class, and you earn those as an individual.  (This part can be made up later.)
    

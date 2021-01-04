@@ -3,10 +3,19 @@ title: Software
 layout: default
 ---
 
-# Software to Install or Configure
+# Software to Install or Configure (and/or update as needed)
 
 
 ## Recommmended for Everyone
+
+
+1. Zoom Client 
+
+   Be sure that you have the *latest* version of the Zoom client.  Older versions may not have some of the features we'll need for this course.
+    
+   If you click on "About Zoom" inside zoom, you want a version that is 5.4.7 or later.
+   
+   Download it here: <https://zoom.us/download>
 
 1. UCSB VPN Client (Pulse Secure)
 
@@ -42,11 +51,108 @@ layout: default
      | MacOS | [Text](https://ucsb-cs156.github.io/topics/csil_mount_drive_to_macOs_using_samba/)  | [Video](https://youtu.be/FTlxjhjwbt0) |
      | Windows | [Text](https://ucsb-cs156.github.io/topics/csil_mount_drive_to_windows_using_samba/) | [Video](https://www.youtube.com/watch?v=fgORcrGWBH0) |
      | Linux | (ask staff) | |
+     {:.table .table-sm .table-striped .table-bordered}
 
+3. VSCode Text Editor for your local computer
 
-
+   While `vim` and `emacs` are perfectly fine for the work you may have done in CS16/24/32, when it comes to 
+   professional level application development, it's time to graduate to some more professional tools.
+   
+   We have found that VSCode (a free download for Windows/Mac/Linux) is in the sweet spot between too few features, and too complicated.
+  
+   If you haven't worked with it before, we suggest you download it and start getting used to it.
+   
+   What it does for you:
+   * Autocompletion
+   * Syntax highlighting and checking
+   * Automatic import detection
+   * Ability to see an entire directory tree at once
+   * Search and replace across multiple files
+   * and much much more...
+   
+   Download it here: <https://code.visualstudio.com/download>
      
 
+## Recommmended for MacOS Users
 
+1. Brew (package manager)
 
+   For MacOS, we'll be installing several packages for Java and JavaScript (node) development.  
+   In many cases, installing those is easier if you *first* install the brew package manager.
+   
+   To install `brew`, visit <https://brew.sh/> and follow the instructions.
+   
+2. Java 11
 
+   Yes, we want Java 11.  Not 12, Not 13, Not 14, and Not 15.  Java 11.
+
+   To install Java 11 using brew, do this:
+   
+
+   ```
+   brew update
+   brew tap AdoptOpenJDK/openjdk
+   brew cask install adoptopenjdk11
+   ```
+
+   On later upgrades (e.g. from 11.0.6,10 -> 11.0.9.1,1) use:
+
+   ```
+   brew update
+   brew cask upgrade adoptopenjdk11
+   ```
+
+   To check if you now have Java 11, open a new Terminal window and do:
+
+   ```
+   java -version
+   ```
+
+   If it worked, you should see something like this:
+
+   ```
+   # java -version
+   openjdk version "11.0.2" 2019-01-15
+   OpenJDK Runtime Environment AdoptOpenJDK (build 11.0.2+9)
+   OpenJDK 64-Bit Server VM AdoptOpenJDK (build 11.0.2+9, mixed mode)
+   ```
+
+3. Maven
+
+   After installing Java 11, do this to install maven:
+
+   ```
+   brew update
+   brew install maven
+   ```
+
+   Or if you already have Maven installed, do this to upgrade your version to the latest one:
+
+   ```
+   brew update
+   brew upgrade maven
+   ```
+
+   Then to check that it is installed, do:
+
+   ```
+   mvn --version
+   ```
+
+4. npm
+
+   To install npm, do:
+   
+   ```
+   brew update
+   brew install npm
+   ```
+   
+   Or to update to the latest version:
+
+   ```
+   brew update
+   brew upgrade npm
+   ```
+
+   
