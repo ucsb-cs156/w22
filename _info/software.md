@@ -73,6 +73,86 @@ layout: default
    Download it here: <https://code.visualstudio.com/download>
      
 
+## Recommmended for MacOS Users
 
+1. Brew (package manager)
 
+   For MacOS, we'll be installing several packages for Java and JavaScript (node) development.  
+   In many cases, installing those is easier if you *first* install the brew package manager.
+   
+   To install `brew`, visit <https://brew.sh/> and follow the instructions.
+   
+2. Java 11
 
+   Yes, we want Java 11.  Not 12, Not 13, Not 14, and Not 15.  Java 11.
+
+   To install Java 11 using brew, do this:
+   
+
+   ```
+   brew update
+   brew tap AdoptOpenJDK/openjdk
+   brew cask install adoptopenjdk11
+   ```
+
+   On later upgrades (e.g. from 11.0.6,10 -> 11.0.9.1,1) use:
+
+   ```
+   brew update
+   brew cask upgrade adoptopenjdk11
+   ```
+
+   To check if you now have Java 11, open a new Terminal window and do:
+
+   ```
+   java -version
+   ```
+
+   If it worked, you should see something like this:
+
+   ```
+   # java -version
+   openjdk version "11.0.2" 2019-01-15
+   OpenJDK Runtime Environment AdoptOpenJDK (build 11.0.2+9)
+   OpenJDK 64-Bit Server VM AdoptOpenJDK (build 11.0.2+9, mixed mode)
+   ```
+
+3. Maven
+
+   After installing Java 11, do this to install maven:
+
+   ```
+   brew update
+   brew install maven
+   ```
+
+   Or if you already have Maven installed, do this to upgrade your version to the latest one:
+
+   ```
+   brew update
+   brew upgrade maven
+   ```
+
+   Then to check that it is installed, do:
+
+   ```
+   mvn --version
+   ```
+
+4. npm
+
+   To install npm, do:
+   
+   ```
+   brew update
+   brew install npm
+   ```
+   
+   Or to update to the latest version:
+
+   ```
+   brew update
+   brew upgrade npm
+   ```
+
+   
