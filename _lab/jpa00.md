@@ -1,13 +1,15 @@
 ---
 desc: Getting Started
-assigned: 2020-10-05 17:00
-due: 2020-10-08 23:00
+assigned: 2021-01-04 12:30
+due: 2021-01-08 23:00
 layout: lab
 num: jpa00
 ready: true
 signup_app: https://ucsb-cs-github-linker.herokuapp.com/
-slack: https://ucsb-cs156-f20.slack.com
-course_org: https://github.com/ucsb-cs156-f20
+slack: https://ucsb-cs156-w21.slack.com
+course_org: https://github.com/ucsb-cs156-w21
+course_org_name: ucsb-cs156-w21
+starter_repo: https://github.com/ucsb-cs156-w21/STARTER-jpa00
 ---
 
 This assignment is `jpa00`, i.e "Java Programming Assignment 00".
@@ -56,8 +58,8 @@ That one may actually take quite a bit more work.
 Step 0: Getting oriented
 ========================
 
-Even if you've used CSIL before, there are some important changes for
-Fall 2020, so read through this carefully.
+Even if you've used CSIL before, there continue to be ongoing changes
+to how we interact with CSIL.    So please read this carefully.
 
 1. You should have a College of Engineering (CSIL) Account.   If you don't,
    you can create one by visiting <https://accounts.engr.ucsb.edu>
@@ -66,21 +68,23 @@ Fall 2020, so read through this carefully.
    need to do that.
 
 2. Once you have a CSIL account, please know that the way of remotely logging
-   in to CSIL *has changed* for Fall 2020.
+   in to CSIL *changed* in Fall 2020.
 
    Before Fall 2020, you were asked to *not* use `csil.cs.ucsb.edu`, but
    instead to use `csil-01.cs.ucsb.edu`, `csil-01.cs.ucsb.edu`, etc.
 
    *THE OPPOSITE IS NOW TRUE*.
 
-   Until told otherwise, for Fall 2020, please use only
+   Going forward, until told otherwise please use only
    `csil.cs.ucsb.edu`, and do *not* use `csil-01.cs.ucsb.edu`,
    `csil-02.cs.ucsb.edu`, etc.
 
    As far as how to login, we'll cover that in in the next item.
 
-3. If you've ssh'd to `csil.cs.ucsb.edu` before, you may have an entry
-   in a file on your system called `known_hosts`.  The old
+3. If you've ssh'd to `csil.cs.ucsb.edu` before, but haven't logged into that
+   site recently (i.e. since Summer 2020), you might find that you get
+   an error message when trying to login due to stale values in a file
+   ion your system called `known_hosts`.  The old
    entry in that file for `csil.cs.ucsb.edu` will need to be deleted,
    since the `hostid` value has changed over the summer.
 
@@ -95,9 +99,9 @@ Fall 2020, so read through this carefully.
 
    * `vim ~/.ssh/known_hosts` to edit the file and remove the line for `csil.cs.ucsb.edu`
    * `emacs ~/.ssh/known_hosts` if you prefer that editor
-   * `rm ~/.ssh/known_hosts` if you just want to blow the file away 
+   * `rm ~/.ssh/known_hosts` if you just want to delete the file completely.
 
-   Blowing the file away will just mean that the first time you connect to any particular system, you'll be asked whether you *really* want to connect to that system, and store it's identifying information in your `known_hosts` file, and you'll have to respond `yes`. 
+   Deleting that file will just mean that the first time you connect to any particular system, you'll be asked whether you *really* want to connect to that system, and store it's identifying information in your `known_hosts` file, and you'll have to respond `yes`. 
 
 3. If you already have used an SSH client before, you can continue using
    that same client, but specify `csil.cs.ucsb.edu` as the hostname.
@@ -122,8 +126,11 @@ Fall 2020, so read through this carefully.
 )
    -  knowing basic Unix/Linux
       commands to create directories, change directory, manipulate files, i.e. commands such as: `mkdir`, `cd`, `pwd`, `mv`, `rm`, `ls`.
-
-
+   If those topics are new to you, please reach out to the instructor to let them know, and ask for pointers to resources where you can
+   study up on these skills.
+   
+5. We strongly encourage the use of VSCode as an editor this course.   For this assignment, it will not matter what editor you use, 
+   but in future assignments, the use of an IDE will become more important.  We'll discuss this more in lecture.
 
 # The rest of the lab: Step-by-Step
 
@@ -261,7 +268,7 @@ This is currently an empty repo.  In the next step, we'll clone this empty repo 
    `url` with the url that you copied.
 
    That `url` should be something like
-   `git@github.com:ucsb-cs156-f20/jpa00-cgaucho.git` but with your GitHub id in place of `cgaucho`.
+   <tt>git@github.com:{{page.course_org_name}}/{{page.num}}-cgaucho.git</tt> but with your GitHub id in place of <tt>cgaucho</tt>.
 
    ```
    git clone url
@@ -269,18 +276,18 @@ This is currently an empty repo.  In the next step, we'll clone this empty repo 
 
    You'll will see a warning message that you are cloning an empty repo; that's normal.
 
-   ```
-   Cloning into 'jpa00-cgaucho'...
-   warning: You appear to have cloned an empty repository.
-   ```
-
-4. If you use the `ls` command, you should now have a subdirectory called `jpa00-cgaucho` (except `cgaucho` will be your GitHub username.)  Use
+   
+   <tt>Cloning into {{page.num}}-cgaucho...<br />
+   warning: You appear to have cloned an empty repository<br /></tt>
+   
+  
+4. If you use the `ls` command, you should now have a subdirectory called <tt>{{page.num}}-cgaucho</tt> (except <tt>cgaucho</tt> will be your GitHub username.)  Use
    a `cd` command to change directory 
    into that directory, e.g.
 
-   ```
-   cd jpa00-cgaucho
-   ```
+   
+   <tt>cd {{page.num}}-cgaucho</tt>
+   
 
    An `ls -a` should reveal an empty
    directory except for the `.git` subdirectory indicating that this is a GitHub repo.  
@@ -297,7 +304,7 @@ This is currently an empty repo.  In the next step, we'll clone this empty repo 
 
 First, let's take a look at this remote on GitHub, here:
 
-* <https://github.com/ucsb-cs156-f20/STARTER-jpa00>
+* <{{page.starter_repo}}>
 
 You should see that the `README.md` for this repo has an explanation of the contents of the starter code.  Read though this explanation to learn more about:
 * Maven
@@ -321,12 +328,12 @@ The word `master` refers to the default branch of the repo.  The default branch 
 
 If you type the following command, you'll see that `origin` is defined as a remote for the repo that you cloned from.  Your output will look similar, except that you'll have your GitHub in place of `cgaucho`:
 
-```
-% git remote -v
-origin	git@github.com:ucsb-cs156-f20/jpa00-cgaucho.git (fetch)
-origin	git@github.com:ucsb-cs156-f20/jpa00-cgaucho.git (push)
-% 
-```
+<tt>
+% git remote -v<br />
+origin	git@github.com:{{page.course_org_name}}/{{page.num}}-cgaucho.git (fetch)<br />
+origin	git@github.com:{{page.course_org_name}}/{{page.num}}-cgaucho.git (push)<br />
+% <br />
+</tt>
 
 Now, we are going to add a second remote.  This remote will use the URL for the starter code.
 
@@ -342,14 +349,15 @@ git remote add starter paste-url-here
 
 After this command, use `git remote -v` to list all your remotes. Your output should look like this (except your GitHub id in place of `cgaucho`):
 
-```
-% git remote -v
-origin	git@github.com:ucsb-cs156-f20/jpa00-cgaucho.git (fetch)
-origin	git@github.com:ucsb-cs156-f20/jpa00-cgaucho.git (push)
-starter	git@github.com:ucsb-cs156-f20/STARTER-jpa00.git (fetch)
-starter	git@github.com:ucsb-cs156-f20/STARTER-jpa00.git (push)
+<tt>
+% git remote -v<br />
+origin	git@github.com:{{page.course_org_name}}/{{page.num}}-cgaucho.git (fetch)<br />
+origin	git@github.com:{{page.course_org_name}}/{{page.num}}-cgaucho.git (push)<br />
+starter	git@github.com:{{page.course_org_name}}/STARTER-{{page.num}}.git (fetch)<br />
+starter	git@github.com:{{page.course_org_name}}/STARTER-{{page.num}}.git (push)<br />
 % 
-```
+</tt>
+
 ## Step 10: Pull Starter Code into your Repo
 
 The next step is to pull the starter code into your repo, and then push
@@ -365,7 +373,7 @@ git push origin main
 
 After these three commands, go look at your repo on GitHub, i.e. the repo at this url (but substituting your GitHub id for cgaucho:)
 
-* <https://github.com/ucsb-cs156-f20/jpa00-cgaucho>
+* <https://github.com/{{page.course_org_name}}/{{page.num}}-cgaucho>
 
 You should see that instead of an empty repo, you now have a copy of the starter code.
 

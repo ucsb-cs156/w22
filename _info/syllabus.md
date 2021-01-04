@@ -1,5 +1,5 @@
 ---
-title: "Syllabus, CMPSC 156, Fall 2020"
+title: "Syllabus, CMPSC 156, Winter 2021"
 layout: handout
 ready: true
 ---
@@ -11,13 +11,18 @@ Basic Facts
 * **Instructor**:  [Phill Conrad](http://www.cs.ucsb.edu/~pconrad) (contact via Slack)
    * Use the "instructor messsage" feature to contact Prof. Conrad, as well as all TAs, Readers and Mentors
 * **Lecture**:
-   * Tue/Thu 2-3:15pm 
-   * Attendance/Participation is expected/required.
+   * Mon/Wed 12:30-1:45pm 
+   * The class will be a **synchronous online** class, offered over Zoom.  
+   * While there will be *some* lecture material (recorded and made available asynchronously over Zoom), in most class meetings there will be some 
+     activities that are done in teams, in breakout rooms, during the class meeting time.  There is no meaningful way these activities can be
+     "recorded" or done asynchronously, since the skills we are teaching and learning are *team* skills.   
+   * If you cannot participate synchronously on a regular basis (e.g. due to time zones, class conflicts, etc.), you may want to wait to 
+     take this course after in-person classes have resumed.  It is unliklely that will be before F21, but we hope that it will happen eventually.
 * **TAs**: {{site.ta_list_full}} (contact via Slack)
 * **Lab** (50 minute discussion section)
-  * Monday {{site.discussion_section_times}}
+  * Tuesday {{site.discussion_section_times}}
   * Attendance/Participation is expected/required.
-  * You must attend the section for which you are registered
+  * You must participate the section for which you are registered, since teams are assigned by section.
 * Office Hours: See: <http://www.cs.ucsb.edu/~pconrad/ofchrs>  
 
 Course website: <https://ucsb-cs156.github.io/f20/>
@@ -25,7 +30,8 @@ Course website: <https://ucsb-cs156.github.io/f20/>
 About the Course
 ----------------
 
--   Our goal is to learn Java---but not just to learn Java for the sake of learning Java. After all, some of you already "know Java", at some level.
+-   Our goal is to learn how Advanced Application Development works.
+-   We will learn some aspects of Java and JavaScript--but not just to learn Java and JavaScript for the sake of learning another language.
 -   Our bigger goals are:
     -   to practice using APIs and frameworks to get stuff done--a very relevant real world job skill!
     -   to learn how to learn a new language or technology--something you'll do a lot in your career
@@ -47,7 +53,6 @@ take credit for other people's work---academic honesty still
 applies. It just 'looks different' in this course.
 
 
-
 Final Course Grades
 ===================
 
@@ -65,43 +70,60 @@ Your grade will be made up of activities from the following categories:
   (e.g. multiple choice, fill in the blank, true/false questions.)  These will typically be based on assigned readings.
   We will drop only the lowest two grades from this category.
   
-* Auto-Graded Programming assignments (30 %) - jpa00 is an example of these programming assignments.  None of these will be dropped; you are
+* PAs (Auto-Graded Programming assignments) (30 %) - jpa00 is an example of these programming assignments.  None of these will be dropped; you are
   responsible for all of them.   This may include individual assignments (such as jpa00), pair assignments, and/or team assignments.
 
-* Project Grade (40%) - Your project grade will be based on your contributions during the Project phase of the course.   We'll discuss that 
-  further in a few weeks, but there are details on the syllabus if you want to check them out.
+* Project Grade:  (40%) - Your project grade will be based on your contributions during the Project phase of the course.   
+
+  The project grade is divided into two parts:
+  * Half of the project grade (20% of of your overall course grade) is based on your team's productivity, i.e. the extent to which your team
+    makes substantial contributions to the open source project to which you are assigned.   Your team earns points towards a total of 
+    100 points for this grade item each time a "pull request" is merged by course staff into the `main` branch of the GitHub repository of
+    code for that project.    The number of points earned will vary depending on the challenge represented by the code change.
+    
+  * The other half of the project grade is based on an assessment of your performance on various quality metrics related to your team's
+    *professional skills* related to software development.  Your grade here may be a team based grade, an individual grade, or a combination
+    of these.  Examples of these include, but are not limited to:
+    - The quality of commit messages (inspected by spot checking)
+    - The quality of descriptions on pull requests and issues
+    - The extent to which you and your team keep your Kanban board up-to-date 
 
   In addition, we'll be using peer evaluations through a tool called CATME to assess your individual contributions to the project's success.
   The peer evaluation may apply a multiplier to your project grade, increasing it or decreasing it, per your team's assessment 
   of your contributions.   It is important to be sure that you are meeting your committments to your team for a variety of reasons; your
   grade is among those.
 
-To convert final averages to letter grades, a standard 10 point scale will be used, with the upper and lower ends of each range as +/- grades, except
-for A+ grades, see below.  There is no "rounding up"; a grade of 86.9999 is a B and a grade of 87.0000 is a B+.
+We will compute an overall average for your score in the course, based on the weights above, plus extra credit.
 
-A+ grades: These may be awarded to the very best performing students in the class—but the cutoff for A+ grades will be determined at the end of the course at the discretion of the instructor (there is no pre-determined cutoff---an average of 97 or more doesn't guarantee you an A+ grade.)
+* Then, a standard 10 point scale will be applied to your overall grade, plus *each* of the four components of your grade 
+  (Participation, Homeworks/Quizzes, PAs, and Project), with the upper and lower ends of each range as +/- grades, 
+  except for A+ grades, see below.  There is no "rounding up"; a grade of 86.9999 is a B and a grade of 87.0000 is a B+.
 
-Missing homework/in-class activities: Drop the lowest {{ site.hwk_drop_lowest }}
+  This gives us five grade components: the original four, plus your overall average.
+  
+Finally:
+
+* To earn a grade of A, you must an A average overall, and in *each* of the five components.
+* To earn a grade of A-, you must have at least an A- average overall, and at least a B- average in each of the categories.
+* To earn a grade of B+, you must have at least an B+ average overall, and at least a C+ average in each of the categories.
+* To earn a grade of B, you must have at least an B+ average overall, and at least a C average in each of the categories.
+* To earn a grade of B-, you must have at least an B- average overall,  and at least a C- average in each of the categories.
+* To earn a grade of C, C-, D+, D or D- you need only to have that letter grade average overall (no additional criteria apply).
+
+A+ grades: These may be awarded to the very best performing students in the class—but the cutoff for A+ grades will be determined at the end of the course at the discretion of the instructor (there is no pre-determined cutoff).   Students earning an A+ grade must be in the top 10% of each of the five components of the grade in the class.  The instructor may decide, at their discretion, to not award any A+ grades.
+
+Missing homework/in-class activities: Drop the lowest n grades 
 -------------------------------------------------------
 
-If you miss a class, you miss the opportunity for the points on that
-in-class assignment, or homework that was due. Period.
+If you miss a participation assignment, you miss the opportunity for the points on that participation assignment, or homework that was due. 
 
-There is no makeup. In lieu of providing a makeup opportunity, I will
-drop the lowest {{ site.hwk_drop_lowest }} homework/in-class-assignment grades (which may be
-zeros if you miss an assignment.) Each homework and in-class-activity
-will be of equal value (100 pts).
+Rather than providing a makeup opportunity, I will drop:
+* the lowest 3 participation assignments
+* the lowest 2 homework/quiz grades 
 
-More On Grading
----------------
+This should be sufficient to allow for occaisional personal situations that may prevent your participation; if there is some special circumstance beyond your control where greater consideration may be needed, please contact the instructor; they will consider these on a case-by-case basis.
 
-Some homework assignments might be submitted on Gradescope, and those
-may have the option of submitting as a pair or as a group.  If you
-*choose* this option, you are making *one* submission for the pair or
-group, and everyone gets a grade based on that submission.  If you
-just work together as "homework buddies", you are not required to make
-a pair submission, but if you do, you both earn the same grade (even
-if you have an earlier submission in your submission history.)
+Each homework and in-class-activity will be of equal value (100 pts).
 
 
 Project Points
@@ -120,8 +142,8 @@ If you accumulate more than 100 project points, up to 10 project points may be u
 You may not earn more than 110 total project points--any points in excess of 110 will not count towards your grade (though you'll probably learn a lot from having under taken the work to earn them.)
 
 
-Late Labs
----------
+Late Programming Assignments
+----------------------------
 
 The policy is simple, and is based on the idea that the primary
 purpose of the deadlines is to allow the TA manage his/her
@@ -136,36 +158,6 @@ So:
 -   If you turn in your lab late, you RISK GETTING A ZERO.
 -   We will grade late labs ONLY if it creates no extra inconvenience for the graders, and we WILL impose a penalty between 10-20% (see the individual grading rubrics for the labs.)
 -   There is NO GUARANTEE that late labs will be graded at all. The TA will simply start work at some point after the deadline, and grade until he/she is finished. At that time, he/she will "close the books" on that particular lab, and any work not submitted at that time will NOT be considered.
-
-
-Attendance
-==========
-
-This course moves quickly. So attendance is very important.
-
-We'll be trying to master the material from about 14 chapters in the
-Head First Java book (1-11, 16, 17) plus portions of the Java in a Nutshell book.
-That's a pace of about 4 chapters per week. We need to go at that pace,
-because we'll lose a couple of weeks to exams, and the last few
-lectures the quarter, you can't really start anything new, because
-there isn't time to put it into practice with programming
-assignments.    If you don't put it into practice, you aren't very likely
-to learn it in any way that is going to stick with you, so there isn't
-much point in just "going through the motions".
-
-As a result, there will be something you have to turn in at almost
-every class, plus some times when you have to submit homeworks electronically
-through Gradescope.   In this way, attendance is taken, and required.
-
-These things you have to turn in will be a combination of in-class
-activities, and homework completed outside of class, but handed in on
-paper during class.
-
-In class activities may occur at anytime, announced or unannounced. Missed
-in-class activities  may not be made up, except by "dropping the lowest 4".
-
-Thus attendance is required, and reading the assigned readings is
-required.
 
 
 
@@ -202,8 +194,6 @@ important to approach such conversations in a respectful manner,
 accepting that the instructor, TA and grader have been given
 responsibility for determining course standards, and applying those in
 a fair way to all students.
-
-
 
 
 Accommodations for disabilities
