@@ -30,4 +30,5 @@ as we move through differnet phases of the course.
 | 6pm | team-6pm-4 |  Zac      | Mara | 
 | 7pm | team-7pm-1 |  Andrew   | Jacqui | 
 | 7pm | team-7pm-2 |  Bryan    | Mara | 
+{:.table .table-sm .table-striped .table-bordered}
 
