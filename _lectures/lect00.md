@@ -1,11 +1,11 @@
 ---
 num: Lecture 0
-lecture_date: 2020-10-01
+lecture_date: 2021-01-04
 desc: "Introduction to CS156"
-ready: false
+ready: true
 ---
 
-<div style="display:none;">https://ucsb-cs156.github.io/f20/lectures/lect00
+<div style="display:none;">https://ucsb-cs156.github.io/w21/lectures/lect00
 </div>
 
 
@@ -15,13 +15,13 @@ Here: <https://ucsb-cs156.github.io>
 
 Note the two parts:
 * Permanent part for CS156
-* The part for /f20/ specifically
+* The part for /w21/ specifically
 
 # Where is the syllabus?
 
 Here:
 
-* <https://ucsb-cs156.github.io/f20/info/syllabus/>
+* <https://ucsb-cs156.github.io/w21/info/syllabus/>
 
 # My special passion: Teaching real world software practice
 
@@ -29,10 +29,44 @@ Why is this course different from all other courses?
 
 Because as a young software developer I saw a gap between what I learned in school, and what i needed in industry.
 
-# Homework for Tuesday
+
+# Getting Started With Java Programming
+
+The first programming assignment is here: <https://ucsb-cs156.github.io/w21/lab/jpa00/>
+
+It is an autograded assignment; you'll submit via Gradescope.  It's pretty straightforward; you should be able to complete it by the end of the week.
+
+
+# Homework for Wednesday
 
 * Read this article: <https://pconrad.github.io/files/paper028.pdf>
 * Be prepared to discuss the ways in which developers felt unprepared, and what experiences they wish they had during their courses at University.
+
+# This week's reading assignment
+
+This homework assignment due Friday is based on:
+
+* Chapters 1 and 2 of Head First Java 2nd Edition (HFJ2), and Chapter 1 on Java in a Nutshell, 7th Edition (JN7).
+* We also have one question about material on pages 372-373 on JN7, the section titled "Slow Adoption Rates".  Please read that one short section as well.
+
+* Limited Online Access to these textbooks is free if you are on the [UCSB VPN](https://www.it.ucsb.edu/pulse-secure-campus-vpn/get-connected-vpn)
+* Caution though, that there are a limited number of concurrent UC "seats" in our site license, and after those are all used, you might get asked for a credit card.
+* So having your own copy is a good idea.
+
+Online links to the textbooks&mdash;note that you MUST first be on the UCSB VPN for these to work.
+* [HFJ2](https://www.oreilly.com/library/view/head-first-java/0596009208/)
+* [JN7](https://learning.oreilly.com/library/view/java-in-a/9781492037248/)
+
+
+# Homework Assignment for Friday
+
+This assignment on Gradescope: <https://www.gradescope.com/courses/219931/assignments/918077>
+
+# Next week's reading assignment (for Monday 01/11)
+
+* Read this article: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript>
+* Homework assignment on this reading coming soon.
+
 
 # What will we learn in this class:
 
@@ -46,32 +80,21 @@ Because as a young software developer I saw a gap between what I learned in scho
 
 Two halves:
 * First half: More traditional homework/programming assignments.
-* Second half: Teams, working on a three or four big applications
+* Second half: Teams, working on three or four big applications
 
 Legacy Applications: They existed before this course started, and will continue to exist in the future.
 
 # Logistics
 
 * Check email for:
-  * Research survey invitation 
+  * Research survey invitation (coming soon)
   * Slack invitation
-* Join ucsb-cs156-f20 github org
+* Join ucsb-cs156-w21 github org
   * Create account at github.com
   * Add your @ucsb.edu or @umail.ucsb.edu email address (either one)
   * Visit <https://ucsb-cs-github-linker.herokuapp.com> and login with your github username/password
-  * On home page of app, click to join cs156 f20
-  * Click link to accept the invite to the org
-
-
-# Homework for Monday
-
-* Read Chapters 1,2 in HFJ (Head First Java)
-  * Free Online if you are on the UCSB VPN <https://proquest.safaribooksonline.com/book/programming/java/0596009208>
-  * Caution though, that there are a limited number of concurrent UC "seats" in our site license, and after those are all used,
-    you might get asked for a credit card.
-  * So having your own copy is a good idea.
-
-* Read this article: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript>
+  * On home page of app, click to join cs156 {{site.qxx}}
+  * Click link to **accept** the invite to the org
 
 
 
@@ -89,27 +112,10 @@ We'll go into breakout rooms and you'll meet the first team you'll be working wi
 
 Teams are by discussion section; there are three discussion sections, and 4 teams per discussion section.
 
-Team assignments [are listed here](https://docs.google.com/spreadsheets/d/e/2PACX-1vQOCADvCf9G46uSJ2m6tpFiGqMDuMOlfG_sSfcHZ8YSmOuonXQTga0dF5ASO_5RiM-UH5Zpc9sMcNgm/pubhtml).
-
-Your mentor and TA are found in this table:
-
-| Discussion Section | Team | Mentor (LA) |  TA  |
-|--------------------|------|-------------|------|
-| 5pm | team-5pm-a | Andrew | Mara | 
-| 5pm | team-5pm-b | Darragh | Mara | 
-| 5pm | team-5pm-c | Gabe | Scott | 
-| 5pm | team-5pm-d | Tanay | Scott | 
-| 6pm | team-6pm-a | Andrew | Mara | 
-| 6pm | team-6pm-b | Darragh | Mara | 
-| 6pm | team-6pm-c | Gabe | Scott | 
-| 6pm | team-6pm-d | Tanay | Scott | 
-| 7pm | team-7pm-a | Andrew | Mara | 
-| 7pm | team-7pm-b | Darragh | Mara | 
-| 7pm | team-7pm-c | Gabe | Scott | 
-| 7pm | team-7pm-d | Tanay | Scott | 
+Team assignments [are listed here](https://docs.google.com/spreadsheets/d/e/2PACX-1vSdD-1GJpQb1wKalDjFjLDBbKOjNboZzz6ZqYdcQJQSilQZGrxfZdX5ZteD5hQh28srMGPQHCjpJlnb/pubhtml?gid=1726883892&single=true).
 
 
-Note that while your LA and/or TA might drop in on your Breakout Room, they are not the discussion leader.  You need to self-organize to run your own 
+Note that while the instructor, or a TA or LA might drop in on your Breakout Room, they are not the discussion leader.  You need to self-organize to run your own 
 breakout room discussion.
 
 # What to do in your breakout room
@@ -132,8 +138,9 @@ breakout room discussion.
    * Something interesting about yourself (this may be unrelated to Computing)
    * Something you are hoping to learn in this course
 
-   Completing this step earn you 50% of the participation points for today's class, and you earn those as an individual.  
-   The remaining 50% comes as a "group grade" when your group completes the questions below.
+   Completing this step earn you 60% of the participation points for today's class, and you earn those as an individual.  (This part can be made up later.)
+   
+   The remaining 40% comes as a "group grade" when your group completes the questions below (note that you must be present in class to earn this part.)
 
 3. The person who is the scribe should:
    * Find the Slack channel for the team
@@ -149,20 +156,14 @@ breakout room discussion.
    Each of these is worth 10% towards your group's particpation grade for today's activity.  The discussion leader should note that there are 
    five questions, so be sure to allocate the time appropriately, and move on to the next question as needed.
    
-   *  *Question 1*: For every group, either your LA or TA (or both) has taken this class (CS56) or been a TA/LA for this class before.
-   
-      Find out which one took the class before, and ask that person: what were the take aways that ended up being valuable
-      in real-world settings?
-      
-      Write down a short summary of their answer (1-3 sentences)
-   
-   *  *Question 2*: Every team is a group of people, but not every group of people functions as a team.
+ 
+   *  *Question 1*: Every team is a group of people, but not every group of people functions as a team.
 
       Think about when you've been part of a successful team.  As a group, identify at least three
       things that are true of a team that functions well.   You could probably identify many more,
       but for today, stop at three so you have time for the remaining questions.
       
-   *  *Question 3*: There are a variety of dimensions of "success" for a team.  
+   *  *Question 2*: There are a variety of dimensions of "success" for a team.  
 
       One dimension is the "outcome" of what they 
       produce, e.g. do they win the game, or make the product, etc.
@@ -179,7 +180,7 @@ breakout room discussion.
       is more about looking forward to what you'll do with *this* team and any other temas are you are part of
       in CMPSC 156.)
       
-   *  *Question 4*: On a team, there are often people with different levels of prior experience and knowledge 
+   *  *Question 3*: On a team, there are often people with different levels of prior experience and knowledge 
       for the given task.  Your team likely has different levels of prior experience, knowledge, and current skill level with
       in a variety of areas, such as Java, JavaScript, git, GitHub, databases, HTML, CSS, and Agile just to name a few topics.
 
@@ -187,7 +188,7 @@ breakout room discussion.
 
       Think of three challenges that might arise because of differnet levels of experience.
       
-   *  *Question 5:* Now, for each of the challenges you listed above, come up with a strategy that a team could use
+   *  *Question 4:* Now, for each of the challenges you listed above, come up with a strategy that a team could use
       to address that challenge, and put the team on the path to success.
       
       
