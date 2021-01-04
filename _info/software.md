@@ -3,10 +3,19 @@ title: Software
 layout: default
 ---
 
-# Software to Install or Configure
+# Software to Install or Configure (and/or update as needed)
 
 
 ## Recommmended for Everyone
+
+
+1. Zoom Client 
+
+   Be sure that you have the *latest* version of the Zoom client.  Older versions may not have some of the features we'll need for this course.
+    
+   If you click on "About Zoom" inside zoom, you want a version that is 5.4.7 or later.
+   
+   Download it here: <https://zoom.us/download>
 
 1. UCSB VPN Client (Pulse Secure)
 
