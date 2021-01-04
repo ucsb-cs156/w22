@@ -114,6 +114,15 @@ Legacy Applications: They existed before this course started, and will continue 
 * Website: <https://ucsb-cs156.github.io>
    * Especially under <https://ucsb-cs156.github.io/topics>
 
+# Before we pivot to our team activity
+
+The team activity we have planned for today involved using the course Slack, and
+it is still my hope that we'll proceed with that plan.
+
+However, as of 10am on the day of this lecture, slack was reporting some problems: (<https://status.slack.com/>).
+
+If Slack is still not working for us when we get to today's assignment, there's a **backup plan** at the bottom of this page (use this ONLY if Slack is down).  Scroll down to it if it's needed.
+
 # Now we meet our first team
 
 We'll go into breakout rooms and you'll meet the first team you'll be working with during the course.
@@ -228,3 +237,11 @@ What are you most interested to learn in this course?
 * User Stories ("As an X i can Y so that Z")
 
 Record as much of your conversation as you are able in the Slack channel
+
+
+# BACKUP PLAN IF SLACK IS DOWN (only to used if slack is down)
+
+
+* Each team can use the Zoom chat channel in the breakout room to coordinate (and actually talk to each other out loud).
+* For the things you are supposed to post in the Slack channel, please create a Google Drive document, and share it with `phtcon@ucsb.edu`, `maradowning@ucsb.edu`, and `jacquelinemai@ucsb.edu`.
+
