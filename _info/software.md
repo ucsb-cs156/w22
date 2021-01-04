@@ -44,9 +44,24 @@ layout: default
      | Linux | (ask staff) | |
      {:.table .table-sm .table-striped .table-bordered}
 
+3. VSCode Text Editor for your local computer
 
-
-
+   While `vim` and `emacs` are perfectly fine for the work you may have done in CS16/24/32, when it comes to 
+   professional level application development, it's time to graduate to some more professional tools.
+   
+   We have found that VSCode (a free download for Windows/Mac/Linux) is in the sweet spot between too few features, and too complicated.
+  
+   If you haven't worked with it before, we suggest you download it and start getting used to it.
+   
+   What it does for you:
+   * Autocompletion
+   * Syntax highlighting and checking
+   * Automatic import detection
+   * Ability to see an entire directory tree at once
+   * Search and replace across multiple files
+   * and much much more...
+   
+   Download it here: <https://code.visualstudio.com/download>
      
 
 
