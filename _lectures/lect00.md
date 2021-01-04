@@ -86,6 +86,7 @@ Legacy Applications: They existed before this course started, and will continue 
 
 # Logistics
 
+* Check website for software to install <https://ucsb-cs156.github.io/w21/info/software/>
 * Check email for:
   * Research survey invitation (coming soon)
   * Slack invitation
