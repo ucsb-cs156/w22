@@ -129,11 +129,13 @@ We'll go into breakout rooms and you'll meet the first team you'll be working wi
 
 Teams are by discussion section; there are three discussion sections, and 4 teams per discussion section.
 
-Team assignments [are listed here](https://docs.google.com/spreadsheets/d/e/2PACX-1vSdD-1GJpQb1wKalDjFjLDBbKOjNboZzz6ZqYdcQJQSilQZGrxfZdX5ZteD5hQh28srMGPQHCjpJlnb/pubhtml?gid=1726883892&single=true).
-
+Team assignments, and the mapping from teams to staff (LAs/TAs) is listed here:
+* <https://ucsb-cs156.github.io/w21/info/teams/>
+* You can find this link on the course website, <https://ucsb-cs156.github.io/w21> under "More..." then Teams.
 
 Note that while the instructor, or a TA or LA might drop in on your Breakout Room, they are not the discussion leader.  You need to self-organize to run your own 
 breakout room discussion.
+
 
 # What to do in your breakout room
 
