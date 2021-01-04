@@ -17,6 +17,8 @@ Note the two parts:
 * Permanent part for CS156
 * The part for /w21/ specifically
 
+Also note the Calendar where you can keep track of things that are due: <>
+
 # Where is the syllabus?
 
 Here:
@@ -61,8 +63,8 @@ This homework assignment due Friday is based on:
 * So having your own copy is a good idea.
 
 Online links to the textbooks&mdash;note that you MUST first be on the UCSB VPN for these to work.
-* [HFJ2](https://www.oreilly.com/library/view/head-first-java/0596009208/)
-* [JN7](https://learning.oreilly.com/library/view/java-in-a/9781492037248/)
+* [HFJ2](https://www.oreilly.com/library/view/head-first-java/0596009208/?ar)
+* [JN7](https://www.oreilly.com/library/view/java-in-a/9781492037248/?ar)
 
 # Homework H00 due Friday
 
