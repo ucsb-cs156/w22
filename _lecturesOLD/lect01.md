@@ -1,89 +1,46 @@
 ---
-num: Lecture 1
-lecture_date: 2020-01-06
-desc: "Introduction to CS56"
+num: "Lecture 1"
+lecture_date: 2020-10-05
+desc: "Monday Discussion, jpa00"
 ready: false
 ---
 
-<div style="display:none;">https://ucsb-cs56.github.io/w20/lectures/lect01
+<div style="display:none;">https://ucsb-cs156.github.io/f20/lectures/lect01
 </div>
 
+For Monday Discussion on 10/05/20, we worked on <https://ucsb-cs156.github.io/f20/lab/jpa00/>.
 
-# The course website
+Most students finished it by the time lab was finished at 7:50pm (55 out of 68).
 
-Here: <https://ucsb-cs56.github.io>
+Here's the Gauchospace post that preceeded the class meeting:
 
-Note the two parts:
-* Permanent part for CS56
-* The part for /w20/ specifically
+---
 
-# Where is the syllabus?
+Dear CS156 Students:
 
-It's here.  We're saving some trees.
+Here's how today's discussion section will work.
 
-* <https://ucsb-cs56.github.io/w20/info/syllabus/>
+Our goal today is for everyone to try to complete Java Programming Assignment 00 (jpa00).
 
-# The special circumstances that led to two lectures
+The assignment is ready now, and you may begin right away. 
 
-* I'm teaching an extra lecture section
-* This is a voluntary service I'm doing for no extra compensation
-* Why?
-   * The altrusitic reason: I want to help students that were stranded due to poor resource planning
-   * The selfish reason: a class larger than 72 doesn't work for this style of teaching
+Here's the link: <https://ucsb-cs156.github.io/f20/lab/jpa00/>
 
-# My special passion: Teaching real world software practice
+Although Slack has been only "intermittently" reliable today, to the extent possible, monitor the #jpa00 slack channel for updates on jpa00.
 
-Why is this course different from all other courses?
+Today's lab has a lot of reading, and possibly a lot of new stuff to get used to, but not a lot of actual Java programming.   It likely will take you very little time to complete (unless something goes wrong that we didn't anticipate.)
 
-Because as a young software developer I saw a gap between what I learned in school, and what i needed in industry.
+If you complete it before your assigned discussion section time and have a score of 100% on Gradescope, you don't need to show up for discussion today (though you are still welcome to do so if you want to ask questions of the LAs, TAs, or the instructor.)
 
-# Logistics
+PLEASE NOTE that this is not necessarily how future discussion sections will work; this is just for today.   In future weeks, we will often have group work for you to do.
 
-* Check email for:
-  * Course survey invitation
-  * Slack invitation
-* Join ucsb-cs56-w20 github org
-  * Create account at github.com
-  * Add your @ucsb.edu or @umail.ucsb.edu email address (either one)
-  * Visit <https://ucsb-cs-github-linker.herokuapp.com> and login with your github username/password
-  * On home page of app, click to join cs56 w20
-  * Click link to accept the invite to the org
+On the other hand, if you have not completed the lab before your assigned discussion section starts, we ask that you "attend" (via Zoom) and work on the lab.
 
+* We'd like to try to recreate the learning environment that happens in the physical labs, where we have groups of the students working simultaneously.   This allows us to help folks efficiently.
+* We'll put you in your team breakout rooms; you can use this as a place to ask fellow students for help if you run into problems while working on the lab.
+* One new feature is that you should be able to move yourself between and among breakout rooms.  In addition to having breakout rooms for the teams, we'll also have breakout rooms where you can ask for help, or ask questions about the course
+* For today only, if you like, you may join the zoom room earlier than your assigned discussion section time, and if you like, stay longer than your assigned discussion section.  (Whether we do that in future weeks depends on what we are doing, and how well it works out today.)
 
-# Homework for Wednesday
+If all of the plumbing works with this lab, we'll be able to move on to more interesting Java labs, and introduce a few JavaScript labs within the next few days.
 
-* [h00]({{ 'hwk/h00' | relative_url }}): "Listening to Developers"
-   * What do new college graduates find when they go into industry?
-
-*  The Rational tutorial <https://ucsb-cs56.github.io/tutorials/rational_ex01/>
-   * Start reading, and start coding.
-   * Your first lab assignment will be based on this code.
-   * Even if you are a Java expert, there is probably some new stuff
-   
-* What might be new?
-   * Ant, Maven
-   * JUnit testing
-   * Packages
-
-# Now we shuffle
-
-* MW Seating Chart: <https://docs.google.com/spreadsheets/d/e/2PACX-1vQrYLqI_ltXw9LYRLyncct_2htzFnrudWy3tFDLaUMRqOh0xEKjszJK4SlIzHqal26piBGJFYclndLV/pubhtml?gid=0&single=true>
-
-* TR Seating Chart: <https://docs.google.com/spreadsheets/d/e/2PACX-1vSKZmZ4J0Whie1MEozBYHfyHUnlfkDj7r8iFA3cq5XzhWO3wL_fLxnIJCaT8t5ZKQ8q69l9ZRfPHeZm/pubhtml?gid=0&single=true>
-
-Then we do 
-* [ic00]({{ 'hwk/ic00' | relative_url }}): "Meeting our first team"
-
-
-
-
-# Where can you find info in this class?
-
-* Textbooks
-   * [HFJ](https://ucsb-cs56.github.io/textbooks/HFJ) - Head First Java, 2nd editino
-   * [JN7](https://ucsb-cs56.github.io/textbooks/JN7) - Java in a Nutshell, 7th edition
-* Website: <https://ucsb-cs56.github.io>
-   * Especially under <https://ucsb-cs56.github.io/topics>
-   * Also, the Rational tutorial <https://ucsb-cs56.github.io/tutorials/rational_ex00/>
-
-
+See you soon!
