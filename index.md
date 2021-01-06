@@ -1,5 +1,5 @@
 ---
-title: CS156 F20
+title: CS156 W21
 permalink: "/"
 ---
 
