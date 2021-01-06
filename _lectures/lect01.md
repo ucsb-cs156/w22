@@ -112,7 +112,7 @@ The folder name should be `01.05` and the file name should be one of these: `sec
 
 ![fill-in-section-heading-50.png](fill-in-section-heading-50.png)
 
-You earn 50 points towards the individual part of today's participation when you create your individual part of the repo. You only need the heading; no content yet, that's for Thursday.
+You earn 50 points towards the individual part of today's participation when you create your individual part of the repo. You only need the heading; no content yet, that's for Monday.
 
 # H01
 
