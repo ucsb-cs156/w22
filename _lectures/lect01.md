@@ -2,7 +2,7 @@
 num: "Lecture 1"
 lecture_date: 2021-01-05
 desc: "Tuesday Discussion"
-ready: false
+ready: true
 ---
 
 <div style="display:none;">https://ucsb-cs156.github.io/w21/lectures/lect01
