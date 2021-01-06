@@ -108,7 +108,7 @@ Then, start typing the folder name `10.06`, as shown.  As soon as you type the f
 ![after-typing-folder-50.png](after-typing-folder-50.png)
 
 Finally, name your file as shown in the example, and fill in content as shown in the example.  For now, we *only* need the heading; the content can come later.
-The folder name shoudl be `01.05` and the file name should be one of these: `sect4.1.md1`, `sect4.2.md`, `sect4.3.md1`, `sect4.4.md`, `sect4.5.md1`, `sect4.6.md`. 
+The folder name shoudl be `01.05` and the file name should be one of these: `sect4.1.md`, `sect4.2.md`, `sect4.3.md`, `sect4.4.md`, `sect4.5.md`, `sect4.6.md`. 
 
 ![fill-in-section-heading-50.png](fill-in-section-heading-50.png)
 
