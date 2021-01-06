@@ -101,25 +101,25 @@ First, find the "Create New File" button:
 
 ![Create-new-file-50.png](Create-new-file-50.png)
 
-Then, start typing the folder name `10.06`, as shown.  As soon as you type the forward slash `/`, you should see that the filename turns into a folder name.  If you have made a typo, you can hit the delete/backspace key, and it should go back so you can edit the folder name.
+Then, start typing the folder name `01.05`, as shown.  As soon as you type the forward slash `/`, you should see that the filename turns into a folder name.  If you have made a typo, you can hit the delete/backspace key, and it should go back so you can edit the folder name.
 
 ![start-typing-folder-50.png](start-typing-folder-50.png)
 
 ![after-typing-folder-50.png](after-typing-folder-50.png)
 
 Finally, name your file as shown in the example, and fill in content as shown in the example.  For now, we *only* need the heading; the content can come later.
-The folder name shoudl be `01.05` and the file name should be one of these: `sect4.1.md`, `sect4.2.md`, `sect4.3.md`, `sect4.4.md`, `sect4.5.md`, `sect4.6.md`. 
+The folder name should be `01.05` and the file name should be one of these: `sect4.1.md`, `sect4.2.md`, `sect4.3.md`, `sect4.4.md`, `sect4.5.md`, `sect4.6.md`. 
 
 ![fill-in-section-heading-50.png](fill-in-section-heading-50.png)
 
-You earn 50 points towards the individual part of today's participation when you create your individual part of the repo.   You only need the heading; no content yet,  that's for Thursday.
+You earn 50 points towards the individual part of today's participation when you create your individual part of the repo. You only need the heading; no content yet, that's for Thursday.
 
 # H01
 
 This is your homework H01 for Monday; you don't need to do it right now.  Just read over it and make sure you understand it.
 
 Between now and Monday, read over the part of the paper that you were assigned, and think about these questions, and write something in your .md file
-for each of these questions.   This will count as an individual homework grade, H01, due Thursday.
+for each of these questions. This will count as an individual homework grade, H01, due Monday.
 
 1. (40 pts) For the aspect of software development that you were assigned, the paper describes some aspects of what software development in school is like, vs.
    what it is like in industry.  
