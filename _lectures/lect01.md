@@ -1,7 +1,7 @@
 ---
 num: "Lecture 1"
 lecture_date: 2021-01-05
-desc: "Tuesday Discussion"
+desc: "Tuesday Discussion: Setting up Team NOTES repo, dividing up LTD paper sections "
 ready: true
 ---
 
@@ -20,7 +20,10 @@ This activity works with the paper that you were assigned to read during lecture
 
 You do not need to have read the whole thing for today, but you need to have at least skimmed it.
 
-Here's the link: <https://pconrad.github.io/files/paper028.pdf>
+Here's the link: <https://pconrad.github.io/files/paper028.pdf>.  
+
+* The title of this paper is *Listening to Early Career Developers* 
+* I'll call this paper **LTD** for short (i.e. **L**istening **T**o **D**evelopers)
 
 Our focus will be Section 4, which is divided into 6 sections:
 
