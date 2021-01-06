@@ -126,7 +126,7 @@ for each of these questions. This will count as an individual homework grade, H0
 
    Now consider your own personal experiences in school.  Do they line up with what was reported in the paper, or are they different?  Is it a mix?
    
-   In your `10.01/sect4.x.md` file (where `x` is one of 1,2,3,4,5 or 6), 
+   In your `01.05/sect4.x.md` file (where `x` is one of 1,2,3,4,5 or 6), 
    write briefly about your own personal experiences in school that are relevant to this topic, and how they are the same or different
  (or a mix of both), as compared to what the interview subjects in the paper reported.  Put this under the heading `# Question 1`.  
  
@@ -146,9 +146,9 @@ On Monday, we'll ask each of you to read the answers of your teammates.  Then We
 
 # Checklist for today's work
 
-1. Double check that someone on the team has set the `README.md` of your team's `team-xpm-y-NOTES` repo to have the correct content (list of who is assigned to which section, with a heading of `# Notes from 10/06`
+1. Double check that someone on the team has set the `README.md` of your team's `team-xpm-y-NOTES` repo to have the correct content (list of who is assigned to which section, with a heading of `# Notes from 01/05`
 
-2. Double check that each member of the team that's present has create a file in that repo under a folder called `10.06` with the correct content (a file that's one of (`sect4.1.md1`, `sect4.2.md`, etc.) and that the content of that file matches the instructions above.  It only needs to be a header at this point.
+2. Double check that each member of the team that's present has create a file in that repo under a folder called `01.05` with the correct content (a file that's one of (`sect4.1.md1`, `sect4.2.md`, etc.) and that the content of that file matches the instructions above.  It only needs to be a header at this point.
 
 # What then?  
 
