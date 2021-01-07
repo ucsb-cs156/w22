@@ -270,7 +270,7 @@ Please use the channel `#help-codecov` for these requests.
 
 If your main branch shows green (i.e. all tests pass), then you should
 be able to see the code coverage on Codecov.io by visiting
-* <https://codecov.io/gh/ucsb-cs156-/REPO-NAME-HERE>
+* <https://codecov.io/gh/{{page.course_org_name}}/REPO-NAME-HERE>
 
 If your code is on another branch
 * <https://codecov.io/gh/{{page.course_org_name}}/REPO-NAME-HERE/branch/BRANCH-NAME-HERE>
