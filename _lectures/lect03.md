@@ -1,8 +1,8 @@
 ---
 num: "Lecture 3"
-lecture_date: 2021-01-06
+lecture_date: 2021-01-11
 desc: "Monday Lecture: Discussion of jspa01"
-ready: false
+ready: true
 ---
 
 # A few things from online discussions
