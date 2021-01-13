@@ -2,7 +2,7 @@
 num: "Lecture 2"
 lecture_date: 2021-01-06
 desc: "Wednesday Lecture: Discussion of jpa00 and jpa01"
-ready: false
+ready: true
 ---
 
 Today, we'll discuss:
