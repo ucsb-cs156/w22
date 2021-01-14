@@ -47,7 +47,7 @@ cal_dates: >
   [
     {"label":"W21 1st day of instruction", "date":"2021-01-04" },	
     {"label":"Univ Holiday", "date":"2021-01-18" , "holiday": true},
-    {"label":"Univ Holiday", "date":"2021-01-15" , "holiday": true},
+    {"label":"Univ Holiday", "date":"2021-02-15" , "holiday": true},
     {"label":"W21 instruction ends", "date":"2021-03-12" },
     {"label":"W21 finals start", "date":"2021-03-13" },
     {"label":"CS156 Final noon-3pm", "date":"2021-03-16" },
