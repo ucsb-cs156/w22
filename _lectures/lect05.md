@@ -1,6 +1,6 @@
 ---
 num: "Lecture 5"
-lecture_date: 2021-01-11
+lecture_date: 2021-01-13
 desc: "Wed Lecture: Spring Boot Hello World"
 ready: false
 ---
