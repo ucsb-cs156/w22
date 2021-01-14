@@ -364,6 +364,38 @@ You'll have:
         return "Greetings from cgaucho!";
 ```
 
+<details>
+<summary>
+If your email contains upper-case letters, underscore (`_`) or periods (`.`) click the triangle for special instructions:
+</summary>
+    
+
+Update: The autograder has been modified to handle the cases of:
+* mixed case (upper and lowercase letters) in email addresses
+* underscores `_` in email addresses
+* periods `.` in email addresses
+
+In order to convert each of these to legal Heroku app names, the autograder converts your email by:
+* stripping off the @ and everything after the @
+* converting to all lowercase
+* converting `_` and `.` to `-`
+Examples:
+* `Foo.Bar@ucsb.edu` becomes `foo-bar`
+* `My-Lit.tle_pony@umail.ucsb.edu`  becomes `my-lit-tle-pony`    
+    
+So, if your email address is `My-Lit.tle_pony@umail.ucsb.edu`, you should modify your code to replace:
+```java
+        return "Greetings from Spring Boot!";
+```
+
+with
+```java
+        return "Greetings from my-lit-tle-pony!";
+```
+
+If your email presents any other corner cases that are handled above, make a post on `#help-jpa02` on slack to ask for help.
+
+</details>
 
 Then:
 * use `mvn compile` to make sure your code still compiles
