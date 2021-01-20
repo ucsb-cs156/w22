@@ -156,6 +156,14 @@ times during this course.  As you get more comfortable
 with it, you'll be able to follow the `SETUP-QUICKSTART.md`
 version.
 
+## Also set up the GitHub Actions secrets
+
+In the file `docs/github-actions-secrets.md` there are instructions for configuring
+GitHub Actions so that it runs the tests for both the JavaScript and Java code in the repo.
+
+You should follow these instructions to get the CI/CD pipeline set up so that
+you have a green check, and not a red X, on the main branch of your repo.
+
 ## Reminder about running your webapp on `localhost`
 
 To get a spring boot app running on `localhost`, generally
