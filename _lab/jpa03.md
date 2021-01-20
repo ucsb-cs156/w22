@@ -87,9 +87,12 @@ it should initially be private, and empty (no `README`, license or
 
 Clone that repo somewhere and cd into it.
 
+
 Then add this remote:
 
 <tt>git remote add starter {{page.starter}}</tt>
+
+That sets up `starter` as a remote with the code from this github repo: <{{page.starter}}>
 
 Then do:
 
