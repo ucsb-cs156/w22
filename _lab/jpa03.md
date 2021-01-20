@@ -271,11 +271,15 @@ The instructions for doing so are here: <https://ucsb-cs156.github.io/topics/gau
 
 # Grading Rubric:
 
-* (10 pts) Having a repo with the correct name in the correct organization
-* (30 pts) Having a running web app at <tt>https://cs56-{{site.qxx}}-<i>ucsbnetid</i>-{{page.num}}.herokuapp.com</tt>
+* (20 pts) Basic Logistics
+  - Having a repo with the correct name in the correct organization with the starter code for this lab
+  - There is a post on Gauchospace that has the correct content
+  - The links on Gauchospace are clickable links (to make it easier to test your app)
+  - README has a link to your repo.
+* (20 pts) Having a running web app at <tt>https://cs56-{{site.qxx}}-<i>ucsbnetid</i>-{{page.num}}.herokuapp.com</tt>
 * (30 pts) Running web app has the ability to login through a Google Account, and create, edit and delete TODOs.
-* (10 pts) There is a post on Gauchospace that has the correct content
-* (10 pts) The links on Gauchospace are clickable links (to make it easier to test your app)
-* (10 pts) README has a link to your repo.
+* (30 pts) GitHub Actions runs correctly and there is a green check (not a red X) on your main branch
+  - To get this part working, you need to be sure that the `CODECOV_TOKEN` and `TEST_PROPERTIES` are configured
+    correctly.
 
 
