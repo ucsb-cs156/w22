@@ -3,6 +3,8 @@ num: "Lecture 7"
 lecture_date: 2021-01-20
 desc: "Wed Lecture: "
 ready: false
+done: "Post on the team slack channel that you are finished, and assign yourself the next task that needs
+to be completed.  If all tasks have been assigned, pair with someone that is still working on theirs."
 ---
 
 
@@ -13,13 +15,13 @@ Note: Discuss working on CSIL vs. working on your local machine.
 
 The assignment jpa04 is essentially the same as jpa03, except you are doing it _as a team_.  This sets up some of the infrastructure and skills you'll need for working on the legacy code projects later in the course.
 
-There are eight distinct jobs (A-H) that you should divide among the members of your group (see list below).
+There are nine distinct jobs (A-I) that you should divide among the members of your group (see list below).
 Instructions for each of these follows later in these notes.
 
 Choose a facilitator for today's discussion; that person should share their screen and bring
 up the team slack channel in Zoom.
 
-Divide up the first six items, A-H, among the members of the group that are present.  Note the names of any group members that are absent.
+Divide up the first six items, A-F, among the members of the group that are present.  Note the names of any group members that are absent.
 
 **Make a post in your team's zoom channel indicating which team members is assigned to each of the tasks A-F**
 
@@ -43,6 +45,7 @@ one of them.  But after that, you can pair on some of these.
 * G: Do the setup steps to make the secrets for the app (i.e. create a `temp-credentials.txt` file),
      and then share the contents of that in your team's channel.
 * H: Deploy the app first on localhost, then on the team's shared Heroku deployment.
+* I: Configure the CI/CD pipeline, i.e. the repo level secrets for `CODECOV_TOKEN` and `TEST_PROPERTIES`
 
 NOTE on items (A) and (B): 
 
@@ -66,17 +69,42 @@ The person with job "A" should get the `@ucsb.edu` email addresses of all of the
 The person with job "B" should get the `@ucsb.edu` email addresses of all of the staff; these are posted in the `#class-notes` channel on the course Slack.
 
 When you have finished inviting all of the other members of your team (A) or the staff (B), you are done with
-this task.   Post on the team slack channel that you are finished, and assign yourself the next task that needs
-to be completed.  If all tasks have been assigned, pair with someone that is still working on theirs.
+this task. {{page.done}}
 
-## Setting up a shared Heroku app
+## (C) Setting up a shared Heroku app
 
 Now, one member of your team should log into Heroku and set up a shared Heroku app with the following name, substituting in your team name as appropriate:
 
 * `jpa03-w21-team-5pm-1`
 
+Then, go to the tab for `Access` 
+* the url will be something like <https://dashboard.heroku.com/apps/jpa03-w21-team-5pm-1/access> but your team name in place of `team-5pm-1`
+
+Add the `@ucsb.edu` emails of each of your fellow team members.
+
+When you've done that, task C is complete. {{page.done}}
 
 
+## (D) Inviting all staff to your shared Heroku app.
 
+Visit your team's shared heroku app, `jpa03-w21-team-5pm-1`.
 
-## Deploying the jpa03 code to Auth0
+Then, go to the tab for `Access` 
+* the url will be something like <https://dashboard.heroku.com/apps/jpa03-w21-team-5pm-1/access> but your team name in place of `team-5pm-1`
+
+Add the `@ucsb.edu` emails of each of the course staff. these are posted in the `#class-notes` channel on the course Slack.
+
+When you've done that, task D is complete. {{page.done}}
+
+## (E) Setting up a shared Github Repo for your team
+
+Visit the page 
+
+## (F) Populate that Github repo with the starter code for jpa03
+
+## (G) Do the setup steps to make the secrets for the app (i.e. create a `temp-credentials.txt` file), and then share the contents of that in your team's channel.
+
+## (H) Deploy the app first on localhost, then on the team's shared Heroku deployment.
+
+## (I) Configure the CI/CD pipeline, i.e. the repo level secrets for `CODECOV_TOKEN` and `TEST_PROPERTIES`
+
