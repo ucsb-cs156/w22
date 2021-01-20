@@ -200,60 +200,22 @@ When we migrate to Heroku in the later steps of this lab,
 we'll be using a "real" database, one where what is stored
 remains even when the app is shut down.
 
-# Step 6: Create a new Heroku App using the Heroku CLI
+# Step 4: Create a new Heroku App using the Heroku CLI
 
 In this step, we'll deploy our Spring Boot application to the public internet using Heroku.
 
-Deploying this app to Heroku should automatically provision a Postgres database for the app; if that doesn't happen, we'll add instructions
-to the lab on how to provision this manually.
+As part of the setup instructions, you likely already set up a Heroku application
+with the name <tt>{{page.num}}-<i>ucsbnetid</i></tt>.
 
-Logged into CSIL (or one of the machines in the CSTL, i.e. Phelps 3525), use this command to login to Heroku at the command line:
-
-```
-heroku login
-```
-
-**NOTES**: 
-
-* If you are ssh'ing in to CSIL, you may need to use `heroku login -i` which allows you to login without having to go to a browser.
-
-* If the `heroku login` command doesn't work, you can instead create the Heroku App at the Heroku Dashboard by
-  visiting <https://dashboard.heroku.com/apps>, clicking (at upper right):  "New&nbsp;=>&nbsp;Create New App" and
-  then creating an app with the name <tt>heroku create cs56-{{site.qxx}}-<i>ucsbnetid</i>-{{page.num}}</tt> as explained in 
-  the instructions below.
-
-Then, use this command to create a new web app running on heroku.  Substitute your ucsbNetId in place of `ucsbnetid`.  
-
-Just as in jpa02, you should:
-* convert your UCSBNetId to all lowercase; heroku web-app names do not permit uppercase letters.
-* convert `_` and `.` to `-`
-
-<tt>heroku create cs156-{{site.qxx}}-<i>ucsbnetid</i>-{{page.num}}</tt>
-
-Notes:
-* A reminder that this is an individual lab, 
-  so you should complete it for yourself, i.e. there is only one github id in the name, not a pair of github ids.   
-* Please do not literally put the letters <tt><i>ucsbnetid</i></tt> 
-  in your app name; you are meant to substitute your own ucsbnetid id there.
-* If Heroku indicates that the name is too long, you may truncate any part of it.   
-
-# Step 7: Login to the Heroku Dashboard
-
-Login to <https://dashboard.heroku.com/apps> and look for the <tt>create cs56-{{site.qxx}}-<i>githubid</i>-{{page.num}}</tt> app that you created.
-
-You should find a place where you can connect your App to Github.  
-
-Click on this, and select your repo to connect the Github Repo to Heroku.
-
-Then, click on "deploy branch".
-
+You should now be able to link this app to your repo and deploy the `main` branch,
+provided you did all the other setup steps correctly.
 
 # What if it doesn't work?
 
 If it doesn't work, consult the troubleshooting steps in `jpa02` and try them before asking a mentor, TA, or instructor for help.
 
 
-# Step 11: Adding links to repo in the README.md
+# Step 5: Adding links to repo in the README.md
 
 Edit your README.md. You'll find some TODO items inside indicating what edits you need to make.
 
@@ -261,7 +223,7 @@ All quarter long, we want you to develop the habit of adjusting the  README.md i
 
 The link to your repo may seem redundant, but it helps your mentors, TAs and instructors; when you submit your work for grading to either Gradescope or Gauchospace, having those links handy really helps us navigate through your assignments quickly to evaluate them and assign grades.
 
-# Step 12: Submitting your work for grading
+# Step 6: Submitting your work for grading
 
 When you have a running web app, visit <{{page.gauchospace_url}}> and make a submission.
 
@@ -269,7 +231,7 @@ In the text area, enter something like this, substituting your repo name and you
 
 <div style="font-family:monospace;">
 repo name: https://github.com/{{page.org}}/{{page.num}}-chrislee123<br><br>
-on heroku: https://cs156-{{site.qxx}}-chrislee123-{{page.num}}.herokuapp.com<br>
+on heroku: https://{{page.num}}-chrislee123.herokuapp.com<br>
 </div>
 
 Then, **and this is super important**, please make both of those URLs **clickable urls**.
@@ -284,7 +246,7 @@ The instructions for doing so are here: <https://ucsb-cs156.github.io/topics/gau
   - There is a post on Gauchospace that has the correct content
   - The links on Gauchospace are clickable links (to make it easier to test your app)
   - README has a link to your repo.
-* (20 pts) Having a running web app at <tt>https://cs56-{{site.qxx}}-<i>ucsbnetid</i>-{{page.num}}.herokuapp.com</tt>
+* (20 pts) Having a running web app at <tt>https://{{page.num}}-<i>ucsbnetid</i>.herokuapp.com</tt>
 * (30 pts) Running web app has the ability to login through a Google Account, and create, edit and delete TODOs.
 * (30 pts) GitHub Actions runs correctly and there is a green check (not a red X) on your main branch
   - To get this part working, you need to be sure that the `CODECOV_TOKEN` and `TEST_PROPERTIES` are configured
