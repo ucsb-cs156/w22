@@ -172,8 +172,8 @@ but which is assigned at the team level.
 
 Grading rubric:
 
-* A: (10 %) Inviting all team members to a shared Auth0 tenant (see note below)
-* B: (10 %) Inviting all staff to your shared Auth0 tenant (see note below)
+* A: (5 %) Inviting all team members to a shared Auth0 tenant (see note below)
+* B: (5 %) Inviting all staff to your shared Auth0 tenant (see note below)
 * C: (10 %) Setting up a shared Heroku app, and inviting all members of the group to it
 * D: (10 %) Inviting all staff to your shared Heroku app.
 * E: (10 %) Populate that Github repo with the starter code for jpa03
@@ -187,4 +187,4 @@ Grading rubric:
   - For full credit, all of the functions should work
   - This includes logging in/out, roles showing up properly, and saving "todo" items
   - We'll provide feedback on anything that doesn't work and give the teams an opportunity to fix it.
-  
+* J: (10 %) The links at the top of the README.md file are modified as indicated in the README.md template in the starter code.
