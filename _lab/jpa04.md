@@ -27,3 +27,22 @@ At that point, one person from your team can submit on Gauchospace (on behalf of
 
 <https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=6022922&forceview=1>
 
+Grading Rubric:
+
+
+* A: (5 %) Inviting all team members to a shared Auth0 tenant (see note below)
+* B: (5 %) Inviting all staff to your shared Auth0 tenant (see note below)
+* C: (10 %) Setting up a shared Heroku app, and inviting all members of the group to it
+* D: (10 %) Inviting all staff to your shared Heroku app.
+* E: (10 %) Populate that Github repo with the starter code for jpa03
+* F: (20 %) Configure the CI/CD pipeline, i.e. the repo level secrets for `CODECOV_TOKEN` and `TEST_PROPERTIES`
+  - For full credit, repo should have green check   
+  - If there are problems here, we'll give the team an opportunity to fix them.
+* G: Do the setup steps to make the secrets for the app (i.e. create a `temp-credentials.txt` file),
+     and then share the contents of that with your fellow team members via Slack DMs.
+  - This step is not separately graded; the evidence of completion is when step H works.
+* H: (30 %) The app is successfully deployed on Heroku
+  - For full credit, all of the functions should work
+  - This includes logging in/out, roles showing up properly, and saving "todo" items
+  - We'll provide feedback on anything that doesn't work and give the teams an opportunity to fix it.
+* J: (10 %) The links at the top of the README.md file are modified as indicated in the README.md template in the starter code.
