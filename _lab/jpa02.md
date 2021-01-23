@@ -292,7 +292,7 @@ heroku login
 
 * If the `heroku login` command doesn't work, you can instead create the Heroku App at the Heroku Dashboard by
   visiting <https://dashboard.heroku.com/apps>, clicking (at upper right):  "New&nbsp;=>&nbsp;Create New App" and
-  then creating an app with the name <tt>heroku create cs56-{{site.qxx}}-<i>githubid</i>-{{page.num}}</tt> as explained in 
+  then creating an app with the name <tt>{{page.num}}-<i>ucsbnetid</i></tt> as explained in 
   the instructions below.
 
 Then, use this command to create a new web app running on heroku.  Substitute in your UCSBNetId (i.e. your ucsb email *without* the `@ucsb.edu` part. 
@@ -301,9 +301,9 @@ That is, if your email is <tt>cgaucho@ucsb.edu</tt>, please make your heroku app
 <tt>{{page.num}}-cgaucho</tt>.  This name is important, because the Gradescope autograder willbe looking for a Heroku application that matches this naming convention.  If there is a reason that you cannot use this naming convention (e.g. your ucsbNetId is not accepted as part of a 
 heroku application name because of special characters, upper case characters, etc.), please note this on the `#help-jpa02` channel on Slack.
 
-Note that you should convert your ucsbnetid to all lowercase; heroku web-app names do not permit uppercase letters, and use `-` in place of underscores.
+Note that you should convert your ucsbnetid to all lowercase; heroku web-app names do not permit uppercase letters, and use `-` in place of underscores or periods.
 
-<tt>heroku create {{page.num}}-<i>ucsbNetId</i>-</tt>
+<tt>heroku create {{page.num}}-<i>ucsbnetid</i>-</tt>
 
 Notes:
 * A reminder that this is an individual lab, 
@@ -329,8 +329,7 @@ Then, click on "deploy branch".
 If it doesn't work, try these things before asking a mentor, TA, or instructor for help.
 
 1. Make sure you are logged into Heroku at CLI with `heroku login`.  If you exited your CSIL shell (logged out) and logged back in again, you have to login to Heroku again.  Then repeat the commands.
-2. Try, try running `heroku apps`.  Make sure the `<appname>app-name-goes-here</appname>` element in the `heroku-maven-plugin` section of your `pom.xml` matches the name of your heroku app exactly.
-3. If it does, try `heroku logs --app appname` (substitute the name of your app where you see `appname`).  You'll see the log output of that app on Heroku.   
+3. Try `heroku logs --app appname` (substitute the name of your app where you see `appname`).  You'll see the log output of that app on Heroku.   
    * You may find it helpful to open a second Terminal, login to CSIL and the Heroku CLI, and use `heroku logs --app appname --tail`, which keeps the log output running continously.
    * You can also see your logs in a web browser at: <https://dashboard.heroku.com/apps/app-name/logs> (note that you need to put your `app-name` in the URL instead of `app-name`.  
    * You can navigate to this from <https://dashboard.heroku.com/> by selecting your app, clicking on it,  selecting the `More` menu at upper right, and the selecting `Logs`.
