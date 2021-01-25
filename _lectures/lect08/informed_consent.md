@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 This page is part of the notes for <https://ucsb-cs156.github.io/w21/lectures/lect08/>
 
 Please see that page for more context about the information below.
