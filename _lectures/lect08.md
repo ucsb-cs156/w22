@@ -65,6 +65,8 @@ We will then turn to some of the **planning** parts of working with legacy code:
 * Coming up with better UI/UX designs for existing features
 * Dividing those into "epics": groups of related changes that can be the focus of a single team.
 
+Legacy Code projects: <https://ucsb-cs156.github.io/topics/legacy_code_projects/>
+
 # Extra Credit Opportunity (Survey)
 
 * I'm part of a team of four faculty (me, plus two professors at Washington State University, and one at Humboldt State University) that are studying
