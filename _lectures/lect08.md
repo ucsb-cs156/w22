@@ -46,7 +46,7 @@ After today's lecture, **if** you decide you want the extra credit and/or to par
   - Anonymous Inner Classes
 * This is why the pace of the homeworks is so fast.
 
-# Also coming soon: being introduced to the legacy code projects
+# Also coming soon (probably tomorrow night in section): being introduced to the legacy code projects
 
 The jpa03 and jpa04 exercises are warm up exercises for working with the legacy code projects
 
