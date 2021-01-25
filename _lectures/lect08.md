@@ -5,6 +5,62 @@ desc: "Mon Lecture: Extra Credit Opportunity (Survey), Informed Consent"
 ready: false
 ---
 
+# Short version
+
+* Today we'll talk about an extra credit opportunity
+* There's a pre-survey and a post-survey.  If you fill them both out, you can get 1% extra credit added to your final course grade.
+* As part of the survey, there is also an "informed consent briefing", asking whether a research study that Prof. Conrad is a part of 
+  may use your survey results and course data (de-identified) for research purposes.
+* Today, we'll talk about what you need to do if you want to:
+  - get the extra credit or skip the extra credit
+  - say yes to the research, or decline to participate
+* We'll also talk about "informed consent" as an ethical topic that comes up when working with applications that collect data about people.
+  
+# Action items
+
+After today's lecture, **if** you decide you want the extra credit and/or to particpate in the research:
+
+1. Read the informed consent briefing and make sure any questions you have about it are answered: [informed_consent_briefing](informed_consent)
+2. Login to Gauchospace and find your RPID (the capital letter `W` followed by a five digit number, e.g. `W98765`).  
+   - It's in the "comments" beside your "grade" for the item RPID 
+3. Visit the link to the survey (found on the Announcements channel on the course slack) and 
+
+# After that
+
+* Some time for your teams to work on jpa04
+* Note that jpa04 is just a "team version" of jpa03.  
+  - So, when your team has completed jpa04, let me encourage you to help each other finish jpa03
+  - The folks on your team that did and debugged the later stages of jpa04 (the setup instructions) can likely help you with issues arising jpa03
+
+# Coming up soon: A pure Java Programming Assignment
+
+* Another Java programming assignment involving the `MenuItem` class
+* This one requires the reading from Chapter 16 in the textbook
+* It also requires at least one lecture's worth of material that comes *after* you've read Chapter 16
+* We are going to discuss sorting in Java with Lambda Expressions
+* Understanding Lambda expressions requires understanding
+  - Implementing interfaces
+  - Java generics (e.g. expressions such as `ArrayList<T>`, e.g. `ArrayList<Student>`)
+  - The `Comparable<T>` and `Comparator<T>` interfaces
+  - Inner classes
+  - Anonymous Inner Classes
+* This is why the pace of the homeworks is so fast.
+
+# Also coming soon: being introduced to the legacy code projects
+
+The jpa03 and jpa04 exercises are warm up exercises for working with the legacy code projects
+
+Coming up: we'll be giving each team it's own deployment of one of the three legacy code projects, 
+a deployment where you can experiment with making modifications, fixing bugs, adding new features.
+
+You'll also learn how to set up your own personal deployment of one of the three apps.
+
+We will then turn to some of the **planning** parts of working with legacy code:
+* Finding bugs in the application
+* Coming up with additional features the applications should have
+* Coming up with better UI/UX designs for existing features
+* Dividing those into "epics": groups of related changes that can be the focus of a single team.
+
 # Extra Credit Opportunity (Survey)
 
 * I'm part of a team of four faculty (me, plus two professors at Washington State University, and one at Humboldt State University) that are studying
@@ -31,7 +87,7 @@ Reason:
 * They have the opportunity to do a lot of "research" with that data
 * Should they have to get your informed consent before they do?
  
-This questions has ethical, moral, and legal dimensions. ([What's the difference?](https://ethics.org.au/ethics-morality-law-whats-the-difference/)
+This questions has ethical, moral, and legal dimensions. ([What's the difference?](https://ethics.org.au/ethics-morality-law-whats-the-difference/))
 
 While we aren't necessarily going to explore those questions today, I hope that this helps frame talking about the "informed consent" process as something relevant to anyone building applications.
 
@@ -61,5 +117,9 @@ So, let's walk through the text of the informed consent briefing:
 * [informed_consent_briefing](informed_consent)
 
 
-# RPIDs
+# Questions on Informed Consent Briefing
+
+If you have questions on the informed consent briefing, please let me know.
+
+You may also submit questions anonymously via any of them TAs or LAs, whom I've asked to keep your identity confidential.
 
