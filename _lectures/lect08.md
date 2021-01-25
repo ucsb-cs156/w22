@@ -22,8 +22,12 @@ After today's lecture, **if** you decide you want the extra credit and/or to par
 
 1. Read the informed consent briefing and make sure any questions you have about it are answered: [informed_consent_briefing](informed_consent)
 2. Login to Gauchospace and find your RPID (the capital letter `W` followed by a five digit number, e.g. `W98765`).  
-   - It's in the "comments" beside your "grade" for the item RPID 
-3. Visit the link to the survey (found on the Announcements channel on the course slack) and 
+   - It's in the "feedback" beside your "grade" for the item RPID 
+   - If you see a "zero" or an "F" next to this grade item, please ignore it.
+   - If you complete the survey, this zero will turn into a 33%, but _only after a delay of several days_; it won't happen until the survey closes, and I get the data from WSU about who participated.  
+   - The data provided to me does *not* include who said "YES" or "NO" to the question about participating in the research; it only indicates whether you participated in the survey.
+   - This number will turn into 100% if/when you complete the post- survey at the end of the quarter also.
+3. Visit the link to the survey (found on the Announcements channel on the course slack), and fill it out.
 
 # After that
 
