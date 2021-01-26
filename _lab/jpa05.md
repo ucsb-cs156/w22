@@ -52,3 +52,38 @@ We can talk more about this in lecture, and I'm happy to... just ask.  But here'
 
 If you have more questions, ask in lecture, in office hours, or ask the TAs/LAs during section.
   
+# Steps for jpa05
+
+Steps 1 and 2 can be delegated to individual members of your team, and done in parallel with the remainder of the steps.
+
+
+## Step 1: Give everyone on your team access to your Heroku app 
+
+On your team's slack channel, you should find a message about your jpa05 Heroku app.  The name of the app will be something like this:
+
+Examples:
+* <https://dashboard.heroku.com/apps/cs156-w21-team-5pm-1-courses>
+* <https://dashboard.heroku.com/apps/cs156-w21-team-6pm-1-las>
+* <https://dashboard.heroku.com/apps/cs156-w21-team-7pm-2-mapache>
+
+Some on your team was given admin access to the app.  Identify that person.  They should add everyone else on your team, using the 
+email address that person uses to login to Heroku.
+
+If that person is not available, there is an LA designated for your team.  Ask them, or one of the TAs, or the instructor, to add someone else from your team, and then *they* can add everyone else.
+
+## Step 2: Give everyone on the staff access to your Heroku app
+
+On the Slack, in the channel `#course-notes`, there is a list of the email addresses of the course staff.    Some of them already have access to your app, but the rest do not.  Please add the rest of them.
+
+## Step 3: Clone the Repo assigned to your team.
+
+This step should be done, eventually, by each member of the team individually.  For today, though, it is sufficient for one member of the team to do it,
+preferably, sharing their screen with other members looking on and helping.
+
+Identify the repo associated with your team:
+
+ - All 5pm teams: <{{page.proj-ucsb-courses-search}}>
+ - Teams team-6pm-1, team-6pm-3 and team-7pm-1 <{{page.proj-ucsb-cs-las}}>
+ - Teams team-6pm-2, team-6pm-4 and team-7pm-2 <{{page.proj-mapache-search}}>
+
+Clone this repo on your local machine, or in your CSIL account.
