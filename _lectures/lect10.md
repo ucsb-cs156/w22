@@ -5,11 +5,37 @@ desc: "Wed Lecture: Teamwork, part 1, jpa05 continuation, Exploration of legacy 
 ready: true
 ---
 
+
+# Overview
+* Recap of last night
+* Discussion of team work, and 15 minute writing exercise
+* Work in Breakout Groups
+  - Discussion of teamwork
+  - Work on jpa04/jpa05
+  - Start on exploring the legacy code app
+
 # Last Night recap
 
 Last night in discussion section was oriented around this assignment: <https://ucsb-cs156.github.io/w21/lab/jpa05/>
 
 Teams worked in breakout rooms on getting started on it, and getting as far as possible on it.
+
+A few cleanup items:
+* _Everyone_ please join one of these three slack channels as appropriate:
+  - All 5pm section students: `#proj-ucsb-courses-search`
+  - 6pm/7pm odd numbered teams: `#proj-ucsb-cs-las`
+  - 6pm/7pm even numbered teams: `#proj-mapache-search`
+
+Announcements by project:
+* `proj-ucsb-courses-search` seems to be ok... two groups have finished.
+* `proj-ucsb-cs-las` should be ok, but let us know if you are running into challenges
+* `proj-mapache-search`: Check the `#proj-mapache-search` channel for updates on 
+   - How to get the Google Search API Key
+   - Progress towards setting up the Slack Slash Command Token
+   Also, please join the separate slack workspaces for testing.   Today, I'll make sure that one student from each group gets admin privileges and then can then
+   add all of the other team members.
+   
+Questions about jpa04/jpa05?
 
 
 # Teamwork is Challenging
