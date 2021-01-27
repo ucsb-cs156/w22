@@ -122,3 +122,5 @@ Now:
 
 Here is a guide to GitHub Flavored Markdown syntax: <https://guides.github.com/features/mastering-markdown/>
 
+Do this individually first.  Then have a group discussion about what you found, and assemble your suggestions together in one document, in the `01.27/README.md` file.
+
