@@ -23,6 +23,16 @@ Here's what's different:
   - For all three projects, you'll have the additional step of configuring a URL for a MongoDB database
   - For proj-ucsb-courses-search, you'll have an additional step of configuring an API Key for the UCSB Developer API
   - For proj-mapache-search, you'll have the additional step of configuring a Slack Bot
+* While you will be _cloning_ a repo for this assignment, you will *not* be creating a new repo.  Nor, do you need to fork a new repo.
+
+  In fact, you don't need a new repo at all.  You'll just be using one of the three existing repos ([proj-ucsb-courses-search]({{page.proj-ucsb-courses-search}}), [proj-ucsb-courses-search]({{page.proj-ucsb-cs-las}}), or [proj-ucsb-courses-search]({{page.proj-ucsb-cs-las}})) and then _deploying_ it on localhost and then Heroku.
+  
+  Accordingly, you don't need to worry about configuring Codecov, updating a README file, configuring secrets for CI/CD (`TEST_PROPERTIES`), etc. as you did for
+  `jpa03` and `jpa04`.  Those steps are done by the course staff for these three legacy code repos.
+
+  For the time being, you have read only access to these three repos, though at a later stage in the course, you'll have access to everything except the `main`
+  branch of these three repos.   You'll get your code into the `main` branch by a process called "pull requests", which we'll explain in a later assignment.
+
 
 # Why are we doing all of this
 
@@ -171,6 +181,7 @@ When all of this is done, you're basically finished with this lab, and ready to 
 
 ## Step 8: Submit on Gauchospace
 
-INSTRUCTIONS COMING SOON...
+One member of your team should submit here: 
+<https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=6056872>
 
 
