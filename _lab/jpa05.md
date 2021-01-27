@@ -16,7 +16,7 @@ This lab is similar to jpa04, in that you will be working as a team to set up a 
 Here's what's different:
 * Instead of all students in the course deploying the *same* web app, this time you will be deploying the specific legacy code application that you'll be working with later, during the project phase of the course.
   - All 5pm teams will be deploying [proj-ucsb-courses-search]({{page.proj-ucsb-courses-search}})
-  - Teams team-6pm-1, team-6pm-3 and team-7pm-1 will be deploying [proj-ucsb-courses-search]({{page.proj-ucsb-cs-las}})
+  - Teams team-6pm-1, team-6pm-3 and team-7pm-1 will be deploying [proj-ucsb-cs-las]({{page.proj-ucsb-cs-las}})
   - Teams team-6pm-2, team-6pm-4 and team-7pm-2 will be deploying [proj-mapache-search]({{page.proj-mapache-search}})
 * The setup instructions include all of the steps you did for jpa03/jpa04, except that:
   - You will not have to do the one-time setup step to connect your shared team Auth0 tenant to a Google OAuth client id and client secret, since that should already have been done for jpa04.
@@ -25,7 +25,7 @@ Here's what's different:
   - For proj-mapache-search, you'll have the additional step of configuring a Slack Bot
 * While you will be _cloning_ a repo for this assignment, you will *not* be creating a new repo.  Nor, do you need to fork a new repo.
 
-  In fact, you don't need a new repo at all.  You'll just be using one of the three existing repos ([proj-ucsb-courses-search]({{page.proj-ucsb-courses-search}}), [proj-ucsb-courses-search]({{page.proj-ucsb-cs-las}}), or [proj-ucsb-courses-search]({{page.proj-ucsb-cs-las}})) and then _deploying_ it on localhost and then Heroku.
+  In fact, you don't need a new repo at all.  You'll just be using one of the three existing repos ([proj-ucsb-courses-search]({{page.proj-ucsb-courses-search}}), [proj-ucsb-courses-search]({{page.proj-ucsb-cs-las}}), or [proj-ucsb-cs-las]({{page.proj-ucsb-cs-las}})) and then _deploying_ it on localhost and then Heroku.
   
   Accordingly, you don't need to worry about configuring Codecov, updating a README file, configuring secrets for CI/CD (`TEST_PROPERTIES`), etc. as you did for
   `jpa03` and `jpa04`.  Those steps are done by the course staff for these three legacy code repos.
