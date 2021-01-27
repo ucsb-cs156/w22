@@ -5,7 +5,7 @@ due: 2021-02-03 23:59
 github_org: ucsb-cs156-w21
 layout: lab
 num: jpa05
-ready: false
+ready: true
 proj-ucsb-courses-search: https://github.com/ucsb-cs156-w21/proj-ucsb-courses-search
 proj-ucsb-cs-las: https://github.com/ucsb-cs156-w21/proj-ucsb-cs-las
 proj-mapache-search: https://github.com/ucsb-cs156-w21/proj-mapache-search
