@@ -108,5 +108,17 @@ In this repo, please create a new directory `01.27` and a `README.md` in that di
 In the README.md file, put a link to your jpa05 deployment.  No special syntax is needed in GitHub Flavored Markdown to get a URL to be a link:
 
 ```
-Our jpa05 deployment is here: 
+Our jpa05 deployment is here: https://cs156-w21-team-5pm-1-courses.herokuapp.com/
 ```
+
+Under the `01.27` directory, each of the team members should create a file with their first name followed by `.md`, e.g. `Amy.md`, `Brian.md`, `Chris.md`, etc.
+
+Now: 
+* Explore the app.   
+* In your `Chris.md` file, make lists of:
+  - Bugs
+  - Feature suggestions
+  - Improvments to the User Interface
+
+Here is a guide to GitHub Flavored Markdown syntax: <https://guides.github.com/features/mastering-markdown/>
+
