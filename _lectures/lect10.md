@@ -105,4 +105,8 @@ In this repo, please create a new directory `01.27` and a `README.md` in that di
 
 ![create 01.27/README.md](create-readme.png)
 
+In the README.md file, put a link to your jpa05 deployment.  No special syntax is needed in GitHub Flavored Markdown to get a URL to be a link:
 
+```
+Our jpa05 deployment is here: 
+```
