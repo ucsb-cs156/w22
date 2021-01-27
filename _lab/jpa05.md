@@ -25,7 +25,7 @@ Here's what's different:
   - For proj-mapache-search, you'll have the additional step of configuring a Slack Bot
 * While you will be _cloning_ a repo for this assignment, you will *not* be creating a new repo.  Nor, do you need to fork a new repo.
 
-  In fact, you don't need a new repo at all.  You'll just be using one of the three existing repos ([proj-ucsb-courses-search]({{page.proj-ucsb-courses-search}}), [proj-ucsb-courses-search]({{page.proj-ucsb-cs-las}}), or [proj-ucsb-cs-las]({{page.proj-ucsb-cs-las}})) and then _deploying_ it on localhost and then Heroku.
+  In fact, you don't need a new repo at all.  You'll just be using one of the three existing repos ([proj-ucsb-courses-search]({{page.proj-ucsb-courses-search}}), [proj-ucsb-cs-las]({{page.proj-ucsb-cs-las}}), or [proj-mapache-search]({{page.proj-mapache-search}})) and then _deploying_ it on localhost and then Heroku.
   
   Accordingly, you don't need to worry about configuring Codecov, updating a README file, configuring secrets for CI/CD (`TEST_PROPERTIES`), etc. as you did for
   `jpa03` and `jpa04`.  Those steps are done by the course staff for these three legacy code repos.
