@@ -71,7 +71,7 @@ Later, a fifth stage was added: (5) Adjourning, to describe what happens after a
 
 More information is available here: <https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development>
 
-Let's take 5 minutes to read 
+Let's take 7 minutes to read the first four stages, and then 8 minutes to complete the exercise linked to below (two multiple choice questions, one short answer.)
 
 # What stage is your team at?
 
@@ -80,4 +80,13 @@ Let's take a moment to read about these, and then do some writing about that.
 [This exercise](https://docs.google.com/forms/d/e/1FAIpQLSfnEPhVCGnb4rD4zlNmSTu-fiHFjcQW867VIHT_JOyUAd8scg/viewform?usp=sf_link) counts 
 towards your course participation grade.
 
+# In your breakout rooms
 
+* Have each person share on the team slack channel where they think the team is (just write the name of the stage as a single post; you don't have to write the entire explanation).
+* Then, invite each person to share (out loud) what they think the team's next steps should be towards both:
+  - finishing jpa04 and jpa05
+  - making progress on the Tuckman stages, if needed
+* Then, work together to finish jpa04 and/or jpa05
+* When finished with jpa04/jpa05, there is one more team activity to start (see below)
+
+# 
