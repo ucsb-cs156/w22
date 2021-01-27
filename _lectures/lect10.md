@@ -89,4 +89,20 @@ towards your course participation grade.
 * Then, work together to finish jpa04 and/or jpa05
 * When finished with jpa04/jpa05, there is one more team activity to start (see below)
 
-# 
+# In your team repo
+
+Recall that each of you has a team repo for notes:
+
+| 5pm | 6pm | 7pm |
+|-----|-----|-----|
+| [team-5pm-1-NOTES](https://github.com/ucsb-cs156-w21/team-5pm-1-NOTES) | [team-6pm-1-NOTES](https://github.com/ucsb-cs156-w21/team-6pm-1-NOTES) | [team-7pm-1-NOTES](https://github.com/ucsb-cs156-w21/team-7pm-1-NOTES)  |
+| [team-5pm-2-NOTES](https://github.com/ucsb-cs156-w21/team-5pm-2-NOTES) | [team-6pm-2-NOTES](https://github.com/ucsb-cs156-w21/team-6pm-2-NOTES) | [team-7pm-2-NOTES](https://github.com/ucsb-cs156-w21/team-7pm-2-NOTES)  |
+| [team-5pm-3-NOTES](https://github.com/ucsb-cs156-w21/team-5pm-3-NOTES) | [team-6pm-3-NOTES](https://github.com/ucsb-cs156-w21/team-6pm-3-NOTES) | [team-7pm-3-NOTES](https://github.com/ucsb-cs156-w21/team-7pm-3-NOTES)  |
+| [team-5pm-4-NOTES](https://github.com/ucsb-cs156-w21/team-5pm-4-NOTES) | [team-6pm-4-NOTES](https://github.com/ucsb-cs156-w21/team-6pm-4-NOTES) | [team-7pm-4-NOTES](https://github.com/ucsb-cs156-w21/team-7pm-4-NOTES)  |
+{:.table .table-sm .table-striped .table-bordered}
+
+In this repo, please create a new directory `01.27` and a `README.md` in that directory, as shown in this image:
+
+![create 01.27/README.md](create-readme.png)
+
+
