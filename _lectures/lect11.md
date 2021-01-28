@@ -24,4 +24,4 @@ Here is a list of links to the teams and their apps:
 | Team | App Name/Link to Repo | Deployed App | Heroku Dashboard |
 |------|--------------|------------------|
 {% for p in page.projects %} | {{p.team}} | [{{p.repo}}](https://github.com/ucsb-cs156-w21/{{p.repo}}) | [Running App](https://cs156-w21-{{p.team}}-{{p.short}}.herokuapp.com) | [Heroku Dashboard](https://dashboard.heroku.com/apps/cs156-w21-{{p.team}}-{{p.short}}) |
-{% endfor %}
+{% endfor %}{:.table .table-sm .table-striped .table-bordered}
