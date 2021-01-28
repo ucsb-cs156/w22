@@ -34,7 +34,7 @@ projects:
  - team: team-7pm-2
    repo: proj-mapache-search
    short: mapache
-----
+---
 
 Our aim for today is to finish up jpa05; that is, for each group to have it's Heroku app (at the link below) deployed.  
 
