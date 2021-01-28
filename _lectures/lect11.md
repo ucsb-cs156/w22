@@ -7,7 +7,34 @@ projects:
  - team: team-5pm-1
    repo: proj-ucsb-courses-search
    short: courses
----
+ - team: team-5pm-2
+   repo: proj-ucsb-courses-search
+   short: courses
+ - team: team-5pm-3
+   repo: proj-ucsb-courses-search
+   short: courses
+ - team: team-5pm-4
+   repo: proj-ucsb-courses-search
+   short: courses
+ - team: team-6pm-1
+   repo: proj-ucsb-cs-las
+   short: las
+ - team: team-6pm-2
+   repo: proj-mapache-search
+   short: mapache
+ - team: team-6pm-3
+   repo: proj-ucsb-cs-las
+   short: las
+ - team: team-6pm-4
+   repo: proj-mapache-search
+   short: mapache
+ - team: team-7pm-1
+   repo: proj-ucsb-cs-las
+   short: las
+ - team: team-7pm-2
+   repo: proj-mapache-search
+   short: mapache
+----
 
 Our aim for today is to finish up jpa05; that is, for each group to have it's Heroku app (at the link below) deployed.  
 
@@ -23,5 +50,5 @@ Here is a list of links to the teams and their apps:
 
 | Team | App Name/Link to Repo | Deployed App | Heroku Dashboard |
 |------|--------------|------------------|
-{% for p in page.projects %} | {{p.team}} | [{{p.repo}}](https://github.com/ucsb-cs156-w21/{{p.repo}}) | [Running App](https://cs156-w21-{{p.team}}-{{p.short}}.herokuapp.com) | [Heroku Dashboard](https://dashboard.heroku.com/apps/cs156-w21-{{p.team}}-{{p.short}}) |
+{% for p in page.projects %} | {{p.team}} | [{{p.repo}}](https://github.com/ucsb-cs156-w21/{{p.repo}}){:target="_blank"} | [Running App](https://cs156-w21-{{p.team}}-{{p.short}}.herokuapp.com){:target="_blank"} | [Heroku Dashboard](https://dashboard.heroku.com/apps/cs156-w21-{{p.team}}-{{p.short}}){:target="_blank"} |
 {% endfor %}{:.table .table-sm .table-striped .table-bordered}
