@@ -1,6 +1,6 @@
 ---
 num: "Lecture 10"
-lecture_date: 2021-01-25
+lecture_date: 2021-01-27
 desc: "Wed Lecture: Teamwork, part 1, jpa05 continuation, Exploration of legacy app"
 ready: true
 ---
