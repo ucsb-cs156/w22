@@ -2,7 +2,7 @@
 num: "Lecture 7"
 lecture_date: 2021-01-20
 desc: "Wed Lecture: Team deployment of jpa03 (jpa04)"
-ready: false
+ready: true
 done: "Post on the team slack channel that you are finished, and assign yourself the next task that needs to be completed.  If all tasks have been assigned, pair with someone that is still working on theirs."
 ---
 
