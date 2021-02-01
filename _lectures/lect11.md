@@ -52,3 +52,15 @@ Here is a list of links to the teams and their apps:
 |------|--------------|------------------|
 {% for p in page.projects %} | {{p.team}} | [{{p.repo}}](https://github.com/ucsb-cs156-w21/{{p.repo}}){:target="_blank"} | [Running App](https://cs156-w21-{{p.team}}-{{p.short}}.herokuapp.com){:target="_blank"} | [Heroku Dashboard](https://dashboard.heroku.com/apps/cs156-w21-{{p.team}}-{{p.short}}){:target="_blank"} |
 {% endfor %}{:.table .table-sm .table-striped .table-bordered}
+
+For UCSB Courses Search:
+* You should be able to search for courses on the main Courses Search page, and see results come up (at least in JSON format)
+
+For UCSB CS LAs:
+* 
+
+For Mapache Search:
+* You should be able to see content when you use the features that look at the Slack Channels and Slack Users
+* You should be able to do Google Searches and see search results come back in JSON format
+* You should be able to issue `/mapache` slack commands from your team's test slack workspace.
+
