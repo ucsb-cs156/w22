@@ -1,6 +1,6 @@
 ---
 num: "Lecture 11"
-lecture_date: 2021-01-25
+lecture_date: 2021-02-01
 desc: "Mon Lecture: jpa05, and discovery on the three apps"
 ready: false
 projects:
