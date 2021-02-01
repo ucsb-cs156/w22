@@ -56,8 +56,10 @@ Here is a list of links to the teams and their apps:
 For UCSB Courses Search:
 * You should be able to search for courses on the main Courses Search page, and see results come up (at least in JSON format)
 
-For UCSB CS LAs:
-* 
+For UCSB CS LAs: Admins can:
+* Add Courses
+* Add Tutors
+* View Logins 
 
 For Mapache Search:
 * You should be able to see content when you use the features that look at the Slack Channels and Slack Users
