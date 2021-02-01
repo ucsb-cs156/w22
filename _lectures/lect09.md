@@ -1,6 +1,6 @@
 ---
 num: "Lecture 9"
-lecture_date: 2021-01-25
+lecture_date: 2021-01-26
 desc: "Tue Discussion: Starting on jpa05 (Deployment of your Team's Legacy App)"
 ready: true
 ---
