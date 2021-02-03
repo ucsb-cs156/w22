@@ -1,7 +1,7 @@
 ---
 desc: "Deploying full stack app with Auth0 and Database"
 assigned: 2021-01-19 17:00
-due: 2021-01-27 23:59
+due: 2021-01-29 18:00
 gauchospace_url: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=6012352
 github_org: ucsb-cs156-w21
 layout: lab
@@ -87,9 +87,12 @@ it should initially be private, and empty (no `README`, license or
 
 Clone that repo somewhere and cd into it.
 
+
 Then add this remote:
 
 <tt>git remote add starter {{page.starter}}</tt>
+
+That sets up `starter` as a remote with the code from this github repo: <{{page.starter}}>
 
 Then do:
 
