@@ -27,4 +27,15 @@ accounts have differnet privileges from your UCSB email address.
 
 Please note that you are not *required* to do this.  It's just an option you have if you find it useful.
 
-# 
+# A question/comment from a student:
+
+Last time, after class, a student asked this in chat:
+
+> These projects just seem crazy for me.  How did the instructor team manage to create those full-stack projects? The idea of being familiar with multiple languages, databases, and linking them together sounds overwhelming.
+
+Let's discuss that a bit!
+
+# May I delete my jpa02 from Heroku to make space?
+
+Yes!  And we'll let you know when you may delete jpa03 as well
+
