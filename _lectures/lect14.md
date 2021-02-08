@@ -1,6 +1,6 @@
 ---
 num: "Lecture 14"
-lecture_date: 2021-02-03
+lecture_date: 2021-02-08
 desc: "Mon Lecture: Overview of Spring and React as used in our apps"
 ready: true
 ---
