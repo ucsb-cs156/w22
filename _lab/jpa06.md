@@ -55,21 +55,20 @@ in Java, which rely on an understanding of:
 
 These concepts are covered in these online exercises and videos:
 
-* Exercises
-  [ex14](https://ucsb-cs156.github.io/tutorials/student_ex14/) and
-  [ex15](https://ucsb-cs156.github.io/tutorials/student_ex15/) on sorting by implementing
-  `Comparable` and using `java.util.Collections.sort(arraylist)`;
-* [Lecture Video from Tue 10/27 on Gauchocast](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f8c552d7-1daa-4def-9daf-ac62002435a6) that goes with [ex14](https://ucsb-cs156.github.io/tutorials/student_ex14/) and
-  [ex15](https://ucsb-cs156.github.io/tutorials/student_ex15/).
+* Lecture Video from W21: [Lecture 02-03, Wed](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8bcd3761-5712-4182-9a3b-acc50011253a)
+  - Article that goes with Lecture Video: <https://ucsb-cs156.github.io/topics/java_sorting/>
+  - Code that goes with Lecture Video: <https://github.com/UCSB-CS56-pconrad/java-sorting-and-comparators>
 
-* Exercises
-  [ex16](https://ucsb-cs156.github.io/tutorials/student_ex16/) and
-  [ex17](https://ucsb-cs156.github.io/tutorials/student_ex17/) on sorting by implementing
-  `Comparator` and using `arraylist.sort(comparator)`;
-  
-* Lecture Video from [Thu 10/29 on Gauchocast](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=76306c97-cb85-42c7-b484-ac6400feeaec) that goes with [ex16](https://ucsb-cs156.github.io/tutorials/student_ex16/) and
-  [ex17](https://ucsb-cs156.github.io/tutorials/student_ex17/).
+* Exercises (Updated with links to code)
+  - [ex14](https://ucsb-cs156.github.io/tutorials/student_ex14/) and
+  - [ex15](https://ucsb-cs156.github.io/tutorials/student_ex15/) on sorting by implementing `Comparable` and using `java.util.Collections.sort(arraylist)`;
+  - [ex16](https://ucsb-cs156.github.io/tutorials/student_ex16/) and
+ - [ex17](https://ucsb-cs156.github.io/tutorials/student_ex17/) on sorting by implementing `Comparator` and using `arraylist.sort(comparator)`;
+Lecture Video from F20:
 
+* Lecture Videos from F20 (may not be accessible yet, but I'm working on it)
+ - [Lecture Video from Tue 10/27 on Gauchocast](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f8c552d7-1daa-4def-9daf-ac62002435a6) that goes with [ex14](https://ucsb-cs156.github.io/tutorials/student_ex14/) and [ex15](https://ucsb-cs156.github.io/tutorials/student_ex15/).
+ - Lecture Video from [Thu 10/29 on Gauchocast](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=76306c97-cb85-42c7-b484-ac6400feeaec) that goes with [ex16](https://ucsb-cs156.github.io/tutorials/student_ex16/) and [ex17](https://ucsb-cs156.github.io/tutorials/student_ex17/).
 
 ## Working in a pair?
 
