@@ -16,7 +16,7 @@ team_5pm_3_kanban: https://github.com/ucsb-cs156-w21/proj-ucsb-courses-search/pr
 team_5pm_4_kanban: https://github.com/ucsb-cs156-w21/proj-ucsb-courses-search/projects/12
 team_6pm_1_kanban: https://github.com/ucsb-cs156-w21/proj-ucsb-cs-las/projects/15
 team_6pm_3_kanban: https://github.com/ucsb-cs156-w21/proj-ucsb-cs-las/projects/14
-team_7pm_1_kanban: https://github.com/ucsb-cs156-w21/proj_ucsb-cs-las/projects/13
+team_7pm_1_kanban: https://github.com/ucsb-cs156-w21/proj-ucsb-cs-las/projects/13
 team_6pm_2_kanban: https://github.com/ucsb-cs156-w21/proj-mapache-search/projects/11
 team_6pm_4_kanban: https://github.com/ucsb-cs156-w21/proj-mapache-search/projects/10
 team_7pm_2_kanban: https://github.com/ucsb-cs156-w21/proj-mapache-search/projects/9
