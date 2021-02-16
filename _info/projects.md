@@ -4,6 +4,12 @@ layout: default
 courses_url: https://github.com/ucsb-cs156-w21/proj-ucsb-courses-search
 las_url: https://github.com/ucsb-cs156-w21/proj-ucsb-cs-las
 mapache_url: https://github.com/ucsb-cs156-w21/proj-mapache-search
+courses_prod: https://proj-ucsb-courses-search.herokuapp.com
+las_prod: https://proj-ucsb-cs-las.herokuapp.com
+mapache_prod: https://proj-mapache-search.herokuapp.com
+courses_qa: https://proj-ucsb-courses-search-qa.herokuapp.com
+las_qa: https://proj-ucsb-cs-las-qa.herokuapp.com
+mapache_qa: https://proj-mapache-search-qa.herokuapp.com
 team_5pm_1_kanban: https://github.com/ucsb-cs156-w21/proj-ucsb-courses-search/projects
 team_5pm_2_kanban: https://github.com/ucsb-cs156-w21/proj-ucsb-courses-search/projects
 team_5pm_3_kanban: https://github.com/ucsb-cs156-w21/proj-ucsb-courses-search/projects
@@ -28,11 +34,11 @@ at [Fall 2020 Projects Page](https://ucsb-cs156.github.io/f20/info/projects)
 
 # W21 Legacy Code Projects
 
-| Section | Repo |   Production | QA | PRs |
-|---------|---------|-----|----|---|
-| 5pm | [proj-ucsb-courses-search]({{page.courses_url}}) |  [proj-ucsb-courses-search](https://proj-ucsb-courses-search.herokuapp.com) | [proj-ucsb-courses-search-qa](https://proj-ucsb-courses-search-qa.herokuapp.com) | [PRs]({{page.courses_url}}/pulls) |
-| 6pm/7pm teams 1,3 | [proj-ucsb-cs-las]({{page.las_url}}) |  [proj-ucsb-cs-las](https://proj-ucsb-cs-las.herokuapp.com) | [proj-ucsb-cs-las-qa](https://proj-ucsb-cs-las-qa.herokuapp.com) | [PRs]({{page.las_url}}/pulls) |
-| 6pm/7pm teams 2,4 | [proj-mapache-search]({{page.mapache_url}}) |  [proj-mapache-search](https://proj-mapache-search.herokuapp.com) | [proj-mapache-search-qa](https://proj-mapache-search-qa.herokuapp.com) | [PRs]({{page.mapache_url}}/pulls) |
+| Section | Repo | Prod | QA | PRs | Issues | Kanban |
+|---------|------|------|----|-----|--------|--------|
+| 5pm | [proj-ucsb-courses-search]({{page.courses_url}}) |  [prod]({{page.courses_prod}}) | [qa]({{page.courses_qa}}) | [PRs]({{page.courses_url}}/pulls) |  [Issues]({{page.courses_url}}/issues) |  [Kanban]({{page.courses_url}}/projects) 
+| 6pm/7pm <br/> teams 1,3 | [proj-ucsb-cs-las]({{page.las_url}}) |   [prod]({{page.las_prod}}) | [qa]({{page.las_qa}})  | [PRs]({{page.las_url}}/pulls) |  [Issues]({{page.las_url}}/issues) |  [Kanban]({{page.las_url}}/projects) 
+| 6pm/7pm <br/> teams 2,4 | [proj-mapache-search]({{page.mapache_url}}) | [prod]({{page.mapache_prod}}) | [qa]({{page.mapache_qa}})  | [PRs]({{page.mapache_url}}/pulls) |  [Issues]({{page.mapache_url}}/issues) |  [Kanban]({{page.courses_url}}/projects) |
 {:.table .table-sm .table-striped .table-bordered}
 
 # W21 Epics
