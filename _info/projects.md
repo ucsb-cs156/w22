@@ -20,7 +20,6 @@ team_7pm_1_kanban: https://github.com/ucsb-cs156-w21/proj_ucsb-cs-las/projects/1
 team_6pm_2_kanban: https://github.com/ucsb-cs156-w21/proj-mapache-search/projects/11
 team_6pm_4_kanban: https://github.com/ucsb-cs156-w21/proj-mapache-search/projects/10
 team_7pm_2_kanban: https://github.com/ucsb-cs156-w21/proj-mapache-search/projects/9
-
 ---
 
 Information about the legacy code projects will be posted after
