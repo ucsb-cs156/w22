@@ -22,14 +22,7 @@ team_6pm_4_kanban: https://github.com/ucsb-cs156-w21/proj-mapache-search/project
 team_7pm_2_kanban: https://github.com/ucsb-cs156-w21/proj-mapache-search/projects/9
 ---
 
-Information about the legacy code projects will be posted after
-the staff have set up each of the epics.
-
-However, you can get a sense of what that will look like by looking
-at [Fall 2020 Projects Page](https://ucsb-cs156.github.io/f20/info/projects)
-
-# BELOW THIS LINE, THIS PAGE IS A WORK IN PROGRESS
-
+* [Fall 2020 Projects Page](https://ucsb-cs156.github.io/f20/info/projects)
 
 # W21 Legacy Code Projects
 
