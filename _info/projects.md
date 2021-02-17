@@ -37,7 +37,7 @@ at [Fall 2020 Projects Page](https://ucsb-cs156.github.io/f20/info/projects)
 |---------|------|------|----|-----|--------|--------|
 | 5pm | [proj-ucsb-courses-search]({{page.courses_url}}) |  [prod]({{page.courses_prod}}) | [qa]({{page.courses_qa}}) | [PRs]({{page.courses_url}}/pulls) |  [Issues]({{page.courses_url}}/issues) |  [Kanban]({{page.courses_url}}/projects) 
 | 6pm/7pm <br/> teams 1,3 | [proj-ucsb-cs-las]({{page.las_url}}) |   [prod]({{page.las_prod}}) | [qa]({{page.las_qa}})  | [PRs]({{page.las_url}}/pulls) |  [Issues]({{page.las_url}}/issues) |  [Kanban]({{page.las_url}}/projects) 
-| 6pm/7pm <br/> teams 2,4 | [proj-mapache-search]({{page.mapache_url}}) | [prod]({{page.mapache_prod}}) | [qa]({{page.mapache_qa}})  | [PRs]({{page.mapache_url}}/pulls) |  [Issues]({{page.mapache_url}}/issues) |  [Kanban]({{page.courses_url}}/projects) |
+| 6pm/7pm <br/> teams 2,4 | [proj-mapache-search]({{page.mapache_url}}) | [prod]({{page.mapache_prod}}) | [qa]({{page.mapache_qa}})  | [PRs]({{page.mapache_url}}/pulls) |  [Issues]({{page.mapache_url}}/issues) |  [Kanban]({{page.mapache_url}}/projects) |
 {:.table .table-sm .table-striped .table-bordered}
 
 # W21 Epics
