@@ -1,7 +1,7 @@
 ---
-num: "Lecture 17"
-lecture_date: 2021-02-16
-desc: "Tue Discussion: Starting on the Legacy Code Projects"
+num: "Lecture 18"
+lecture_date: 2021-02-17
+desc: "Wed Lecture: Starting on the Legacy Code Projects"
 ready: true
 ---
 
