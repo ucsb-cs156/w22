@@ -18,6 +18,13 @@ ready: true
 
 * If you run out of stories?
 
+# Git commands
+
+Any questions on that?
+
+* git reset
+* git pull --rebase origin master
+* git push origin branch -f 
 
 # Other
 
