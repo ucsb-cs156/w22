@@ -28,6 +28,8 @@ Concepts:
 * rebase
 * merge
 
+Diagram... 
+
 Commands
 
 * git reset
