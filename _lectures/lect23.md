@@ -7,5 +7,8 @@ ready: true
 
 # Due Dates
 
+* Final Presentations
+* Deadline for PRs
+
 # Pull Requests
 
