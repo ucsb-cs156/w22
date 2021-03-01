@@ -22,6 +22,14 @@ ready: true
 
 Any questions on that?
 
+Concepts:
+* branch
+* remote
+* rebase
+* merge
+
+Commands
+
 * git reset
 * git pull --rebase origin main
 * git push origin branch -f 
