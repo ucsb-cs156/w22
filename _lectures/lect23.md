@@ -7,10 +7,27 @@ ready: true
 
 # Due Dates
 
-* Final Presentations
-* Deadline for PRs
+* Final Presentations:  Tuesday, March 16, 2021 12:00 PM - 3:00 PM
+* Deadline for all PRs: Noon, Wednesday 3/10 
+
+After that, you may continue to make changes to 
+* Get tests to pass
+* Address code review issues
+* Address merge conflicts 
+* Address bugs found during code review
+
+You may not, however:
+* Do substantial new development
+* Start new issues
 
 # Pull Requests
+
+* <https://ucsb-cs156.github.io/topics/pull_requests/>
+
+# Live Demos and Exploratory Testing
+
+* on qa site?
+* on team site?
 
 # Localhost setup
 
