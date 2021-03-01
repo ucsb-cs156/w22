@@ -23,7 +23,7 @@ ready: true
 Any questions on that?
 
 * git reset
-* git pull --rebase origin master
+* git pull --rebase origin main
 * git push origin branch -f 
 
 # Other
