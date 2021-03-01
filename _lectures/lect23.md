@@ -12,3 +12,11 @@ ready: true
 
 # Pull Requests
 
+# Localhost setup
+
+
+
+# Other
+
+* Setting up React Dev Tools
+* Docker
