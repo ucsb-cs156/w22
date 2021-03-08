@@ -1,6 +1,6 @@
 ---
 num: "Lecture 20"
-lecture_date: 2021-02-17
+lecture_date: 2021-02-23
 desc: "Tue Section"
 ready: true
 ---
