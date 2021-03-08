@@ -1,6 +1,6 @@
 ---
 num: "Lecture 15"
-lecture_date: 2021-02-08
+lecture_date: 2021-02-09
 desc: "Tue Discussion: Finish 01.27/README.md (notes on app) and jpa06"
 ready: true
 ---
