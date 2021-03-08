@@ -15,6 +15,12 @@ I hope the struggle was worth it.
 
 A reminder to complete online course evaluations before the deadline, which is likely sometime this Friday.
 
+# These are *team* projects
+
+There isn't a point when you say "I've done all of my work, I'm walking away, the rest is up to you".
+
+The *team* is responsible for the work.   It's important to show up for your team, and support your fellow team members.
+
 # 2nd Catme survey:DEADLINE MIDNIGHT TONIGHT, STRICT
 
 The second Catme survey is out now, *due midnight tonight*.
