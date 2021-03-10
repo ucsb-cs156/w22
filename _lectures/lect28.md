@@ -14,14 +14,16 @@ ready: true
 * All other teams: you may use the time to 
   - Focus on planning / execution of your final presentation.
 
-# There may be one last short homework assignment
+# One last short homework assignment
 
-I will be making one final homework assignment, which is more of the nature of a "reflection" piece.   It shouldn't take more than 30 minutes of time.
+We have one last homework assignment, which is more of the nature of a "reflection" piece.   It shouldn't take more than 30 minutes of time.
+
+<https://www.gradescope.com/courses/219931/assignments/1089478>
 
 I'll ask you to reflect on 
 - what you learned in the course
-- what directions you'd suggest for the product you worked on
-- what advice you would give to future students
+- how you would talk about that at a job interview
+- what advice you would give to future students or for future changes to the course
   
 # Suggestions for the final presentation planning process
 
