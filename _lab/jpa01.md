@@ -1,14 +1,14 @@
 ---
 desc: "Testing: test coverage and mutation testing"
-assigned: 2021-01-06 12:30
-due: 2021-01-14 23:00
+assigned: 2021-03-29 12:30
+due: 2021-04-09 23:00
 layout: lab
 num: jpa01
 ready: true
-course_org: https://github.com/ucsb-cs156-w21
-course_org_name: ucsb-cs156-w21
-starter_repo: https://github.com/ucsb-cs156-w21/STARTER-jpa01
-gradescope: https://www.gradescope.com/courses/219931/assignments/922797
+course_org: https://github.com/ucsb-cs156-s21
+course_org_name: ucsb-cs156-s21
+starter_repo: https://github.com/ucsb-cs156-s21/STARTER-jpa01
+gradescope: https://www.gradescope.com/courses/255328/assignments/1107943
 ---
 
 <style>
