@@ -23,15 +23,15 @@ exclude:
 timezone: America/Los_Angeles
 
 url: https://ucsb-cs156.github.io # the base hostname & protocol for your site
-baseurl: /w21  # the subpath of your site, e.g. "/blog"
-github_url: https://github.com/ucsb-cs156/w21
+baseurl: /s21  # the subpath of your site, e.g. "/blog"
+github_url: https://github.com/ucsb-cs156/s21
 
 
 
 course: "CS156"
-qtr: "W21"
-qxx: "w21"
-quarter: "Winter 2021"
+qtr: "S21"
+qxx: "s21"
+quarter: "Spring 2021"
 
 lecture_days_of_week: MW
 
@@ -39,30 +39,29 @@ assigned_text: " assigned"
 due_text: " due "
 
 start_week: 1
-start_date: 2021-01-03
+start_date: 2021-03-28
 num_weeks: 10
 extra_exam_week: true
 
 cal_dates: >
   [
-    {"label":"W21 1st day of instruction", "date":"2021-01-04" },	
-    {"label":"Univ Holiday", "date":"2021-01-18" , "holiday": true},
-    {"label":"Univ Holiday", "date":"2021-02-15" , "holiday": true},
-    {"label":"W21 instruction ends", "date":"2021-03-12" },
-    {"label":"W21 finals start", "date":"2021-03-13" },
-    {"label":"CS156 Final noon-3pm", "date":"2021-03-16" },
-    {"label":"W21 finals end", "date":"2021-03-19" },
-    {"label":"W21 qtr ends", "date":"2021-03-19" }
+    {"label":"S21 1st day of instruction", "date":"2021-03-29" },	
+    {"label":"Univ Holiday", "date":"2021-05-31" , "holiday": true},
+    {"label":"S21 instruction ends", "date":"2021-06-04" },
+    {"label":"S21 finals start", "date":"2021-06-05" },
+    {"label":"CS156 Final noon-3pm", "date":"2021-06-08" },
+    {"label":"W21 finals end", "date":"2021-06-11" },
+    {"label":"W21 qtr ends", "date":"2021-06-11" }
   ]
 
 piazza_url: https://piazza.com
 gauchospace_course_page: https://gauchospace.ucsb.edu/courses/course/view.php?id=tbd
-github_org_name: ucsb-cs156-w21
-github_org_url: https://github.com/ucsb-cs156-w21
+github_org_name: ucsb-cs156-s21
+github_org_url: https://github.com/ucsb-cs156-s21
 
 ta_list: "Mara and Jacqui"
 ta_list_full: "Mara Downing and Jacqui Mai"
-mentors_list: "Andrew, Bryan, Jayleen, Justin, and Zachary"
+mentors_list: "Andrew, Bryan, Wade"
 discussion_section_times: "5pm,&nbsp;6pm,&nbsp;7pm"
 sections: "5pm,&nbsp;6pm,&nbsp;7pm"
 
@@ -77,7 +76,7 @@ legacy_wiki_url: https://foo.cs.ucsb.edu/56wiki
 legacy_wiki_name: "56wiki"
 
 
-hwk_drop_lowest: three
+hwk_drop_lowest: two
 
 
 hfj_chapter_url_prefix: "http://ucsb-cs56-pconrad.github.io/hfj/HFJ_Chapter_"
