@@ -1,6 +1,6 @@
 ---
 num: Lecture 0
-lecture_date: 2021-01-04
+lecture_date: 2021-03-29
 desc: "Introduction to CS156"
 ready: true
 ---
