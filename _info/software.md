@@ -71,7 +71,15 @@ layout: default
    * and much much more...
    
    Download it here: <https://code.visualstudio.com/download>
-     
+  
+4. Docker
+
+   Docker provides a way for you to run a standardized Linux environment inside another platform (whether that be Windows, Mac, or Linux).  It gives us the ability
+   to have a consistent development environment, but running on your own machine.
+   
+   https://www.docker.com/products/docker-desktop
+   
+   We'll be recommending Docker as a platform for running the legacy code applications later in the quarter.
 
 ## Recommmended for MacOS Users
 
