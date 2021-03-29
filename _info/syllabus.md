@@ -1,5 +1,5 @@
 ---
-title: "Syllabus, CMPSC 156, Winter 2021"
+title: "Syllabus, CMPSC 156, Spring 2021"
 layout: handout
 ready: true
 ---
@@ -25,7 +25,7 @@ Basic Facts
   * You must participate the section for which you are registered, since teams are assigned by section.
 * Office Hours: See: <http://www.cs.ucsb.edu/~pconrad/ofchrs>  
 
-Course website: <https://ucsb-cs156.github.io/f20/>
+Course website: <https://ucsb-cs156.github.io/s21/>
 
 About the Course
 ----------------
@@ -58,7 +58,7 @@ Final Course Grades
 
 Your grade will be made up of activities from the following categories:
 
-* Participation Grades (10%) - Each participation grade will be out of 100 points.  The grade for 10/01 is an example of this category.
+* Participation Grades (10%) - Each participation grade will be out of 100 points.  The grade for 03/29 (P00) is an example of this category.
   
   Particpation grades may vary: some are individual, some are team, and some (like 10/01) may be a combination of the two that adds up to 100.
   
