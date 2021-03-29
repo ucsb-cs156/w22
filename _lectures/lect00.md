@@ -5,7 +5,7 @@ desc: "Introduction to CS156"
 ready: true
 ---
 
-<div style="display:none;">https://ucsb-cs156.github.io/w21/lectures/lect00
+<div style="display:none;">https://ucsb-cs156.github.io/s21/lectures/lect00
 </div>
 
 
@@ -55,7 +55,7 @@ Note the two parts:
 * Permanent part for CS156
 * The part for /s21/ specifically
 
-Also note the Calendar where you can keep track of things that are due: <https://ucsb-cs156.github.io/w21/info/calendar/>
+Also note the Calendar where you can keep track of things that are due: <https://ucsb-cs156.github.io/s21/info/calendar/>
 
 # Where is the syllabus?
 
@@ -106,7 +106,7 @@ do that now.
 * Before tomorrow night's discussion seciton, skim this article: <https://pconrad.github.io/files/paper028.pdf>
   - For tomorrow night, Read all of the "abstract" and Section 1 (about 1 page), and skim through Section 4 (about 5 pages)
   - During discussion section tomorrow, you'll be dividing up the six parts of section 4 among the team members,
-    and then doing a more detailed read for a homework assignment due on Monday (<https://ucsb-cs156.github.io/w21/hwk/h01/>)
+    and then doing a more detailed read for a homework assignment due on Monday (<https://ucsb-cs156.github.io/s21/hwk/h01/>)
 
 * As you read, be prepared to discuss the ways in which developers felt unprepared, 
   and what experiences they wish they had during their courses at University.
@@ -132,7 +132,7 @@ Some students have reported that they were able to go through the UCSB Library w
 
 # Homework H00 due Friday
 
-<https://ucsb-cs156.github.io/w21/hwk/h00>
+<https://ucsb-cs156.github.io/s21/hwk/h00>
 
 # Next week's reading assignment (for Tuesday 01/12)
 
@@ -157,11 +157,11 @@ Legacy Applications: They existed before this course started, and will continue 
 
 # Logistics
 
-* Check website for software to install <https://ucsb-cs156.github.io/w21/info/software/>
+* Check website for software to install <https://ucsb-cs156.github.io/s21/info/software/>
 * Check email for:
   * Research survey invitation (coming soon)
   * Slack invitation
-* Join ucsb-cs156-w21 github org
+* Join ucsb-cs156-s21 github org
   * Create account at github.com
   * Add your @ucsb.edu or @umail.ucsb.edu email address (either one)
   * Visit <https://ucsb-cs-github-linker.herokuapp.com> and login with your github username/password
@@ -194,8 +194,8 @@ We'll go into breakout rooms and you'll meet the first team you'll be working wi
 Teams are by discussion section; there are three discussion sections, and 4 teams per discussion section.
 
 Team assignments, and the mapping from teams to staff (LAs/TAs) is listed here:
-* <https://ucsb-cs156.github.io/w21/info/teams/>
-* You can find this link on the course website, <https://ucsb-cs156.github.io/w21> under "More..." then Teams.
+* <https://ucsb-cs156.github.io/s21/info/teams/>
+* You can find this link on the course website, <https://ucsb-cs156.github.io/s21> under "More..." then Teams.
 
 Note that while the instructor, or a TA or LA might drop in on your Breakout Room, they are not the discussion leader.  You need to self-organize to run your own 
 breakout room discussion.

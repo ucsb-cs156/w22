@@ -50,8 +50,8 @@ cal_dates: >
     {"label":"S21 instruction ends", "date":"2021-06-04" },
     {"label":"S21 finals start", "date":"2021-06-05" },
     {"label":"CS156 Final noon-3pm", "date":"2021-06-08" },
-    {"label":"W21 finals end", "date":"2021-06-11" },
-    {"label":"W21 qtr ends", "date":"2021-06-11" }
+    {"label":"S21 finals end", "date":"2021-06-11" },
+    {"label":"S21 qtr ends", "date":"2021-06-11" }
   ]
 
 piazza_url: https://piazza.com
