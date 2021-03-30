@@ -11,7 +11,7 @@ When you finish that activity, please ping a member of the staff to check off yo
 
 Once that's done, you are free to go, but you are also invited to stay and work on one or more of these items:
 * Ask for help with [jpa00](https://ucsb-cs156.github.io/s21/lab/jpa02/) or [jpa01](https://ucsb-cs156.github.io/s21/lab/jpa02/)
-* Get started on [H00](https://ucsb-cs156.github.io/s21/hwk/H00/), [H01](https://ucsb-cs156.github.io/s21/hwk/H01/), or [H02](https://ucsb-cs156.github.io/s21/hwk/H02/) as appropriate
+* Get started on [h00](https://ucsb-cs156.github.io/s21/hwk/h00/), [h01](https://ucsb-cs156.github.io/s21/hwk/h01/), or [h02](https://ucsb-cs156.github.io/s21/hwk/h02/) as appropriate
 * Ask staff questions about the course.
 
 You may also like to:
