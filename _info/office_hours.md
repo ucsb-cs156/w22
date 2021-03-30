@@ -26,7 +26,7 @@ There is a table of specialities below the calendar, so if you are looking for h
 | Conrad       |      X       |      X        |               |           |             |
 | Andrew       |              |               |               |           |             |
 | Bryan        |              |               |               |           |             |
-| Calvin       |              |               |               |           |             |
+| Calvin       |              |               |       X       |           |     X       |
 | Jacqui       |              |               |               |           |             |
 | Mara         |              |      X        |               |           |     X       |
 | Wade         |              |               |               |           |             |
