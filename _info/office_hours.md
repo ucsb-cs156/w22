@@ -30,3 +30,5 @@ There is a table of specialities below the calendar, so if you are looking for h
 | Jacqui       |              |               |               |           |
 | Mara         |              |               |               |           |
 | Wade         |              |               |               |           |
+{:.table .table-sm .table-striped .table-bordered}
+
