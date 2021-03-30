@@ -1,5 +1,5 @@
 ---
-num: Lecture 0
+num: "Lecture 00"
 lecture_date: 2021-03-29
 desc: "Introduction to CS156"
 ready: true
