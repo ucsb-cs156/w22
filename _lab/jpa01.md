@@ -370,8 +370,6 @@ The output will show you how many mutants are killed.
 
 You can see more detailed output by using a web browser to open up the file:
 
-* `target/pit-testing/
-
 * <tt>target/pit-reports/<i>yyyymmddhhmm</i>/index.html</tt>
 
 Note that <tt><i>yyyymmddhhmm</i></tt> will be replaced by a date/timestamp; each time you run the Maven command to run
