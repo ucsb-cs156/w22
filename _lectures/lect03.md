@@ -1,9 +1,28 @@
 ---
-num: "Lecture 4"
+num: "Lecture 03"
 lecture_date: 2021-01-05
 desc: "Mon Lecture: Extra Credit Opportunity (Survey), Informed Consent"
 ready: false
 ---
+
+
+# Three items of business
+
+* Before Lecture on Wednesday: Read over your fellow students answers to H01 in your NOTES repo (link below)
+* Today: Going over a Spring Application (jpa02, and then a pure backend application)
+* Extra Credit Opportunity (link in Announcements channel in Slack)
+* If extra time: Help with jpa01, jpa02
+
+
+| 5pm | 6pm | 7pm |
+|-----|-----|-----|
+| [s21-5pm-1-NOTES](https://github.com/ucsb-cs156-s21/s21-5pm-1-NOTES) | [s21-6pm-1-NOTES](https://github.com/ucsb-cs156-s21/s21-6pm-1-NOTES) | [s21-7pm-1-NOTES](https://github.com/ucsb-cs156-s21/s21-7pm-1-NOTES)  |
+| [s21-5pm-2-NOTES](https://github.com/ucsb-cs156-s21/s21-5pm-2-NOTES) | [s21-6pm-2-NOTES](https://github.com/ucsb-cs156-s21/s21-6pm-2-NOTES) | [s21-7pm-2-NOTES](https://github.com/ucsb-cs156-s21/s21-7pm-2-NOTES)  |
+| [s21-5pm-3-NOTES](https://github.com/ucsb-cs156-s21/s21-5pm-3-NOTES) | [s21-6pm-3-NOTES](https://github.com/ucsb-cs156-s21/s21-6pm-3-NOTES) | [s21-7pm-3-NOTES](https://github.com/ucsb-cs156-s21/s21-7pm-3-NOTES)  |
+| [s21-5pm-4-NOTES](https://github.com/ucsb-cs156-s21/s21-5pm-4-NOTES) | [s21-6pm-4-NOTES](https://github.com/ucsb-cs156-s21/s21-6pm-4-NOTES) | [s21-7pm-4-NOTES](https://github.com/ucsb-cs156-s21/s21-7pm-4-NOTES)  |
+{:.table .table-sm .table-striped .table-bordered}
+
+# Repo: <https://github.com/ucsb-cs156-s21/demo-spring-backend-only>
 
 # Short version
 
