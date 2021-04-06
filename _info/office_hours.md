@@ -24,7 +24,7 @@ There is a table of specialities below the calendar, so if you are looking for h
 | Staff Member | CSIL Setup   | Mac OS Setup  | Windows Setup | WSL Setup | Linux Setup | 
 |--------------|--------------|---------------|---------------|-----------|-------------|
 | Conrad       |      X       |      X        |               |           |             |
-| Andrew       |              |               |               |           |             |
+| Andrew       |      X       |               |       X       |     X     |             |
 | Bryan        |              |               |               |           |             |
 | Calvin       |              |               |       X       |           |     X       |
 | Jacqui       |              |               |               |           |             |
