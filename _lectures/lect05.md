@@ -5,7 +5,7 @@ desc: "Wed Lecture: follow up on H01, LTD paper"
 ready: true
 ---
 
-# Today: P03 (participation assignment)
+# Today: P02 (participation assignment)
 
 Today we return to the paper that we read earlier in the quarter.  Each of you contributed some text to a repo:
 
