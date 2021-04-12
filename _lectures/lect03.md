@@ -1,6 +1,6 @@
 ---
 num: "Lecture 03"
-lecture_date: 2021-01-05
+lecture_date: 2021-04-05
 desc: "Mon Lecture: Extra Credit Opportunity (Survey), Informed Consent"
 ready: false
 ---
