@@ -92,7 +92,8 @@ It might also be nicely formatted, depending on whether you have any browser ext
    
    * Location look up (enter a string, get back locations in the world along with their latitude/longitude)
    * Look up public holidays (enter a year and a country code), get back public holidays
-   * Reddit query (enter a subreddit name, get back recent reddit posts)
+   * Reddit query (enter a subreddit name, get back recent reddit posts; whomever does this one needs to have 
+     a reddit account.)
    * Tides query (enter a start and end date, and a station id, get back high and low tides during that period)
    * University query (enter part of a university name, get back all matching universities)
    * Zip Code query (enter a zip code, get back information about that zip code).
@@ -124,3 +125,24 @@ It might also be nicely formatted, depending on whether you have any browser ext
    
    
  
+ 
+ # Special Instructions for the RedditQueryService
+ 
+The Reddit Query service will work just like the other services, except that you may get frequent errors 
+of the form `429 Too Many Requests` as described in [this Stack Overflow post](https://stackoverflow.com/questions/30992791/http-429-too-many-requests-when-accessing-a-reddit-json-page-only-once-using-ja).   The fix is to add this line of code,
+which you should customize with your reddit id (put it in place of `cgaucho`).
+
+```java
+   headers.set("User-Agent","spring-boot:cs156-team01:s21 (by /u/cgaucho)")
+```
+
+This goes immediately after these lines of code, which you'll find in the example services:
+
+```java
+   HttpHeaders headers = new HttpHeaders();
+   headers.setAccept(List.of(MediaType.APPLICATION_JSON));
+   headers.setContentType(MediaType.APPLICATION_JSON);
+```
+
+
+
