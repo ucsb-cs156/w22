@@ -47,15 +47,6 @@ A member of your team should:
 2. On the deploy screen, link your Heroku app to your team's repo, and deploy the main branch.
 3. When the app is deployed, you should be able to navigate to the link below for your team, and launch the application.
 
-   The result of visiting the home page of the app in the browser should be something like this:
-   
-   ```json
-   ```
-   
-   It might also be nicely formatted, depending on whether you have any browser extensions installed for processing JSON:
-   ```json
-   ```
-
 | 5pm | 6pm | 7pm|
 |-----|-----|----|
 |[cs156-s21-5pm-1-team01](https://cs156-s21-5pm-1-team01.herokuapp.com)|[cs156-s21-6pm-1-team01](https://cs156-s21-6pm-1-team01.herokuapp.com)|[cs156-s21-7pm-1-team01](https://cs156-s21-7pm-1-team01.herokuapp.com)|
@@ -63,3 +54,73 @@ A member of your team should:
 |[cs156-s21-5pm-3-team01](https://cs156-s21-5pm-3-team01.herokuapp.com)|[cs156-s21-6pm-3-team01](https://cs156-s21-6pm-3-team01.herokuapp.com)|[cs156-s21-7pm-3-team01](https://cs156-s21-7pm-3-team01.herokuapp.com)|
 |[cs156-s21-5pm-4-team01](https://cs156-s21-5pm-4-team01.herokuapp.com)|[cs156-s21-6pm-4-team01](https://cs156-s21-6pm-4-team01.herokuapp.com)|[cs156-s21-7pm-4-team01](https://cs156-s21-7pm-4-team01.herokuapp.com)|
 {:.table .table-sm .table-striped .table-bordered}
+
+The result of visiting the home page of the app in the browser should be something like this:
+   
+```json
+{"api-documentation":"http://localhost:8080/swagger-ui/","greeting":"Greetings from Spring Boot","repo":"https://github.com/ucsb-cs156-s21/STARTER-team01","team":["Andrew L.","Bryan T.","Calvin J.","Jacqui M.","Mara D.","Max L.","Phill C.","Wade V."]}
+```
+   
+It might also be nicely formatted, depending on whether you have any browser extensions installed for processing JSON:
+```json
+{
+  api-documentation: "https://starter-team01.herokuapp.com/swagger-ui/",
+  greeting: "Greetings from Spring Boot",
+  repo: "https://github.com/ucsb-cs156-s21/STARTER-team01",
+  team: [
+    "Andrew L.",
+    "Bryan T.",
+    "Calvin J.",
+    "Jacqui M.",
+    "Mara D.",
+    "Max L.",
+    "Phill C.",
+    "Wade V."
+  ]
+}
+```
+
+3. This step is a part of participation assignment (P04), in class on Monday 04/11/2021. 
+
+   Now in the README.md, towards the top, there is a place where you need to divide up the work among the team 
+   members.  There are six services, and six matching controllers that you need to implement and write tests
+   for; divide these up so that each team member is assigned to at least one of these.
+   
+   Find the table that looks like this, and fill it in, dividing the work among the team members.
+   
+   There are six service/controller pairs: you need to go into your team's slack channel and claim one:
+   
+   * Location look up (enter a string, get back locations in the world along with their latitude/longitude)
+   * Look up public holidays (enter a year and a country code), get back public holidays
+   * Reddit query (enter a subreddit name, get back recent reddit posts)
+   * Tides query (enter a start and end date, and a station id, get back high and low tides during that period)
+   * University query (enter part of a university name, get back all matching universities)
+   * Zip Code query (enter a zip code, get back information about that zip code).
+   
+   Each member of the team is responsible for implementing one of these services, the matching controller, and
+   the tests that go along with them.
+   
+4. This step is also part of participation assignment (P04), in class on Monday 04/11/2021. 
+
+   In the README, there is a table that looks like this.  Someone on the team should fill in the first two columns 
+   of the table with the name of the team members that will implement each of the services.  
+   
+   On teams with fewer than six members, after each person has done one, whoever finishes first can help the
+   team by completing the unfinished one.  *However, each team member must contribute at least one of the services*
+   *and controllers, with commits and pull requests in their name.*
+
+
+   ```
+   |   Name    | GitHub Id |  Service                    | Controller                |
+   |-----------|-----------|-----------------------------|---------------------------| 
+   |           |           | `LocationQueryService`      | `LocationController`      |   
+   |           |           | `PublicHolidayQueryService` | `PublicHolidayController` |   
+   |           |           | `RedditQueryService`        | `RedditController`        |   
+   |           |           | `TidesQueryService`         | `TidesController`         |   
+   |           |           | `UniversityQueryService`    | `UniversityController`    |
+   |           |           | `ZipCodeQueryService`       | `ZipCodeController`       |
+   ```
+   
+   
+   
+ 
