@@ -1,6 +1,6 @@
 ---
 num: "Lecture 06"
-lecture_date: 2021-04-07
+lecture_date: 2021-04-12
 desc: "Mon Lecture: introducing team01, feature branch workflow, pull requests"
 ready: true
 ---
