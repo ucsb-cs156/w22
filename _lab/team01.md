@@ -128,6 +128,35 @@ team by completing the unfinished one.  *However, each team member must contribu
 |           |           | `ZipCodeQueryService`       | `ZipCodeController`       |
 ```
    
+Note that after you add the names, the lines might not line up in the source code.  Don't worry; the table will still look fine as a formatted table.  
+
+Example: notice the wavy lines...
+
+```
+|   Name    | GitHub Id |  Service                    | Controller                |
+|-----------|-----------|-----------------------------|---------------------------| 
+|           |           | `LocationQueryService`      | `LocationController`      |   
+| Bryan T.  | btk5h     | `PublicHolidayQueryService` | `PublicHolidayController` |   
+| Wade V.   | WadeVaresio | `RedditQueryService`        | `RedditController`        |   
+| Jacqui M. | JacquelineMai | `TidesQueryService`         | `TidesController`         |   
+|           |           | `UniversityQueryService`    | `UniversityController`    |
+| Mara D.   | maradowning | `ZipCodeQueryService`       | `ZipCodeController`       |
+```
+   
+Then notice the rendered table looks fine:
+
+
+|   Name    | GitHub Id |  Service                    | Controller                |
+|-----------|-----------|-----------------------------|---------------------------| 
+|           |           | `LocationQueryService`      | `LocationController`      |   
+| Bryan T.  | btk5h     | `PublicHolidayQueryService` | `PublicHolidayController` |   
+| Wade V.   | WadeVaresio | `RedditQueryService`        | `RedditController`        |   
+| Jacqui M. | JacquelineMai | `TidesQueryService`         | `TidesController`         |   
+|           |           | `UniversityQueryService`    | `UniversityController`    |
+| Mara D.   | maradowning | `ZipCodeQueryService`       | `ZipCodeController`       |
+{:.table .table-sm .table-striped .table-bordered}
+
+   
 # Part 2: Work as an individual on your service
 
 In this part of the lab, you work as an individual, on your part.  You may get help from other team members&mdash;in fact you are strongly encouraged to do so!  Pairing on this is a great idea!  But, you should be doing the commits and pull requests from your github account so that you and your team gets credit.
