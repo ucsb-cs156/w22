@@ -238,7 +238,7 @@ can access the information provided by your service.
 The documentation at the staff solution to the lab <https://staff-team01-solution.herokuapp.com/swagger-ui/> shows the urls of the endpoints you'll be implementing; they 
 are also shown in this table:
 
-```
+
 |  Controller                | Endpoint     |
 |----------------------------|--------------|
 |  `LocationController`      | `/api/locations/get` |  
@@ -247,7 +247,8 @@ are also shown in this table:
 |  `TidesController`         | `/api/tides/get` |  
 |  `UniversityController`    | `/api/university/get` |
 |  `ZipCodeController`       | `/api/zipcode/get` |
-```
+{:.table .table-sm .table-striped .table-bordered}
+
 
 You'll see additional information in the Swagger-ui that is provided by annotations such as these found in the `EarthquakesController`
 
@@ -316,9 +317,11 @@ Now, as a team, look at one another's PRs.  You should be able to do a code revi
   - Finally, you can try submitting that branch to Gradescope and see if it passes it's tests
 * When the *team* is satisfied with the code for one of the branches, you can merge that branch into main by clicking the "Merge" button on the PR.
 
+
+
 ## Step 3.2: Customize the `HomeController`
 
-Now, someone on the team should make a final branch, `YourName-HomeController` (e.g. `Alex-HomeController`), and
+Now, someone on the team should make a branch, `YourName-HomeController` (e.g. `Alex-HomeController`), and
 update the code in `HomeController` so that:
 
 * instead of a list of the staff names, there is a list of the names of the people on your team that contributed to this repo
@@ -326,7 +329,13 @@ update the code in `HomeController` so that:
 
 Make these changes, test them, and then make a PR for this, and merge it.
 
-When that's done, and all of the PRs are merged, you are ready to submit for your team on Gauchospace.
+## Step 3.3: Finish the changes to the README.md
+
+Now, someone else on the team should make a  branch, `YourName-READMEFixes` (e.g. `Alex-READMEFixes`), and
+update README.md, so that all of the places that say "TODO" are replaced with the appropriate content.
+
+When items 3.1, 3.2, and 3.3 are done, and all of the PRs are merged, you are ready to submit for your team on Gauchospace.
+
 
 # Part 4: Submission
 
