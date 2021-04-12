@@ -136,6 +136,12 @@ In this part of the lab, you work as an individual, on your part.  You may get h
 
 Clone the team's repo to your own machine or CSIL account, with `git clone repo-url`, then cd into the repo and open it up in your editor (we suggest VSCode).
 
+Then try running `mvn spring-boot:run` and opening up the server on <http://localhost:8080>.
+
+Try navigating to <http://localhost:8080/swagger-ui/> and trying out the various APIs.
+
+Then when you are ready to start coding, we'll move on to Step 2.2.
+
 ## Step 2.2: Create a new branch
 
 First come up with a branch name, using this convention: `Firstname-Servicename`, for example:
@@ -223,18 +229,132 @@ Run the tests by running `mvn test` and then check the test coverage with `mvn t
 
 When that test passes, we'll build the controller and the controller test so that you can try out your service.
 
-## Step 2.5: Implement the controller for the service
+## Step 2.6: Implement the controller for the service
 
 In a Spring Boot application, a controller class is one that implements backend endpoints (i.e. provides a web service
 on a URL).   You will now implement a controller so that users of your app (in practice, typically, the front end code)
 can access the information provided by your service. 
 
-The documentation at the staff solution to the lab shows the urls of the endpoints you'll be implementing; they 
+The documentation at the staff solution to the lab <https://staff-team01-solution.herokuapp.com/swagger-ui/> shows the urls of the endpoints you'll be implementing; they 
 are also shown in this table:
 
+```
+|  Controller                | Endpoint     |
+|----------------------------|--------------|
+|  `LocationController`      | `/api/locations/get` |  
+|  `PublicHolidayController` | `/api/publicholidays/get` |  
+|  `RedditController`        | `/api/reddit/get` |  
+|  `TidesController`         | `/api/tides/get` |  
+|  `UniversityController`    | `/api/university/get` |
+|  `ZipCodeController`       | `/api/zipcode/get` |
+```
 
+You'll see additional information in the Swagger-ui that is provided by annotations such as these found in the `EarthquakesController`
 
+* `@Api(description="Earthquake info from USGS")`
+* `@ApiOperation(value = "Get earthquakes a certain distance from UCSB's Storke Tower", notes = "JSON return format documented here: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php")`
+* `@ApiParam("distance in km, e.g. 100")`
 
+Please:
+* Take note of how those are used in the `EarthquakesController`
+* Note the similar information that appears in the Swagger-ui interface of the staff solution here: <https://staff-team01-solution.herokuapp.com/swagger-ui/> 
+* Add these annotations in the appropriate places in your own Controller so that the documentation matches that of the staff solution.  This is another component of your grade for this assignment.
+
+To check if your controller endpoint is operational, you can run:
+
+```
+mvn spring-boot:run
+```
+
+And then visit the `/swagger-ui/` endpoint.  You should then be able to test your service interactively.
+
+When it appears to be working, make a commit, and then we'll move on to the coding part for the individual phase: writing a test for your controller.
+
+## Step 2.7: Write the controller test
+
+In the directory: `src/test/java/edu/ucsb/cs156/spring/backenddemo/controllers` you'll find example controller tests.
+
+Using those as a model, implement a controller test for your controller.
+
+Run the tests by running `mvn test` and then check the test coverage with `mvn test jacoco:report`
+
+When you have good coverage for both your service and your controller, you are ready for the final stage of part 2.
+
+## Step 2.8: Make a Pull Request
+
+* Navigate to your repo on the GitHub website
+* Go to the Pull Requests tab
+* Click to create a new pull request
+  - the `base` branch should be `main` (this is where your code will be "pulled into")
+  - the `compare` branch should be your feature branch, e.g. `Chris-Zipcode`
+  - for the title, put in something like "Add ZipCode Service and Controller"
+* For the PR description, enter something like this 
+
+  ```
+  In this PR, we add an endpoint `/api/zipcode/get` that can be used to get information
+  about the location of a particular zipcode.  
+  ```
+* Then, once the PR is created, add your team members as code reviewers
+* Do not merge your own PR.  You should wait until another member of your team has code reviewed it, 
+  and then they can do the merge.
+  
+
+## Step 2.9: Try submitting your branch on Gradescope
+
+Now, go to Gradescope and submit from the team's repo.  You can submit from your branch rather than the main branch, to see
+if the tests pertaining to your service/controller are passing.  Don't worry about the other tests for the moment; just try to get the tests for your own service/controller to pass.
+
+# Part 3: Back to the team 
+
+## Step 3.1: Review and merge the PRs
+
+Now, as a team, look at one another's PRs.  You should be able to do a code review (we'll demonstrate how that works in lecture), and approve the PR with the comment `LGTM` (`Looks Good To Me`, or `Let's Get This Merged`).
+* Note that "commenting LGTM" is not the same as doing an "Approving Code Review" with the comment `LGTM`.  You need the latter.
+* It's also a good idea to try it out. Here are three ways:
+  - You can check out the branch, then run `mvn spring-boot:run` to test the code.
+  - You can also deploy the branch in the PR to Heroku and try it there.
+  - Finally, you can try submitting that branch to Gradescope and see if it passes it's tests
+* When the *team* is satisfied with the code for one of the branches, you can merge that branch into main by clicking the "Merge" button on the PR.
+
+## Step 3.2: Customize the `HomeController`
+
+Now, someone on the team should make a final branch, `YourName-HomeController` (e.g. `Alex-HomeController`), and
+update the code in `HomeController` so that:
+
+* instead of a list of the staff names, there is a list of the names of the people on your team that contributed to this repo
+* instead of a link to `https://github.com/ucsb-cs156-s21/STARTER-team01`, there is a link to your team's private repo (e.g. `https://github.com/ucsb-cs156-s21/team01-s21-5pm-1`
+
+Make these changes, test them, and then make a PR for this, and merge it.
+
+When that's done, and all of the PRs are merged, you are ready to submit for your team on Gauchospace.
+
+# Part 4: Submission
+
+## Step 4.1  Each team member must submit individually from the main branch on Gradescope
+
+Now each team member should submit from the team's repo, and the main branch on Gradescope.  The main branch should now contain all team member's work.
+
+*Do not simply assume that your team will submit on your behalf*.
+
+To help promote both team and individual accountability, I am asking each team member to submit the team's work to Gradescope separately.
+
+I would like to see which team members are actually in touch with their teams and engaged with the process&mdash;hopefully that's everyone.
+
+## Step 4.2  One team member can submit on Gauchospace on behalf of the team
+
+In addition, please submit a link to your team's repo Gauchospace in the place marked team01-repo.
+
+You will get one grade for this assignment out of 100 points based on the Gradescope autograder.
+
+In addition, you will get a separate manually assigned grade (on Gauchospace) based on these items:
+* Is the swagger-ui documented using all of the appropriate annotations (e.g. `@Api`, `@ApiOperation` and `@ApiParam`)
+* Do the endpoints actually work?
+* Is the `HomeController` updated with the repo name and members of the team?
+* Did the team use the Pull Request process, with code reviews to get all code merged?
+* Are commit messages meaningful?
+* Did each team member contribute at least one PR (i.e. the commits and PR are done under their github id?)
+
+You may want to go over this list as a team before submitting on Gauchospace.
 
    
  # Special Instructions for the RedditQueryService
