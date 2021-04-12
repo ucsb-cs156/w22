@@ -10,7 +10,13 @@ starter: https://github.com/ucsb-cs156-s21/STARTER-team01
 ---
 
 
-# NOTE: THIS IS STILL A WORK IN PROGRESS... COME BACK LATER (it isn't ready for you to start work yet.)
+# NOTE: WE'LL START THIS TUESDAY NIGHT, 4/13 during discussion.  HOLD OFF FOR NOW
+
+Please hold off for now on starting this, in case there are fixes.  The staff is still beta testing the assignment.
+
+However, we will discuss the assignment during lecture on 04/12.
+
+# First team programming assignment: Spring Backend, and working with APIs
 
 This is a team programming assignment.  Each team has it's own repo to complete this assignment, and
 you will work as a team.
