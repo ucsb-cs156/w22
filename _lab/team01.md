@@ -147,7 +147,7 @@ Example: notice the wavy lines...
 | Wade V.   | WadeVaresio | `RedditQueryService`        | `RedditController`        |   
 | Jacqui M. | JacquelineMai | `TidesQueryService`         | `TidesController`         |   
 |           |           | `UniversityQueryService`    | `UniversityController`    |
-| Mara D.   | maradowning | `ZipCodeQueryService`       | `ZipCodeController`       |
+| Mara D.   | mara-downing | `ZipCodeQueryService`       | `ZipCodeController`       |
 ```
    
 Then notice the rendered table looks fine:
