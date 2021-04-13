@@ -31,6 +31,7 @@ Here are the links to the repos:
 |[team01-s21-5pm-4](https://github.com/ucsb-cs156-s21/team01-s21-5pm-4)|[team01-s21-6pm-4](https://github.com/ucsb-cs156-s21/team01-s21-6pm-4)|[team01-s21-7pm-4](https://github.com/ucsb-cs156-s21/team01-s21-7pm-4)|
 {:.table .table-sm .table-striped .table-bordered}
 
+
 # Part 1: Team divides up the work
 
 # Step 1.1: Pull in Starter Code
@@ -166,6 +167,20 @@ Then notice the rendered table looks fine:
 # Part 2: Work as an individual on your service
 
 In this part of the lab, you work as an individual, on your part.  You may get help from other team members&mdash;in fact you are strongly encouraged to do so!  Pairing on this is a great idea!  But, you should be doing the commits and pull requests from your github account so that you and your team gets credit.
+
+## Step 2.0: Optional, but recommended: install VSCode extension for Lombok
+
+This step is optional, but highly recommended.  If you like, you may come back and do this later
+as the need arises.
+
+In this lab, we'll be using a package called Lombok. Lombok makes many things easier, 
+by writing boring "cookie-cutter" (also known as "boilerplate") code for you!   However this can cause VSCode to
+get confused; VSCode says: "dude, you don't have getters and setters!" or "your variable `log` is undefined!"
+
+To help VSCode not be confused, look under VSCode Extensions, and install this one:
+
+* <https://marketplace.visualstudio.com/items?itemName=GabrielBB.vscode-lombok>
+
 
 ## Step 2.1: Clone the repo to your own machine (or CSIL account)
 
