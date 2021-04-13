@@ -89,7 +89,19 @@ It might also be nicely formatted, depending on whether you have any browser ext
 }
 ```
 
-# Step 1.3: Divide up the six controllers among your team
+# Step 1.3: Add all team members, plus your assigned LA, TA and instructor to your Heroku deployment
+
+Please visit the `Access` tab of the Heroku Dashboard for your deployed app.
+
+Add each of the members of your team.
+
+Then also add the assigned LA and TA for your team.   
+* You can find their names here: `https://ucsb-cs156.github.io/s21/info/teams/`
+* To get the email that you should use for Heroku, dm them on the slack.
+* Then add `phtcon@ucsb.edu`, the instructor for the course.
+
+
+# Step 1.4: Divide up the six controllers among your team
 
 This step is a part of participation assignment (P04), in class on Monday 04/11/2021. 
 
@@ -112,7 +124,7 @@ There are six service/controller pairs: you need to go into your team's slack ch
 Each member of the team is responsible for implementing one of these services, the matching controller, and
 the tests that go along with them.
 
-# Step 1.4: Document the division in your README.md file
+# Step 1.5: Document the division in your README.md file
 
 This step is also part of participation assignment (P04), in class on Monday 04/11/2021. 
 
