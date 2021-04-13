@@ -6,6 +6,7 @@ github_org: ucsb-cs156-s21
 layout: lab
 num: team01
 ready: false
+gradescope: https://www.gradescope.com/courses/255328/assignments/1173074
 starter: https://github.com/ucsb-cs156-s21/STARTER-team01
 ---
 
@@ -419,7 +420,7 @@ When items 3.1, 3.2, and 3.3 are done, and all of the PRs are merged, you are re
 
 ## Step 4.1  Each team member must submit individually from the main branch on Gradescope
 
-Now each team member should submit from the team's repo, and the main branch on Gradescope.  The main branch should now contain all team member's work.
+Now each team member should find [assignment team01 on Gradscope]({{page.gradescope}}), submit from the team's repo, and the `main` branch on Gradescope.  The main branch should now contain all team member's work.
 
 *Do not simply assume that your team will submit on your behalf*.
 
