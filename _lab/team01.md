@@ -8,6 +8,7 @@ num: team01
 ready: false
 gradescope: https://www.gradescope.com/courses/255328/assignments/1173074
 starter: https://github.com/ucsb-cs156-s21/STARTER-team01
+gauchospace: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=6914447
 ---
 
 
@@ -57,6 +58,18 @@ A member of your team should:
 2. On the deploy screen, link your Heroku app to your team's repo, and deploy the main branch.
 3. When the app is deployed, you should be able to navigate to the link below for your team, and launch the application.
 
+Heroku Dashboard:
+
+| 5pm | 6pm | 7pm|
+|-----|-----|----|
+|[cs156-s21-5pm-1-team01](https://dashboard.heroku.com/apps/cs156-s21-5pm-1-team01)|[cs156-s21-6pm-1-team01](https://dashboard.heroku.com/apps/cs156-s21-6pm-1-team01)|[cs156-s21-7pm-1-team01](https://dashboard.heroku.com/apps/cs156-s21-7pm-1-team01)|
+|[cs156-s21-5pm-2-team01](https://dashboard.heroku.com/apps/cs156-s21-5pm-2-team01)|[cs156-s21-6pm-2-team01](https://dashboard.heroku.com/apps/cs156-s21-6pm-2-team01)|[cs156-s21-7pm-2-team01](https://dashboard.heroku.com/apps/cs156-s21-7pm-2-team01)|
+|[cs156-s21-5pm-3-team01](https://dashboard.heroku.com/apps/cs156-s21-5pm-3-team01)|[cs156-s21-6pm-3-team01](https://dashboard.heroku.com/apps/cs156-s21-6pm-3-team01)|[cs156-s21-7pm-3-team01](https://dashboard.heroku.com/apps/cs156-s21-7pm-3-team01)|
+|[cs156-s21-5pm-4-team01](https://dashboard.heroku.com/apps/cs156-s21-5pm-4-team01)|[cs156-s21-6pm-4-team01](https://dashboard.heroku.com/apps/cs156-s21-6pm-4-team01)|[cs156-s21-7pm-4-team01](https://dashboard.heroku.com/apps/cs156-s21-7pm-4-team01)|
+{:.table .table-sm .table-striped .table-bordered}
+
+Running App:
+
 | 5pm | 6pm | 7pm|
 |-----|-----|----|
 |[cs156-s21-5pm-1-team01](https://cs156-s21-5pm-1-team01.herokuapp.com)|[cs156-s21-6pm-1-team01](https://cs156-s21-6pm-1-team01.herokuapp.com)|[cs156-s21-7pm-1-team01](https://cs156-s21-7pm-1-team01.herokuapp.com)|
@@ -90,7 +103,9 @@ It might also be nicely formatted, depending on whether you have any browser ext
 }
 ```
 
-# Step 1.3: Add all team members, plus your assigned LA, TA and instructor to your Heroku deployment
+At a later step (Step 3.2) you'll customize this with links for your team and with the names of your team members.  But we're getting ahead of ourselves.
+
+# Step 1.3: Give team and staff access to your Heroku Deployment
 
 Please visit the `Access` tab of the Heroku Dashboard for your deployed app.
 
@@ -420,6 +435,22 @@ When items 3.1, 3.2, and 3.3 are done, and all of the PRs are merged, you are re
 
 ## Step 4.1  Each team member must submit individually from the main branch on Gradescope
 
+Deploy your repos main branch on your team's shared Heroku deployment.  Here's the dashboard link:
+
+| 5pm | 6pm | 7pm|
+|-----|-----|----|
+|[cs156-s21-5pm-1-team01](https://dashboard.heroku.com/apps/cs156-s21-5pm-1-team01)|[cs156-s21-6pm-1-team01](https://dashboard.heroku.com/apps/cs156-s21-6pm-1-team01)|[cs156-s21-7pm-1-team01](https://dashboard.heroku.com/apps/cs156-s21-7pm-1-team01)|
+|[cs156-s21-5pm-2-team01](https://dashboard.heroku.com/apps/cs156-s21-5pm-2-team01)|[cs156-s21-6pm-2-team01](https://dashboard.heroku.com/apps/cs156-s21-6pm-2-team01)|[cs156-s21-7pm-2-team01](https://dashboard.heroku.com/apps/cs156-s21-7pm-2-team01)|
+|[cs156-s21-5pm-3-team01](https://dashboard.heroku.com/apps/cs156-s21-5pm-3-team01)|[cs156-s21-6pm-3-team01](https://dashboard.heroku.com/apps/cs156-s21-6pm-3-team01)|[cs156-s21-7pm-3-team01](https://dashboard.heroku.com/apps/cs156-s21-7pm-3-team01)|
+|[cs156-s21-5pm-4-team01](https://dashboard.heroku.com/apps/cs156-s21-5pm-4-team01)|[cs156-s21-6pm-4-team01](https://dashboard.heroku.com/apps/cs156-s21-6pm-4-team01)|[cs156-s21-7pm-4-team01](https://dashboard.heroku.com/apps/cs156-s21-7pm-4-team01)|
+{:.table .table-sm .table-striped .table-bordered}
+
+Double check that:
+* the running app shows your team members names (i.e. that Step 3.2 above was done correctly)
+* that each of the other controllers works properly and returns good results (check this by interactively testing through the swagger-ui interface)
+
+## Step 4.2  Each team member must submit individually from the main branch on Gradescope
+
 Once all of the PRs for the team are merged, *each* team member should find [assignment team01 on Gradscope]({{page.gradescope}}), submit from the team's repo, and the `main` branch on Gradescope.  The main branch should now contain all team member's work.
 
 *Do not simply assume that your team will submit on your behalf*.
@@ -428,13 +459,16 @@ To help promote both team and individual accountability, I am asking each team m
 
 I would like to see which team members are actually in touch with their teams and engaged with the process&mdash;hopefully that's everyone.   This mutual team accountability will be an important skill during the project phase of the course, which is worth 40% of your course grade, so we are practicing it with a programming assignment now (which is a "lower stakes" part of your course grade.)
 
-## Step 4.2  One team member can submit on Gauchospace on behalf of the team
-
-In addition, please submit a link to your team's repo Gauchospace in the place marked team01-repo.
+## Step 4.3  One team member can submit on Gauchospace on behalf of the team
 
 You will get one grade for this assignment out of 100 points based on the Gradescope autograder.
 
-In addition, you will get a separate manually assigned grade (on Gauchospace) based on these items:
+In addition, please submit a link to your team's repo Gauchospace in the place marked team01-links:
+
+* [team01-links]({{page.gauchospace}})
+
+For this grade item (`team01-links`), you will get a separate manually assigned grade (on Gauchospace) based on these items:
+* Is your app deployed on Heroku?
 * Is the swagger-ui documented using all of the appropriate annotations (e.g. `@Api`, `@ApiOperation` and `@ApiParam`)
 * Do the endpoints actually work?
 * Is the `HomeController` updated with the repo name and members of the team?
