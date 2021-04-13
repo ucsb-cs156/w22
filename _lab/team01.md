@@ -381,8 +381,8 @@ When you have good coverage for both your service and your controller, you are r
 
 ## Step 2.9: Try submitting your branch on Gradescope
 
-Now, go to Gradescope and submit from the team's repo.  You can submit from your branch rather than the main branch, to see
-if the tests pertaining to your service/controller are passing.  Don't worry about the other tests for the moment; just try to get the tests for your own service/controller to pass.
+Now, go to the [team01 assignment on Gradescope]({{page.gradescope}}) and submit from the team's repo, and from your branch (`Name-Topic`) rather than the `main` branch (there's a drop down where you can select the branch) to see
+if the tests pertaining to your service/controller are passing.  Don't worry (for now) about the other tests for the moment; just try to get the tests for your own service/controller to pass.
 
 # Part 3: Back to the team 
 
@@ -420,13 +420,13 @@ When items 3.1, 3.2, and 3.3 are done, and all of the PRs are merged, you are re
 
 ## Step 4.1  Each team member must submit individually from the main branch on Gradescope
 
-Now each team member should find [assignment team01 on Gradscope]({{page.gradescope}}), submit from the team's repo, and the `main` branch on Gradescope.  The main branch should now contain all team member's work.
+Once all of the PRs for the team are merged, *each* team member should find [assignment team01 on Gradscope]({{page.gradescope}}), submit from the team's repo, and the `main` branch on Gradescope.  The main branch should now contain all team member's work.
 
 *Do not simply assume that your team will submit on your behalf*.
 
-To help promote both team and individual accountability, I am asking each team member to submit the team's work to Gradescope separately.
+To help promote both team and individual accountability, I am asking each team member to submit the team's work to Gradescope separately, after all of the PR's are merged.
 
-I would like to see which team members are actually in touch with their teams and engaged with the process&mdash;hopefully that's everyone.
+I would like to see which team members are actually in touch with their teams and engaged with the process&mdash;hopefully that's everyone.   This mutual team accountability will be an important skill during the project phase of the course, which is worth 40% of your course grade, so we are practicing it with a programming assignment now (which is a "lower stakes" part of your course grade.)
 
 ## Step 4.2  One team member can submit on Gauchospace on behalf of the team
 
