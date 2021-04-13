@@ -242,6 +242,18 @@ You will also need some additional documentation about the parameters.  You can 
 pages of staff solution, here:
 * <https://staff-team01-solution.herokuapp.com/swagger-ui/>
 
+NOTE: The `EarthquakeQueryService` (along with the test for it) has two hard coded parameters in addition to the ones that 
+are exposed through the api (i.e. `minMag` for minimum magnitude, and `distance` (for distance in km from Storke Tower).   We 
+could have chosen to make those parameters that the user of the API could supply.  And indeed, it would feasible (though 
+it isn't part of this assignment) to implement a separate service that allows the user to supply those, or to make 
+the lat/long of Storke Tower the default if and only if the user doesn't supply values for those.
+
+But, the bottom line is that *none of the other services you are implementing needs latitude and longitude, especially not that of Storke Tower,
+in the implementation.*   So those should not appear in your code for anything other than the `EarthquakeQueryService` and the 
+`EarthquakeQueryServiceTests`.   Some might say that the `EarthquakeQueryService` is therefore a bad example for you to work from&mdash;I choose to
+think of it differently; it's an example that forces you to really think about what's going on, and what parameters you should retain, vs. which ones
+you should not retain.
+
 Additionally, there are some special instructions for the `RedditQueryService` near the bottom of this web page.
 
 As you work on your service, make commits frequently, with meaningful commit messages. 
