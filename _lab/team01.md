@@ -5,18 +5,12 @@ due: 2021-04-21 23:59
 github_org: ucsb-cs156-s21
 layout: lab
 num: team01
-ready: false
+ready: true
 gradescope: https://www.gradescope.com/courses/255328/assignments/1173074
 starter: https://github.com/ucsb-cs156-s21/STARTER-team01
 gauchospace: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=6914447
 ---
 
-
-# NOTE: WE'LL START THIS TUESDAY NIGHT, 4/13 during discussion.  HOLD OFF FOR NOW
-
-Please hold off for now on starting this, in case there are fixes.  The staff is still beta testing the assignment.
-
-However, we will discuss the assignment during lecture on 04/12.
 
 # First team programming assignment: Spring Backend, and working with APIs
 
