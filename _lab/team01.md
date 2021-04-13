@@ -124,6 +124,10 @@ There are six service/controller pairs: you need to go into your team's slack ch
 Each member of the team is responsible for implementing one of these services, the matching controller, and
 the tests that go along with them.
 
+**NOTE: to get the participation grade for today's discussion seciton, you MUST actually post in the team slack channel
+which of the six you are claiming.  If you are not present in discussion, you might get assigned one of these by your team.
+But you only get the particpation grade if you were actually in discussion as evidenced by your post to the Slack.**
+
 # Step 1.5: Document the division in your README.md file
 
 This step is also part of participation assignment (P04), in class on Monday 04/11/2021. 
