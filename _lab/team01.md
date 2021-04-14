@@ -317,7 +317,7 @@ Run the tests by running `mvn test` and then check the test coverage with `mvn t
 
 When that test passes, we'll build the controller and the controller test so that you can try out your service.
 
-## Step 2.6: Implement the controller for the service
+## Step 2.5: Implement the controller for the service
 
 In a Spring Boot application, a controller class is one that implements backend endpoints (i.e. provides a web service
 on a URL).   You will now implement a controller so that users of your app (in practice, typically, the front end code)
@@ -359,7 +359,7 @@ And then visit the `/swagger-ui/` endpoint.  You should then be able to test you
 
 When it appears to be working, make a commit, and then we'll move on to the coding part for the individual phase: writing a test for your controller.
 
-## Step 2.7: Write the controller test
+## Step 2.6: Write the controller test
 
 In the directory: `src/test/java/edu/ucsb/cs156/spring/backenddemo/controllers` you'll find example controller tests.
 
@@ -367,7 +367,16 @@ Using those as a model, implement a controller test for your controller.
 
 Run the tests by running `mvn test` and then check the test coverage with `mvn test jacoco:report`
 
+## Step 2.7: Write the service test
+
+In the directory: `src/test/java/edu/ucsb/cs156/spring/backenddemo/services` you'll find example  tests for the services
+
+Using those as a model, implement a test for your new service.
+
+Run the tests by running `mvn test` and then check the test coverage with `mvn test jacoco:report`
+
 When you have good coverage for both your service and your controller, you are ready for the final stage of part 2.
+
 
 ## Step 2.8: Make a Pull Request
 
