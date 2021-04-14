@@ -78,14 +78,18 @@ Some cons:
   prefer *integration tests* that check the behavior of the app as a "black box", i.e. test that only work through the 
   RESTful API, or the user interface of the app.
   
- This brings us to a concept call the testing pyramid.  The following diagram is copied from the article [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
- by Martin Fowler, which I encourage you to read if you are interested in this topic.  The diagram itself is attributed
- to Mike Cohn:
+This brings us to a concept call the testing pyramid.  The following diagram is copied from the article [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
+by Martin Fowler, which I encourage you to read if you are interested in this topic.  The diagram itself is attributed
+to Mike Cohn.   
+ 
  
  ![testPyramid.png](testPyramid.png)
- 
- Martin Fowler discusses the pros/cons of various types of testing, and of the test pyramid concept itself, but arrives
- at two big-picture take aways that represent something like the mainstream consensus, though individual opinions will vary:
+
+(This diagram uses the phrase "service tests" where many other sources use "integration tests", but it's the same concept.  Unfortunately, terminology in CS and Software Engineering is not nearly as standardized as we might hope for.)
+
+
+Martin Fowler discusses the pros/cons of various types of testing, and of the test pyramid concept itself, but arrives
+at two big-picture take aways that represent something like the mainstream consensus, though individual opinions will vary:
  
 1. Write tests with different granularity
 2. The more high-level you get the fewer tests you should have
