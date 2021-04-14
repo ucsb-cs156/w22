@@ -12,6 +12,15 @@ unit (i.e. a single method), by mocking and stubbing dependencies.
 
 This relates to the concept of *dependency injection*, which we'll also discuss.
 
+Then, we'll discuss three practices that you'll follow throughout the quarter:
+* Standup Meeting
+* Pull Requests
+* Code Reviews
+
+Finally, we'll put you in your breakout rooms so that you can try out these practices.
+
+
+
 # Dependency Injection
 
 For testing purposes, you want dependencies to be loose rather than strict.
@@ -100,3 +109,84 @@ I would also acknowledge that:
 * the lower you are in the pyramid, the less value there is to each individual test
 * the higher you are in the pyramid, the more value there is to each individual test
 
+# Standup Meeting
+
+One of the common practices when teams use the software design life-cycle methodologies known as *Agile* and/or *Scrum* is the
+*Standup Meeting*.
+
+* For full-time teams, this is usually held near the start of the workday
+* An important feature: *timeboxed*.  Meaning, it should take no more than 5-10 minutes.
+  - If it takes longer, you are aren't doing it right, or at the very least, you aren't doing a "standup".
+  - If the team needs to do something other than a "standup", the team may make that choice, but be clear about it.
+* The name "standup" comes from the fact that, traditionally, the meeting is done, for folks that are able to stand,
+  while physically standing, rather than sitting.
+  - The motivation is that if you are standing, you'll be reminded that the meeting is supposed to be 5-10 minutes and 
+    no more.
+  - On zoom, folks may or may not adhere to this literally, but I do encourage it.
+
+What happens in a standup is typically this: each team member, one-by-one, speaks and tells the team:
+* What work have they done *in support of the team's goals* since last standup
+* What are they working on now
+* Are their any blockers they need help with addressing?
+
+This last point is important.  
+* The purpose of a standup is *not* supposed to be a "status update for management" (or in a course, a "status update for the course staff"
+* The audience is *the other team members*
+* The purpose is to *clear away obstacles*.
+
+Let's put this in the context of today's class meeting.  I highlighted the text *in support of the team's goals* above.
+
+The specific team goal that I want to highlight in today's standup is 
+* completing the [team01 assignment](https://ucsb-cs156.github.io/s21/lab/team01/)
+
+So, each member may like to describe:
+* where are they with their individual work on that assignment.  There are 10 steps, labelled 2.0 through 2.9; you might
+  mentioned which of those steps you are on (or if you haven't started yet, say that; or if you have finished all of these
+  steps say that.)
+* what they plan to do next
+* the most important part: any blockers they have
+
+Blockers could be:
+* not understanding what you are supposed to do
+* being stuck on something
+
+But they could also include things like:
+* motivation
+* time-management
+
+As a team, I encourage you to support one another with *both* kinds.  The team's success depends on it.
+
+Whatever the blockers are, during the standup:
+* *just identify*
+* If it can be solved in less than 60 seconds, fine--solve it immediately
+  - Example: "Oh, I ran into that problem too.  Here's the command you need to fix that".
+  - Example: "Oh, I know the problem you mean.  After standup, I'll drop a link to a article that describes how to get around that problem." 
+* But, if it is a 5 minutes discussion, then that *doesn't belong in standup*
+* Instead, identify it, *in the slack chat* as something you'll do after standup.
+
+# A modififed standup for Zoom / Class (P04)
+
+During the Zoom era, and so that the staff can help you practice with standups, I'd like to propose the following 
+structure.  This is also today's particpation activity (P04).
+
+1. When you get to your breakout rooms, one person will share their screen, and point at the Slack channel for the team.
+2. Start a two minute timer (if you type `two minute timer` into Google, it will bring up one on the search results directly, or  there are lots of fun countdown timers on YouTube as well.)
+3. During the two minutes, each person types into the Slack channel their standup summary:
+   - What stage of [team01](https://ucsb-cs156.github.io/s21/lab/team01/) are you on? Mention the number (2.0 through 2.9), but
+     also describe it in words.
+   - What are you planning to do next
+   - What blockers (if any) do you have (answer could be "none")
+4. After the two minutes, go through and have each person unmute themselves and share their status update out loud.  This may
+   seem redundant, but there's a purpose:
+   - It's an opportunity for the team to focus on each person's sharing one at a time, and...
+   - ... more importantly to respond to each person's sharing.
+   - If there are blockers that can't be dealt with immmediately, make a note to deal with them after standup.
+5. Once everyone has shared, standup, per se, is over.  But now, *deal with the blockers* if any.  
+   - This may be a longer discussion, and it might be one where the whole team doesn't need to particpate.
+   - For example, it might be two team members going into a separate breakout room to discuss the solution to a problem.
+
+A particular "blocker" is if the team members has made their pull request and is waiting for a code review, and for their PR to be merged.  We'll discuss that one next if time permits; if not, we'll return to it on Monday.
+
+# Discuss Code Reviews and PRs if time permits.
+
+# Breakout rooms... 
