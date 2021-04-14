@@ -16,14 +16,19 @@ This relates to the concept of *dependency injection*, which we'll also discuss.
 
 For testing purposes, you want dependencies to be loose rather than strict.
 
-Example of `EarthquakeController` depending on `EarthquakeQueryService`:
+Example of `EarthquakesController` depending on `EarthquakeQueryService`:
 - Suppose the correctness of module A depends on the correctness of module B
-- Specific example: The `EarthquakeController` depends on the `EarthquakeQueryService` doing it's job properly
-- For testing *just the code* in the `EarthquakeController`, you want to temporarily set up a situation where the
-  specific features of the `EarthquakeQueryService` that the  `EarthquakeController` depends on are *mocked*.
+- Specific example: The `EarthquakesController` depends on the `EarthquakeQueryService` doing it's job properly
+- For testing *just the code* in the `EarthquakesController`, you want to temporarily set up a situation where the
+  specific features of the `EarthquakeQueryService` that the  `EarthquakesController` depends on are *mocked*.
 - That is, you hard code an alternative implementation of the `EarthquakeQueryService` that knows just how to 
   take a specific input, and provide a specific return value from the  `EarthquakeQueryService`.
 - That allows you to test the service in isolation.
+
+Links to code:
+- [`EarthquakesController.java`](https://github.com/ucsb-cs156-s21/STARTER-team01/blob/main/src/main/java/edu/ucsb/cs156/spring/backenddemo/controllers/EarthquakesController.java)
+- [`EarthquakeQueryService.java`](https://github.com/ucsb-cs156-s21/STARTER-team01/blob/main/src/main/java/edu/ucsb/cs156/spring/backenddemo/services/EarthquakeQueryService.java)
+- [EarthquakesControllerTests](https://github.com/ucsb-cs156-s21/STARTER-team01/blob/main/src/test/java/edu/ucsb/cs156/spring/backenddemo/controllers/EarthquakesControllerTests.java)
 
 Example of  `EarthquakeQueryService` depending on an external API (the one from the US Geological Survey):
 - Suppose the correctness of module A depends on the correctness of an external service,
@@ -40,6 +45,9 @@ Example of  `EarthquakeQueryService` depending on an external API (the one from 
 - We then can check that when we pass in particular parameters, the service does indeed call out to the specific URL,
   and that the value returned by the URL is processed in the way we expect and returned from the service.
   
+Links to code:
+- [`EarthquakeQueryService.java`](https://github.com/ucsb-cs156-s21/STARTER-team01/blob/main/src/main/java/edu/ucsb/cs156/spring/backenddemo/services/EarthquakeQueryService.java)
+- [`EarthquakeQueryServiceTests`](https://github.com/ucsb-cs156-s21/STARTER-team01/blob/main/src/test/java/edu/ucsb/cs156/spring/backenddemo/services/EarthquakeQueryServiceTests.java)  
   
 # Pros/Cons of Mocking and Stubbing  
  
@@ -92,4 +100,3 @@ I would also acknowledge that:
 * the lower you are in the pyramid, the less value there is to each individual test
 * the higher you are in the pyramid, the more value there is to each individual test
 
-  
