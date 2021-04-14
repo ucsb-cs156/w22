@@ -1,6 +1,6 @@
 ---
 num: "Lecture 08"
-lecture_date: 2021-04-13
+lecture_date: 2021-04-14
 desc: "Wed Lecture: testing aspect of team01, mocking/stubbing in Java (Mockito), code reviews and PRs"
 ready: true
 ---
