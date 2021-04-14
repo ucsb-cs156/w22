@@ -65,7 +65,7 @@ Some cons:
  by Martin Fowler, which I encourage you to read if you are interested in this topic.  The diagram itself is attributed
  to Mike Cohn:
  
- 
+ ![testPyramid.png](testPyramid.png)
  
  Martin Fowler discusses the pros/cons of various types of testing, and of the test pyramid concept itself, but arrives
  at two big-picture take aways that represent something like the mainstream consensus, though individual opinions will vary:
