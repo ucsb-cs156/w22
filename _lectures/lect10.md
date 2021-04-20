@@ -1,9 +1,19 @@
 ---
 num: "Lecture 10"
 lecture_date: 2021-04-20
-desc: "Tue Discussion: Update on CI/CD pipeline for team01, plus intro to JS"
+desc: "Tue Discussion: Team Standup for team01, work on team01"
 ready: true
 ---
+
+# Short Version
+
+* Do your team standup (each member of team puts update on Slack channel, then discuss)
+* Update PRs so that red X's become green checks (you can do this with instructions below)
+* Code Review your PRs (and get code reviews from staff)
+* Merge your PRs
+* When all PRs merged:
+  - **Each team member** should submit from main branch on Gradescope
+  - One team member should submit on behalf of whole team on Gauchospace
 
 # See the announcement on `#annoucements` about GitHub Actions
 
