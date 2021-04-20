@@ -28,6 +28,7 @@ There is a video on Gauchocast (~12 minutes) about how to deal with the red X's 
 to turn into green checks:
 
 <iframe src="https://gauchocast.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=609d5ff5-46b7-47ad-96c0-ad1001067e49&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+* <https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=609d5ff5-46b7-47ad-96c0-ad1001067e49>
 
 # Standup (P06)
 
@@ -52,4 +53,5 @@ and is waiting for a code review, and for their PR to be merged.
 There is now a video on Gauchocast about how to do code reviews:
 
 <iframe src="https://gauchocast.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=30125bc2-25c7-48ee-9b3c-ad10010bdf47&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+* <https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=30125bc2-25c7-48ee-9b3c-ad10010bdf47>
  
