@@ -24,6 +24,26 @@ ready: true
 
 Then, and only then, you are all done with [team01](https://ucsb-cs156.github.io/s21/lab/team01/).
 
+Heroku Dashboard:
+
+| 5pm | 6pm | 7pm|
+|-----|-----|----|
+|[cs156-s21-5pm-1-team01](https://dashboard.heroku.com/apps/cs156-s21-5pm-1-team01)|[cs156-s21-6pm-1-team01](https://dashboard.heroku.com/apps/cs156-s21-6pm-1-team01)|[cs156-s21-7pm-1-team01](https://dashboard.heroku.com/apps/cs156-s21-7pm-1-team01)|
+|[cs156-s21-5pm-2-team01](https://dashboard.heroku.com/apps/cs156-s21-5pm-2-team01)|[cs156-s21-6pm-2-team01](https://dashboard.heroku.com/apps/cs156-s21-6pm-2-team01)|[cs156-s21-7pm-2-team01](https://dashboard.heroku.com/apps/cs156-s21-7pm-2-team01)|
+|[cs156-s21-5pm-3-team01](https://dashboard.heroku.com/apps/cs156-s21-5pm-3-team01)|[cs156-s21-6pm-3-team01](https://dashboard.heroku.com/apps/cs156-s21-6pm-3-team01)|[cs156-s21-7pm-3-team01](https://dashboard.heroku.com/apps/cs156-s21-7pm-3-team01)|
+|[cs156-s21-5pm-4-team01](https://dashboard.heroku.com/apps/cs156-s21-5pm-4-team01)|[cs156-s21-6pm-4-team01](https://dashboard.heroku.com/apps/cs156-s21-6pm-4-team01)|[cs156-s21-7pm-4-team01](https://dashboard.heroku.com/apps/cs156-s21-7pm-4-team01)|
+{:.table .table-sm .table-striped .table-bordered}
+
+Running App:
+
+| 5pm | 6pm | 7pm|
+|-----|-----|----|
+|[cs156-s21-5pm-1-team01](https://cs156-s21-5pm-1-team01.herokuapp.com)|[cs156-s21-6pm-1-team01](https://cs156-s21-6pm-1-team01.herokuapp.com)|[cs156-s21-7pm-1-team01](https://cs156-s21-7pm-1-team01.herokuapp.com)|
+|[cs156-s21-5pm-2-team01](https://cs156-s21-5pm-2-team01.herokuapp.com)|[cs156-s21-6pm-2-team01](https://cs156-s21-6pm-2-team01.herokuapp.com)|[cs156-s21-7pm-2-team01](https://cs156-s21-7pm-2-team01.herokuapp.com)|
+|[cs156-s21-5pm-3-team01](https://cs156-s21-5pm-3-team01.herokuapp.com)|[cs156-s21-6pm-3-team01](https://cs156-s21-6pm-3-team01.herokuapp.com)|[cs156-s21-7pm-3-team01](https://cs156-s21-7pm-3-team01.herokuapp.com)|
+|[cs156-s21-5pm-4-team01](https://cs156-s21-5pm-4-team01.herokuapp.com)|[cs156-s21-6pm-4-team01](https://cs156-s21-6pm-4-team01.herokuapp.com)|[cs156-s21-7pm-4-team01](https://cs156-s21-7pm-4-team01.herokuapp.com)|
+{:.table .table-sm .table-striped .table-bordered}
+
 # See the announcement on `#annoucements` about GitHub Actions
 
 > We have a solution for the CI/CD runs that were failing.  We have deployed a few "self-hosted" CI/CD servers.     You have two options.   We encourage you to use option 2.
