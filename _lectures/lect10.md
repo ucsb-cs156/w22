@@ -1,6 +1,6 @@
 ---
 num: "Lecture 10"
-lecture_date: 2021-04-19
+lecture_date: 2021-04-20
 desc: "Tue Discussion: Update on CI/CD pipeline for team01, plus intro to JS"
 ready: true
 ---
