@@ -10,10 +10,19 @@ ready: true
 * Do your team standup (each member of team puts update on Slack channel, then discuss)
 * Update PRs so that red X's become green checks (you can do this with instructions below)
 * Code Review your PRs (and get code reviews from staff)
+* **Important** Test your code through the swagger-ui also!
+  * It is NOT ENOUGH to just test with the automated tests
+  * You should ALSO test with the swagger-ui endpoint to make sure that you see real results coming back 
+  * The staff will be testing each team's implementation that way ALSO, and you will lose points if your implementation doesn't *actually* work.
+  * If you don't understand what this means, ask for help from staff.
 * Merge your PRs
 * When all PRs merged:
-  - **Each team member** should submit from main branch on Gradescope
-  - One team member should submit on behalf of whole team on Gauchospace
+  1. Deploy your main branch on your team's Heroku app for team01 (see table of links below)
+  2. Make sure that it actually works, using the `swagger-ui` endpoint.
+  3. Then **each team member** should submit from main branch on Gradescope separately.  You should at that point get 100% on Gradescope.
+  4. Then, **one team member** should submit on behalf of whole team on Gauchospace.
+
+Then, and only then, you are all done with [team01](https://ucsb-cs156.github.io/s21/lab/team01/).
 
 # See the announcement on `#annoucements` about GitHub Actions
 
