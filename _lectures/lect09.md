@@ -5,6 +5,8 @@ desc: "Mon Lecture: Update on CI/CD pipeline for team01, plus intro to JS"
 ready: true
 ---
 
+<iframe src="https://gauchocast.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=2e42c01a-2d3d-4f11-b29b-ad100112c1bc&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 # Problem with the CI/CD pipeline (GitHub Actions)
 
 This lecture was supposed to start introducing React, and we did a little bit of that, but
