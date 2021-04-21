@@ -1,6 +1,6 @@
 ---
-num: "Lecture 10"
-lecture_date: 2021-04-20
+num: "Lecture 11"
+lecture_date: 2021-04-21
 desc: "Wed Lecture: Team Standup for team01, work on team01--if done, work on jpa03"
 ready: true
 ---
