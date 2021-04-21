@@ -33,7 +33,8 @@ I think this is 5 of the 12 teams.
     - Each person try to come up with at least one thing in each of those categories
   - Then discuss
 * Then, start working on [jpa03](https://ucsb-cs156.github.io/s21/lab/jpa03/)
-  - New individual lab on getting set up with Auth0
+  - New individual lab on setting up a Spring Boot application that uses Authentication
+  - No programming, just configuration.  What the cool kids are calling "DevOps".
 * You might all be able to get it completely finished in the 75 minutes of lecture today!
 * BUT after you do your retro, if you really, really need to work on something else, that's fine 
   - But post in the slack channel so we'll know that you were here, and that you are now gone. :-)
