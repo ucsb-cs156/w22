@@ -2,7 +2,7 @@
 desc: "Deploying full stack app with Auth0 and Database"
 assigned: 2021-04-21 17:00
 due: 2021-04-27 23:00
-gauchospace_url: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=6012352
+gauchospace_url: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=6976145&forceview=1
 github_org: ucsb-cs156-s21
 layout: lab
 num: jpa03
