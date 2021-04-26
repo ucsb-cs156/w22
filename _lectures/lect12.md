@@ -24,3 +24,4 @@ for those in the Isla Vista area, it would be fun to step outside and take a loo
 
 * <https://ucsb-cs156.github.io/topics/java_sorting/>
 * <https://github.com/UCSB-CS56-pconrad/java-sorting-and-comparators>
+* <https://ucsb-cs156.github.io/topics/java_lambda_expressions/>
