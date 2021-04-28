@@ -6,7 +6,7 @@ layout: lab
 num: jpa04
 ready: true
 course_org: https://github.com/ucsb-cs156-s21
-starter_repo: https://github.com/ucsb-cs156-s21/STARTER-lab04
+starter_repo: https://github.com/ucsb-cs156-s21/STARTER-jpa04
 gradescope: https://www.gradescope.com/courses/255328/assignments/1205863
 ---
 
