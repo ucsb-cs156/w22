@@ -1,6 +1,6 @@
 ---
 num: "Lecture 12"
-lecture_date: 2021-04-21
+lecture_date: 2021-04-26
 desc: "Mon Lecture: Background for jpa04: Sorting, Comparable, Comparator, Lambdas (Async ok, no team activity) "
 ready: true
 ---
