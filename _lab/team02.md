@@ -65,22 +65,23 @@ In your breakout room:
    Heroku app when the repo is still empty, nothing will happen),
    but you can definitely start on each of them at the same time.
 
-   1. Cloning initial code repo, and populating with starter code.
-   2. Setting up Heroku deployment for team02 app and deploying code
-      to it.
-   3. Setting up team and staff permissions on the Heroku repo.
-   4. Setting up GitHub Pages repo `docs` for storybook.
-   5. Setting up GitHub Pages repo `docs-qa` for storybook.
-   6. Setting up Kanban board for team.
+List of tasks:
 
-   The rest of Part 1 describes each of these tasks one-by-one.
-   After dividing up the tasks, get started on them.  When each
-   one is finished, report that on the team's slack channel,
-   and check in on other team members to help with their tasks.
+| Step | Task |
+|------|------|
+| 1.1  | Cloning initial code repo, and populating with starter code|
+| 1.2  | Setting up Heroku deployment for team02 app and deploying code to it|
+| 1.3 | Setting up team and staff permissions on the Heroku repo |
+| 1.4 | Setting up GitHub Pages repo `docs` for storybook |
+| 1.5 | Setting up GitHub Pages repo `docs-qa` for storybook |
+| 1.6 | Setting up Kanban board for team |
 
-   You can stay all in the team's main zoom breakout room, or if it helps, you can divide across multiple breakout rooms; either way, stay in touch with your team using the team's slack channel.
+The rest of Part 1 describes each of these tasks one-by-one.
+After dividing up the tasks, get started on them.  When each
+one is finished, report that on the team's slack channel,
+and check in on other team members to help with their tasks.
 
-
+You can stay all in the team's main zoom breakout room, or if it helps, you can divide across multiple breakout rooms; either way, stay in touch with your team using the team's slack channel.
 
 
 # Step 1.1: Pull in Starter Code
@@ -134,23 +135,33 @@ The result of visiting the home page of the app in the browser should be somethi
 
 # Step 1.3: Give team and staff access to your Heroku Deployment
 
-Please visit the `Access` tab of the Heroku Dashboard for your deployed app.
+Please visit the `Access` tab of the Heroku Dashboard for your deployed app.  (You might also want to bring up, in a separate tab, the `Access` tab of your deployed `team01` app).
 
-Add each of the members of your team.
+Add:
+* each of the members of your team.
+* the assigned LA and TA for your team (you can find their names [here] (https://ucsb-cs156.github.io/s21/info/teams/)
+* your instructor (`phtcon@ucsb.edu`)
 
-Then also add the assigned LA and TA for your team.   
-* You can find their names here: `https://ucsb-cs156.github.io/s21/info/teams/`
-* To get the email that you should use for Heroku, dm them on the slack.
-* Then add `phtcon@ucsb.edu`, the instructor for the course.
+To get the email that you should use for Heroku, you can look at which email addresses you used for the team01 Heroku deployment, or
+dm the individuals on Slack.
 
+# Step 1.4/1.5: Setting up GitHub Pages repo `docs` and `docs-qa` for storybook.
 
-# Step 1.4: Setting up GitHub Pages repo `docs` for storybook.
+The instructions for Steps 1.4 and 1.5 are almost identical; they are
+just being carried out for two different repos.   Accordingly, we've
+combined the instructions.  
 
-TODO: Write these instructions
+In addition to the repo such as [team02-s21-5pm-1](https://github.com/ucsb-cs156-s21/team02-s21-5pm-1), you should also have two additional re
+pos:
 
-# Step 1.5: Setting up GitHub Pages repo `docs-qa` for storybook.
+* A repo such as: [team02-s21-5pm-1-docs](https://github.com/ucsb-cs156-s21/team02-s21-5pm-1-docs) (Step 1.4)
+* A repo such as: [team02-s21-5pm-1-docs-qa](https://github.com/ucsb-cs156-s21/team02-s21-5pm-1-docs-qa) (Step 1.5)
 
-TODO: Write these instructions
+If you edit the URLs shown above (which are for the `s21-5pm-1` team), you should be able to find a similar repo for your team.
+
+These repos are initially empty; visiting their page will give you a screen such as this one:
+
+![initial blank repo screen]()
 
 # Step 1.6: Create a Kanban board for your team.
 
