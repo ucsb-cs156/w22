@@ -161,7 +161,37 @@ If you edit the URLs shown above (which are for the `s21-5pm-1` team), you shoul
 
 These repos are initially empty; visiting their page will give you a screen such as this one:
 
-![initial blank repo screen]()
+![initial blank repo screen](team02-docs-initial-blank-repo.png)
+
+On this screen, if you look in the second second on the page (titled `Quick Setup&mdash;if you've...`) you'll see a sentence that starts `Get started by creating a new file...` and the words `creating a new file`
+are a link.
+
+You can click on this link to be taken to a page where you can create a Markdown file directly in the GitHub file editor.  The name of the file should be `docs/index.md` (it must have exactly this name, all lowercase).
+
+In this file, put the following contents (they vary slightly depending
+on whether you are working on Step 1.4 (`-docs`) or Step 1.5 (`-docs-qa`))).
+
+Contents of `docs/index.md` for Step 1.4 (`-docs`) 
+
+```
+TODO
+```
+
+Contents of `docs/index.md` for Step 1.5 (`-docs-qa`) 
+
+```
+TODO
+```
+
+Once these files are created:
+* Go to the Settings page for the repo
+* From the left navigation, near the bottom  there is a tab called `Pages`.  Select this.
+* Enable GitHub Pages for the repo, on the `main` branch, and for the `/docs` subdirectory.  You do not need to choose a "theme".
+
+On the GitHub pages panel, there is a link to the website that is published via GitHub pages.  This link will not immediately be active&mdash;it takes 3-5 minutes&mdash;but after a few minutes, clicking on it
+should bring up a page such as this one:
+
+![TODO SCREENSHOT](todo-screenshot)
 
 # Step 1.6: Create a Kanban board for your team.
 
