@@ -1,6 +1,6 @@
 ---
 num: "Lecture 13"
-lecture_date: 2021-04-21
+lecture_date: 2021-04-27
 desc: "Tue Discussion: Work session on jpa03/jpa04"
 ready: true
 ---
