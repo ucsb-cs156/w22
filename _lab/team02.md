@@ -171,16 +171,34 @@ You can click on this link to be taken to a page where you can create a Markdown
 In this file, put the following contents (they vary slightly depending
 on whether you are working on Step 1.4 (`-docs`) or Step 1.5 (`-docs-qa`))).
 
-Contents of `docs/index.md` for Step 1.4 (`-docs`) 
+In both cases:
+* note the the first two lines should be exactly `---` and `---`: these are used in GitHub pages (which is based on a technology called Jekyll) to denote that the page should be converted from Markdown to HTML.
+* If you copy/paste, be sure to change `s21-5pm-1` to your own team's name.
+
+Contents of `docs/index.md` for Step 1.4 (`-docs`):
 
 ```
-TODO
+---
+---
+
+Documentation for <https://github.com/ucsb-cs156-s21/team02-s21-5pm-1>
+
+[Storybook](storybook)
+
 ```
 
 Contents of `docs/index.md` for Step 1.5 (`-docs-qa`) 
 
 ```
-TODO
+---
+---
+
+QA site for documentation for <https://github.com/ucsb-cs156-s21/team02-s21-5pm>
+
+Production documentation is here: <https://ucsb-cs156-s21.github.io/team02-s21-5pm-docs>
+
+[Storybook](storybook)
+
 ```
 
 Once these files are created:
@@ -188,10 +206,15 @@ Once these files are created:
 * From the left navigation, near the bottom  there is a tab called `Pages`.  Select this.
 * Enable GitHub Pages for the repo, on the `main` branch, and for the `/docs` subdirectory.  You do not need to choose a "theme".
 
-On the GitHub pages panel, there is a link to the website that is published via GitHub pages.  This link will not immediately be active&mdash;it takes 3-5 minutes&mdash;but after a few minutes, clicking on it
+On the GitHub pages panel, there is a link to the website that is published via GitHub pages.  This link will not immediately be active&mdash; at
+first you'll see a page like this one:
+
+![Github Pages 404](github-pages-404.png)
+
+it takes 3-5 minutes&mdash;but after a few minutes, clicking on it
 should bring up a page such as this one:
 
-![TODO SCREENSHOT](todo-screenshot)
+![Example Docs Page](example-docs-page.png)
 
 # Step 1.6: Create a Kanban board for your team.
 
