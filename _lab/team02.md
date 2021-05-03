@@ -137,7 +137,7 @@ Please visit the `Access` tab of the Heroku Dashboard for your deployed app.  (Y
 
 Add:
 * each of the members of your team.
-* the assigned LA and TA for your team (you can find their names [here] (https://ucsb-cs156.github.io/s21/info/teams/)
+* the assigned LA and TA for your team (you can find their names [here](https://ucsb-cs156.github.io/s21/info/teams/)
 * your instructor (`phtcon@ucsb.edu`)
 
 To get the email that you should use for Heroku, you can look at which email addresses you used for the team01 Heroku deployment, or
