@@ -218,4 +218,24 @@ should bring up a page such as this one:
 
 # Step 1.6: Create a Kanban board for your team.
 
-TODO: Write these instructions
+To create a Kanban board (we'll discuss what one of those is during lecture)
+go to the Projects tab under your team's repo.
+
+Create a new project called "S21".
+
+Choose "Template: None".  You can leave the description blank. 
+Then click "Create Project".
+
+Then, you'll see that you have a blank project where you can
+add columns.
+
+Add these columns, in order from left to right:
+
+* Planning
+* Todo
+* In progress
+* In review
+* Done
+
+When you've finished with that, you've finished with this task.
+
