@@ -5,21 +5,13 @@ due: 2021-03-11 23:59
 github_org: ucsb-cs156-s21
 layout: lab
 num: team03
-ready: false
+ready: true
 proj-ucsb-courses-search: https://github.com/ucsb-cs156-s21/proj-ucsb-courses-search
 proj-ucsb-cs-las: https://github.com/ucsb-cs156-s21/proj-ucsb-cs-las
 proj-mapache-search: https://github.com/ucsb-cs156-s21/proj-mapache-search
 gauchospace-link: TBD
 ---
 
-# NOT READY 
-# NOT READY 
-# NOT READY 
-# NOT READY 
-# NOT READY 
-# NOT READY 
-
-# PLEASE WAIT TO START THIS UNTIL INSTRUCTED BY STAFF
 
 This lab is similar to jpa03, in that you will be doing the configuration of a Spring/React full-stack web application that has Google Authentication via OAuth (though Auth0).
 
