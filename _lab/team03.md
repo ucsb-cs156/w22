@@ -135,8 +135,32 @@ So, following these instructions:
   * 7pm teams: `cs156-s21-team-7pm-1-mapache`, `cs156-s21-team-7pm-2-mapache`, `cs156-s21-team-7pm-3-mapache`, `cs156-s21-team-7pm-4-mapache`
   
   
-## Step 5: TODO:  COPY INSTRUCTIONS FROM W21 jpa04 about creating shared Auth0 tenant for the team
+## Step 5: Setting up shared Auth0 tenant
 
+Two members of your group shoudl have an invitation to a shared auth0 tenant with a name such as:
+* `cs156-w21-team-5pm-1`
+
+
+Find out which of these group members are present; one of them should be assigned to jobs "A" and "B".
+
+* A: Inviting all team members to a shared Auth0 tenant (see note below)
+* B: Inviting all staff to your shared Auth0 tenant (see note below)
+
+
+If no-one has such emails, ask for help on the `#help-lecture-discussion` channel on Slack; one of the staff will invite one of the members of your group.
+
+First task is to accept your own invitation.
+
+Next, switch tenants to the team tenant (there is a "Switch Tenant" option in the menu at the upper right of the Auth0.com dashboard, where your login name is.)
+
+Then, from the same menu, choose the "Invite Admin" feature to invite the other admins.
+
+The person with job "A" should get the `@ucsb.edu` email addresses of all of the other team members.
+
+The person with job "B" should get the `@ucsb.edu` email addresses of all of the staff; these are posted in the `#class-notes` channel on the course Slack.
+
+When you have finished inviting all of the other members of your team (A) or the staff (B), you are done with
+this task. 
 
 ## Step 6: Create an application, API and custom rule as in jpa03
 
