@@ -109,8 +109,8 @@ preferably, sharing their screen with other members looking on and helping.
 Identify the repo associated with your team:
 
  - All 5pm teams: <{{page.proj-ucsb-courses-search}}>
- - Teams team-6pm-1, team-6pm-3 and team-7pm-1 <{{page.proj-ucsb-cs-las}}>
- - Teams team-6pm-2, team-6pm-4 and team-7pm-2 <{{page.proj-mapache-search}}>
+ - All 6pm teams: <{{page.proj-ucsb-cs-las}}>
+ - All 7pm teams: <{{page.proj-mapache-search}}>
 
 Clone this repo on your local machine, or in your CSIL account.
 
