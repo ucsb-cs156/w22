@@ -100,14 +100,14 @@ layout: default
    ```
    brew update
    brew tap AdoptOpenJDK/openjdk
-   brew cask install adoptopenjdk11
+   brew install --cask adoptopenjdk11
    ```
 
    On later upgrades (e.g. from 11.0.6,10 -> 11.0.9.1,1) use:
 
    ```
    brew update
-   brew cask upgrade adoptopenjdk11
+   brew upgrade --cask adoptopenjdk11
    ```
 
    To check if you now have Java 11, open a new Terminal window and do:
