@@ -26,14 +26,15 @@ I'd like to see all of those as {{page.up}} by the end of class today, so that y
 
 To be clear: the {{page.down}} marks are all on pages that *have not yet even attempted* to deploy the app on Heroku.  So let's briefly go over is required to get the app up on Heroku:
 
-* You need to have set the `SPRING_PROPERTIES` environment variable by:
+* You need to have set the *Config Vars* for your Heroku deployment, including `SPRING_PROPERTIES` and a few others.  How you do it:
   - putting appropriate values into `secrets-heroku.properties` (that can be a detailed process)
   - running the script `./setHerokuEnvVars.py --app your-app-name-here`
 
-  Here's how you see if you have `SPRING_PROPERTIES` set at all (this doesn't verify that you have correct values, but if it doesn't show up, it's 
+  Here's how you see if you can check whether your config vars are set at all (this doesn't verify that you have correct values, but if values for these
+  *don't* show up, it's 
   definitely *not* going to work:
   
-   ![Checking SPRING_PROPERTIES](checking_spring_properties.gif)
+  ![Checking whether config vars are set on Heroku](are_config_vars_set.gif)
 
 * You have to actually hit the deploy button: it looks like this
 
