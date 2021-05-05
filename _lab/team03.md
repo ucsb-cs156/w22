@@ -9,7 +9,7 @@ ready: true
 proj-ucsb-courses-search: https://github.com/ucsb-cs156-s21/proj-ucsb-courses-search
 proj-ucsb-cs-las: https://github.com/ucsb-cs156-s21/proj-ucsb-cs-las
 proj-mapache-search: https://github.com/ucsb-cs156-s21/proj-mapache-search
-gauchospace-link: TBD
+gauchospace-link: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=7087487&forceview=1
 ---
 
 
