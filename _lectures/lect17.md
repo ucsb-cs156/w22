@@ -8,6 +8,39 @@ down: ❌
 sep: 🔸
 ---
 
+# First Peer Evaluation survey (participation grade P10), due Friday
+
+* Sometime between now and Friday, please look into your email for an invitation to fill out the CATME.org activity ("PeerEval1").
+* This one will take longer than the subsequent ones, because there are more questions.  Later ones will have fewer questions.
+* Should take < 30 minutes
+
+Your peer ratings may be:
+* higher than the average for your team, 
+* the same as the average for your team, or 
+* lower than the average for your team.
+
+In cases where the spread is small, these peer ratings will not signficantly impact your grade. But, in cases where the performance is
+significantly higher or lower than the mean (measured by standard deviation), we may apply a multiplier to your grade that increases
+or decreases it.    
+
+Purpose:
+* To learn from our peers about our how they perceive our teamwork skills
+* To promote fair distribution of work withing the team (avoiding "free loaders").
+ 
+Separately from how your teammates rate you: 
+* The act of filling out the survey itself, always impacts your grade (as a participation activity).  
+* So please do it, and do it promptly.
+
+I'd like this done by Friday so I can analyze result over the weekend, and share them before Monday's class meeting.
+
+
+# Team02 update
+
+* We'll start on this next week, in parallel with our first round of "simple stories" on the legacy code apps.    
+* Ideally, it would have been sequential, but I think this will still work.
+
+# Team03 update
+
 See: <https://ucsb-cs156.github.io/s21/lab/team03/>
 
 Here's the status as of 10am this morning:
@@ -28,7 +61,7 @@ To be clear: the {{page.down}} marks are all on pages that *have not yet even at
 
 * You need to have set the *Config Vars* for your Heroku deployment, including `SPRING_PROPERTIES` and a few others.  How you do it:
   - putting appropriate values into `secrets-heroku.properties` (that can be a detailed process)
-  - running the script `./setHerokuEnvVars.py --app your-app-name-here`
+  - running the script `./setHerokuVars.py your-app-name-here`
 
   Here's how you see if you can check whether your config vars are set at all (this doesn't verify that you have correct values, but if values for these
   *don't* show up, it's 
@@ -115,6 +148,35 @@ a home page similar to the ones shown below, and can use the `login` button to l
 |-|-|-|
 | ![proj-ucsb-courses-search-home-page](proj-ucsb-courses-search-home-page.png) | ![proj-ucsb-cs-las-home-page](proj-ucsb-cs-las-home-page.png) | | ![proj-mapache-search-home-page](proj-mapache-search-home-page.png) |
 
+Then, you should edit the variable that sets the initial admins, to include some from your team.  That looks like this:
+
+* In `secrets-localhost.properties` and/or `secrets-heroku.properties`, change this line, or add a line:
+  
+  - Change: `app.admin.emails=phtcon@ucsb.edu`
+  - To: `app.admin.emails=phtcon@ucsb.edu,cgaucho@ucsb.edu,ldelplaya@ucsb.edu`, where `cgaucho@ucsb.edu` and `ldelplaya@ucsb.edu` are two 
+    members of your team.  You might also add the emails of [your assigned LA and TA](https://ucsb-cs156.github.io/s21/info/teams/).
+    
+* When running on localhost, changes take place when you restart the backend.
+* When running on Heroku, for the changes to take place, you need to rerun the `setHerokuVars.py` script.
+
+Those team members should then be able to see the admin menu.  These admins are called "permanent admins", because their admin status
+is hard coded into the environment variables.   On the admin menu, they should be able to promote other users that have
+logged in to admins.  For these users, their admin status is stored in the database.
 
 ## Once your team's app is up, then what?
 
+If you haven't done it yet, all members of your team should join slack channel for your teams app (i.e. one of `#proj-ucsb-courses-search`, `#proj-ucsb-cs-las` or `#proj-mapache-search`.)
+ 
+Now, start exploring the features of the app, as individuals and as a team.  
+
+As you explore, make posts to your team's slack channel.  Also monitor the discussions, if any, on the project's channel (i.e. one of `#proj-ucsb-courses-search`, `#proj-ucsb-cs-las` or `#proj-mapache-search`.)
+
+Here are questions that should prompt some posts:
+* What do you notice that is broken or confusing?
+* What questions do you have about how the app is supposed to work, or what problem it is supposed to solve?
+* What changes would you make to the user interface to make it easier to use?
+* What new features would you add?
+* What other questions/comments do you have based on interacting with the app?
+
+
+By Monday, each student is asked to please make at least two posts based on interacting with the app.
