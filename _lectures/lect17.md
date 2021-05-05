@@ -103,3 +103,18 @@ Here are some workarounds:
   extra layer of complexity, and offers no known advantages other than the ability to deploy on Heroku, so
   we've avoided it thus far.  
   (Some extra complications include setting up repo level Secrets for the CI/CD workflows, integration with Codecov, etc.)
+
+# In your breakout rooms:
+
+## Today's first goal: Up and running
+
+The first goal is to get your team's app is up and running, i.e. so that when you click the "App" button, you see
+a home page similar to the ones shown below, and can use the `login` button to login:
+
+| [proj-ucsb-courses-search](https://proj-ucsb-courses-search.herokuapp.com) | [proj-ucsb-cs-las](https://proj-ucsb-cs-las.herokuapp.com) | [proj-mapache-search](https://proj-mapache-search.herokuapp.com) |
+|-|-|-|
+| ![proj-ucsb-courses-search-home-page](proj-ucsb-courses-search-home-page.png) | ![proj-ucsb-cs-las-home-page](proj-ucsb-cs-las-home-page.png) | | ![proj-mapache-search-home-page](proj-mapache-search-home-page.png) |
+
+
+## Once your team's app is up, then what?
+
