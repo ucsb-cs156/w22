@@ -37,7 +37,7 @@ To be clear: the {{page.down}} marks are all on pages that *have not yet even at
 
 * You have to actually hit the deploy button: it looks like this
 
-  ![Deploying on Heroku](deploying_on_heroku.gif)
+  ![Deploying on Heroku](deploy_heroku_app.gif)
 
     
 # What is a *qa deployment* of an app?
