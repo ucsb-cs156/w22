@@ -5,6 +5,7 @@ desc: "Wed Lecture: continue team03"
 ready: false
 up: ✅ 
 down: ❌
+sep: 🔸
 ---
 
 See: <https://ucsb-cs156.github.io/s21/lab/team03/>
@@ -23,7 +24,7 @@ up and running:
 
 I'd like to see all of those as {{page.up}} by the end of class today, so that you can start your next team activity: getting to know your legacy code app as an end user, and as an admin.
 
-To be clear: the {{page.down} marks are all on pages that *have not yet even attempted* to deploy the app on Heroku.  So let's briefly go over is required to get the app up on Heroku:
+To be clear: the {{page.down}} marks are all on pages that *have not yet even attempted* to deploy the app on Heroku.  So let's briefly go over is required to get the app up on Heroku:
 
 * You need to have set the `SPRING_PROPERTIES` environment variable by:
   - putting appropriate values into `secrets-heroku.properties` (that can be a detailed process)
