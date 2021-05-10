@@ -8,6 +8,22 @@ down:
 sep: 🔸
 ---
 
+# A short update on Team02
+
+Here's what project planning looks like.... I'll show you:
+* A Kanban board
+* Planning with cards
+* Converting cards to issues
+* Adding acceptance criteria
+
+I am going through the various React tasks for team02 to ensure that
+* The amount of work is reasonable
+* There are enough resources so that the work you need to do is reasonably clear
+* I've written some new articles:
+  - React Introduction (done): <https://ucsb-cs156.github.io/topics/react_introduction/>
+  - React Patterns for Components (in progress): <https://ucsb-cs156.github.io/topics/react_patterns/>
+  - React Guide to creating a new page (in progress): <https://ucsb-cs156.github.io/topics/react_page_components/>
+
 # First Peer Evaluation survey results 
 
 See your results at CATME.org.  You'll see:
