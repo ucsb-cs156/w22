@@ -16,6 +16,13 @@ Here's what project planning looks like.... I'll show you:
 * Converting cards to issues
 * Adding acceptance criteria
 
+
+If I just turned you loose on the assignment now, it would be:
+* Too big
+* Too vague
+
+And it would miss the point of the assignment, which is to be a *gentle* introduction to the backend.  
+
 I am going through the various React tasks for team02 to ensure that
 * The amount of work is reasonable
 * There are enough resources so that the work you need to do is reasonably clear
@@ -23,6 +30,7 @@ I am going through the various React tasks for team02 to ensure that
   - React Introduction (done): <https://ucsb-cs156.github.io/topics/react_introduction/>
   - React Patterns for Components (in progress): <https://ucsb-cs156.github.io/topics/react_patterns/>
   - React Guide to creating a new page (in progress): <https://ucsb-cs156.github.io/topics/react_page_components/>
+
 
 # First Peer Evaluation survey results 
 
