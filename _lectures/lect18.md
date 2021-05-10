@@ -21,7 +21,7 @@ If I just turned you loose on the assignment now, it would be:
 * Too big
 * Too vague
 
-And it would miss the point of the assignment, which is to be a *gentle* introduction to the backend.  
+And it would miss the point of the assignment, which is to be a *gentle* introduction to the frontend.  
 
 I am going through the various React tasks for team02 to ensure that
 * The amount of work is reasonable
