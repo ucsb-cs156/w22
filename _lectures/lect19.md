@@ -1,7 +1,7 @@
 ---
 num: "Lecture 18"
 lecture_date: 2021-05-11
-desc: "Tue Discussion: "
+desc: "Tue Discussion: First Legacy Code Project Sprint"
 ready: false
 courses_url: https://github.com/ucsb-cs156-s21/proj-ucsb-courses-search
 las_url: https://github.com/ucsb-cs156-s21/proj-ucsb-cs-las
@@ -47,12 +47,36 @@ Each team has a Kanban board, here:
 {:.table .table-sm .table-striped .table-bordered}
 
 One of the first things you'll need to do is set up this board with the columns shown here. (You already practiced this as part of the first
-round of work on team02.    You will likely find that you already have the planning column, and perhaps the Todo column also; add the others to the right.
+round of work on team02.    You will likely find that you already have the Planing and Todo columns.  You need to add the other three.
 
 | Planning | Todo | In Progress | In Review | Done |
 |-|-|-|-|-|
 | Your teams epic, and issues in the planning stages | Issues that are fully ready for someone on the team to pick up and work on | Issues that someone on the team is currently actively working on | Issues for which there is a pull request ready for review or being reviewed | Issues where the PR has been merged to `main`|
 {:.table .table-sm .table-striped .table-bordered}
 
+Here are your instructions for what to do in class today:
 
+1. Every student that is present makes a post on the slack channel claiming one of the three stories, either as an individual or as a pair.   
+2. Pairs should be mindful of schedules, and work out a time when they can commit to working together on this outside of class between now and next Monday for at  least two hours  (better if it's not all in one block) and post that time on the slack.
+3. Note any team members that are not present, and encourage them via slack message to claim any unclaimed stories, and or commit to working as a pair partner on something.
+4. Team should add the missing columns to the Kanban board (In Progress, In Review and Done).
+5. Team members present today should assign themselves to the stories they claimed, and drag those stories into the "In Progress" column on the Kanban board.
+6. They should then go into a separate breakout room and work on the story with their pair, asking for help from staff as needed.
 
+# "Due Date" 
+
+You should have a Pull Request ready to go on these stories by Monday, May 17.
+
+Failing that, you should *at least* have made an attempt at solving the problem in a feature branch, and then have something specific that you are stuck on and need help with (e.g. tests not passing, test coverage not passing, etc.) so that the staff can give you specific help on Monday/Tuesday to get unstuck.
+
+Note that: "I haven't gotten around to it yet" is not the kind of blocker that we are hoping to see.
+
+# What comes next
+
+We'll have a new round of stories ready for you by Tuesday May 18, the "bigger" stories that form the bulk of the work for the project.  You may start seeing some of those pop up on your Kanban board in the meantime.   
+
+If when you are done with your starter story and you want to get started on the others, you may do so.
+
+# What about `team02`
+
+It's on the back burner for now.  We might or might not resume it, depending on whether it seems like it would be a worthwhile exercise.
