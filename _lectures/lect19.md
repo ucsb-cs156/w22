@@ -56,12 +56,13 @@ round of work on team02.    You will likely find that you already have the Plani
 
 Here are your instructions for what to do in class today:
 
-1. Every student that is present makes a post on the slack channel claiming one of the three stories, either as an individual or as a pair.   
-2. Pairs should be mindful of schedules, and work out a time when they can commit to working together on this outside of class between now and next Monday for at  least two hours  (better if it's not all in one block) and post that time on the slack.
-3. Note any team members that are not present, and encourage them via slack message to claim any unclaimed stories, and or commit to working as a pair partner on something.
-4. Team should add the missing columns to the Kanban board (In Progress, In Review and Done).
-5. Team members present today should assign themselves to the stories they claimed, and drag those stories into the "In Progress" column on the Kanban board.
-6. They should then go into a separate breakout room and work on the story with their pair, asking for help from staff as needed.
+1. Look on your teams Kanban board (see table above).  Look in the ToDo Column.  There should be at least three stories there marked `starter`.  (For now, ignore stories that don't have the `starter` label; those are for weeks 8-10.  For today, just concentrate on the `starter` stories.)
+2. Every student that is present makes a post on the slack channel claiming one of the three stories that is in the , either as an individual or as a pair.   
+3. Pairs should be mindful of schedules, and work out a time when they can commit to working together on this outside of class between now and next Monday for at  least two hours  (better if it's not all in one block) and post that time on the slack.
+4. Note any team members that are not present, and encourage them via slack message to claim any unclaimed stories, and or commit to working as a pair partner on something.
+5. Team should add the missing columns to the Kanban board (In Progress, In Review and Done).
+6. Team members present today should assign themselves to the stories they claimed, and drag those stories into the "In Progress" column on the Kanban board.
+7. Now go into a separate breakout room (with your pair, if appliable) and work on the story with your pair, asking for help from staff as needed.
 
 # "Due Date" 
 
