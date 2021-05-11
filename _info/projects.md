@@ -10,10 +10,10 @@ mapache_prod: https://proj-mapache-search.herokuapp.com
 courses_qa: https://proj-ucsb-courses-search-qa.herokuapp.com
 las_qa: https://proj-ucsb-cs-las-qa.herokuapp.com
 mapache_qa: https://proj-mapache-search-qa.herokuapp.com
-team_5pm_1_kanban: https://github.com/ucsb-cs156-s21/proj-ucsb-courses-search/projects/9
-team_5pm_2_kanban: https://github.com/ucsb-cs156-s21/proj-ucsb-courses-search/projects/10
-team_5pm_3_kanban: https://github.com/ucsb-cs156-s21/proj-ucsb-courses-search/projects/11
-team_5pm_4_kanban: https://github.com/ucsb-cs156-s21/proj-ucsb-courses-search/projects/12
+team_5pm_1_kanban: https://github.com/ucsb-cs156-s21/proj-ucsb-courses-search/projects/17
+team_5pm_2_kanban: https://github.com/ucsb-cs156-s21/proj-ucsb-courses-search/projects/16
+team_5pm_3_kanban: https://github.com/ucsb-cs156-s21/proj-ucsb-courses-search/projects/15
+team_5pm_4_kanban: https://github.com/ucsb-cs156-s21/proj-ucsb-courses-search/projects/14
 team_6pm_1_kanban: https://github.com/ucsb-cs156-s21/proj-ucsb-cs-las/projects/15
 team_6pm_2_kanban: https://github.com/ucsb-cs156-s21/proj-ucsb-cs-las/projects/15
 team_6pm_3_kanban: https://github.com/ucsb-cs156-s21/proj-ucsb-cs-las/projects/15
