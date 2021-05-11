@@ -14,14 +14,14 @@ team_5pm_1_kanban: https://github.com/ucsb-cs156-s21/proj-ucsb-courses-search/pr
 team_5pm_2_kanban: https://github.com/ucsb-cs156-s21/proj-ucsb-courses-search/projects/16
 team_5pm_3_kanban: https://github.com/ucsb-cs156-s21/proj-ucsb-courses-search/projects/15
 team_5pm_4_kanban: https://github.com/ucsb-cs156-s21/proj-ucsb-courses-search/projects/14
-team_6pm_1_kanban: https://github.com/ucsb-cs156-s21/proj-ucsb-cs-las/projects/15
-team_6pm_2_kanban: https://github.com/ucsb-cs156-s21/proj-ucsb-cs-las/projects/15
-team_6pm_3_kanban: https://github.com/ucsb-cs156-s21/proj-ucsb-cs-las/projects/15
-team_6pm_4_kanban: https://github.com/ucsb-cs156-s21/proj-ucsb-cs-las/projects/15
-team_7pm_1_kanban: https://github.com/ucsb-cs156-s21/proj-mapache-search/projects/9
-team_7pm_2_kanban: https://github.com/ucsb-cs156-s21/proj-mapache-search/projects/9
-team_7pm_3_kanban: https://github.com/ucsb-cs156-s21/proj-mapache-search/projects/9
-team_7pm_4_kanban: https://github.com/ucsb-cs156-s21/proj-mapache-search/projects/9
+team_6pm_1_kanban: https://github.com/ucsb-cs156-s21/proj-ucsb-cs-las/projects/21
+team_6pm_2_kanban: https://github.com/ucsb-cs156-s21/proj-ucsb-cs-las/projects/20
+team_6pm_3_kanban: https://github.com/ucsb-cs156-s21/proj-ucsb-cs-las/projects/19
+team_6pm_4_kanban: https://github.com/ucsb-cs156-s21/proj-ucsb-cs-las/projects/18
+team_7pm_1_kanban: https://github.com/ucsb-cs156-s21/proj-mapache-search/projects/16
+team_7pm_2_kanban: https://github.com/ucsb-cs156-s21/proj-mapache-search/projects/15
+team_7pm_3_kanban: https://github.com/ucsb-cs156-s21/proj-mapache-search/projects/14
+team_7pm_4_kanban: https://github.com/ucsb-cs156-s21/proj-mapache-search/projects/13
 ---
 
 * [Winter 2021 Projects Page](https://ucsb-cs156.github.io/w21/info/projects)
