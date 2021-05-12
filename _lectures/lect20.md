@@ -46,6 +46,7 @@ You may see tags such as these:
 | Tag | Explanation/What you need to do |
 |-|-|
 |`FIX ME-MISSING TEAM CR`| Get a fellow member of your team to do a code review |
+{:.table .table-sm .table-striped .table-bordered}
 
 
 # How to do a peer Code Review
@@ -58,4 +59,16 @@ There are two aspects to doing a peer code review:
 Both are important, and arguably the second one is *more* important.  But, let's tackle the first one first.
 
 Doing a code review isn't just making a *comment* such as `LGTM` on the PR.    That's helpful, but it doesn't *trigger* the mechanisms in GitHub's webapp to mark the PR as having been code reviewed.   That requires a specific series of actions on the GitHub web site, done in a particular way.
+
+We'll be putting up a YouTube video explaining that will be published shortly as part of this series:
+ |
+| Step | Explanation | Video Link | Starting <br /> Kanban Board <br /> Column | Ending <br /> Kanban Board <br /> Column |
+|-|-|-|-|-|
+| 1 | Have idea, create issue, groom issue | <https://youtu.be/IzMml6aFvRY> | Planning | ToDo |
+| 2 | Assign issue to self (and possibly pair partner) |  | ToDo | InProgress | 
+| 3 | Work on Issue |  | InProgress | InProgress | 
+| 4 | Create PR | Coming Soon | InProgress | InReview | 
+| 5 | Code Review PR / Testing |   Coming Soon | In Review | In Review | 
+| 6 | Merging | Coming Soon  | In Review | Done | 
+{:.table .table-sm .table-striped .table-bordered}
 
