@@ -65,9 +65,9 @@ We'll be putting up a YouTube video explaining that will be published shortly as
 | Step | Explanation | Video Link | Starting <br /> Kanban Board <br /> Column | Ending <br /> Kanban Board <br /> Column |
 |-|-|-|-|-|
 | 1 | Have idea, create issue, groom issue | <https://youtu.be/IzMml6aFvRY> | Planning | ToDo |
-| 2 | Assign issue to self (and possibly pair partner) |  | ToDo | InProgress | 
-| 3 | Work on Issue |  | InProgress | InProgress | 
-| 4 | Create PR | Coming Soon | InProgress | InReview | 
+| 2 | Assign issue to self (and possibly pair partner) | <https://youtu.be/YMDldDQ3e54> | ToDo | InProgress | 
+| 3 | Work on Issue | <https://youtu.be/DbaBdl1TUuk> | InProgress | InProgress | 
+| 4 | Create PR | <https://youtu.be/TKj9AwP10qQ> | InProgress | InReview | 
 | 5 | Code Review PR / Testing |   Coming Soon | In Review | In Review | 
 | 6 | Merging | Coming Soon  | In Review | Done | 
 {:.table .table-sm .table-striped .table-bordered}
