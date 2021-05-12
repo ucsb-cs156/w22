@@ -1,5 +1,5 @@
 ---
-num: "Lecture 18"
+num: "Lecture 19"
 lecture_date: 2021-05-11
 desc: "Tue Discussion: First Legacy Code Project Sprint"
 ready: false
