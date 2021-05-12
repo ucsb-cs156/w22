@@ -46,6 +46,9 @@ You may see tags such as these:
 | Tag | Explanation/What you need to do |
 |-|-|
 |`FIX ME-MISSING TEAM CR`| Get a fellow member of your team to do a code review |
+|`FIX ME-TEST COVERAGE`| Tests may be passing, but they are too many missed lines (i.e. lines not covered by tests).  Improve the test coverage (ask staff for help if you aren't sure how) |
+|`FIX ME-CODE REVIEW ISSUES`| Someone requested changes in the Code Review, but you haven't addressed them yet |
+|`FIX ME-PR Description`| Your PR doesn't have a description, or the description needs additional attention |
 {:.table .table-sm .table-striped .table-bordered}
 
 
@@ -73,3 +76,8 @@ We'll be putting up a YouTube video explaining that will be published shortly as
 {:.table .table-sm .table-striped .table-bordered}
 
 But in the meantime, I'll give a short live demo turing today's class.
+
+The short version:
+* Don't just make a comment
+* Use the "Files Changed" tab, and the green `Review Changes` button at upper right.
+
