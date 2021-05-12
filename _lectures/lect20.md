@@ -32,11 +32,30 @@ A few things we didn't say yesterday, but are important to know:
 
 When you are done with your issue, and make a Pull Request:
 1. Link the PR to the issue, and/or the issue to the PR.   (Once you make the link, it exists in both directions)
-2. Make sure to add PR description.  It should briefly describe the change you made *from the user perspective*.
-3. Assign yourselves on the PR (the same folks that worked on the issue.)
-4. Ask for code reviews from:
+2. Make sure the PR is tagged with your team's tag, e.g. `s21-5pm-1`, `s21-5pm-2`, etc.
+3. Make sure to add PR description.  It should briefly describe the change you made *from the user perspective*.
+4. Assign yourselves on the PR (the same folks that worked on the issue.)
+5. Ask for code reviews from:
    - Members of your team that didn't work on the issue (see [team list here](https://ucsb-cs156.github.io/s21/info/teams/))
    - From the specific LA and TA that are assigned to your team (see [team list here](https://ucsb-cs156.github.io/s21/info/teams/))
    - Don't ask for code reviews from "just everyone" on the staff (though other staff members can do PRs and will sometimes)
-5. It can be helpful to deploy the branch on your sites Heroku deployment (the one from the team03 project)
+6. It can be helpful to deploy the branch on your sites Heroku deployment (the one from the team03 project)
+
+You may see tags such as these:
+
+| Tag | Explanation/What you need to do |
+|-|-|
+|`FIX ME-MISSING TEAM CR`| Get a fellow member of your team to do a code review |
+
+
+# How to do a peer Code Review
+
+There are two aspects to doing a peer code review:
+
+* Getting the mechanics right (i.e. clicking on the right buttons in the right way)
+* Providing meaningful review and feedback (to help your team improve and keep the quality of the code base high)
+
+Both are important, and arguably the second one is *more* important.  But, let's tackle the first one first.
+
+Doing a code review isn't just making a *comment* such as `LGTM` on the PR.    That's helpful, but it doesn't *trigger* the mechanisms in GitHub's webapp to mark the PR as having been code reviewed.   That requires a specific series of actions on the GitHub web site, done in a particular way.
 
