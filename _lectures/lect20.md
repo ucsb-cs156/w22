@@ -61,7 +61,7 @@ Both are important, and arguably the second one is *more* important.  But, let's
 Doing a code review isn't just making a *comment* such as `LGTM` on the PR.    That's helpful, but it doesn't *trigger* the mechanisms in GitHub's webapp to mark the PR as having been code reviewed.   That requires a specific series of actions on the GitHub web site, done in a particular way.
 
 We'll be putting up a YouTube video explaining that will be published shortly as part of this series:
- |
+
 | Step | Explanation | Video Link | Starting <br /> Kanban Board <br /> Column | Ending <br /> Kanban Board <br /> Column |
 |-|-|-|-|-|
 | 1 | Have idea, create issue, groom issue | <https://youtu.be/IzMml6aFvRY>  (8:32) | Planning | ToDo |
@@ -72,3 +72,4 @@ We'll be putting up a YouTube video explaining that will be published shortly as
 | 6 | Merging | Coming Soon  | In Review | Done | 
 {:.table .table-sm .table-striped .table-bordered}
 
+But in the meantime, I'll give a short live demo turing today's class.
