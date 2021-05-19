@@ -38,3 +38,10 @@ As Bryan points out:
 This is absolutely true, and it's also going to be true of real world software development settings.
 
 
+# The default plan today, with one addition
+
+
+Plan for lecture today: same as section yesterday, after a short discussion in the main room.  Plus one twist : each team make a post on the project channel describing PRs done, and those in progress/planned.
+
+
+
