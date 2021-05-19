@@ -6,7 +6,7 @@ ready: false
 ---
 
 
-# Tradoffs: Quick Win, vs Maintainability
+# Tradeoffs: Quick Win, vs Maintainability
 
 A case study: https://github.com/ucsb-cs156-s21/proj-ucsb-courses-search/pull/292
 
