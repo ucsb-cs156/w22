@@ -62,7 +62,7 @@ If you don't know to work on next, say that for (d).
      - If they are pure refactoring, then show the before and after in the code, and explain why the new code is better.
    - Briefly describe the feature(s) that your team is working on.
    - The *purpose* of this is so that you can be aware of what other teams are working on, and identify any areas of overlap or potential conflict.
-  
+6. We are working on standardizing the team labels, moving from e.g. `s21-4pm-3` to `s21-4pm-3-AdminFeatures`  
 
 # Need to update owners on Heroku app
 
