@@ -25,6 +25,9 @@ If you don't know to work on next, say that for (d).
   - That person should post the email they use for Heroku in the team's slack channel with an `@` mention to Conrad
   - When Conrad responds, transfer the repo, and redeploy a branch and make sure it is working
 * (b) Designated who will present for team tomorrow night during section. Post their name on the slack channel.
+* (c) Post a team strategy to get to 100 points.
+  - Suggest: a list of the issues the team is working on, and how many points they they think they are worth.
+  - You might also ask staff to do a sanity check on that... e.g. tag your TA and LA and ask them to do an estimate on each story.
 
 (4) Review kanban board, right to left.  
 * Try to get stuff merged and code reviewed (as a team) before taking on new stories.
