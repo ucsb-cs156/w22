@@ -10,6 +10,29 @@ sep: 🔸
 
 Here's a reminder of usual procedure when we put you in breakout rooms (with extra items for today highlighted)  
 
+(1) Virtual standup: Each team member present posts in the slack channel for the chat an update with
+* (a) what stories they've worked since last time
+* (b) status of each of those
+* (c) any blockers
+* (d) what they will work on next.
+ 
+If you don't know to work on next, say that for (d).
+
+(2) Actual out-loud standup.   Go over what you posted in the slack channel.
+
+(3) Special steps for today:
+* (a) Make sure someone on your team has agreed to have the team's QA repo transferred to them
+  - That person should post the email they use for Heroku in the team's slack channel with an `@` mention to Conrad
+  - When Conrad responds, transfer the repo, and redeploy a branch and make sure it is working
+* (b) Designated who will present for team tomorrow night during section. Post their name on the slack channel.
+
+(4) Review kanban board, right to left.  
+* Try to get stuff merged and code reviewed (as a team) before taking on new stories.
+* But if you have done everything you can and are just waiting on staff, then start work on a new story.
+* If you don't have enough stories to work on, alert the staff.
+
+
+(5) Work on your stories, either together, or in separate breakout rooms.
 
 
 # Agenda for today
