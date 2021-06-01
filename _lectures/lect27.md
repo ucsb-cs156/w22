@@ -5,16 +5,6 @@ desc: "Tue Discussion: Presentation Planning (or merging PRs)"
 ready: true
 ---
 
-# Today's work
-
-* 8 out of 12 teams are now at or above 100 points.
-  - These teams should use the time to work on their final presentations
-  - You may also go ahead and fill out the CATME peer evaluation 3
-* All other teams:
-  - Focus on getting PRs merged
-  - We may have offered "quick win" stories (new PRs for those are ok)
-  - We want those PRs ready to merge before lecture tomorrow.
-
 # One last short homework assignment
 
 We have one last homework assignment, which is more of the nature of a "reflection" piece.   It shouldn't take more than 30 minutes of time.
@@ -26,6 +16,50 @@ I'm asking you to reflect on
 - how you would talk about that at a job interview
 - what advice you would give to future students or for future changes to the course
   
+
+# Final Presentations
+
+* Tuesday, June 8, noon-2:50 (Pacific Time), in the regular zoom room.
+  - There will be one hour for each of the three projects.
+  - UCSB courses search, noon-1pm 
+  - Ten minute break: 1pm-1:10pm
+  - UCSB CS LAs (1:10-2pm) (ten minute break)
+  - Mapache (2-2:50)
+* Each team will have 5-10 minutes to present, and then five minutes for live demo, plus Q&A by staff. 
+
+
+# Final CATME.org survey
+
+This will be opened immediately after the final course presentations, and will be open for 48 hours.
+
+# Final Presentation Participation Assignment
+
+(This will count as a participation assignment in your final course grade.)
+
+* You'll be asked to critique each team's presentation, including your own.
+  - Write down what you liked, and what could have been improved.
+* You'll then be asked to put the presentations in one of three groups: top, middle, bottom.  
+  - Give a brief justification (one sentence is enough)
+* Each group must have either three or four presentations in it (total of 10).
+
+* You are invited to consider these factors, and weigh them according to your own sense of how important they are:
+  - Clarity of presentation: did you understand what the speakers were saying?
+  - Impact on the application: how much did the team accomplish in terms of improving the application?
+  - Presentation Style: Was the presentation enjoyable to listen to?
+  - Working as a team: Did you have a sense from the presentation that the team worked well together and supported one another?
+
+
+# Today's work
+
+* 8 out of 12 teams are now at or above 100 points.
+  - These teams should use the time to work on their final presentations
+  - You may also go ahead and fill out the CATME peer evaluation 3
+* All other teams:
+  - Focus on getting PRs merged
+  - We may have offered "quick win" stories (new PRs for those are ok)
+  - We want those PRs ready to merge before lecture tomorrow.
+
+
 # Suggestions for the final presentation planning process
 
 You may undertake this any way you see fit.   The following is just a suggesiton of how to go about this, not a requirement.
@@ -59,3 +93,6 @@ For Whatever work is left "unfinished" from W21:  here's what happens:
 * It becomes work for W22 teams.
 * We will create a new issue that's a clone of the old issue; then link the new one to the old issue, old branch, and old PR if any.
 * The new W22 teams may choose to start from scratch, or build on your work in progress, as they see fit.
+
+
+
