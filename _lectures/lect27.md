@@ -5,6 +5,27 @@ desc: "Tue Discussion: Presentation Planning (or merging PRs)"
 ready: true
 ---
 
+<style>
+
+
+summary { 
+   border: 4px solid green;
+   padding: 1em;
+   background-color: #ffe;
+   margin-bottom: 1em;
+}
+
+details { 
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border: 4px solid blue;
+  padding: 1em;
+}
+</style>
+
 # One last short homework assignment
 
 We have one last homework assignment, which is more of the nature of a "reflection" piece.   It shouldn't take more than 30 minutes of time.
