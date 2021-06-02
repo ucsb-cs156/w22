@@ -54,7 +54,7 @@ More on final presentations:
 
 <summary>
 More on final presentations
-<summary>
+</summary>
 
 # Final Presentation
 
