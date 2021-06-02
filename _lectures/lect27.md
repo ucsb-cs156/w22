@@ -50,13 +50,9 @@ I'm asking you to reflect on
 
 More on final presentations:
 
-<detail markdown="1">
 
-<summary>
-More on final presentations
-</summary>
 
-# Final Presentation
+# More on Final Presentations
 
 You may do it live, or you may do it pre-recorded via Video (uploaded to YouTube or Vimeo, or any other video sharing service.).
 
@@ -89,7 +85,6 @@ Please then also poll your team members and let me know your thoughts about the 
 * unlisted, but ok to make it available to future CMPSC 156 students (as an example, and to orient them to the app)
 * unlisted, and only shown once for this team's final demo, and to course staff 
 
-</detail>
 
 
 # Final CATME.org survey
