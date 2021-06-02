@@ -33,6 +33,9 @@ And thanks to all of you, for making this a great course.
 * Homework H07: <https://www.gradescope.com/courses/255328/assignments/1334103>
   - Due Thursday 5pm
   - Accepted late without penalty through Friday 5pm
+  - It should be possible to get 100% on this if you write thoughtful answers.
+    - Why leave anything blank?
+    - If you include a joke answer, include a serious one too. :-)
 
 # Final PR deadline (non-negotiable)
 
