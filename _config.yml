@@ -29,9 +29,9 @@ github_url: https://github.com/ucsb-cs156/s21
 
 
 course: "CS156"
-qtr: "S21"
-qxx: "s21"
-quarter: "Spring 2021"
+qtr: "W22"
+qxx: "w22"
+quarter: "Winter 2022"
 
 lecture_days_of_week: MW
 
@@ -39,29 +39,31 @@ assigned_text: " assigned"
 due_text: " due "
 
 start_week: 1
-start_date: 2021-03-28
+start_date: 2022-01-02
 num_weeks: 10
 extra_exam_week: true
 
 cal_dates: >
-  [
-    {"label":"S21 1st day of instruction", "date":"2021-03-29" },	
-    {"label":"Univ Holiday", "date":"2021-05-31" , "holiday": true},
-    {"label":"S21 instruction ends", "date":"2021-06-04" },
-    {"label":"S21 finals start", "date":"2021-06-05" },
-    {"label":"CS156 Final noon-3pm", "date":"2021-06-08" },
-    {"label":"S21 finals end", "date":"2021-06-11" },
-    {"label":"S21 qtr ends", "date":"2021-06-11" }
+  [                                                                            
+    {"label":"W22 1st day of instruction", "date":"2022-01-03" },
+    {"label":"MLK Day", "date":"2022-01-17" },
+    {"label":"President's Day", "date":"2022-02-21" },
+    {"label":"W22 instruction ends", "date":"2022-03-11" },
+    {"label":"W22 finals start", "date":"2022-03-12" },
+    {"label":"W22 CS16 MIDTERM (2pm-3:15pm)", "date":"2022-02-03" },                      
+    {"label":"W22 CS16 FINAL (4pm-7pm)", "date":"2022-03-17" },                      
+    {"label":"W22 finals end", "date":"2022-03-18" },                          
+    {"label":"W22 qtr ends", "date":"2022-03-18" }                              
   ]
 
 piazza_url: https://piazza.com
 gauchospace_course_page: https://gauchospace.ucsb.edu/courses/course/view.php?id=tbd
-github_org_name: ucsb-cs156-s21
-github_org_url: https://github.com/ucsb-cs156-s21
+github_org_name: ucsb-cs156-w22
+github_org_url: https://github.com/ucsb-cs156-w22
 
-ta_list: "Mara and Jacqui"
-ta_list_full: "Mara Downing and Jacqui Mai"
-mentors_list: "Andrew, Bryan, Wade"
+ta_list: "Andrew and Kevin"
+ta_list_full: "Andrew Lu and Kevin Heffernan"
+mentors_list: "Bryan T, Bryan Z, Pranav and Seth"
 discussion_section_times: "5pm,&nbsp;6pm,&nbsp;7pm"
 sections: "5pm,&nbsp;6pm,&nbsp;7pm"
 
