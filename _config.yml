@@ -23,8 +23,8 @@ exclude:
 timezone: America/Los_Angeles
 
 url: https://ucsb-cs156.github.io # the base hostname & protocol for your site
-baseurl: /s21  # the subpath of your site, e.g. "/blog"
-github_url: https://github.com/ucsb-cs156/s21
+baseurl: /w22  # the subpath of your site, e.g. "/blog"
+github_url: https://github.com/ucsb-cs156/w22
 
 
 
