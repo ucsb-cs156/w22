@@ -1,11 +1,11 @@
 ---
 num: "Lecture 00"
-lecture_date: 2021-03-29
+lecture_date: 2022-01-03
 desc: "Introduction to CS156"
 ready: true
 ---
 
-<div style="display:none;">https://ucsb-cs156.github.io/s21/lectures/lect00
+<div style="display:none;">https://ucsb-cs156.github.io/w22/lectures/lect00
 </div>
 
 
@@ -45,7 +45,6 @@ Helping prepare you for transition from "Computer Science Student" to "Professio
   - Typically try to keep instructions to 5-15 minutes
   - 35-45 minutes with your teams
 
-There may be some days that we replace class with an asynchronous video presentation; on those days, there will still be staff present for "office hours" during class time.
 
 # The course website
 
@@ -53,20 +52,20 @@ Here: <https://ucsb-cs156.github.io>
 
 Note the two parts:
 * Permanent part for CS156
-* The part for /s21/ specifically
+* The part for /w22/ specifically
 
-Also note the Calendar where you can keep track of things that are due: <https://ucsb-cs156.github.io/s21/info/calendar/>
+Also note the Calendar where you can keep track of things that are due: <https://ucsb-cs156.github.io/w22/info/calendar/>
 
 # Where is the syllabus?
 
 Here:
 
-* <https://ucsb-cs156.github.io/s21/info/syllabus/>
+* <https://ucsb-cs156.github.io/w22/info/syllabus/>
 
 
 # Getting Started With Java Programming
 
-The first programming assignment is here: <https://ucsb-cs156.github.io/s21/lab/jpa00/>
+The first programming assignment is here: <https://ucsb-cs156.github.io/w22/lab/jpa00/>
 
 * `jpa00` stands for "Java Programming Assignment 00".
 * We'll also have some JavaScript programming assignments; they will be numbered starting from `jspa00`
@@ -74,7 +73,7 @@ The first programming assignment is here: <https://ucsb-cs156.github.io/s21/lab/
 * It's pretty straightforward; you should be able to complete it by the end of the week, even if you've never programming in Java before; it's pretty much just a "Hello, World" type assignment.
 * If you already joined the GitHub org, you should have a private repo already created for you in the github organization <https://github.com/ucsb-cs156-s21> for this assignment.
 * The name of the repo is `jpa00-yourGithubId` 
-* If you didn't join the GitHub org yet, or joined it *very* recently, then your repo might not exist yet; you can ask for help with getting it created on the [`#help-jpa00`](https://ucsb-cs156-s21.slack.com/archives/C01SR6DAL1H) channel on the slack.  This is also where you can ask for help with anything else pertaining to this assignment.
+* If you didn't join the GitHub org yet, or joined it *very* recently, then your repo might not exist yet; you can ask for help with getting it created on the [`#help-jpa00`](https://ucsb-cs156-w22.slack.com/archives/C02RDGC2LK0) channel on the slack.  This is also where you can ask for help with anything else pertaining to this assignment.
 
 The second programming assignment, [jpa01](https://ucsb-cs156.github.io/s21/lab/jpa01/) is a bit more challenging, since it
 deals with something called "mutation testing" that may be new to you.
@@ -90,7 +89,7 @@ Literally, right now, during class.
 
 * Login at https://ucsb-cs-github-linker.herokuapp.com with your GitHub id
 * Navigate to the home page.
-* Click to join `ucsb-cs156-s21`.  This generates an invitation
+* Click to join `ucsb-cs156-w22`.  This generates an invitation
 * THEN... click at the top of the page to accept the invitation
 
 If you get the message that your "email didn't match anyone on the course roster", then:
@@ -115,20 +114,16 @@ do that now.
 
 # Reading in the Textbook (reading for H00 due Friday).
 
+
 This homework assignment due Friday is based on:
 
 * Chapters 1 and 2 of Head First Java 2nd Edition (HFJ2), and Chapter 1 on Java in a Nutshell, 7th Edition (JN7).
 * We also have one question about material on pages 372-373 on JN7, the section titled "Slow Adoption Rates".  Please read that one short section as well.
 
-* Limited Online Access to these textbooks is free if you are on the [UCSB VPN](https://www.it.ucsb.edu/pulse-secure-campus-vpn/get-connected-vpn)
-* Caution though, that there are a limited number of concurrent UC "seats" in our site license, and after those are all used, you might get asked for a credit card.
-* So having your own copy is a good idea.
-
-Online links to the textbooks&mdash;note that might need to be on the UCSB VPN for these to work.
-* [HFJ2](https://www.oreilly.com/library/view/head-first-java/0596009208/?ar)
-* [JN7](https://www.oreilly.com/library/view/java-in-a/9781492037248/?ar)
-
-Some students have reported that they were able to go through the UCSB Library website, and access these without being on the VPN.  If you discover the magic formula for that, consider posting it on the `#help-homework` or `#general` channels on the Slack to help other students.
+* Limited Online Access to these textbooks is free if you connect through the UCSB Library website
+  - Start here: <https://www.oreilly.com/library/view/temporary-access/>, and select UC Santa Barbara from the dropdown menu.
+  - Then, search for "Head First Java, 2nd edition" or "Java in a Nutshell, 7th Edition" once you are online.
+  - We may make use of other online books available through this resource.
 
 # Homework H00 due Friday
 
@@ -157,11 +152,11 @@ Legacy Applications: They existed before this course started, and will continue 
 
 # Logistics
 
-* Check website for software to install <https://ucsb-cs156.github.io/s21/info/software/>
+* Check website for software to install <https://ucsb-cs156.github.io/w22/info/software/>
 * Check email for:
   * Research survey invitation (coming soon)
   * Slack invitation
-* Join ucsb-cs156-s21 github org
+* Join ucsb-cs156-w22 github org
   * Create account at github.com
   * Add your @ucsb.edu or @umail.ucsb.edu email address (either one)
   * Visit <https://ucsb-cs-github-linker.herokuapp.com> and login with your github username/password
@@ -178,24 +173,16 @@ Legacy Applications: They existed before this course started, and will continue 
 * Website: <https://ucsb-cs156.github.io>
    * Especially under <https://ucsb-cs156.github.io/topics>
 
-# Before we pivot to our team activity
-
-The team activity we have planned for today involved using the course Slack, and
-it is still my hope that we'll proceed with that plan.
-
-However, as of 10am on the day of this lecture, slack was reporting some problems: (<https://status.slack.com/>).
-
-If Slack is still not working for us when we get to today's assignment, there's a **backup plan** at the bottom of this page (use this ONLY if Slack is down).  Scroll down to it if it's needed.
 
 # Now we meet our first team
 
-We'll go into breakout rooms and you'll meet the first team you'll be working with during the course.
+We'll now separate into teams, (and/or go into breakout rooms if online) and you'll meet the first team you'll be working with during the course.
 
 Teams are by discussion section; there are three discussion sections, and 4 teams per discussion section.
 
 Team assignments, and the mapping from teams to staff (LAs/TAs) is listed here:
-* <https://ucsb-cs156.github.io/s21/info/teams/>
-* You can find this link on the course website, <https://ucsb-cs156.github.io/s21> under "More..." then Teams.
+* <https://ucsb-cs156.github.io/w22/info/teams/>
+* You can find this link on the course website, <https://ucsb-cs156.github.io/w22> under "More..." then Teams.
 
 Note that while the instructor, or a TA or LA might drop in on your Breakout Room, they are not the discussion leader.  You need to self-organize to run your own 
 breakout room discussion.
