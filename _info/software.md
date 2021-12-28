@@ -13,7 +13,7 @@ layout: default
 
    Be sure that you have the *latest* version of the Zoom client.  Older versions may not have some of the features we'll need for this course.
     
-   If you click on "About Zoom" inside zoom, you want a version that is 5.4.7 or later.
+   If you click on "About Zoom" inside zoom, you want a version that is 5.9.1 or later.
    
    Download it here: <https://zoom.us/download>
 
@@ -72,14 +72,14 @@ layout: default
    
    Download it here: <https://code.visualstudio.com/download>
   
-4. Docker
+<!-- 4. Docker
 
    Docker provides a way for you to run a standardized Linux environment inside another platform (whether that be Windows, Mac, or Linux).  It gives us the ability
    to have a consistent development environment, but running on your own machine.
    
    https://www.docker.com/products/docker-desktop
    
-   We'll be recommending Docker as a platform for running the legacy code applications later in the quarter.
+   We'll be recommending Docker as a platform for running the legacy code applications later in the quarter. -->
 
 ## Recommmended for MacOS Users
 
@@ -90,24 +90,24 @@ layout: default
    
    To install `brew`, visit <https://brew.sh/> and follow the instructions.
    
-2. Java 11
+2. Java 17
 
-   Yes, we want Java 11.  Not 12, Not 13, Not 14, and Not 15.  Java 11.
+   Yes, we want Java 17.  Not 8, Not 11, Not 18 or higher.  Java 17.
 
-   To install Java 11 using brew, do this:
+   To install Java 17 using brew, do this:
    
 
    ```
    brew update
    brew tap AdoptOpenJDK/openjdk
-   brew install --cask adoptopenjdk11
+   brew install --cask adoptopenjdk17
    ```
 
    On later upgrades (e.g. from 11.0.6,10 -> 11.0.9.1,1) use:
 
    ```
    brew update
-   brew upgrade --cask adoptopenjdk11
+   brew upgrade --cask adoptopenjdk17
    ```
 
    To check if you now have Java 11, open a new Terminal window and do:
@@ -163,4 +163,7 @@ layout: default
    brew upgrade npm
    ```
 
-   
+ ## Recommmended for Windows Users
+ 
+ TODO
+
