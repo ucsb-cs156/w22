@@ -105,6 +105,12 @@ layout: default
    brew update
    brew install openjdk@17
    ```
+   
+   Then you must do this step, which is documneted in the output that shows up when you run the `brew install openjdk@17` command:
+   
+   ```
+   sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+   ```
 
    To check if you now have Java 17, open a new Terminal window and do:
 
@@ -116,9 +122,9 @@ layout: default
 
    ```
    # java -version
-   openjdk version "11.0.2" 2019-01-15
-   OpenJDK Runtime Environment AdoptOpenJDK (build 11.0.2+9)
-   OpenJDK 64-Bit Server VM AdoptOpenJDK (build 11.0.2+9, mixed mode)
+   openjdk 17.0.1 2021-10-19
+   OpenJDK Runtime Environment Homebrew (build 17.0.1+1)
+   OpenJDK 64-Bit Server VM Homebrew (build 17.0.1+1, mixed mode, sharing)
    ```
 
 3. Maven
