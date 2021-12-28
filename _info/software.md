@@ -72,6 +72,12 @@ layout: default
    
    Download it here: <https://code.visualstudio.com/download>
   
+  
+4. Install Java 17 on your local system.  Please install Java 17, and NOT Java 8, Java 11, or a preview version of Java 18 or 19.   It won't matter for the 
+   `"Hello World"` program in the first week, but when we move on to complex Java applications involving third-party libraries, it will definitely matter.
+   
+   For Mac users, instructions for installing with Homebrew appear below.
+  
 <!-- 4. Docker
 
    Docker provides a way for you to run a standardized Linux environment inside another platform (whether that be Windows, Mac, or Linux).  It gives us the ability
@@ -92,9 +98,13 @@ layout: default
    
 2. Java 17
 
-   Yes, we want Java 17.  Not 8, Not 11, Not the early access to 18 or 19.  Java 17.
-
-   You can download an installer from: <http://jdk.java.net/17/>
+   
+   To install Java with homebrew, use:
+   
+   ```
+   brew update
+   brew install openjdk@17
+   ```
 
    To check if you now have Java 17, open a new Terminal window and do:
 
