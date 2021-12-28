@@ -1,15 +1,15 @@
 ---
 desc: Getting Started
-assigned: 2021-03-29 12:30
-due: 2021-04-02 23:59
+assigned: 2022-01-03 12:30
+due: 2022-01-07 23:59
 layout: lab
 num: jpa00
 ready: true
 signup_app: https://ucsb-cs-github-linker.herokuapp.com/
-slack: https://ucsb-cs156-s21.slack.com
-course_org: https://github.com/ucsb-cs156-s21
-course_org_name: ucsb-cs156-s21
-starter_repo: https://github.com/ucsb-cs156-s21/STARTER-jpa00
+slack: https://ucsb-cs156-w22.slack.com
+course_org: https://github.com/ucsb-cs156-w22
+course_org_name: ucsb-cs156-w22
+starter_repo: https://github.com/ucsb-cs156-w22/STARTER-jpa00
 ---
 
 This assignment is `jpa00`, i.e "Java Programming Assignment 00".
