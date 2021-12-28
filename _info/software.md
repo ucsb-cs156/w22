@@ -92,25 +92,11 @@ layout: default
    
 2. Java 17
 
-   Yes, we want Java 17.  Not 8, Not 11, Not 18 or higher.  Java 17.
+   Yes, we want Java 17.  Not 8, Not 11, Not the early access to 18 or 19.  Java 17.
 
-   To install Java 17 using brew, do this:
-   
+   You can download an installer from: <http://jdk.java.net/17/>
 
-   ```
-   brew update
-   brew tap AdoptOpenJDK/openjdk
-   brew install --cask adoptopenjdk17
-   ```
-
-   On later upgrades (e.g. from 11.0.6,10 -> 11.0.9.1,1) use:
-
-   ```
-   brew update
-   brew upgrade --cask adoptopenjdk17
-   ```
-
-   To check if you now have Java 11, open a new Terminal window and do:
+   To check if you now have Java 17, open a new Terminal window and do:
 
    ```
    java -version
@@ -127,7 +113,7 @@ layout: default
 
 3. Maven
 
-   After installing Java 11, do this to install maven:
+   After installing Java 11, you can use `brew`  to install maven:
 
    ```
    brew update
