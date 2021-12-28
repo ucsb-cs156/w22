@@ -22,12 +22,12 @@ them on the #typos channel on Slack
 This lab checks that you can succesfully edit, compile, run and submit a simple
 `Hello.java` to Gradescope for grading.
 
-You can do this lab from your own system if you have Java 11 and Maven installed.  Eventually, you'll probably find it helpful to install
-Java 11 and Maven on your own machine (i.e. your own Windows, Mac or Linux machine).   However, it's likely easier to just go ahead and do this lab directly on CSIL.
+You can do this lab from your own system if you have Java 17 and Maven installed.  Eventually, you'll probably find it helpful to install
+Java 17 and Maven on your own machine (i.e. your own Windows, Mac or Linux machine).   However, it's likely easier to just go ahead and do this lab directly on CSIL.
 
-# Do I really need Java 11?  
+# Do I really need Java 17?  
 
-You may be wondering whether it's ok if you have Java 15 or Java 8, or some other version of Java instead of Java 11.    This short answer is: for this simple `Hello` lab, it probably won't make a difference, but eventually it probably *will*.  So if you are going to the trouble of installing Java on your system, try to make sure it's Java 11, *specifically*, which, unlike Java 12, 13, 14 or 15, it considered a *Long-Term Support* release of Java.
+You may be wondering whether it's ok if you have Java 15 or Java 8, or some other version of Java instead of Java 17.    This short answer is: for this simple `Hello` lab, it probably won't make a difference, but eventually it probably *will*.  So if you are going to the trouble of installing Java on your system, try to make sure it's Java 17, *specifically*, which (unlike Java 12, 13, 14, 15, 18 or 19) is considered a *Long-Term Support* release of Java.
 
 Read more here if you are interested: <https://ucsb-cs156.github.io/topics/java_versions/>  
 
