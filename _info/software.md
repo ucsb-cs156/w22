@@ -175,6 +175,8 @@ layout: default
     
  If you are unable to install WSL because of limitations on your machine, please reach out to the course staff via Slack using the [help-windows channel on Slack](https://ucsb-cs156-w22.slack.com/archives/C02SY4JSJ3S).   In that case, we will try to find an alternative for you.
  
+ TODO: Add some instructions (or pointers to instructions) for installing WSL.
+ 
  ## Recommended for Linux/WSL Users
  
 TODO: Put in advice here on installing the following on Linux/WSL:
