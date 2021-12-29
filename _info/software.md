@@ -89,6 +89,23 @@ layout: default
 
 ## Recommmended for MacOS Users
 
+1. Command Line Tools XCode for MacOS, including `git`
+
+   On MacOS, `git` typically gets installed as part of the "Command Line XCode Tools" the first time you ask to use it.  To be sure that `git` is installed,
+   try typing:
+   
+   ```
+   git --version
+   ```
+   
+   If it shows something like this, you are good:
+   
+   ```
+   git version 2.24.3 (Apple Git-128)
+   ```
+
+   Otherwise, you might get a message that you need to install the XCode Command Line Tools.  In that case, please just follow the instructions given.
+
 1. Brew (package manager)
 
    For MacOS, we'll be installing several packages for Java and JavaScript (node) development.  
@@ -181,6 +198,7 @@ layout: default
  
 TODO: Put in advice here on installing the following on Linux/WSL:
 
+* git (should be preinstalled)
 * Java 17
 * Maven
 * Recommended version of Node
