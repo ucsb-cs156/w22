@@ -87,6 +87,7 @@ layout: default
    
    We'll be recommending Docker as a platform for running the legacy code applications later in the quarter. -->
 
+
 ## Recommmended for MacOS Users
 
 1. Command Line Tools XCode for MacOS, including `git`
@@ -211,20 +212,19 @@ layout: default
    ```
    
 
-   
- ## Recommmended for Windows Users
+## Recommmended for Windows Users
  
- Install Windows Subsystem for Linux.
+Install Windows Subsystem for Linux.
 
- It turns out that almost everything in terms of installing software (Java, Maven, Node, etc.) is easier under Linux than under native Windows.
- Therefore we strongly suggest that if you have a Windows environment, you install the Windows Subsystem for Linux (WSL) and then follow the 
- instructions under Linux/WSL.
+It turns out that almost everything in terms of installing software (Java, Maven, Node, etc.) is easier under Linux than under native Windows.
+Therefore we strongly suggest that if you have a Windows environment, you install the Windows Subsystem for Linux (WSL) and then follow the 
+instructions under Linux/WSL.
     
- If you are unable to install WSL because of limitations on your machine, please reach out to the course staff via Slack using the [help-windows channel on Slack](https://ucsb-cs156-w22.slack.com/archives/C02SY4JSJ3S).   In that case, we will try to find an alternative for you.
+If you are unable to install WSL because of limitations on your machine, please reach out to the course staff via Slack using the [help-windows channel on Slack](https://ucsb-cs156-w22.slack.com/archives/C02SY4JSJ3S).   In that case, we will try to find an alternative for you.
  
- TODO: Add some instructions (or pointers to instructions) for installing WSL.
+TODO: Add some instructions (or pointers to instructions) for installing WSL.
  
- ## Recommended for Linux/WSL Users
+## Recommended for Linux/WSL Users
  
 TODO: Put in advice here on installing the following on Linux/WSL:
 
