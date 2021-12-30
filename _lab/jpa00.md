@@ -22,8 +22,18 @@ them on the #typos channel on Slack
 This lab checks that you can succesfully edit, compile, run and submit a simple
 `Hello.java` to Gradescope for grading.
 
-You can do this lab from your own system if you have Java 17 and Maven installed.  Eventually, you'll probably find it helpful to install
-Java 17 and Maven on your own machine (i.e. your own Windows, Mac or Linux machine).   However, it's likely easier to just go ahead and do this lab directly on CSIL.
+This lab requires Java 17.   We have requested that Java 17 be installed on CSIL, but as of 12/30/2021, that hasn't happened yet.  If and when that update happens, we'll let you know, and put an update here.
+
+
+However, you can do this lab from your own system right away if you have Java 17 and Maven installed.  Eventually, you'll probably find it helpful to install
+Java 17 and Maven on your own machine (i.e. your own Windows, Mac or Linux machine), so it's probably a good idea to get started on that as soon as possible.
+
+* For MacOS, this is fairly straightfoward; see instructions [here](https://ucsb-cs156.github.io/w22/info/software/).  If you need help, ask on the [help-macos](https://ucsb-cs156-w22.slack.com/archives/C02SY4GSNCQ) channel on the Slack.
+* For Windows, we recommend installing the Windows Subsystem for Linux (WSL), and then following the instructions for installation of Java 17 from [this page](https://ucsb-cs156.github.io/w22/info/software/). 
+  * For help with installing WSL, you can ask on the [help-windows](https://ucsb-cs156-w22.slack.com/archives/C02SY4JSJ3S)
+  * For help *after* you've installed WSL, use the  [help-linux-wsl](https://ucsb-cs156-w22.slack.com/archives/C02RTPVGB4P) channel on the Slack.
+* For Linux, there are instructions on  [this page](https://ucsb-cs156.github.io/w22/info/software/). that apply to Debian/Ubuntu like systems.  If those don't work for you, ask the staff for help on the [help-linux-wsl](https://ucsb-cs156-w22.slack.com/archives/C02RTPVGB4P) channel on the Slack.
+ 
 
 # Do I really need Java 17?  
 
@@ -58,7 +68,9 @@ That one may actually take quite a bit more work.
 Step 0: Getting oriented
 ========================
 
-Even if you've used CSIL before, there continue to be ongoing changes
+Even if you aren't using CSIL for this assignment, it's still a good idea to make sure your CSIL account is working and configured. 
+
+If you've used CSIL before, there continue to be ongoing changes
 to how we interact with CSIL.    So please read this carefully.
 
 1. You should have a College of Engineering (CSIL) Account.   If you don't,
@@ -184,39 +196,25 @@ We will use gradescope to grade all your homeworks, exams and lab/programming as
 
 The lab assignment {{page.num}} should appear in your Gradescope dashboard in {{site.course}}. You will need to submit your code for {{page.num}} using this page.
 
-## Step 4 (Optional): Set up your local system
+## Step 4: Set up your local system
 
-We encourage you to skip this step for now, and just do the lab on CSIL.
+If you are doing this lab on CSIL (which you can only do if/when Java 17 is installed there), then you don't have to do this step for now.
 
-* You'll likely be able to get through it faster, and ensure that you get a grade of 100%.
+However, we *strongly encourage you do to this step*.  The sooner you get a Java 17 + Maven environment working on your local system, the easier time you will
+have with the rest of the work in this course.
 
-* After that you can return to this step, and try doing the relevant parts of the lab again on your own system to ensure that everything is working.
-
-But if you *really, really* want to do it on your own machine instead of CSIL, you can.  Here's what you'll need to have installed:
+What you'll need:
 
 * git
 * Java 11 JDK   
 * Maven
 
-There are instructions here for various platforms.  These include
-instructions for the Heroku CLI; you'll need that later in the quarter, but not for this assignment.
-
-* [Windows](https://ucsb-cs156.github.io/topics/windows)
-* [Mac OS](https://ucsb-cs156.github.io/topics/macos/)
-* [Windows Subsystem for Linux (WSL)](https://ucsb-cs156.github.io/topics/windows_wsl/)
-
-If you are running your own Linux box, you likely already know how to install software for your platform.
-
-Note that the reference platform for the course remains “CSIL”; we cannot commit to being “tech support” for every conceivable platform. On your own machine, you are your own tech support. But we’ll help as best we can, given the time constraints we are under.
-
-The remainder of the instructions mostly assume you are working on CSIL; you can likely adapt these for your own platform as needed.
+There are instructions [here](https://ucsb-cs156.github.io/w22/info/software/) for various platforms. 
 
 
-## Step 5: Configure your CSIL account for git/GitHub
+## Step 5: Configure your machine for git/GitHub
 
-In this step, we'll configure your CSIL account for git and GitHub.  
-
-(If you are doing this lab on your own system, you may still need to do this step, but at a command prompt on your computer.)
+Whether you are working on CSIL, or on your own machine, you need to configure the environment you are working in for access to git/GitHub.
 
 We want to be able to use `git` and GitHub with ssh links, so we need to set up public-key/private-key pairs.
 
@@ -225,7 +223,7 @@ We also want to set up `git` so that it records our commits properly.
 1. `git` configuration: [Detailed Instructions](https://ucsb-cs156.github.io/topics/csil_git_configuration/)
 
     
-2.  Configure your CSIL account's ssh keys for git
+2.  Configure ssh keys for git
     - Detailed instructions: [Configuring your ssh key for Github.com](https://ucsb-cs156.github.io/topics/github_ssh_keys/)
 
 
@@ -245,16 +243,16 @@ This is currently an empty repo.  In the next step, we'll clone this empty repo 
 ## Step 7: Cloning the repo
 
 
-1. Login to your CSIL account,  create a `~/cs156` subdirectory, and change directory into it
+1. If you are working on CSIL, login to your CSIL account,  create a `~/cs156` subdirectory, and change directory into it.  Otherwise, create a directory somewhere on your machine for cs156, and cd into that.
    
    ```
    mkdir ~/cs156
    cd ~/cs156
    ```
 
-   (To be honest, you can actually use any directory you like; but we suggest this approach.  We'll refer
+   You can actually use any directory you like, but for consistency, we'll refer
    to `~/cs156` throughout the rest of
-   the instructions for consistency.
+   the instructions.
 
 2. Now, go to the `github.com` web page, and find your `jpa00-userid` repo. The page should look something like this:
 
@@ -419,7 +417,7 @@ This is the wrong output!
   ```
   $JAVA_HOME/bin/java -cp target/hello-1.0.0.jar Hello
   ```
-  This assumes you've done the [fix described here](https://ucsb-cs156.github.io/topics/maven_faq/) to define `JAVA_HOME` to point to Java 11.
+  This assumes you've done the [fix described here](https://ucsb-cs156.github.io/topics/maven_faq/) to define `JAVA_HOME` to point to Java 17.
 
   
 
