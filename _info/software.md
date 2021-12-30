@@ -201,6 +201,17 @@ layout: default
    Note that the part that says `nvm use 14` is current as of right now; if for some reason we decide to use a different version of node,
    that can be changed (e.g. to `nvm use 15` or `nvm use 16`, etc.)
    
+5. `npm` (Node Pacakge Manager)
+
+   If you used `nvm` to select and install a version of `node`, the `npm` package manager likely just came along for the ride when you installed `node`.  But you can update the version to the latest one
+   by typing:
+   
+   ```
+   npm install -g npm
+   ```
+   
+
+   
  ## Recommmended for Windows Users
  
  Install Windows Subsystem for Linux.
