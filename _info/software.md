@@ -166,22 +166,41 @@ layout: default
    mvn --version
    ```
 
-4. npm
+4. nvm (Node Version Manager)
 
-   To install npm, do:
+   To install nvm, do:
    
    ```
    brew update
-   brew install npm
+   brew install nvm
    ```
    
    Or to update to the latest version:
 
    ```
    brew update
-   brew upgrade npm
+   brew upgrade nvm
+   ```
+   
+   To see if it installed properly:
+   
+   ```
+   nvm --version
    ```
 
+   This should produce output such as `0.39.1` as opposed to `command not found: nvm`
+   
+   You may then need to put the following lines in your `~/.zshrc` 
+   
+   ```
+   export NVM_DIR=~/.nvm
+
+   [[ -f $(/usr/local/bin/brew --prefix nvm)/nvm.sh ]] && source $(/usr/local/bin/brew --prefix nvm)/nvm.sh && nvm use 14
+   ```
+   
+   Note that the part that says `nvm use 14` is current as of right now; if for some reason we decide to use a different version of node,
+   that can be changed (e.g. to `nvm use 15` or `nvm use 16`, etc.)
+   
  ## Recommmended for Windows Users
  
  Install Windows Subsystem for Linux.
