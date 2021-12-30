@@ -3,6 +3,15 @@ title: Software
 layout: default
 ---
 
+# Summary of the tech stack for this course
+
+* Java 17.x (latest 17.0.1)
+* Maven 3.8.x (latest 3.8.4)
+* Node 14.x (latest 14.18.2)
+* npm 8.x (latest 8.3.0)
+
+Instructions on installation follow below.
+
 # Software to Install or Configure (and/or update as needed)
 
 
