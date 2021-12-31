@@ -3,15 +3,6 @@ title: Software
 layout: default
 ---
 
-# Summary of the tech stack for this course
-
-* Java 17.x (latest 17.0.1)
-* Maven 3.8.x (latest 3.8.4)
-* Node 14.x (latest 14.18.2)
-* npm 8.x (latest 8.3.0)
-
-Instructions on installation follow below.
-
 # Software to Install or Configure (and/or update as needed)
 
 
@@ -26,7 +17,7 @@ Instructions on installation follow below.
    
    Download it here: <https://zoom.us/download>
 
-1. UCSB VPN Client (Pulse Secure)
+2. UCSB VPN Client (Pulse Secure)
 
    What it does:
    * Reroutes all your network traffic through the UCSB network, so that it appears that
@@ -36,10 +27,11 @@ Instructions on installation follow below.
 
    * Access the textbooks for the course online without having to buy them.
    * Mount your CSIL home directory as a shared network drive using Samba
+   * Graphically remote into CSIL
 
    Where to get it:  <https://www.it.ucsb.edu/pulse-secure-campus-vpn/get-connected-vpn>
 
-2. Samba Access to your CSIL home directory
+3. Samba Access to your CSIL home directory
 
    What it does:
 
@@ -62,7 +54,7 @@ Instructions on installation follow below.
      | Linux | (ask staff) | |
      {:.table .table-sm .table-striped .table-bordered}
 
-3. VSCode Text Editor for your local computer
+4. VSCode Text Editor for your local computer
 
    While `vim` and `emacs` are perfectly fine for the work you may have done in CS16/24/32, when it comes to 
    professional level application development, it's time to graduate to some more professional tools.
@@ -82,12 +74,11 @@ Instructions on installation follow below.
    Download it here: <https://code.visualstudio.com/download>
   
   
-4. Install Java 17 on your local system.  Please install Java 17, and NOT Java 8, Java 11, or a preview version of Java 18 or 19.   It won't matter for the 
-   `"Hello World"` program in the first week, but when we move on to complex Java applications involving third-party libraries, it will definitely matter.
+5. Install Java 17 on your local system.  **Please install Java 17**, and NOT Java 8, Java 11, or a preview version of Java 18 or 19.   It won't matter for the `"Hello World"` program in the first week, but when we move on to complex Java applications involving third-party libraries, it will definitely matter.
    
-   For Mac users, instructions for installing with Homebrew appear below.
+For Mac users, instructions for installing with Homebrew appear below.
   
-<!-- 4. Docker
+<!-- 6. Docker
 
    Docker provides a way for you to run a standardized Linux environment inside another platform (whether that be Windows, Mac, or Linux).  It gives us the ability
    to have a consistent development environment, but running on your own machine.
@@ -95,7 +86,6 @@ Instructions on installation follow below.
    https://www.docker.com/products/docker-desktop
    
    We'll be recommending Docker as a platform for running the legacy code applications later in the quarter. -->
-
 
 ## Recommmended for MacOS Users
 
@@ -116,15 +106,14 @@ Instructions on installation follow below.
 
    Otherwise, you might get a message that you need to install the XCode Command Line Tools.  In that case, please just follow the instructions given.
 
-1. Brew (package manager)
+2. Brew (package manager)
 
    For MacOS, we'll be installing several packages for Java and JavaScript (node) development.  
    In many cases, installing those is easier if you *first* install the brew package manager.
    
    To install `brew`, visit <https://brew.sh/> and follow the instructions.
    
-2. Java 17
-
+3. Java 17
    
    To install Java with homebrew, use:
    
@@ -154,9 +143,9 @@ Instructions on installation follow below.
    OpenJDK 64-Bit Server VM Homebrew (build 17.0.1+1, mixed mode, sharing)
    ```
 
-3. Maven
+4. Maven
 
-   After installing Java 11, you can use `brew`  to install maven:
+   After installing Java 17, you can use `brew` to install maven:
 
    ```
    brew update
@@ -176,71 +165,46 @@ Instructions on installation follow below.
    mvn --version
    ```
 
-4. nvm (Node Version Manager)
+   Be sure that you have Maven version 3.8 or higher, as Java 17 requires this version to work.
 
-   To install nvm, do:
+4. npm
+
+   To install npm, do:
    
    ```
    brew update
-   brew install nvm
+   brew install npm
    ```
    
    Or to update to the latest version:
 
    ```
    brew update
-   brew upgrade nvm
+   brew upgrade npm
    ```
-   
-   To see if it installed properly:
-   
-   ```
-   nvm --version
-   ```
-
-   This should produce output such as `0.39.1` as opposed to `command not found: nvm`
-   
-   You may then need to put the following lines in your `~/.zshrc` 
-   
-   ```
-   export NVM_DIR=~/.nvm
-
-   [[ -f $(/usr/local/bin/brew --prefix nvm)/nvm.sh ]] && source $(/usr/local/bin/brew --prefix nvm)/nvm.sh && nvm use 14
-   ```
-   
-   Note that the part that says `nvm use 14` is current as of right now; if for some reason we decide to use a different version of node,
-   that can be changed (e.g. to `nvm use 15` or `nvm use 16`, etc.)
-   
-5. `npm` (Node Pacakge Manager)
-
-   If you used `nvm` to select and install a version of `node`, the `npm` package manager likely just came along for the ride when you installed `node`.  But you can update the version to the latest one
-   by typing:
-   
-   ```
-   npm install -g npm
-   ```
-   
 
 ## Recommmended for Windows Users
- 
+
 Install Windows Subsystem for Linux.
 
 It turns out that almost everything in terms of installing software (Java, Maven, Node, etc.) is easier under Linux than under native Windows.
 Therefore we strongly suggest that if you have a Windows environment, you install the Windows Subsystem for Linux (WSL) and then follow the 
 instructions under Linux/WSL.
-    
+   
 If you are unable to install WSL because of limitations on your machine, please reach out to the course staff via Slack using the [help-windows channel on Slack](https://ucsb-cs156-w22.slack.com/archives/C02SY4JSJ3S).   In that case, we will try to find an alternative for you.
- 
-TODO: Add some instructions (or pointers to instructions) for installing WSL.
  
 ## Recommended for Linux/WSL Users
  
-TODO: Put in advice here on installing the following on Linux/WSL:
+Instructions for installing Windows Subsystem for Linux (WSL), as well as environment setup instructions for Ubuntu systems, is available here: <https://ucsb-cs156.github.io/topics/windows_wsl/>
 
-* git (should be preinstalled)
+The following programs will be installed in the above guide:
+
+* The latest version of git
 * Java 17
-* Maven
-* Recommended version of Node
-
+* Maven 3.8
+* nvm
+* Node 14
+* npm 8
+* Heroku CLI
 
 
