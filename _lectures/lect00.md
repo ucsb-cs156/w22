@@ -71,11 +71,11 @@ The first programming assignment is here: <https://ucsb-cs156.github.io/w22/lab/
 * We'll also have some JavaScript programming assignments; they will be numbered starting from `jspa00`
 * `jpa00` is an autograded assignment; you'll submit it via Gradescope.
 * It's pretty straightforward; you should be able to complete it by the end of the week, even if you've never programming in Java before; it's pretty much just a "Hello, World" type assignment.
-* If you already joined the GitHub org, you should have a private repo already created for you in the github organization <https://github.com/ucsb-cs156-s21> for this assignment.
+* If you already joined the GitHub org, you should have a private repo already created for you in the github organization <https://github.com/ucsb-cs156-w22> for this assignment.
 * The name of the repo is `jpa00-yourGithubId` 
 * If you didn't join the GitHub org yet, or joined it *very* recently, then your repo might not exist yet; you can ask for help with getting it created on the [`#help-jpa00`](https://ucsb-cs156-w22.slack.com/archives/C02RDGC2LK0) channel on the slack.  This is also where you can ask for help with anything else pertaining to this assignment.
 
-The second programming assignment, [jpa01](https://ucsb-cs156.github.io/s21/lab/jpa01/) is a bit more challenging, since it
+The second programming assignment, [jpa01](https://ucsb-cs156.github.io/w22/lab/jpa01/) is a bit more challenging, since it
 deals with something called "mutation testing" that may be new to you.
 I'll cover some of that in lecture on Wednesday.
 
@@ -127,12 +127,8 @@ This homework assignment due Friday is based on:
 
 # Homework H00 due Friday
 
-<https://ucsb-cs156.github.io/s21/hwk/h00>
+<https://ucsb-cs156.github.io/w22/hwk/h00>
 
-# Next week's reading assignment (for Tuesday 01/12)
-
-* Read this article: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript>
-* This will help prepare you for the JavaScript programming assignment coming next week.
 
 # What will we learn in this class:
 
@@ -200,16 +196,15 @@ This part is 40% of your participation grade for today (P00 on Gauchospace)
  
 2. Everyone log in to the Slack in another window (Zoom open in one window, slack in another.)
    
-   Everyone find the Slack channel for your team.  It will have a name such as `team-6pm-b`.   Everyone on the team join that channel, and introduce yourself
+   Everyone find the Slack channel for your team.  It will have a name such as `w22-5pm-3`.   Everyone on the team join that channel, and introduce yourself
    with a post.
    
    The post should include
    * (a) The name you like to be called
    * (b) Your pronouns (e.g. she/her/hers, he/him/his, they/them/theirs)
-   * (c) The time zone you are in (e.g. Pacific (UTC-8), Eastern (UTC-5), China (UTC+8), etc.)
-   * (d) Your computing platform(s): Windows, Mac, Linux, or WSL (Windows Subsystem for Linux)
-   * (e) Optional: Something interesting about yourself (this may be unrelated to Computing)
-   * (f) Optional: Something you are hoping to learn in this course
+   * (c) Your computing platform(s): Windows, Mac, Linux, or WSL (Windows Subsystem for Linux)
+   * (d) Optional: Something interesting about yourself (this may be unrelated to Computing)
+   * (e) Optional: Something you are hoping to learn in this course
 
    Completing this step earn you 60% of the participation points for today's class, and you earn those as an individual.  (This part can be made up later.)
    
