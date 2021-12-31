@@ -77,7 +77,7 @@ The first programming assignment is here: <https://ucsb-cs156.github.io/w22/lab/
 
 The second programming assignment, [jpa01](https://ucsb-cs156.github.io/s21/lab/jpa01/) is a bit more challenging, since it
 deals with something called "mutation testing" that may be new to you.
-I'll cover some of that in lecture on Tuesday and Wednesday.
+I'll cover some of that in lecture on Wednesday.
 
 It is available now as well and on Gradescope.
 It is due at the end of next week, but I encourage you to start it sooner.
