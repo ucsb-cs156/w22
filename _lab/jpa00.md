@@ -256,7 +256,7 @@ have with the rest of the work in this course.
 What you'll need:
 
 * git
-* Java 11 JDK   
+* Java 17 JDK   
 * Maven
 
 There are instructions [here](https://ucsb-cs156.github.io/w22/info/software/) for various platforms. 
