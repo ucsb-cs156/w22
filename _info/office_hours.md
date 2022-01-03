@@ -25,11 +25,8 @@ There is a table of specialities below the calendar, so if you are looking for h
 |--------------|--------------|---------------|---------------|-----------|-------------|
 | Conrad       |      X       |      X        |               |           |             |
 | Andrew       |      X       |               |       X       |     X     |             |
-| Bryan        |      X       |      X        |               |           |             |
-| Calvin       |              |               |       X       |           |     X       |
-| Jacqui       |      X       |               |               |     X     |             |
-| Mara         |              |      X        |               |           |     X       |
-| Wade         |              |      X        |               |           |     X       |
-| Max          |              |               |       X       |     X     |             |
+| Bryan T      |      X       |      X        |               |           |             |
+| Bryan Z      |              |               |               |           |             |
+| Kevin        |              |               |               |           |             |
 {:.table .table-sm .table-striped .table-bordered}
 
