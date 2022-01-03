@@ -29,7 +29,11 @@ layout: default
    * Mount your CSIL home directory as a shared network drive using Samba
    * Graphically remote into CSIL
 
-   Where to get it:  <https://www.it.ucsb.edu/pulse-secure-campus-vpn/get-connected-vpn>
+
+   **Note:** In order to use Pulse Secure, you need to setup DUO (a two factor authentication app).
+   Here is a link for the instructions on how to set it up: <https://www.it.ucsb.edu/getting-started-mfa-duo/enroll-push-notification>
+
+   Where to get Pulse Secure:  <https://www.it.ucsb.edu/pulse-secure-campus-vpn/get-connected-vpn>
 
 3. Samba Access to your CSIL home directory
 
