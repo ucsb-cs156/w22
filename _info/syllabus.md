@@ -1,5 +1,5 @@
 ---
-title: "Syllabus, CMPSC 156, Spring 2021"
+title: "Syllabus, CMPSC 156, Winter 2022"
 layout: handout
 ready: true
 ---
@@ -70,10 +70,13 @@ Your grade will be made up of activities from the following categories:
   (e.g. multiple choice, fill in the blank, true/false questions.)  These will typically be based on assigned readings.
   We will drop only the lowest two grades from this category.
   
-* PAs (Auto-Graded Programming assignments) (30 %) - jpa00 is an example of these programming assignments.  None of these will be dropped; you are
+* PAs (Auto-Graded Programming assignments) (20 %) - jpa00 is an example of these programming assignments.  None of these will be dropped; you are
   responsible for all of them.   This may include individual assignments (such as jpa00), pair assignments, and/or team assignments.
 
-* Project Grade:  (40%) - Your project grade will be based on your contributions during the Project phase of the course.   
+* Exams (Auto-Graded Programming assignments) (25 %) - If conditions permit, we will have two in-person written exams; a midterm and an final.  If conditions
+  change so that it is not possible to hold in person exams, these points will be distributed instead among the other course components.
+
+* Project Grade:  (25%) - Your project grade will be based on your contributions during the Project phase of the course.   
 
   The project grade is divided into two parts:
   * Half of the project grade (20% of of your overall course grade) is based on your team's productivity, i.e. the extent to which your team
@@ -82,11 +85,14 @@ Your grade will be made up of activities from the following categories:
     code for that project.    The number of points earned will vary depending on the challenge represented by the code change.
     
   * The other half of the project grade is based on an assessment of your performance on various quality metrics related to your team's
-    *professional skills* related to software development.  Your grade here may be a team based grade, an individual grade, or a combination
+    *professional skills* related to software development.  
+
+    Your grade here may be a team based grade, an individual grade, or a combination
     of these.  Examples of these include, but are not limited to:
     - The quality of commit messages (inspected by spot checking)
     - The quality of descriptions on pull requests and issues
     - The extent to which you and your team keep your Kanban board up-to-date 
+    - Your team's presentations to the course.
 
   In addition, we'll be using peer evaluations through a tool called CATME to assess your individual contributions to the project's success.
   The peer evaluation may apply a multiplier to your project grade, increasing it or decreasing it, per your team's assessment 
@@ -99,16 +105,19 @@ We will compute an overall average for your score in the course, based on the we
   (Participation, Homeworks/Quizzes, PAs, and Project), with the upper and lower ends of each range as +/- grades, 
   except for A+ grades, see below.  There is no "rounding up"; a grade of 86.9999 is a B and a grade of 87.0000 is a B+.
 
-  This gives us five grade components: the original four, plus your overall average.
+  This gives us six grade components: the original five, plus your overall average.
   
 Finally:
 
 * To earn a grade of A, you must an A average overall, and in *each* of the five components.
-* To earn a grade of A-, you must have at least an A- average overall, and at least a B- average in each of the categories.
-* To earn a grade of B+, you must have at least an B+ average overall, and at least a C+ average in each of the categories.
-* To earn a grade of B, you must have at least an B+ average overall, and at least a C average in each of the categories.
-* To earn a grade of B-, you must have at least an B- average overall,  and at least a C- average in each of the categories.
-* To earn a grade of C, C-, D+, D or D- you need only to have that letter grade average overall (no additional criteria apply).
+* To earn a grade of A-, you must have at least an A- average overall, and at least a B- average in each of the components.
+* To earn a grade of B+, you must have at least an B+ average overall, and at least a C+ average in each of the components.
+* To earn a grade of B, you must have at least an B+ average overall, and at least a C average in each of the components.
+* To earn a grade of B-, you must have at least an B- average overall,  and at least a C- average in each of the components.
+* * To earn a grade of C+, you must have at least an B- average overall,  and at least a D+ average in each of the components.
+* * To earn a grade of C, you must have at least an C average overall,  and at least a D average in each of the components.
+* * To earn a grade of C-, you must have at least an C average overall,  and at least a D- average in each of the components.
+* To earn a grade of D+, D or D- you need only to have that letter grade average overall (no additional criteria apply).
 
 A+ grades: These may be awarded to the very best performing students in the class—but the cutoff for A+ grades will be determined at the end of the course at the discretion of the instructor (there is no pre-determined cutoff).   Students earning an A+ grade must be in the top 10% of each of the five components of the grade in the class.  The instructor may decide, at their discretion, to not award any A+ grades.
 
@@ -133,11 +142,11 @@ Project points will be earned by contributing to one of several open source lega
 assigned to a project team, and the project team will be assigned to a set of bug fixes and feature requests.
 This mirrors real world software development practice.
 
-To earn a "perfect score" (100%) for this 20% component of your grade, you need to earn 100 project points. If you only earn 80, then an 80% will be recorded for that 20% of your grade.
+To earn a "perfect score" (100%) for this component of your grade, you need to earn 100 project points. If you only earn 80, then an 80% will be recorded for that portion of your grade.
 
 Some assignments in the project category are worth more points, and some worth fewer.
 
-If you accumulate more than 100 project points, up to 10 project points may be used to raise your final average in the class up to 2.0 points. (The points will be recorded as extra credit). (Each point raises your final course average by 0.2% ).
+If you accumulate more than 100 project points, up to 10 project points may be used to raise your final average in the class. (The points will be recorded as extra credit). 
 
 You may not earn more than 110 total project points--any points in excess of 110 will not count towards your grade (though you'll probably learn a lot from having under taken the work to earn them.)
 
@@ -158,7 +167,6 @@ So:
 -   If you turn in your lab late, you RISK GETTING A ZERO.
 -   We will grade late labs ONLY if it creates no extra inconvenience for the graders, and we WILL impose a penalty between 10-20% (see the individual grading rubrics for the labs.)
 -   There is NO GUARANTEE that late labs will be graded at all. The TA will simply start work at some point after the deadline, and grade until he/she is finished. At that time, he/she will "close the books" on that particular lab, and any work not submitted at that time will NOT be considered.
-
 
 
 Questions about grades
