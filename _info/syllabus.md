@@ -25,7 +25,7 @@ Basic Facts
   * You must participate the section for which you are registered, since teams are assigned by section.
 * Office Hours: See: <http://www.cs.ucsb.edu/~pconrad/ofchrs>  
 
-Course website: <https://ucsb-cs156.github.io/s21/>
+Course website: <https://ucsb-cs156.github.io/w22/>
 
 About the Course
 ----------------
