@@ -22,11 +22,11 @@ them on the #typos channel on Slack
 This lab checks that you can succesfully edit, compile, run and submit a simple
 `Hello.java` to Gradescope for grading.
 
-This lab requires Java 17.   We have requested that Java 17 be installed on CSIL, but as of 12/30/2021, that hasn't happened yet.  If and when that update happens, we'll let you know, and put an update here.
+This lab requires Java 17.
+* Java 17 was just installed on CSIL on 01/02/2022, so we are hoping that you can do this lab on CSIL, but it may require some configuration of your CSIL account; instructions are included in the lab.
+* However, we want to encourage you to try to complete this lab on your own machine if possible.  Installing a Java 17 environment on your own machine will make everything else in the course a lot easier; while this simple "Hello World" type assignment can be easily done on CSIL, working with full stack webapps on CSIL can be awkward, at best.
 
-
-However, you can do this lab from your own system right away if you have Java 17 and Maven installed.  Eventually, you'll probably find it helpful to install
-Java 17 and Maven on your own machine (i.e. your own Windows, Mac or Linux machine), so it's probably a good idea to get started on that as soon as possible.
+# How to install Java 17 and Maven on your own machine
 
 * For MacOS, this is fairly straightfoward; see instructions [here](https://ucsb-cs156.github.io/w22/info/software/).  If you need help, ask on the [help-macos](https://ucsb-cs156-w22.slack.com/archives/C02SY4GSNCQ) channel on the Slack.
 * For Windows, we recommend installing the Windows Subsystem for Linux (WSL), and then following the instructions for installation of Java 17 from [this page](https://ucsb-cs156.github.io/w22/info/software/). 
@@ -146,25 +146,75 @@ to how we interact with CSIL.    So please read this carefully.
 
 # The rest of the lab: Step-by-Step
 
-## Step 1: Create a CoE account if you don't have one already
+## Step 1: If you are on CSIL, configure your account for Java 17
 
-For this first assignment, we'll encourage you to login to the machines in the
-to the machines in the Computer Science labs, or to connect
-remotely, and do the assignment on CSIL.
+If you are not working on CSIL
+* You should have checked that you have Java 17 and Maven by following the steps here: <https://ucsb-cs156.github.io/w22/info/software/>
+* If so, you can skip to Step 2.  
 
-Later in the course, for a variety of reasons, if you have your own laptop, it
-may be more effective to do your work there.   We'll try to always offer an option
-to work on the CSIL machines though, and we'd like *everyone* to start there so that
-we all have a common platform we can share.
+Otherwise, login to your CSIL account, and start by checking whether `JAVA_HOME` is already defined. Type `echo $JAVA_HOME`
 
-To do this you will need a **College of Engineering
-account**. You can create an account online at
-<https://accounts.engr.ucsb.edu/create> if you don't already have one.
+If it is *not* already defined, it should look like this:
 
-If you are enrolled in <i>any</i> CoE course this quarter (including CS56), you
-should be able to create your account immediately.
+Good:
+```
+[pconrad@csilvm-03 STARTER-jpa00]$ echo $JAVA_HOME
 
-If you are not able to do so, you will need to contact the ECI Help Desk at <a href="mailto:help@engineering.ucsb.edu">help@engineering.ucsb.edu</a>.
+[pconrad@csilvm-03 STARTER-jpa00]$ 
+```
+
+If instead it looks like this, then you have an old definition of `JAVA_HOME` associated with your account, and we'll need to update it.
+
+Bad:
+
+```
+[pconrad@csilvm-03 STARTER-jpa00]$ echo $JAVA_HOME
+/usr/lib/jvm/java-11-openjdk
+[pconrad@csilvm-03 STARTER-jpa00]$ 
+```
+
+In either case, what you want is to add these lines to your `~/.bash_profile` file:
+
+```
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
+export PATH=$JAVA_HOME/bin:$PATH
+```
+
+If you already had a definition of `JAVA_HOME` it was likely in `~/.bash_profile`, but to be sure, check also in `~/.bash_login` and `~/.bashrc` and remove any old versions of the definition of `JAVA_HOME`.
+
+After making this change, logout and log back in again, and check `echo $JAVA_HOME`. It should now say: `/usr/lib/jvm/java-17-openjdk`
+
+The next thing to check is that when you type `javac --version` for the Java compiler, that you get version 17, like this:
+
+```
+[pconrad@csilvm-03 STARTER-jpa00]$ javac --version
+javac 17.0.1
+[pconrad@csilvm-03 STARTER-jpa00]$ 
+```
+
+Then check that the Java Virtual Machine (the `java` command) gives you the correct version:
+
+```
+[pconrad@csilvm-03 STARTER-jpa00]$ java --version
+openjdk 17.0.1 2021-10-19
+OpenJDK Runtime Environment 21.9 (build 17.0.1+12)
+OpenJDK 64-Bit Server VM 21.9 (build 17.0.1+12, mixed mode, sharing)
+[pconrad@csilvm-03 STARTER-jpa00]$ 
+```
+
+Finally, check that when you run `mvn --version` which is the command for Maven, that it is pointing to Java 17 as your Java version. 
+* Notice the line in the output that says `Java version: 17.0.1, ...`
+* If it says something else, that's a problem that needs to be fixed.
+
+```
+[pconrad@csilvm-03 STARTER-jpa00]$ mvn --version
+Apache Maven 3.6.3 (Red Hat 3.6.3-8)
+Maven home: /usr/share/maven
+Java version: 17.0.1, vendor: Red Hat, Inc., runtime: /usr/lib/jvm/java-17-openjdk-17.0.1.0.12-13.rolling.fc34.x86_64
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "5.15.12-100.fc34.x86_64", arch: "amd64", family: "unix"
+[pconrad@csilvm-03 STARTER-jpa00]$ 
+```
 
 ## Step 2: Get setup with github and add yourself to our organization
 
