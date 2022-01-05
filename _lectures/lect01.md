@@ -19,6 +19,7 @@ Once that's done, you are free to go, but you are also invited to stay and work 
 * Work on [H00](https://ucsb-cs156.github.io/w22/hwk/h00/)
 * Work on [H01](https://ucsb-cs156.github.io/w22/hwk/h01/)
 
-There is a chance that jpa01 may be ready by the time you are done with all of those things; Conrad has been hacking on it all day to try to get it up-to-date for Java 17 and JUnit 5.  
+And you can also get a headstart on:
 
-The assignment is pretty much ready to go, though the Gradescope Autograder still needs some work.
+* [jpa01](https://ucsb-cs156.github.io/w22/lab/jpa01/) 
+* [jpa02](https://ucsb-cs156.github.io/w22/lab/jpa02/) 
