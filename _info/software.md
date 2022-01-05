@@ -5,6 +5,15 @@ layout: default
 
 # Software to Install or Configure (and/or update as needed)
 
+Instructions on installing these follow below.
+
+* The latest version of git
+* Java 17
+* Maven 3.8
+* nvm
+* Node 14
+* npm 8
+* Heroku CLI
 
 ## Recommmended for Everyone
 
