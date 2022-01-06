@@ -56,10 +56,11 @@ cal_dates: >
     {"label":"W22 qtr ends", "date":"2022-03-18" }                              
   ]
 
-piazza_url: https://piazza.com
+
 gauchospace_course_page: https://gauchospace.ucsb.edu/courses/course/view.php?id=tbd
 github_org_name: ucsb-cs156-w22
 github_org_url: https://github.com/ucsb-cs156-w22
+gradescope: https://www.gradescope.com/courses/342053
 
 ta_list: "Andrew and Kevin"
 ta_list_full: "Andrew Lu and Kevin Heffernan"
