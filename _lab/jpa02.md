@@ -405,7 +405,7 @@ Run the tests and see them fail.
 
 Then modify them so that they pass.   Note that we are doing TDD "wrong" this time; to do it "the right way",  we should have modified the tests first, and then modified the code so that the tests pass.   We'll pivot to this style of working once we have a better grasp on all the moving parts here.
 
-# Step 11: Adding links to repo in the README.md
+# Step 10: Adding links to repo in the README.md
 
 Edit your README.md.  You'll find some TODO items inside indicating what edits you need to make.
 
@@ -414,7 +414,7 @@ README.md in your repo to include a link to your repo.
 
 The link to your repo may seem redundant, but it helps your mentors, TAs and instructors; when you submit your work for grading to either Gradescope or Gauchospace, having those links handy really helps us navigate through your assignments quickly to evaluate them and assign grades.
 
-# Step 12: Submitting your work for grading
+# Step 11: Submitting your work for grading
 
 When you have a running web app, make a submission under jpa02 on Gradescope.
 

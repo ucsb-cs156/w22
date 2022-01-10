@@ -45,7 +45,7 @@ See slides
 
 # Time in your teams
 
-* Check in and see where everyone is with H00
+* Check in and see where everyone is with H01
   * If you are all done, you can start reading one another's answers.
 * Check in about how you are doing on jpa00, jpa01, jpa02
   * Even though these are individual assignments, the skills are ones you'll need as a team
