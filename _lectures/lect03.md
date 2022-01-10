@@ -29,4 +29,7 @@ See slides
 
 # A bit about Spring Boot
 
+* The assignment [jpa02](https://ucsb-cs156.github.io/w22/lab/jpa02/) involves setting up a "Hello World" type web application using Spring Boot.
+* I'll do a bit of demonstration to show what's happening here and where this is leading.
+
 
