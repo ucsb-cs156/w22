@@ -284,7 +284,7 @@ heroku application name because of special characters, upper case characters, et
 
 Note that you should convert your ucsbnetid to all lowercase; heroku web-app names do not permit uppercase letters, and use `-` in place of underscores or periods.
 
-<tt>heroku create {{page.num}}-<i>ucsbnetid</i>-</tt>
+<tt>heroku create {{page.num}}-<i>ucsbnetid</i></tt>
 
 Notes:
 * A reminder that this is an individual lab, 
