@@ -7,7 +7,7 @@ qxx: w22
 org: https://github.com/ucsb-cs156-w22
 ---
 
-# Today: P02 (participation assignment)
+# Today: P03 (participation assignment)
 
 Today we return to the paper that we read earlier in the quarter.  Each of you contributed some text to a repo:
 
