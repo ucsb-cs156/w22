@@ -47,8 +47,11 @@ The link to the paper is here:  <https://pconrad.github.io/files/paper028.pdf>
 
 # Step 2: (First Breakout Group, 30 minutes)
 
-Your first breakout group will be with other people that read the same section as you.   Look for breakout rooms labeled: `Sect 4.1`, `Sect 4.2`,
-etc.  Join the appropriate group.
+Your first breakout group will be with other people that read the same section as you.  Scroll past the breakout rooms for your teams, and look for breakout rooms labeled: `ltd-4-1-what`, `ltd-4-2-when`, etc.  Join the appropriate group.
+
+![image](https://user-images.githubusercontent.com/1119017/149208733-2492ccb6-6586-4fd3-9022-a868252a82a1.png)
+
+**You will have to do this manually**.  You will not be placed in these rooms by default.
 
 In this breakout room, choose one person as the "time keeper", and a second person as the "scribe". 
 
@@ -72,14 +75,13 @@ in terms of **what skills students in this class might need to learn to be well 
 * The timekeeper should go last, and someone else should time them. 
 * The scribe should ask someone else to scribe (in the local zoom chat window) while they give their report.   
 
-When each person has finished, everyone should return to the main room, and the scribe should make a post on the `#help-lecture-discussion` channel
-to indicate 
+When each person has finished:
+* everyone should return to the main room
+* the scribe should make a post on the `#help-lecture-discussion` channel to indicate that the group is finished, e.g. `ltd-4-3-who is Done!`
 
 # Step 3: (Second Breakout Group, 15 minutes)
 
-Now, join the regular breakout room for your team.   
-Each member of the team should report on their portion of the paper, starting with section 4.1, then 4.2, etc.  Again, give each team member 
-2 minutes.
+Now, join the regular breakout room for your team (e.g. `#w22-5pm-1`, `#w22-5pm-2` etc.).   Each member of the team should report on their portion of the paper, starting with section 4.1, then 4.2, etc.  Again, give each team member 2 minutes.
 
 Again, choose a timekeeper and a scribe.  The scribe should write a summary in the team's slack channel capturing the discussion.
 
@@ -88,12 +90,22 @@ channel on Slack, or just report from you own memory, as you see fit.
 
 # Step 4: (Still in Second Breakout Group, 15 minutes)
 
-Now, in your same breakout room, make a list (as a group) of (at least) six learning goals you have between now and the end of the course, i.e. things that you want to "be able to do" by the end of this course.
+Now, in your same breakout room, make a list (as a group) of (at least) **six learning goals** you have between now and the end of the course, i.e. things that you want to "be able to do" by the end of this course.
 
 They may relate 1-1 to the six themes in the paper, or they may be different; the point is that they are things that are meaningful
 to the members of your group, knowing what you know from your own experiences, as well as what you've learned from this paper.
 
 Put that list on your team's Slack channel (e.g. team-5pm-a, etc.), along with a list of the names of the group members that contributed to your discussion.
+
+Example:
+```
+By the end of the course, we will be able to:
+* Use GitHub to manage group work in a team (how)
+* Understand how to get started with a new large code base (how big)
+etc.
+```
+
+Ideally, you'd come up with at least one learning goal that corresponds to each of the six sections of the paper.   It's ok if you have more than six.
 
 # Step 5: Finishing up (check in with staff)
 
