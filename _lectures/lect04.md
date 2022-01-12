@@ -37,7 +37,10 @@ You'll use this infomation when we get to part 3 of today's lab.
 
 # (2) Pre-survey
 
-The link to the pre-survey will be posted on Gauchospace and on the Slack.
+The link to the pre-survey will be posted on Gauchospace and on the Slack. 
+
+* On Slack here: <https://ucsb-cs156-w22.slack.com/archives/C02MKV1HLQ1/p1641946497018500>
+* On Gauchospace here: <https://gauchospace.ucsb.edu/courses/mod/page/view.php?id=765742&forceview=1>
 
 This is the pre-survey that is for extra credit, which was discusssed yesterday in lecture.
 
