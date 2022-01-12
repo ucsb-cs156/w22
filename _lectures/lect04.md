@@ -1,6 +1,6 @@
 ---
 num: "Lecture 04"
-lecture_date: 2022-01-10
+lecture_date: 2022-01-11
 desc: "Tue Discussion: checkin on H01, jpa01, jpa02"
 ready: true
 org: https://github.com/ucsb-cs156-w22
