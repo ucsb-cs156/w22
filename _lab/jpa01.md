@@ -128,7 +128,7 @@ Here are the commands you'll need as you work with the code. Try them out now.
 | compile the code | `mvn compile` | |
 | reset everything | `mvn clean` | | 
 | run the tests | `mvn test` | |
-| generate a report of test coverage | `mvn test jacoco:report ` | Open the file `target/site/jacoco/index.html` in a browser to read the report |
+| generate a report of test coverage | `mvn test jacoco:report ` | Open the file `target/site/jacoco/index.html` in a browser to read the report. (Note that a report will only be generated if your unit tests pass) |
 | generate a jar file | `mvn package` | |
 | generate a mutation test report | `mvn test org.pitest:pitest-maven:mutationCoverage` | Open the file <tt>target/pit-reports/<i>yyyymmddhhmm</i>/index.html</tt> to see the report; note that <tt><i>yyyymmddhhmm</i></tt> will be replaced by a date/timestamp. |
 
