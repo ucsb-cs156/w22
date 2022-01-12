@@ -73,7 +73,8 @@ to share what they thought the **most important takeaways** were from the paper,
 in terms of **what skills students in this class might need to learn to be well prepared for industry** in terms of this category.  
 
 * The timekeeper should go last, and someone else should time them. 
-* The scribe should ask someone else to scribe (in the local zoom chat window) while they give their report.   
+* The scribe should ask someone else to scribe while they give their report.   
+* It can be helpful for the scribe to share their screen so that everyone can see the notes they are taking.
 
 When each person has finished:
 * everyone should return to the main room
