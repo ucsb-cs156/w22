@@ -4,6 +4,7 @@ lecture_date: 2022-01-12
 desc: "Wed Lecture: follow up on H01, LTD paper"
 ready: true
 qxx: w22
+org: https://github.com/ucsb-cs156-w22
 ---
 
 # Today: P02 (participation assignment)
