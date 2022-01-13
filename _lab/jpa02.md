@@ -261,20 +261,11 @@ Heroku allows us to deploy web applications in Java rather easily.
 
 In this step, we'll deploy our Spring Boot application to the public internet using Heroku.
 
-Logged into CSIL (or one of the machines in the CSTL, i.e. Phelps 3525), use this command to login to Heroku at the command line:
+Use this command to login to Heroku at the command line:
 
 ```
 heroku login
 ```
-
-**NOTES**: 
-
-* If you are ssh'ing in to CSIL, you may need to use `heroku login -i` which allows you to login without having to go to a browser.
-
-* If the `heroku login` command doesn't work, you can instead create the Heroku App at the Heroku Dashboard by
-  visiting <https://dashboard.heroku.com/apps>, clicking (at upper right):  "New&nbsp;=>&nbsp;Create New App" and
-  then creating an app with the name <tt>{{page.num}}-<i>ucsbnetid</i></tt> as explained in 
-  the instructions below.
 
 Then, use this command to create a new web app running on heroku.  Substitute in your UCSBNetId (i.e. your ucsb email *without* the `@ucsb.edu` part. 
 
@@ -309,7 +300,7 @@ Then, click on "deploy branch".
 
 If it doesn't work, try these things before asking a mentor, TA, or instructor for help.
 
-1. Make sure you are logged into Heroku at CLI with `heroku login`.  If you exited your CSIL shell (logged out) and logged back in again, you have to login to Heroku again.  Then repeat the commands.
+1. Make sure you are logged into Heroku at CLI with `heroku login`.  If you are working on CSIL, exited your CSIL shell (logged out), and logged back in again, you have to login to Heroku again.  Then repeat the commands.
 3. Try `heroku logs --app appname` (substitute the name of your app where you see `appname`).  You'll see the log output of that app on Heroku.   
    * You may find it helpful to open a second Terminal, login to CSIL and the Heroku CLI, and use `heroku logs --app appname --tail`, which keeps the log output running continously.
    * You can also see your logs in a web browser at: <https://dashboard.heroku.com/apps/app-name/logs> (note that you need to put your `app-name` in the URL instead of `app-name`.  
