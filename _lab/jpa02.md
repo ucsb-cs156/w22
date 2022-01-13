@@ -99,7 +99,13 @@ You should already be familiar with multi-factor authentication as [we use Duo h
 
 **You can set up multi-factor authentication [here](https://id.heroku.com/vaas/manage).** You can also get to this page by logging into [Heroku Dashboard](https://dashboard.heroku.com/), clicking on your profile picture, then "Account Settings", and then "Manage Multi-Factor Authentication".
 
-The easiest method to set up is the "One-Time Password Generator". Clicking on the "Add" button within this option will present you with a QR code that you can scan using an authenticator app. If you are using the Duo app, click "Add" on the main screen, followed by "Use QR code", to scan the code. Be sure to name the code with "Heroku" so you know which service this code belongs to. Finish by entering your new code into Heroku's website.
+The easiest method to set up is the "One-Time Password Generator". Clicking on the "Add" button within this option will present you with a QR code that you can scan using an authenticator app. 
+
+* If you are using the Duo app, click "Add" on the main screen, followed by "Use QR code", to scan the code. Be sure to name the code with "Heroku" so you know which service this code belongs to.
+
+Finish setup by entering the code from your authenticator app into Heroku's website.
+
+In addition to using one-time passwords (OTPs), you can use on-device biometric sensors (such as Windows Hello, Touch ID, and Face ID) via the "Built-in Authenticators" option, or a physical U2F security key.
 
 **Note that this new requirement breaks the ability to login to Heroku by typing your credentials directly into Heroku CLI.** Heroku CLI logins (i.e. `heroku login`) must now be completed via the browser login flow. If you are logging in from a device without a browser (such as an SSH session into CSIL), you will have to manually paste the link generated in the CLI into a web browser to complete the login.
 
