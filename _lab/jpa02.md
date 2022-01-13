@@ -82,7 +82,6 @@ Then you probably have a disk quota problem.
 
 If you do not already have a Heroku account, navigate to <https://www.heroku.com/> and click the "Sign up for Free" link.
 
-
 You'll be asked for:
 
 -   First Name
@@ -92,6 +91,19 @@ You'll be asked for:
 -   Preferred Development Language: We suggest you select "Java" if you are currently enrolled in CMPSC 156
     -   (Don't worry; this doesn't prevent you from using the account with other languages later.)
 
+## Step 2a: Set up Multi-Factor Authentication for Heroku
+
+On February 1, 2022, Heroku will start requiring every user to enable Multi-Factor Authentication. This adds an additional layer of security to your account by requiring access to something physical (like a phone or a physical security key) to complete a login along with your password.
+
+You should already be familiar with multi-factor authentication as [we use Duo here at UCSB](https://www.it.ucsb.edu/mfa). 
+
+**You can set up multi-factor authentication [here](https://id.heroku.com/vaas/manage).** You can also get to this page by logging into [Heroku Dashboard](https://dashboard.heroku.com/), clicking on your profile picture, then "Account Settings", and then "Manage Multi-Factor Authentication".
+
+The easiest method to set up is the "One-Time Password Generator". Clicking on the "Add" button within this option will present you with a QR code that you can scan using an authenticator app. If you are using the Duo app, click "Add" on the main screen, followed by "Use QR code", to scan the code. Be sure to name the code with "Heroku" so you know which service this code belongs to. Finish by entering your new code into Heroku's website.
+
+**Note that this new requirement breaks the ability to login to Heroku by typing your credentials directly into Heroku CLI.** Heroku CLI logins (i.e. `heroku login`) must now be completed via the browser login flow. If you are logging in from a device without a browser (such as an SSH session into CSIL), you will have to manually paste the link generated in the CLI into a web browser to complete the login.
+
+More info on this change can be found [here](https://devcenter.heroku.com/articles/multi-factor-authentication).
 
 # Step 3: Create your repo
 
