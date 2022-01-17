@@ -10,6 +10,8 @@ gradescope: https://www.gradescope.com/courses/342053/assignments/1766517/
 starter: https://github.com/ucsb-cs156-w22/STARTER-team01
 gauchospace: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=775822&forceview=1
 qxx: w22
+participation_activity_num: p04
+participation_activity_date: "Tuesday 01/18/2022"
 ---
 
 
@@ -100,12 +102,11 @@ It might also be nicely formatted, depending on whether you have any browser ext
   team: [
     "Andrew L.",
     "Bryan T.",
-    "Calvin J.",
-    "Jacqui M.",
-    "Mara D.",
-    "Max L.",
+    "Bryan Z.",
+    "Kevin H.",
     "Phill C.",
-    "Wade V."
+    "Pranav M.",
+    "Seth V."
   ]
 }
 ```
@@ -126,7 +127,7 @@ Then also add the assigned LA and TA for your team.
 
 # Step 1.4: Divide up the six controllers among your team
 
-This step is a part of participation assignment (P04), in class on Tuesday 01/18/2022. 
+This step is a part of participation assignment ({{page.participation_activity_num}}), in class on {{page.particpation_activity_date}}}. 
 
 Now in the README.md, towards the top, there is a place where you need to divide up the work among the team 
 members.  There are six services, and six matching controllers that you need to implement and write tests
@@ -153,7 +154,7 @@ But you only get the particpation grade if you were actually in discussion as ev
 
 # Step 1.5: Document the division in your README.md file
 
-This step is also part of participation assignment (P04), in class on Monday 04/11/2021. 
+This step is also part of participation assignment ({{page.participation_activity_num}}), in class on {{page.participation_activity_date}}. 
 
 In the README, there is a table that looks like this.  Someone on the team should fill in the first two columns 
 of the table with the name of the team members that will implement each of the services.  
