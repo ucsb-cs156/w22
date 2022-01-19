@@ -54,6 +54,7 @@ For each of these controller / service pairs, there are also tests:
 | `EarthquakesController` | `EarthquakesControllerTest` | `EarthquakeQueryService` | `EarthquakeQueryServiceTest` |
 | `CountryCodeController` | `CountryCodeControllerTest` | `CountryCodeQueryService` | `CountryCodeQueryServiceTest` |
 | `CollegeSubredditsController` | `CollegeSubredditsControllerTest` | `CollegeSubredditQueryService` | `CollegeSubredditQueryServiceTest` |
+{:.table .table-sm .table-striped .table-bordered}
 
 
 So you are given those twelve classes.   Your job, as a team, is to implement 24 more classes (4 each), i.e. one row of the following table:
@@ -66,6 +67,8 @@ So you are given those twelve classes.   Your job, as a team, is to implement 24
 | `TidesController` | `TidesControllerTest` | `TidesQueryService` | `TidesQueryServiceTest` |
 | `UniversityController` | `UniversityControllerTest` | `UniversityQueryService` | `UniversityQueryServiceTest` |
 | `ZipCodeController` | `ZipCodeControllerTest` | `ZipCodeQueryService` | `ZipCodeQueryServiceTest` |
+{:.table .table-sm .table-striped .table-bordered}
+
 
 You can see what those services will look like in Swagger by looking at this example of the finished app running:
 
