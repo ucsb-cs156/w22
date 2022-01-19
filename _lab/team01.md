@@ -174,7 +174,7 @@ Add each of the members of your team.
 
 Then also add the assigned LA and TA for your team.   
 * You can find their names here: <tt>https://ucsb-cs156.github.io/{{page.qxx}}/info/teams/</tt>
-* To get the email that you should use for Heroku, dm them on the slack.
+* To get the email that you should use for Heroku, DM them on the slack.
 * Then add `phtcon@ucsb.edu`, the instructor for the course.
 
 
