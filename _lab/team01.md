@@ -386,7 +386,7 @@ When you're done implementing the first draft, the next step is to write the tes
 
 ## Step 2.4: Implement the test for the service you were assigned
 
-In the directory `src/test/java/edu/ucsb/cs156/spring/backenddemo/controllers` you will find tests for the three sample services.  Use these as a model to write a test for your service.
+In the directory `src/test/java/edu/ucsb/cs156/spring/backenddemo/services` you will find tests for the three sample services.  Use these as a model to write a test for your service.
 
 We'll go over the code for these tests in lecture.
 
@@ -446,15 +446,10 @@ Using those as a model, implement a controller test for your controller.
 
 Run the tests by running `mvn test` and then check the test coverage with `mvn test jacoco:report`
 
-## Step 2.7: Write the service test
+## Step 2.7: Removed
 
-In the directory: `src/test/java/edu/ucsb/cs156/spring/backenddemo/services` you'll find example  tests for the services
-
-Using those as a model, implement a test for your new service.
-
-Run the tests by running `mvn test` and then check the test coverage with `mvn test jacoco:report`
-
-When you have good coverage for both your service and your controller, you are ready for the final stage of part 2.
+(This step was a repeat of step 2.4, we we've removed it, but
+we didn't renumber since the videos are referring to steps by number.)
 
 
 ## Step 2.8: Make a Pull Request
