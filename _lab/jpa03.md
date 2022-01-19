@@ -1,23 +1,18 @@
 ---
 desc: Spring Boot and Heroku Hello World
 assigned: 2022-01-19 12:30
-due: 2022-01-26 23:59
+due: 2022-01-28 23:59
 github_org: ucsb-cs156-w22
 layout: lab
 num: jpa03
-ready: false
+ready: true
 starter: https://github.com/ucsb-cs156-w22/demo-spring-react-example
 ---
 
-COMING SOON...
+This assignment is still in "beta testing", but if you are brave and willing to be patient
+with a few possible glitches, you may start it now.
 
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-
-Please wait until it is announced that this is ready for students to work on.
+If you run into problems, let us know on the jpa03-help channel on the slack.
 
 {% include drop_down_style.html %}
 
