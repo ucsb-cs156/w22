@@ -54,6 +54,8 @@ You will get two grades for this assignment:
 
 # Part 1: Team divides up the work
 
+[This video (10:53)](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=15d5a190-f7b2-4bbd-92e2-ae2101874844) walks you through the steps of Part 1. 
+
 # Step 1.1: Pull in Starter Code
 
 One member of the team, it doesn't matter who, should pull in the starter code.
@@ -216,6 +218,10 @@ Then notice the rendered table looks fine:
 # Part 2: Work as an individual on your service
 
 In this part of the lab, you work as an individual, on your part.  You may get help from other team members&mdash;in fact you are strongly encouraged to do so!  Pairing on this is a great idea!  But, you should be doing the commits and pull requests from your github account so that you and your team gets credit.
+
+Videos:
+* [This video (20:30)](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=15d5a190-f7b2-4bbd-92e2-ae2101874844) walks you through steps 2.1 through 2.4 (note that step 2.2 is done out of order with the other two, but it's still there in the video.)
+* There isn't a video for steps 2.5 and 2.6 yet, but there will be soon.
 
 ## Step 2.0: Optional, but recommended: install VSCode extension for Lombok
 
