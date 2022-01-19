@@ -34,6 +34,45 @@ If you want to see an example of what the working web app should look like, you 
 
 * <https://team01-w22-solution.herokuapp.com/>
 
+This is an exercise in working with three kinds of APIs as explained in [this short article on APIs](https://ucsb-cs156.github.io/topics/apis/)
+
+The starter code you are given contains three "controllers", each of which implements a separate backend API:
+
+* The Java class [`EarthquakesController`](https://github.com/ucsb-cs156-w22/STARTER-TEAM01/blob/main/src/main/java/edu/ucsb/cs156/spring/backenddemo/controllers/EarthquakesController.java) implements an API endpoint that provides information about earthquakes within a given distance from Storke Tower, that have a magnitude that is greater than or equal to some minimum specified.
+* The Java class [`CountryCodeController`](https://github.com/ucsb-cs156-w22/STARTER-TEAM01/blob/main/src/main/java/edu/ucsb/cs156/spring/backenddemo/controllers/CountryCodeController.java) implements an API endpoint that, given the name of a country, provides information about that country, including a list of latitude and longitude points that mark the outline of that country.
+* The Java class [`CollegeSubredditsController`] provides an endpoint that gives a list of subreddits on the social networking site Reddit.com that correspond to various colleges and universities.   This endpoint doesn't need any input.
+
+These three controllers, in turn, rely on three Java classes that each provide a "service".  The service provided, in each case, is a method `getJSON(p1,p2,...)` that may or may not take parameters.  The parameters are the ones that were input to each of the controllers 
+* the [`EarthquakeQueryService`](https://github.com/ucsb-cs156-w22/STARTER-TEAM01/blob/main/src/main/java/edu/ucsb/cs156/spring/backenddemo/services/EarthquakeQueryService.java) implements `getJSON(String distance, String minMag)` which is used by the `EarthquakesController`.
+* the [`CountryCodeQueryService`](https://github.com/ucsb-cs156-w22/STARTER-TEAM01/blob/main/src/main/java/edu/ucsb/cs156/spring/backenddemo/services/CountryCodeQueryService.java) implements `getJSON(String country)` which is used by the `CountryCodeController`
+* the [`CollegeSubredditQueryService`](https://github.com/ucsb-cs156-w22/STARTER-TEAM01/blob/main/src/main/java/edu/ucsb/cs156/spring/backenddemo/services/CollegeSubredditQueryService.java) implements `getJSON()` (with no parameters) which is used by the `CollegeSubredditsController`
+
+For each of these controller / service pairs, there are also tests:
+
+| Controller  | Controller Test | Service  | Service Test |
+|-|-|-|-|
+| `EarthquakesController` | `EarthquakesControllerTest` | `EarthquakeQueryService` | `EarthquakeQueryServiceTest` |
+| `CountryCodeController` | `CountryCodeControllerTest` | `CountryCodeQueryService` | `CountryCodeQueryServiceTest` |
+| `CollegeSubredditsController` | `CollegeSubredditsControllerTest` | `CollegeSubredditQueryService` | `CollegeSubredditQueryServiceTest` |
+
+
+So you are given those twelve classes.   Your job, as a team, is to implement 24 more classes (4 each), i.e. one row of the following table:
+
+| Controller  | Controller Test | Service  | Service Test |
+|-|-|-|-|
+| `LocationController` | `LocationControllerTest` | `LocationQueryService` | `LocationQueryServiceTest` |
+| `PublicHolidaysController` | `PublicHolidaysControllerTest` | `PublicHolidayQueryService` | `PublicHolidayQueryServiceTest` |
+| `RedditController` | `RedditControllerTest` | `RedditQueryService` | `RedditQueryServiceTest` |
+| `TidesController` | `TidesControllerTest` | `TidesQueryService` | `TidesQueryServiceTest` |
+| `UniversityController` | `UniversityControllerTest` | `UniversityQueryService` | `UniversityQueryServiceTest` |
+| `ZipCodeController` | `ZipCodeControllerTest` | `ZipCodeQueryService` | `ZipCodeQueryServiceTest` |
+
+You can see what those services will look like in Swagger by looking at this example of the finished app running:
+
+* <https://team01-w22-solution.herokuapp.com/>
+
+That will also give you an idea of what the documentaiton should look like when you've put in all the proper values for the various annotations (the things
+that start with `@` in the code.)
 
 # The Repos you will work in
 
