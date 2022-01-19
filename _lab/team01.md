@@ -24,7 +24,9 @@ you will work as a team.
 
 # What are we building?
 
-This video goes with this introduction: [w22-team01-intro (10:31)](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=15d5a190-f7b2-4bbd-92e2-ae2101874844).
+This video goes with this introduction:
+* On Gauchocast (requires login): [w22-team01-intro (10:31)](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=15d5a190-f7b2-4bbd-92e2-ae2101874844).
+* On YouTube (public): [w22-team-intro (10:31)](https://youtu.be/jY2BLuEfAgk)
 
 You are building a Spring Boot webapp that *only has a backend*.  The front end code will built in a later team project.
 
