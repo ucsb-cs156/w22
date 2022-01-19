@@ -25,8 +25,8 @@ you will work as a team.
 # What are we building?
 
 This video goes with this introduction:
-* On Gauchocast (requires login): [w22-team01-intro (10:31)](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=15d5a190-f7b2-4bbd-92e2-ae2101874844).
-* On YouTube (public): [w22-team-intro (10:31)](https://youtu.be/jY2BLuEfAgk)
+* On Gauchocast (requires login): [w22-team01-intro (10:13)](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=52aa1d66-e10a-4598-9214-ae220010af77).
+* On YouTube (public): [w22-team-intro (10:13)](https://youtu.be/jY2BLuEfAgk)
 
 You are building a Spring Boot webapp that *only has a backend*.  The front end code will built in a later team project.
 
@@ -101,8 +101,8 @@ You will get two grades for this assignment:
 # Part 1: Team divides up the work
 
 There is a video (10:53) that walks through the steps in Part 1:
-* [On Gauchocast (requires login](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=15d5a190-f7b2-4bbd-92e2-ae2101874844). 
-* [On YouTube (publically avaiable](https://youtu.be/KDyRhMg5cLk)
+* [On Gauchocast (requires login)](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=15d5a190-f7b2-4bbd-92e2-ae2101874844)
+* [On YouTube (publically avaiable)](https://youtu.be/KDyRhMg5cLk)
 
 # Step 1.1: Pull in Starter Code
 
