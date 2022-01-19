@@ -5,7 +5,7 @@ due: 2022-01-25 23:59
 github_org: ucsb-cs156-w22
 layout: lab
 num: team01
-ready: false
+ready: true
 gradescope: https://www.gradescope.com/courses/342053/assignments/1766517/
 starter: https://github.com/ucsb-cs156-w22/STARTER-team01
 gauchospace: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=775822&forceview=1
@@ -15,18 +15,27 @@ participation_activity_date: "Tuesday 01/18/2022"
 ---
 
 
-# NOTE
-
-THIS ASSIGNMENT IS NOT YET READY FOR STUDENTS TO WORK ON.
-
-ONE OF THE APIs THAT IS REQUIRED HAS CHANGED, SO WE NEED TO UPDATE THE INSTRUCTIONS TO ACCOUNT FOR THAT.
-
-ALSO: YOU CANNOT START UNTIL AFTER AN IN-CLASS ACTIVITY ON 01/18/2022
 
 # First team programming assignment: Spring Backend, and working with APIs
 
 This is a team programming assignment.  Each team has it's own repo to complete this assignment, and
 you will work as a team.
+
+
+# What are we building?
+
+You are building a Spring Boot webapp that *only has a backend*.  The front end code will built in a later team project.
+
+We will use a tool called *Swagger-ui* that:
+* builds a temporary front-end that can be used by developers to test the backend.
+* provides a way for programmers to automatically build documentation for their backend.
+
+If you want to see an example of what the working web app should look like, you can visit this site:
+
+* <https://team01-w22-solution.herokuapp.com/>
+
+
+# The Repos you will work in
 
 Here are the links to the repos:
 
