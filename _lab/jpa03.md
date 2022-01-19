@@ -161,15 +161,15 @@ you have a green check, and not a red X, on the main branch of your repo.
 To get a spring boot app running on `localhost`, generally
 we need to do the following:
 
-* Perform any necessary configuration of secrets, e.g.
-  in the `loc
-* First, use `mvn compile` to make sure that the code compiles.
-
-  * If you get the error about `JAVA_HOME` not being defined
-    correctly, you may need this command:
-    ```
-    export JAVA_HOME=/usr/lib/jvm/java-11-openjdk
-    ```
+* Do the OAuth Configuration steps linked to from the README to get a client-id and client-secret
+  and put them in your `.env` file
+* Also add your own UCSB email address after `phtcon@ucsb.edu`, and your mentor's email (see <https://ucsb-cs156.github.io/w22/info/teams/>) separated by commas (no spaces) like this:
+  
+  ```
+  ADMIN_EMAILS=phtcon@ucsb.edu,mentorsemail@ucsb.edu,youremail@ucsb.edu
+  ```
+  
+* Then, use `mvn compile` to make sure that the code compiles.
 * Next, try `mvn test` to be sure that the test cases pass.
 * Then, try `mvn spring-boot:run`.  This should start up a web
   server on port 8080 running on `localhost`
@@ -179,18 +179,8 @@ we need to do the following:
 
 
 When the app is up and running, try logging in with your
-UCSB Google Account.  You should then be able to create, edit
-and delete todo items.
+UCSB Google Account.  
 
-Note that at this point, each time you start up the app,
-the database is recreated *from scratch* in memory.  We use
-an in-memory database called H2 when running on localhost;
-this saves you a lot of trouble with having to configure
-a database on CSIL or on your own machine.
-
-When we migrate to Heroku in the later steps of this lab,
-we'll be using a "real" database, one where what is stored
-remains even when the app is shut down.
 
 # Step 4: Create a new Heroku App using the Heroku CLI
 
@@ -215,7 +205,43 @@ All quarter long, we want you to develop the habit of adjusting the  README.md i
 
 The link to your repo may seem redundant, but it helps your mentors, TAs and instructors; when you submit your work for grading to either Gradescope or Gauchospace, having those links handy really helps us navigate through your assignments quickly to evaluate them and assign grades.
 
-# Step 6: Submitting your work for grading
+
+# Step 6: Set up Storybook repos
+
+You will now need to set up two repos manually. 
+
+You'll create these repos under the course organization <tt>{{page.github_org}}</tt>. Be sure that `owner` says <tt>{{page.github_org}}</tt> and not your
+personal github id when you create these.
+
+The names should be the name of your jpa03 repo (e.g. `jpa03-cgaucho`) followed by:
+* `-docs` (e.g. `jpa03-cgaucho-docs`)
+* `-docs-qa` (e.g. jpa03-cgaucho-docs-qa)
+
+Then follow the steps in the `docs/storybook.md` file in the repo.
+
+This will allow you to set up the storybook for your repository.
+
+You may need to do a push to the main branch, and or a pull request to trigger the GitHub actions scripts that set up the storybook.
+
+When you are finished, update the links in the README.md file so that they point to your storybook repos:
+
+Before:
+
+```
+* Production: <https://ucsb-cs156-w22.github.io/demo-spring-react-example-docs/>
+* QA:  <https://ucsb-cs156-w22.github.io/demo-spring-react-example-docs-qa/>
+```
+
+After (with your URLs)
+
+```
+* Production: <https://ucsb-cs156-w22.github.io/jpa03-cgaucho-docs/>
+* QA:  <https://ucsb-cs156-w22.github.io/jpa03-cgaucho-docs-qa/>
+```
+
+Make sure that the links work.
+
+# Step 7: Submitting your work for grading
 
 When you have a running web app, visit <{{page.gauchospace_url}}> and make a submission.
 
@@ -239,8 +265,9 @@ The instructions for doing so are here: <https://ucsb-cs156.github.io/topics/gau
   - The links on Gauchospace are clickable links (to make it easier to test your app)
   - README has a link to your repo.
 * (20 pts) Having a running web app at <tt>https://{{page.num}}-<i>ucsbnetid</i>.herokuapp.com</tt>
-* (30 pts) Running web app has the ability to login through a Google Account, and create, edit and delete TODOs.
-* (30 pts) GitHub Actions runs correctly and there is a green check (not a red X) on your main branch
+* (20 pts) Running web app has the ability to login through a Google Account.
+* (20 pts) Storybooks for `docs` and `docs-qa` are both set up properly.
+* (20 pts) GitHub Actions runs correctly and there is a green check (not a red X) on your main branch
   - To get this part working, you need to be sure that the `CODECOV_TOKEN` and `TEST_PROPERTIES` are configured
     correctly.
 
