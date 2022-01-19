@@ -180,7 +180,7 @@ Then also add the assigned LA and TA for your team.
 
 # Step 1.4: Divide up the six controllers among your team
 
-This step is a part of participation assignment ({{page.participation_activity_num}}), in class on {{page.particpation_activity_date}}}. 
+This step is a part of participation assignment ({{page.participation_activity_num}}), in class on {{page.participation_activity_date}}. 
 
 Now in the README.md, towards the top, there is a place where you need to divide up the work among the team 
 members.  There are six services, and six matching controllers that you need to implement and write tests
@@ -552,9 +552,8 @@ For this grade item (`team01-links`), you will get a separate manually assigned 
 * Did each team member contribute at least one PR (i.e. the commits and PR are done under their github id?)
 
 You may want to go over this list as a team before submitting on Gauchospace.
-
    
- # Special Instructions for the RedditQueryService
+# Special Instructions for the RedditQueryService
  
 The Reddit Query service will work just like the other services, except that you may get frequent errors 
 of the form `429 Too Many Requests` as described in [this Stack Overflow post](https://stackoverflow.com/questions/30992791/http-429-too-many-requests-when-accessing-a-reddit-json-page-only-once-using-ja).   The fix is to add this line of code,
