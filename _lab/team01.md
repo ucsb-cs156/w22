@@ -392,6 +392,8 @@ When that test passes, we'll build the controller and the controller test so tha
 
 ## Step 2.5: Implement the controller for the service
 
+A video for steps 2.5, 2.6, and 2.8 appears here: [W22 Team01 Steps 2.5, 2.6 and 2.8](https://youtu.be/QtlirGJjkz4)
+
 In a Spring Boot application, a controller class is one that implements backend endpoints (i.e. provides a web service
 on a URL).   You will now implement a controller so that users of your app (in practice, typically, the front end code)
 can access the information provided by your service. 
