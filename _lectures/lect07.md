@@ -1,6 +1,6 @@
 ---
 num: "Lecture 07"
-lecture_date: 2022-01-18
+lecture_date: 2022-01-19
 desc: "Wed Lecture: starting jpa03"
 ready: true
 ---
