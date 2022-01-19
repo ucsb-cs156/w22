@@ -100,7 +100,9 @@ You will get two grades for this assignment:
 
 # Part 1: Team divides up the work
 
-[This video (10:53)](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=15d5a190-f7b2-4bbd-92e2-ae2101874844) walks you through the steps of Part 1. 
+There is a video (10:53) that walks through the steps in Part 1:
+* [On Gauchocast (requires login](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=15d5a190-f7b2-4bbd-92e2-ae2101874844). 
+* [On YouTube (publically avaiable](https://youtu.be/KDyRhMg5cLk)
 
 # Step 1.1: Pull in Starter Code
 
