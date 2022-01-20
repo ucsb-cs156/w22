@@ -205,14 +205,37 @@ Please read though this JavaScript tutorial:
 
 As you read, here are a few things that you should be looking for.  These are questions that you need to be able to answer (a) in order to be able to work effectively on the JavaScript parts of the legacy code applications in this course (b) to be able to answer questions about JavaScript that might come up in job interviews, (c) for homework/exam questions later in the course.
 
-1. Does JavaScript have different types for integer and floating point numbers?  Explain your answer.
-2. How do you convert a number in a string form (e.g. "123") to a numeric form?
-3. How do you find the length of a string in JavaScript?
-4. What does it mean to say that a value is "truthy" or "falsy" in JavaScript?
-5. When declaring a variable in JavaScript you can use `let`, `const` or `var`.  What is the meaning of each of these?
-6. A line of code that you'll sometime see in JavaScript takes this form:  `x = y + '';` i.e. adding an empty string.  What is the purpose of adding the empty string?
-7. What are two ways to create an empty object in JavaScript?
-8. Object properties in JavaScript can be accessed with both dot notation and bracket notation.  
-   - Give an example of a JavaScript statement that initializes the variable `student` to refer to an object representing a student with a name of "Chris Gaucho" (as a string) and a perm number of 1234567 (as a number)
-   - Show how to print the name field using `console.log` accessing the name field using dot notation 
-   - Show how to print the perm number field using `console.log` accessing the  field using bracket notation 
+1.  Does JavaScript have different types for integer and floating point numbers?  Explain your answer.
+2.  How do you convert a number in a string form (e.g. "123") to a numeric form?
+3.   How do you find the length of a string in JavaScript?
+4.  What does it mean to say that a value is "truthy" or "falsy" in JavaScript?
+5.  When declaring a variable in JavaScript you can use `let`, `const` or `var`.  What is the meaning of each of these?
+6.  A line of code that you'll sometime see in JavaScript takes this form:  `x = y + '';` i.e. adding an empty string.  What is the purpose of adding the empty string?
+7.  What are two ways to create an empty object in JavaScript?
+8.  Object properties in JavaScript can be accessed with both dot notation and bracket notation.  
+    - Give an example of a JavaScript statement that initializes the variable `student` to refer to an object representing a student with a name of "Chris Gaucho" (as a string) and a perm number of 1234567 (as a number)
+    - Show how to print the name field using `console.log` accessing the name field using dot notation 
+    - Show how to print the perm number field using `console.log` accessing the  field using bracket notation 
+9.  Write the JavaScript function equivalent of the following Java method.  (Note that you will not be able to
+    restrict the type of parameters in plain JavaScript; that is possible in TypeScript, but let's not go there
+    yet.  Just a plain JavaScript function that takes two numbers and returns their product is fine.)
+    ```java
+    public static double product(double a, double b) {
+      return a * b;
+    }
+    ```
+10. Consider the `product` function in the previous question.   
+    - In Java, if you call it with no parameters (`double x=product();`) that's a syntax error.  What happens in JavaScript?
+    - In Java, if you call it with three parameters (`double x = product(2,3,4);`) that's a syntax error.  What happens in JavaScript?
+
+11. Using the *rest parameter syntax* (`...`) write a JavaScript function `productAll` that can take any number of parameters, and produces the product of all of its parameters (returning the multiplicative identity 1 if there are zero parameters).
+
+    For example:
+    * `productAll()` would return 1
+    * `productAll(3)` would return 3
+    * `productAll(3,2)` would return 6
+    * `productAll(3,2,5)` would return 30
+    * `productAll(3,2,5,7,10)` would return 2100
+    * etc...
+   
+   
