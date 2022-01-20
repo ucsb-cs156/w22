@@ -197,3 +197,22 @@ Same result, but much easier to read the code.
 
 Try modifying your `loop.mjs` code in this way and run it again.
 
+## Step 1.6: A JavaScript tutorial
+
+Please read though this JavaScript tutorial:
+
+* <https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript>
+
+As you read, here are a few things that you should be looking for.  These are questions that you need to be able to answer (a) in order to be able to work effectively on the JavaScript parts of the legacy code applications in this course (b) to be able to answer questions about JavaScript that might come up in job interviews, (c) for homework/exam questions later in the course.
+
+1. Does JavaScript have different types for integer and floating point numbers?  Explain your answer.
+2. How do you convert a number in a string form (e.g. "123") to a numeric form?
+3. How do you find the length of a string in JavaScript?
+4. What does it mean to say that a value is "truthy" or "falsy" in JavaScript?
+5. When declaring a variable in JavaScript you can use `let`, `const` or `var`.  What is the meaning of each of these?
+6. A line of code that you'll sometime see in JavaScript takes this form:  `x = y + '';` i.e. adding an empty string.  What is the purpose of adding the empty string?
+7. What are two ways to create an empty object in JavaScript?
+8. Object properties in JavaScript can be accessed with both dot notation and bracket notation.  
+   - Give an example of a JavaScript statement that initializes the variable `student` to refer to an object representing a student with a name of "Chris Gaucho" (as a string) and a perm number of 1234567 (as a number)
+   - Show how to print the name field using `console.log` accessing the name field using dot notation 
+   - Show how to print the perm number field using `console.log` accessing the  field using bracket notation 
