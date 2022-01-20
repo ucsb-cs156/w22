@@ -268,7 +268,7 @@ Then notice the rendered table looks fine:
 In this part of the lab, you work as an individual, on your part.  You may get help from other team members&mdash;in fact you are strongly encouraged to do so!  Pairing on this is a great idea!  But, you should be doing the commits and pull requests from your github account so that you and your team gets credit.
 
 This Video (about 40 minutes) walks you through steps 2.0 through 2.4
-* [On Youtube]((https://youtu.be/mdh9LJ3RSOQ), [On Gauchocast (has captions)](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=953fccaa-4061-4c24-8405-ae23000701fa)
+* [On Youtube](https://youtu.be/mdh9LJ3RSOQ), [On Gauchocast (has captions)](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=953fccaa-4061-4c24-8405-ae23000701fa)
 * It's a little longer than I had hoped, because part way through I run into a mistake, and have to debug my way out of it.
 * This was already my second attempt at making this one, so rather than start over *again*, I just rolled with it.
 * It's a great opportuntiy to see if you can spot my mistake before I do, and to see what steps I took to try to figure out what was going on.
