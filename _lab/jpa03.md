@@ -36,7 +36,6 @@ while doing the lab that you need a refresher on any of these:
 * Creating a new app on Heroku
 * Connecting an app on Heroku to a GitHub repo, and deploying
   a branch of that repo on Heroku
-* Configuring *Secrets* in a Github repo.
 
 Also, if you are working on your own machine, you need the same
 software that was needed for `jpa02`, namely:
@@ -46,9 +45,14 @@ software that was needed for `jpa02`, namely:
 * git
 * Heroku CLI
 
+Since this is our first time working with frontend React code, you'll also need to setup the following:
+
+* Node 14
+* npm 8.3
+
 See guides for installing these on your machine at the links shown:
 
-* Windows/WSL: <https://ucsb-cs156.github.io/topics/windows_wsl/>
+* Windows / WSL / Ubuntu: <https://ucsb-cs156.github.io/topics/windows_wsl/>
 * MacOS: <https://ucsb-cs156.github.io/topics/macos/>
 
 # Step 1: Understanding what we are trying to do
@@ -64,7 +68,7 @@ web app with:
 * A front-end built in React (under the directory `./frontend`)
 * A back-end built in Spring Boot (the code for this is under the directory `./src`, plus the `pom.xml` at the top level
 * OAuth integration; this allows the app to have a "login/logout" feature based on Google Accounts (e.g. your UCSB Google Account)
-* An SQL database, which runs using H2 (an in-memory database) on localhost, and using Postgres when running on Heroku.
+* A SQL database, which runs using H2 (an in-memory database) on localhost, and using Postgres when running on Heroku.
 
 The reason we are doing this lab is that before you can
 work on a full-stack legacy code webapp, you need to know how to 
@@ -146,20 +150,19 @@ times during this course, so this assignment is here to help you get used to tha
 
 ## Also set up the GitHub Actions secrets
 
-In the file `docs/github-actions-secrets.md` there are instructions for configuring
+In the file `docs/github-actions.md` there are instructions for configuring
 GitHub Actions so that it runs the tests for both the JavaScript and Java code in the repo.
 
 You should follow these instructions to get the CI/CD pipeline set up so that
 you have a green check, and not a red X, on the main branch of your repo.
 
-## Reminder about running your webapp on `localhost`
+## Reminder about running your web app on `localhost`
 
-To get a spring boot app running on `localhost`, generally
-we need to do the following:
+To get this demo app running on `localhost`, we need to do the following:
 
 * Do the OAuth Configuration steps linked to from the README to get a client-id and client-secret
   and put them in your `.env` file
-* Also add your own UCSB email address after `phtcon@ucsb.edu`, and your mentor's email (see <https://ucsb-cs156.github.io/w22/info/teams/>) separated by commas (no spaces) like this:
+* Add your own UCSB email address after `phtcon@ucsb.edu`, and your mentor's email (see <https://ucsb-cs156.github.io/w22/info/teams/>) separated by commas (no spaces) like this:
   
   ```
   ADMIN_EMAILS=phtcon@ucsb.edu,mentorsemail@ucsb.edu,youremail@ucsb.edu
@@ -167,16 +170,14 @@ we need to do the following:
   
 * Then, use `mvn compile` to make sure that the code compiles.
 * Next, try `mvn test` to be sure that the test cases pass.
-* Then, try `mvn spring-boot:run`.  This should start up a web
-  server on port 8080 running on `localhost`
+* Then, run the following two commands separately in their own shells
+  * In the first, launch the React frontend using `npm start` in the frontend directory. This should start the frontend on port 3000
+  * In the second, launch the Spring Boot backend using `mvn spring-boot:run`.  This should start a web server on port 8080
 
-  The `mvn spring-boot:run` command is a shortcut that is provided for us to be able to run the jar file.  It does pretty much the same thing as 
-  if we ran the `.jar` file and specified the class containing our `main` on the command line.
+The `mvn spring-boot:run` command is a shortcut that is provided for us to be able to run the jar file.  It does pretty much the same thing as 
+if we ran the `.jar` file and specified the class containing our `main` on the command line.
 
-
-When the app is up and running, try logging in with your
-UCSB Google Account.  
-
+When the app is up and running, try logging in with your UCSB Google Account.  
 
 # Step 4: Create a new Heroku App using the Heroku CLI
 
@@ -264,7 +265,4 @@ The instructions for doing so are here: <https://ucsb-cs156.github.io/topics/gau
 * (20 pts) Running web app has the ability to login through a Google Account.
 * (20 pts) Storybooks for `docs` and `docs-qa` are both set up properly.
 * (20 pts) GitHub Actions runs correctly and there is a green check (not a red X) on your main branch
-  - To get this part working, you need to be sure that the `CODECOV_TOKEN` and `TEST_PROPERTIES` are configured
-    correctly.
-
-
+  - To get this part working, you need to be sure that the `CODECOV_TOKEN` and `TEST_PROPERTIES` are configured correctly.
