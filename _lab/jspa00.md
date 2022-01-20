@@ -156,12 +156,12 @@ The classic for loop in C/C++ and Java both is:
   }
 ```
 
-Let's use a JavaScript for loop to print all of the command line arguments.  Note that in place of `int` we have `var`.
+Let's use a JavaScript for loop to print all of the command line arguments.  Note that in place of `int` we have `let`.
 
 Let's put this into `loop.mjs` and try running it with and without command line arguments:
 
 ```js
-for (var i=0; i<process.argv.length; i++) {
+for (let i=0; i<process.argv.length; i++) {
   console.log("process.argv[" + i + "]=", process.argv[i]);
 }
 ```
@@ -203,6 +203,10 @@ Please read though this JavaScript tutorial:
 
 * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript>
 
+Also read these two tutorials linked to from the main article:
+* [for ... of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
+* [for ... in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
+
 As you read, here are a few things that you should be looking for.  These are questions that you need to be able to answer (a) in order to be able to work effectively on the JavaScript parts of the legacy code applications in this course (b) to be able to answer questions about JavaScript that might come up in job interviews, (c) for homework/exam questions later in the course.
 
 1.  Does JavaScript have different types for integer and floating point numbers?  Explain your answer.
@@ -238,4 +242,15 @@ As you read, here are a few things that you should be looking for.  These are qu
     * `productAll(3,2,5,7,10)` would return 2100
     * etc...
    
-   
+ 12. In addition to the traditional for loop that resembles the C/C++ and Java for loop, i.e. 
+
+     ```
+     for (let i=0; i<n; i++) {
+        // do something with i
+     }
+     ```
+     
+     JavaScript also has a `for ... in` and a `for ... of ` loop.  Give an example usage of each and how they are
+     different from each other.
+     
+     
