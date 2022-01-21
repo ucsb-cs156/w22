@@ -197,7 +197,7 @@ Same result, but much easier to read the code.
 
 Try modifying your `loop.mjs` code in this way and run it again.
 
-## Step 1.6: A JavaScript tutorial
+## Step 2: A Basic JavaScript tutorial
 
 Please read though this JavaScript tutorial:
 
@@ -254,3 +254,13 @@ As you read, here are a few things that you should be looking for.  These are qu
      different from each other.
      
      
+## Step 3: A JavaScript Callbacks tutorial
+
+Two important JavaScript concepts are *callbacks* and *promises*.  Promises are easier to understand if you first work with callbacks.
+
+This online textbook chapter presents an example of callbacks in the context of using JavaScript code to examine the file system.
+
+* <https://stjs.tech/systems-programming/>
+
+Please read through the chapter, and try the code examples.
+
