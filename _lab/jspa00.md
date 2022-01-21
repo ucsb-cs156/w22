@@ -203,9 +203,10 @@ Please read though this JavaScript tutorial:
 
 * <https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript>
 
-Also read these two tutorials linked to from the main article:
+Also read these shorter tutorials on specific topics:
 * [for ... of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
 * [for ... in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
+* [Destructuring Assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 
 As you read, here are a few things that you should be looking for.  These are questions that you need to be able to answer (a) in order to be able to work effectively on the JavaScript parts of the legacy code applications in this course (b) to be able to answer questions about JavaScript that might come up in job interviews, (c) for homework/exam questions later in the course.
 
