@@ -262,5 +262,10 @@ This online textbook chapter presents an example of callbacks in the context of 
 
 * <https://stjs.tech/systems-programming/>
 
-Please read through the chapter, and try the code examples.
+Please read through the chapter,  try the code examples.
+
+Then look through the exercises; they will then be divided between programming exercises and homework exercises.
+
+
+
 
