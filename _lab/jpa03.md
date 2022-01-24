@@ -10,8 +10,6 @@ starter: https://github.com/ucsb-cs156-w22/demo-spring-react-example
 gauchospace_url: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=824178&forceview=1
 ---
 
-This assignment is still in "beta testing", but if you are brave and willing to be patient
-with a few possible glitches, you may start it now.
 
 If you run into problems, let us know on the jpa03-help channel on the slack.
 
