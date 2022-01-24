@@ -134,9 +134,15 @@ Then:
 
 # Introduction to JavaScript and React
 
-We may not get to this today.  But if we do:
+We may not get to this today.  But if we do, here are some notes:
 
-Create React App 
+# JavaScript Programming Assignment 00 (jspa00) in progress
+
+This assignment is still a work in progress, but there is some reading you can do if you have finished everything else and want to get 
+an early start.
+
+
+# Create React App 
 * <https://create-react-app.dev/> describes a script that can be used to create a React app.
   ```
   npx create-react-app my-app
