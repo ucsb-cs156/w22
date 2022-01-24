@@ -60,7 +60,7 @@ Note that there are several cases:
    to just stay remote most or all of the time.)
 2. Teams that are comfortable with hybrid, but where it will likely only be used in the case of an unexpected illness; all team
    members prefer in-person and intend to be in-person except when remote is necessary due to illness.
-3. Teams where the team cannot reach consensus on being ok with hybrid team meetings, and thus there is no-continency plan for
+3. Teams where the team cannot reach consensus on being ok with hybrid team meetings, and thus there is no-contingency plan for
    participation of someone if they are sick.
 4. Possibly other cases I haven't thought of.
 
