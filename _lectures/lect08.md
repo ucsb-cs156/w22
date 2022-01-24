@@ -17,8 +17,6 @@ cra_custom: https://github.com/ucsb-cs156-w22/demo-cra-customized
     as time goes on.
 * H05 / H06 will probably be the last Java homework assignments for a while; we'll be pivoting to JavaScript later this week.
 * Conrad's office hours will be 3:30-4:30pm today instead of 2pm-3pm as usual.
-* This means they will overlap a bit with Andrew's.  
-* We might use breakout rooms to manage this.
 
 # Return to in-person instruction
 
