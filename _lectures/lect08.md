@@ -173,29 +173,17 @@ is a list of what's been done so far as of the time of this lecture:
 | Pull Request | Description |
 |--------------|-------------|
 | [pull/1]({{page.cra_custom}}/pull/1) | move everything into frontend directory |
-| [pull/2]({{page.cra_custom}}/pull/2) |  |
-| [pull/3]({{page.cra_custom}}/pull/3) |  |
-| [pull/4]({{page.cra_custom}}/pull/4) |  |
-| [pull/5]({{page.cra_custom}}/pull/5) |  |
-| [pull/6]({{page.cra_custom}}/pull/6) | |
-| [pull/7]({{page.cra_custom}}/pull/7) | |
-
+| [pull/2]({{page.cra_custom}}/pull/2) | create directory structure |
+| [pull/3]({{page.cra_custom}}/pull/3) | add github actions script for frontend-tests  |
+| [pull/4]({{page.cra_custom}}/pull/4) | add bootstrap and a basic layout, some example componets/pages, tests  |
+| [pull/5]({{page.cra_custom}}/pull/5) | add storybook  |
+| [pull/6]({{page.cra_custom}}/pull/6) | refine QA storybook GitHub workflow to support multiple QA storybook branches  |
+| [pull/7]({{page.cra_custom}}/pull/7) | modify workflow for production docs to include putting in the index.md file  |
 {:.table .table-sm .table-striped .table-bordered}
 
-* <https://github.com/ucsb-cs156-w22/demo-cra-customized/pull/1>
-* <>
-* <>
+In Progress:
+* Adding in Stryker mutation testing
+* Add ESLint and a Github actions script for it.
 
-* <https://create-react-app.dev/> describes a script that can be used to create a React ap
-* Customized Version of Create React App: 
-* What's done so far
-  - Everything is moved into `frontend` so that it can live in the same repo as a backend app
-  - We've added GitHub actions scripts for running tests (Jest) and code coverage (also Jest)
-  - Adds Storybook
-* 
-- Adds Stryker mutation testing
-
-
-  - We've added linting with ESLint and a GitHub actions script for that
 
   
