@@ -8,6 +8,14 @@ cra_custom: https://github.com/ucsb-cs156-w22/demo-cra-customized
 
 # Announcements
 
+* H05 and H06 have dropped, due Monday and Tuesday next week
+  - Needed for a future Java Programming assignment
+  - We need to understand `extends` vs `implements` (inheritance-based polymorphism vs interface-based polymorphism) before we 
+    can cover lambda expressions and how sorting works in Java
+  - Lambda expressions are an important concepts in both Java and JavaScript, and are becoming important in Python and even C++
+  - They are the basis of many aspects of *functional programming*, which is definitely getting much more traction 
+    as time goes on.
+* H05 / H06 will probably be the last Java homework assignments for a while; we'll be pivoting to JavaScript later this week.
 * Conrad's office hours will be 3:30-4:30pm today instead of 2pm-3pm as usual.
 * This means they will overlap a bit with Andrew's.  
 * We might use breakout rooms to manage this.
