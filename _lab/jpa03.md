@@ -223,15 +223,15 @@ When you are finished, update the links in the README.md file so that they point
 Before:
 
 ```
-* Production: <https://ucsb-cs156-w22.github.io/demo-spring-react-example-docs/>
-* QA:  <https://ucsb-cs156-w22.github.io/demo-spring-react-example-docs-qa/>
+* Production: <https://ucsb-cs156-w22.github.io/demo-spring-react-example-docs/storybook>
+* QA:  <https://ucsb-cs156-w22.github.io/demo-spring-react-example-docs-qa/storybook>
 ```
 
 After (with your URLs)
 
 ```
-* Production: <https://ucsb-cs156-w22.github.io/jpa03-cgaucho-docs/>
-* QA:  <https://ucsb-cs156-w22.github.io/jpa03-cgaucho-docs-qa/>
+* Production: <https://ucsb-cs156-w22.github.io/jpa03-cgaucho-docs/storybook>
+* QA:  <https://ucsb-cs156-w22.github.io/jpa03-cgaucho-docs-qa/storybook>
 ```
 
 Make sure that the links work.
