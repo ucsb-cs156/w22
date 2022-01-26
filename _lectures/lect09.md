@@ -31,8 +31,8 @@ Tonight:
 
 ... or if you personally have nothing that you can contribute right now, here are three things to work on:
 
-* H05 and H06, which are the last two Java homework assignments from the Head First Java textbook
-* H07 which is the first homework assignment that introduces JavaScript.
+* [H05](https://ucsb-cs156.github.io/w22/hwk/h05/) and [H06](https://ucsb-cs156.github.io/w22/hwk/h06/), which are the last two Java homework assignments from the Head First Java textbook
+* [H07](https://ucsb-cs156.github.io/w22/hwk/h07/) which is the first homework assignment that introduces JavaScript.
 
 # An important point about code reviews
 
