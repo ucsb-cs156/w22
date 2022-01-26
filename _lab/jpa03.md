@@ -191,17 +191,7 @@ provided you did all the other setup steps correctly.
 
 If it doesn't work, consult the troubleshooting steps in `jpa02` and try them before asking a mentor, TA, or instructor for help.
 
-
-# Step 5: Adding links to repo in the README.md
-
-Edit your README.md. You'll find some TODO items inside indicating what edits you need to make.
-
-All quarter long, we want you to develop the habit of adjusting the  README.md in your repo to include a link to your repo.
-
-The link to your repo may seem redundant, but it helps your mentors, TAs and instructors; when you submit your work for grading to either Gradescope or Gauchospace, having those links handy really helps us navigate through your assignments quickly to evaluate them and assign grades.
-
-
-# Step 6: Set up Storybook repos
+# Step 5: Set up Storybook repos
 
 You will now need to set up two repos manually. 
 
@@ -236,7 +226,7 @@ After (with your URLs)
 
 Make sure that the links work.
 
-# Step 7: Submitting your work for grading
+# Step 6: Submitting your work for grading
 
 When you have a running web app, visit <{{page.gauchospace_url}}> and make a submission.
 
