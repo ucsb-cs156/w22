@@ -26,7 +26,14 @@ Tonight:
   You can copy/paste your previous post and update it, or copy paste the text above and update it.
   
   Then, as a team, work on doing code reviews and on merging pull requests.
-  
+
+# If your team is finished with team01
+
+... or if you personally have nothing that you can contribute right now, here are three things to work on:
+
+* H05 and H06, which are the last two Java homework assignments from the Head First Java textbook
+* H07 which is the first homework assignment that introduces JavaScript.
+
 # An important point about code reviews
 
 
