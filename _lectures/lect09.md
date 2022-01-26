@@ -47,7 +47,7 @@ This doesn't trigger GitHub to mark the Pull Request as approved.  To trigger th
 
 3. Click the `Approve` radio button enter `LGTM` and then click submit review.
 
-   ![image](https://user-images.githubusercontent.com/1119017/151084242-3743f5f0-ab8d-40e6-8dcf-d882b65922a7.png
+   ![image](https://user-images.githubusercontent.com/1119017/151084242-3743f5f0-ab8d-40e6-8dcf-d882b65922a7.png)
 
 Of course, you are also free to either "just comment" or "request changes" if you feel that's appropriate.
 But if your intent is to approve, this is the way to go about it.
