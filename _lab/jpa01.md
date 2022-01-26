@@ -214,8 +214,8 @@ Now, did you really write unit tests for all of your code? Let's check!
 We can automatically compute "test case coverage", using a tool call JaCoCo (Java Code Coverage).
 
 Read these short articles about test coverage before moving to step 4:
-* <https://ucsb-cs56.github.io/topics/testing/>
-* <https://ucsb-cs56.github.io/topics/testing_jacoco_reports/>
+* <https://ucsb-cs156.github.io/topics/testing/>
+* <https://ucsb-cs156.github.io/topics/testing_jacoco_reports/>
 
 Once you've looked over those, it's time to check your test coverage, which
 we'll do in Step 4.

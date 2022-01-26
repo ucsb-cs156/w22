@@ -56,7 +56,7 @@ If you are new to writing software for the web, you are <em>strongly encouaged</
 
 ### What are we trying to accomplish again in this lab?
 
-If you just did a deep dive into the article [Web Pages vs. Web Apps](https://ucsb-cs56.github.io/topics/webapps_webapps_vs_websites/) it may be helpful to again review what we are trying to accomplish in this lab:
+If you just did a deep dive into the article [Web Pages vs. Web Apps](https://ucsb-cs156.github.io/topics/webapps_webapps_vs_websites/) it may be helpful to again review what we are trying to accomplish in this lab:
 
 -   In this lab, we will <em>create a basic "Hello, World" type web app in Java"</em>
 -   To test that, we need to run that on a server somewhere.
@@ -76,7 +76,7 @@ Then you probably have a disk quota problem.
 
 -   The best way to troubleshoot this, if you cannot log in, is to ask someone else that CAN log in to allow you to use a terminal window on their screen.
     -   Use `ssh yourusername@csil.cs.ucsb.edu` to get into your account from their terminal session.
--   For troubleshooting tips, visit: [CSIL Disk Quota Troubleshooting](https://ucsb-cs56.github.io/topics/csil_disk_quota/)
+-   For troubleshooting tips, visit: [CSIL Disk Quota Troubleshooting](https://ucsb-cs156.github.io/topics/csil_disk_quota/)
 
 # Step 2: Create a Heroku Account
 
@@ -251,7 +251,7 @@ The code in this repo is configured to start up a webserver on port 8080, runnin
   machine.
 * The port number is a more specific "communications channel" on that machine.   You can find more information on port numbers
   at this short article, which you are encouraged to read if you are not already familiar with port numbers
-  (or, for that matter, even if you are): <https://ucsb-cs56.github.io/topics/port_numbers/>
+  (or, for that matter, even if you are): <https://ucsb-cs156.github.io/topics/port_numbers/>
   
 So the web address to acccess your server is: `http://localhost:8080`.
 
