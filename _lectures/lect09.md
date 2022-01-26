@@ -34,6 +34,14 @@ Tonight:
 * [H05](https://ucsb-cs156.github.io/w22/hwk/h05/) and [H06](https://ucsb-cs156.github.io/w22/hwk/h06/), which are the last two Java homework assignments from the Head First Java textbook
 * [H07](https://ucsb-cs156.github.io/w22/hwk/h07/) which is the first homework assignment that introduces JavaScript.
 
+# Working on Homework in Pairs
+
+Note that H05, H06 and H07 are all set up to  allow *pair submission*. 
+* That is, in theory, you can work together in pairs and submit a single submission from two of you.
+* The only reason I say "in theory" is that I've never seen anyone do this for an "online homework" assignment; only for programming assignments, 
+  and "upload a file" type assignments.  So it's possible that they haven't enabled this feature for online homework.  Let's hope they have!
+* Here are gradescope's instructions for pair assignments: <https://help.gradescope.com/article/m5qz2xsnjy-student-add-group-members>
+
 # An important point about code reviews
 
 
