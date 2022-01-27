@@ -202,11 +202,11 @@ The names should be the name of your jpa03 repo (e.g. `jpa03-cgaucho`) followed 
 * `-docs` (e.g. `jpa03-cgaucho-docs`)
 * `-docs-qa` (e.g. jpa03-cgaucho-docs-qa)
 
-Then follow the steps in the `docs/storybook.md` file in the repo.
+Then follow the steps in the `docs/storybook.md` file in your original jpa03 repo.
 
 This will allow you to set up the storybook for your repository.
 
-You may need to do a push to the main branch, and or a pull request to trigger the GitHub actions scripts that set up the storybook.
+In the original jpa03 repo, you may need to do a push to the main branch, and or a pull request to trigger the GitHub actions scripts that set up the storybook.
 
 When you are finished, update the links in the README.md file so that they point to your storybook repos:
 
