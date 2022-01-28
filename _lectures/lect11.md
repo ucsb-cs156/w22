@@ -22,7 +22,7 @@ ready: false
 
 Through the web interface:
 
-<img src="(https://user-images.githubusercontent.com/1119017/151609450-0a75b593-ef27-4d8a-85ea-42912ce99c43.png" alt="Heroku Dashboard Logs Menu Item" width="300" />
+<img src="https://user-images.githubusercontent.com/1119017/151609450-0a75b593-ef27-4d8a-85ea-42912ce99c43.png" alt="Heroku Dashboard Logs Menu Item" width="300" />
 
 At command line (with Heroku CLI installed):
 
@@ -33,3 +33,11 @@ heroku logs -a demo-spring-react-example-v2qa --tail
 ```
 
 The `--tail` allows you to see the log go by in real time as it is produced.
+
+## How to run just one test file using Maven
+
+For example, to run only the tests in the file `ApiControllerTests.java`
+
+```
+mvn test -Dtest=ApiControllerTests
+```
