@@ -126,3 +126,8 @@ As an aside: you may wonder what happens when we run out of numbers.  Since thes
 * If you stored 1 Million records per second, 24 hours a day, 7 days a week, it would take you [292 thousand years](https://www.google.com/search?q=9%2C223%2C372%2C036%2C854%2C775%2C807+%2F+1000000+%2F+60+%2F+60+%2F+24+%2F+365&rlz=1C5CHFA_enUS888US889&sxsrf=APq-WBtGUMS1ceirZg3u9OrjxeaktzoWaw%3A1643567397963&ei=Jdn2Yen0Oc3EkPIP3du9gA4&ved=0ahUKEwipm63Xjdr1AhVNIkQIHd1tD-AQ4dUDCA4&uact=5&oq=9%2C223%2C372%2C036%2C854%2C775%2C807+%2F+1000000+%2F+60+%2F+60+%2F+24+%2F+365&gs_lcp=Cgdnd3Mtd2l6EANKBAhBGAFKBAhGGABQ4w1Y9A9gxxZoAXAAeACAAZcBiAGYA5IBAzAuM5gBAKABAcABAQ&sclient=gws-wiz) to cycle through this many id numbers.  
 * That's also over 18,000 records for every square meter on the face of the planet earth.  Not sure what database table needs that many records.
 
+To add an SQL database table in Spring Boot, you typically add two files:
+
+* A Java class that is annotated with `@Entity`; each instance of this class represents a single row in the database table
+* A Java class that is annotated with `@Repository`; each instance of this class represents a database table.
+
