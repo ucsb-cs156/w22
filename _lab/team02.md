@@ -77,7 +77,53 @@ Here's how that will play out in detail:
 
 From a high-level standpoint, you'll be doing these things:
 
-### Task 1:  Implement CRUD operations for a database table for University Subreddits
+Set up Tasks:
+
+* Setting up a Repo with qa and prod deployments on Heroku
+* Configuring the documentation repos
+* Configuring Codecov
+
+Coding Tasks:
+* Adding database tables for University Subreddits, UCSB Subjects, and UCSB Requirements
+* Setting up CRUD operations for all three of those tables
+* Adding backend test coverage for all of that
+
+In the next assignment, we'll turn to the front end, and put a front end for CRUD operations on 
+all three of those tables.
+
+# Getting started
+
+To get started:
+
+* One member of your team should clone your teams empty team02 repo
+* Add the STARTER-team02 repo as a remote called starter
+* Do `git checkout -b main`, `git pull starter main`, `git push origin main`
+
+Then, you'll manually run a GitHub workflow to populate a Kanban board with issues.  Here's what that looks like.
+
+First, you need to go to the Actions tab:
+
+![image](https://user-images.githubusercontent.com/1119017/151859324-1c46cd9b-f7c0-4917-a98e-6cf685ba3519.png)
+
+Click the button to enable actions. 
+
+Next you'll see this list of actions. You want to select "Create Issue from File"
+
+![image](https://user-images.githubusercontent.com/1119017/151859445-177a317a-2d11-41d1-9c4e-b5adf1f22a13.png)
+
+You'll then see that this action can be triggered manually.  Click `Run Workflow` to trigger the action:
+
+![image](https://user-images.githubusercontent.com/1119017/151859553-e6940d7e-0ee3-4e0e-888c-b48af6568482.png)
+
+
+
+
+
+
+
+### Implement CRUD operations for a database table
+
+We'll start with the example of adding a table for University Subreddits
 
 In team01, one of the endpoints served up an API for looking up a list of University Subreddits by reading a CSV file from a GitHub repo on the web, parsing it, and serving it up in JSON. 
 
@@ -131,6 +177,5 @@ To add an SQL database table in Spring Boot, you typically add two files:
 * A Java class that is annotated with `@Entity`; each instance of this class represents a single row in the database table
 * A Java class that is annotated with `@Repository`; each instance of this class represents a database table.
 
-Here is an example of a database table: 
 
 
