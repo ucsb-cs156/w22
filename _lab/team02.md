@@ -193,6 +193,34 @@ To add an SQL database table in Spring Boot, you typically add two files:
 
 * A Java class that is annotated with `@Entity`; each instance of this class represents a single row in the database table
 * A Java class that is annotated with `@Repository`; each instance of this class represents a database table.
-                                                                                                                                          
+
 There is more information in the issues on the Kanban board to guide you through the rest of the process.
-                                                                                                                                        
+
+# More Hints
+
+We may add more hints about working with the team02 code as we discover what
+problems studnets run into.
+
+In the meantime, use the 
+
+# A note about open source
+
+Note that this assignment is open source.
+
+The repos are public *on purpose*.
+* You are encouraged to consult with one another within and across teams where it helps
+  your learning.
+* That does not mean that you can cheat by just copying code from another team.
+* You are *not* permitted to just look at another team's code, even though you "can".
+* It does mean that you should try to solve the problems as best you can, but you may 
+  consult with members of other teams as you work.  In that context, you may look at 
+  other team's code.
+
+This isn't hard.   You all *know* when you are are looking at other team's work to
+try to learn, versus when you are just looking at it as a shortcut to learning.
+
+I'm trusting you to do the right thing.   This is practice for when, later on, you are
+all working on different assignments.
+
+
+
