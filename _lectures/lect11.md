@@ -21,6 +21,26 @@ ready: false
 
 <https://ucsb-cs156.github.io/w22/lab/team02/>
 
+## Kanban boards
+
+| Team | Board |
+|------|-------|
+| w22-5pm-1 | <https://github.com/ucsb-cs156-w22/team02-w22-5pm-1/projects/1> |
+| w22-5pm-2 | <https://github.com/ucsb-cs156-w22/team02-w22-5pm-2/projects/1> |
+| w22-5pm-3 | <https://github.com/ucsb-cs156-w22/team02-w22-5pm-3/projects/1> |
+| w22-5pm-4 | <https://github.com/ucsb-cs156-w22/team02-w22-5pm-4/projects/1> |
+| w22-6pm-1 | <https://github.com/ucsb-cs156-w22/team02-w22-6pm-1/projects/1> |
+| w22-6pm-2 | <https://github.com/ucsb-cs156-w22/team02-w22-6pm-2/projects/1> |
+| w22-6pm-3 | <https://github.com/ucsb-cs156-w22/team02-w22-6pm-3/projects/1> |
+| w22-6pm-4 | <https://github.com/ucsb-cs156-w22/team02-w22-6pm-4/projects/1> |
+| w22-7pm-1 | <https://github.com/ucsb-cs156-w22/team02-w22-7pm-1/projects/1> |
+| w22-7pm-2 | <https://github.com/ucsb-cs156-w22/team02-w22-7pm-2/projects/1> |
+| w22-7pm-3 | <https://github.com/ucsb-cs156-w22/team02-w22-7pm-3/projects/1> |
+| w22-7pm-4 | <https://github.com/ucsb-cs156-w22/team02-w22-7pm-4/projects/1> |
+{:.table .table-sm .table-striped .table-bordered}
+
+
+
 ## How to get the logs for a Heroku app
 
 Through the web interface:
