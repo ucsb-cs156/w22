@@ -27,7 +27,7 @@ ready: false
 |------|-------|
 | w22-5pm-1 | <https://github.com/ucsb-cs156-w22/team02-w22-5pm-1/projects/1> |
 | w22-5pm-2 | <https://github.com/ucsb-cs156-w22/team02-w22-5pm-2/projects/1> |
-| w22-5pm-3 | <https://github.com/ucsb-cs156-w22/team02-w22-5pm-3/projects/1> |
+| w22-5pm-3 | <https://github.com/ucsb-cs156-w22/team02-w22-5pm-3/projects/2> |
 | w22-5pm-4 | <https://github.com/ucsb-cs156-w22/team02-w22-5pm-4/projects/1> |
 | w22-6pm-1 | <https://github.com/ucsb-cs156-w22/team02-w22-6pm-1/projects/1> |
 | w22-6pm-2 | <https://github.com/ucsb-cs156-w22/team02-w22-6pm-2/projects/1> |
