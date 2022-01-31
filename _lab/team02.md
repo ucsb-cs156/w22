@@ -223,4 +223,12 @@ I'm trusting you to do the right thing.   This is practice for when, later on, y
 all working on different assignments.
 
 
+# Clarifications
 
+## For the issue "Set up docs"
+
+Note that step 1 says: 
+
+> Make a new branch `xy-setup-docs` where `xy` are your intials.
+
+To clarify: that is a new branch on yoru team02 repo, not the team02-docs or team02-docs-qa repos.
