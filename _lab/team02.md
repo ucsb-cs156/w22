@@ -5,7 +5,7 @@ due: 2022-02-08 23:59
 github_org: ucsb-cs156-w22
 layout: lab
 num: team02
-ready: true
+ready: false
 gradescope: https://www.gradescope.com/courses/342053
 starter: https://github.com/ucsb-cs156-w22/STARTER-team02
 gauchospace: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=TBD&forceview=1
