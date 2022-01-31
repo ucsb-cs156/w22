@@ -116,10 +116,41 @@ You'll then see that this action can be triggered manually.  Click `Run Workflow
 ![image](https://user-images.githubusercontent.com/1119017/151859553-e6940d7e-0ee3-4e0e-888c-b48af6568482.png)
 
 
+You'll see that the workflow is running:
+
+![image](https://user-images.githubusercontent.com/1119017/151859733-e8e05c83-2426-4463-8bba-90ca974dd9ad.png)
 
 
+As it runs, issues will appear under the issues tab, and a project will appear under the project tab.  When completed, you
+should have 1 Project (i.e. a Kanban board), and 18 issues:
+
+![image](https://user-images.githubusercontent.com/1119017/151859918-20c23329-ccf7-4a79-a75b-d0e815a0377a.png)
+
+Next, go to the Projects tab, and view your Kanban board; to find it you'll need to bypass the new Projects Beta, and go
+to the old Projects interface.  It's the place that says "Projects 1" in the left navigation:
+
+![image](https://user-images.githubusercontent.com/1119017/151860027-1c696786-8e31-4766-ab7c-7f4effd8ef5c.png)
 
 
+There you should see a project called `Team02`.  Click on that:
+
+![image](https://user-images.githubusercontent.com/1119017/151860130-ceebc42a-2782-4909-a153-e6a5205e68d6.png)
+
+This, finally is your Kanban board:
+
+![image](https://user-images.githubusercontent.com/1119017/151860181-7ce6b97a-4383-4e2f-a14e-7aa653fe6dd6.png)
+
+
+Click to add three new columns.  The first is called "In Progress"
+
+![image](https://user-images.githubusercontent.com/1119017/151860236-a053eb68-d811-4d09-b715-c63d5d4ef0a5.png)
+
+![image](https://user-images.githubusercontent.com/1119017/151860278-240dc265-ea4e-4aee-b0e0-3648437301fa.png)
+
+Then, add columns for "In Review" and "Done" to the right:
+
+
+<img alt="Four columns" src="https://user-images.githubusercontent.com/1119017/151860348-a7d64d66-93f8-4969-b6a5-4c28e3b90a67.png" width="800 />
 
 ### Implement CRUD operations for a database table
 
