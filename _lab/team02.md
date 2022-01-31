@@ -5,24 +5,8 @@ due: 2022-02-08 23:59
 github_org: ucsb-cs156-w22
 layout: lab
 num: team02
-ready: false
-gradescope: https://www.gradescope.com/courses/342053
-starter: https://github.com/ucsb-cs156-w22/STARTER-team02
-gauchospace: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=TBD&forceview=1
-qxx: w22
-participation_activity_num: p05
-participation_activity_date: "Monday 01/31/2022"
+ready: true
 ---
-
-
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
 
 In this team project, our starter code has a full frontend and backend, however we are still focusing only on the backend part, learning these new concepts:
 
@@ -209,3 +193,4 @@ To add an SQL database table in Spring Boot, you typically add two files:
 * A Java class that is annotated with `@Repository`; each instance of this class represents a database table.
                                                                                                                                           
 There is more information in the issues on the Kanban board to guide you through the rest of the process.
+                                                                                                                                        
