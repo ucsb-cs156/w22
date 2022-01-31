@@ -95,7 +95,7 @@ Click the button to enable actions.
 
 Next you'll see this list of actions. You want to select "Create Issue from File"
 
-<img alt="" src="https://user-images.githubusercontent.com/1119017/151859445-177a317a-2d11-41d1-9c4e-b5adf1f22a13.png" width="600" />
+<img alt="" src="https://user-images.githubusercontent.com/1119017/151859445-177a317a-2d11-41d1-9c4e-b5adf1f22a13.png" width="200" />
 
 You'll then see that this action can be triggered manually.  Click `Run Workflow` to trigger the action:
 
@@ -136,7 +136,7 @@ Click to add three new columns.  The first is called "In Progress"
 Then, add columns for "In Review" and "Done" to the right:
 
 
-<img alt="Four columns" src="https://user-images.githubusercontent.com/1119017/151860348-a7d64d66-93f8-4969-b6a5-4c28e3b90a67.png" width="800 />
+<img alt="Four columns" src="https://user-images.githubusercontent.com/1119017/151860348-a7d64d66-93f8-4969-b6a5-4c28e3b90a67.png" width="800" />
 
 ### Implement CRUD operations for a database table
 
