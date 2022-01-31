@@ -1,6 +1,6 @@
 ---
 num: "Lecture 11"
-lecture_date: 2022-01-25
+lecture_date: 2022-01-31
 desc: "Mon Lecture: First in-person class for CMPSC 156 in W22 in SH1431"
 ready: false
 ---

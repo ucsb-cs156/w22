@@ -1,6 +1,6 @@
 ---
 num: "Lecture 10"
-lecture_date: 2022-01-25
+lecture_date: 2022-01-26
 desc: "Wed Lecture: Intro to SH 1431, Intro to React development"
 ready: true
 ---
