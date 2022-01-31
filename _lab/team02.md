@@ -207,5 +207,5 @@ To add an SQL database table in Spring Boot, you typically add two files:
 
 * A Java class that is annotated with `@Entity`; each instance of this class represents a single row in the database table
 * A Java class that is annotated with `@Repository`; each instance of this class represents a database table.
-
+                                                                                                                                          
 There is more information in the issues on the Kanban board to guide you through the rest of the process.
