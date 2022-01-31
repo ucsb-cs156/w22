@@ -87,49 +87,51 @@ Then, you'll manually run a GitHub workflow to populate a Kanban board with issu
 
 First, you need to go to the Actions tab:
 
-![image](https://user-images.githubusercontent.com/1119017/151859324-1c46cd9b-f7c0-4917-a98e-6cf685ba3519.png)
+<img alt="" src="https://user-images.githubusercontent.com/1119017/151859324-1c46cd9b-f7c0-4917-a98e-6cf685ba3519.png" width="600" />
+
+
 
 Click the button to enable actions. 
 
 Next you'll see this list of actions. You want to select "Create Issue from File"
 
-![image](https://user-images.githubusercontent.com/1119017/151859445-177a317a-2d11-41d1-9c4e-b5adf1f22a13.png)
+<img alt="" src="https://user-images.githubusercontent.com/1119017/151859445-177a317a-2d11-41d1-9c4e-b5adf1f22a13.png" width="600" />
 
 You'll then see that this action can be triggered manually.  Click `Run Workflow` to trigger the action:
 
-![image](https://user-images.githubusercontent.com/1119017/151859553-e6940d7e-0ee3-4e0e-888c-b48af6568482.png)
+<img alt="" src="https://user-images.githubusercontent.com/1119017/151859553-e6940d7e-0ee3-4e0e-888c-b48af6568482.png" width="600" />
 
 
 You'll see that the workflow is running:
 
-![image](https://user-images.githubusercontent.com/1119017/151859733-e8e05c83-2426-4463-8bba-90ca974dd9ad.png)
+<img alt="" src="https://user-images.githubusercontent.com/1119017/151859733-e8e05c83-2426-4463-8bba-90ca974dd9ad.png" width="600" />
 
 
 As it runs, issues will appear under the issues tab, and a project will appear under the project tab.  When completed, you
 should have 1 Project (i.e. a Kanban board), and 18 issues:
 
-![image](https://user-images.githubusercontent.com/1119017/151859918-20c23329-ccf7-4a79-a75b-d0e815a0377a.png)
+<img alt="" src="https://user-images.githubusercontent.com/1119017/151859918-20c23329-ccf7-4a79-a75b-d0e815a0377a.png" width="600" />
 
 Next, go to the Projects tab, and view your Kanban board; to find it you'll need to bypass the new Projects Beta, and go
 to the old Projects interface.  It's the place that says "Projects 1" in the left navigation:
 
-![image](https://user-images.githubusercontent.com/1119017/151860027-1c696786-8e31-4766-ab7c-7f4effd8ef5c.png)
+<img alt="" src="https://user-images.githubusercontent.com/1119017/151860027-1c696786-8e31-4766-ab7c-7f4effd8ef5c.png" width="600" />
 
 
 There you should see a project called `Team02`.  Click on that:
 
-![image](https://user-images.githubusercontent.com/1119017/151860130-ceebc42a-2782-4909-a153-e6a5205e68d6.png)
+<img alt="" src="https://user-images.githubusercontent.com/1119017/151860130-ceebc42a-2782-4909-a153-e6a5205e68d6.png" width="600" />
 
 This, finally is your Kanban board:
 
-![image](https://user-images.githubusercontent.com/1119017/151860181-7ce6b97a-4383-4e2f-a14e-7aa653fe6dd6.png)
+<img alt="" src="https://user-images.githubusercontent.com/1119017/151860181-7ce6b97a-4383-4e2f-a14e-7aa653fe6dd6.png" width="600" />
 
 
 Click to add three new columns.  The first is called "In Progress"
 
-![image](https://user-images.githubusercontent.com/1119017/151860236-a053eb68-d811-4d09-b715-c63d5d4ef0a5.png)
+<img alt="" src="https://user-images.githubusercontent.com/1119017/151860236-a053eb68-d811-4d09-b715-c63d5d4ef0a5.png" width="600" />
 
-![image](https://user-images.githubusercontent.com/1119017/151860278-240dc265-ea4e-4aee-b0e0-3648437301fa.png)
+<img alt="" src="https://user-images.githubusercontent.com/1119017/151860278-240dc265-ea4e-4aee-b0e0-3648437301fa.png" width="600" />
 
 Then, add columns for "In Review" and "Done" to the right:
 
