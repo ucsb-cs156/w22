@@ -232,3 +232,5 @@ Note that step 1 says:
 > Make a new branch `xy-setup-docs` where `xy` are your intials.
 
 To clarify: that is a new branch on yoru team02 repo, not the team02-docs or team02-docs-qa repos.
+
+The same goes for pretty much all of the instructions: you are editing the team repo.
