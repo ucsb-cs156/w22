@@ -1,6 +1,6 @@
 ---
 num: "Lecture 12"
-lecture_date: 2022-01-31
+lecture_date: 2022-02-01
 desc: "Tue Discussion in Phelps 3525: Work on team02"
 ready: true
 ---
