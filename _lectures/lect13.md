@@ -143,6 +143,11 @@ One member of the group should make some notes about what there is consensus abo
 there is disagreement.  This final list should be a distillation of what the most important features
 that you'd like to prioritize in the new version of the application.
 
+# What happens next?
+In a future exercise, we'll practice refining the high level notes into
+* [User Stories](https://ucsb-cs156.github.io/topics/user_stories/) `As a __ I can __ so that __`
+* Issues on a Kanban board with [Acceptance Criteria](https://ucsb-cs156.github.io/topics/agile_acceptance_criteria/)
+
 # But before you start that: 
 
 * Do a standup meeting, no more than 5 minutes, on team02
