@@ -34,6 +34,13 @@ Kevin will tell you more.
 ## First Exercise: Thinking like an end user
 
 We'll be looking at a piece of software produced by past UCSB CMPSC 156 students (specifically, from F20, W21, S21).
-* The repo is here: <https://github.com/ucsb-cs156-s21/proj-ucsb-courses-search>
-* The running app is here: <https://proj-ucsb-courses-search.herokuapp.com>
-* You can also acccess the Swagger-UI to see the backend API: <https://proj-ucsb-courses-search.herokuapp.com/swagger-ui/index.html>
+
+
+| What | Link |
+|------|------|
+| Running Appllication | <https://proj-ucsb-courses-search.herokuapp.com> |
+| Source Code |  <https://github.com/ucsb-cs156-s21/proj-ucsb-courses-search> |
+| Backend API (Swagger) | <https://proj-ucsb-courses-search.herokuapp.com/swagger-ui/index.html> |
+| Storybook of React Components | <https://ucsb-cs156-s21.github.io/proj-ucsb-courses-search-docs/storybook> | 
+{:.table .table-sm .table-striped .table-bordered}
+
