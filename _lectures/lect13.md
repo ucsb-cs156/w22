@@ -87,14 +87,14 @@ though it was never fully implemented.   Think about: if it were, what would you
 * If you didn't already, add your name to the top.
 * Now, add six headers for each of your names, so that you each have a section of the document to enter some notes, e.g. 
 
-  > # Alice
-  > Enter notes here
+  > ## Alice
+  > Alice's notes here
   > 
-  > # Bob
-  > Enter notes here
+  > ## Bob
+  > Bob's notes here
   >
-  > # Chris
-  > Enter notes here
+  > ## Chris
+  > Chris' notes here
   >
   > etc.
 
@@ -126,6 +126,16 @@ the changes you'd like to see.
 ## Step 4: As a group, discuss your lists (5-10 minutes)
 
 Add a section at the top of the document with a header called "Group Discussion"
+
+> ## Group Discussion
+> Enter notes here
+>
+> ## Alice
+> Alice's notes here
+> 
+> ## Bob
+> Bob's notes here
+> etc.
 
 Invite each student on the team to share their thoughts about the application.
 
