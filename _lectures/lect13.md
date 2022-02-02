@@ -39,7 +39,7 @@ They:
 * Work with the software development team to turn customer needs into "user stories" 
 * The user stories are then turned into issues (aka cards on a Kanban board.)
 
-Kevin will tell you more.
+Kevin will tell you more: [Slides](https://docs.google.com/presentation/d/1Q93KdwjsbL-86Vj2bXWsT1OHDV5UM-d0/edit?usp=sharing&ouid=115856948234298493496&rtpof=true&sd=true)
 
 # Let's do some product ownerish stuff
 
