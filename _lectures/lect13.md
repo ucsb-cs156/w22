@@ -44,3 +44,20 @@ We'll be looking at a piece of software produced by past UCSB CMPSC 156 students
 | Storybook of React Components | <https://ucsb-cs156-s21.github.io/proj-ucsb-courses-search-docs/storybook> | 
 {:.table .table-sm .table-striped .table-bordered}
 
+As a group:
+
+* Please open the Google Document 2/2/22 that was shared with you in your Slack channel.
+* If you didn't already, add your name to the top.
+* Now, add six headers for each of your names, so that you each have a section of the document to enter some notes, e.g. 
+
+  > # Alice
+  > Enter notes here
+  > 
+  > # Bob
+  > Enter notes here
+  >
+  > # Chris
+  > Enter notes here
+  >
+  > etc.
+
