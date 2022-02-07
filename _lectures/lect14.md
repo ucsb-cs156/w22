@@ -24,9 +24,19 @@ ready: true
   - Work as individuals
 * In addition to the team breakout rooms, there are extra breakout rooms available on a first-come/first-served basis.
 
+<img alt="extra breakout rooms" src="https://user-images.githubusercontent.com/1119017/152851723-269f09b4-c7c5-4fed-83d5-c6b479bfcb47.png" width="600" />
+
+
 \* Hints on how to do Mob Programming more effectively:
 * [Short article from Agile Alliance website](https://www.agilealliance.org/glossary/mob-programming/)
 * [Longer more detailed article by Woody Zuill, who popularized the concept](https://www.agilealliance.org/resources/experience-reports/mob-programming-agile2014/)
+
+# If you really are done with team02
+
+If you finish in the meantime, here are three articles you can read that help you to prepare for upcoming assignments; they are all about MongoDB:
+* <https://ucsb-cs156.github.io/topics/mongodb_new_database/>
+* <https://ucsb-cs156.github.io/topics/mongodb_spring_boot_basic_collection/>
+* <https://ucsb-cs156.github.io/topics/mongodb_spring_boot_nested_collection/>
 
 # Why is today a full 75 minute work session?
 
@@ -49,7 +59,4 @@ enough to finish up.
 
 I'll try to have something new for you to work on by 5pm tomorrow night, for teams that manage to finish up before then.
 
-If you finish in the meantime, here are three articles you can read that help you to prepare for upcoming assignments; they are all about MongoDB:
-* <>
-* <>
-* <>
+
