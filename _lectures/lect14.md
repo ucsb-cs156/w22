@@ -52,4 +52,14 @@ I did a poll Monday morning asking folks to choose from one of three choices:
 
 As of the time I'm typing this, there were 17 responses:
 * 16/17 (94%) said they could use the full 75 minutes
-* 17/17 (
+* 17/17 (100%) said they needed at least a little more time.
+* No one said they were done and ready to move on to something new
+
+And, that last point is corroborated by the fact that as of right now, there are zero submissions on the 
+[Gauchospace Assignment for team02](https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=948148)
+
+The due date is still midnight Tuesday; I'm hopeful that a full day today, plus some time tomorrow in Section will be
+enough to finish up. 
+
+I'll try to have something new for you to work on by 5pm tomorrow night, for teams that manage to finish up before then.
+
