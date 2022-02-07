@@ -24,7 +24,7 @@ ready: true
   - Work as individuals
 * In addition to the team breakout rooms, there are extra breakout rooms available on a first-come/first-served basis.
 
-<img alt="extra breakout rooms" src="https://user-images.githubusercontent.com/1119017/152851723-269f09b4-c7c5-4fed-83d5-c6b479bfcb47.png" width="600" />
+<img alt="extra breakout rooms" src="https://user-images.githubusercontent.com/1119017/152851723-269f09b4-c7c5-4fed-83d5-c6b479bfcb47.png" width="200" />
 
 
 \* Hints on how to do Mob Programming more effectively:
