@@ -9,6 +9,10 @@ ready: true
 
 * Full 75 minutes work session on team02
 * You'll start in your breakout rooms almost immediately
+* Use `#help-lecture-discussion` on Slack to ask for help
+  - Include in your request whether you are:
+  - At a table in SH1431 (indicate which table)
+  - In a zoom room (indicate which room)
 * Please start with a standup meeting
   - Keep it short
   - Target: 6 minutes (60 seconds per member)
@@ -48,15 +52,4 @@ I did a poll Monday morning asking folks to choose from one of three choices:
 
 As of the time I'm typing this, there were 17 responses:
 * 16/17 (94%) said they could use the full 75 minutes
-* 17/17 (100%) said they needed at least a little more time.
-* No one said they were done and ready to move on to something new
-
-And, that last point is corroborated by the fact that as of right now, there are zero submissions on the 
-[Gauchospace Assignment for team02](https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=948148)
-
-The due date is still midnight Tuesday; I'm hopeful that a full day today, plus some time tomorrow in Section will be
-enough to finish up. 
-
-I'll try to have something new for you to work on by 5pm tomorrow night, for teams that manage to finish up before then.
-
-
+* 17/17 (
