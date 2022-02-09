@@ -45,3 +45,9 @@ with an underscore, e.g. change `foo` to `_foo`.  This is a convention for unuse
 
 Once you've addressed all of the problems, the `eslint` CI/CD script should give you a green check.
 
+If you run `npx eslint .` and get back no output, that means you are good to go:
+
+```text
+pconrad@Phillips-MacBook-Pro frontend % npx eslint .                              
+pconrad@Phillips-MacBook-Pro frontend % 
+```
