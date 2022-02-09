@@ -1,53 +1,40 @@
 ---
 num: "Lecture 16"
-lecture_date: 2022-02-07
-desc: "Wed Lecture: Retrospectives, Work on Frontend"
+lecture_date: 2022-02-09
+desc: "Wed Lecture: Retrospectives"
 ready: true
 ---
 
+* Start by having everyone take 5 minutes to read through this article: <https://ucsb-cs156.github.io/topics/agile_retros/>
+  - Really read it!  It has the instructions for the most important activity in today's class
+ 
+* Next, choose a leader for your retro. It should be someone that has read the instructions and is comfortable leading the group. 
+* Then, locate the Google Drive folder that you used last Wednesday:
 
-# Tech Tip: ESLint
+It will look like this (upper left corner where it says "pinned posts".  Otherwise you can search for some of the text, e.g. `In preparation for lecture on Wednesday, a small clerical task: Please check that you:`
 
-When working on the frontend code, there is a GitHub actions script that will run a program called `eslint` against your JavaScript/ECMAScript code (the `es` in `eslint` stands for
-ECMAScript.)
-
-This is what it looks like when it fails:
+![image](https://user-images.githubusercontent.com/1119017/153278953-6a9502b3-3431-4c1a-9943-abaf2914f230.png)
 
 
-<img alt="ESlint fails" src="https://user-images.githubusercontent.com/1119017/153115905-5a6b0360-95fb-429b-8e28-6f31229621aa.png" width="800" />
+In that folder, create a folder called `Retros` and in that folder, create a document `Retro01-02-09-2022`
 
-What `eslint` does is to check your code for certain style issues, including:
-* Indentation
-* Variables that are declared by never used
+Then follow the instructions in the <https://ucsb-cs156.github.io/topics/agile_retros/> article for  Stop/Start/Continue retro.
 
-You can check what the eslint problems are by running `npx eslint .` inside the `frontend` directory.  Here's a sample run:
+In the document, write down who your retro leader is.
 
-```text
-pconrad@Phillips-MacBook-Pro frontend % npx eslint .
+At the end of the process, you should have in your document:
+* Name of person leading the retro at the top, and a list of who participated
+* A document with three parts, "stop/start/continue", and items from each member under the three categories
+* Dot voting (three votes per team member participating) on the items in the document.
+* A summary at the bottom on an "experiment" in the form "If we change X we hope to see Y result"
+  - This should be related to one of the top three items by votes that your group agreed on.
+* A brief explanation of how you will know whether your experiment was or was not a success.
 
-/Users/pconrad/github/ucsb-cs156-w22/demo-spring-react-example-v2/frontend/src/tests/components/OurTable.test.js
-  1:38  error  'within' is defined but never used. Allowed unused vars must match /^_/u  no-unused-vars
+After the retro is done, you can:
+* do a standup and more work on team02 if you need that
+* start looking over the articles on MongoDB linked to here:
 
-/Users/pconrad/github/ucsb-cs156-w22/demo-spring-react-example-v2/frontend/src/tests/components/Users/UsersTable.test.js
-  1:18  error  'waitFor' is defined but never used. Allowed unused vars must match /^_/u                  no-unused-vars
-  4:10  error  'getFirstSmallestLargest' is defined but never used. Allowed unused vars must match /^_/u  no-unused-vars
-  5:8   error  'userEvent' is defined but never used. Allowed unused vars must match /^_/u                no-unused-vars
-
-✖ 4 problems (4 errors, 0 warnings)
-
-pconrad@Phillips-MacBook-Pro frontend % 
-```
-
-In this case, all of the errors are about variables that are defined by never used.  The typical way to resolve this is to simply delete the definitions of those variables.
-
-In rare cases, there may be a legitimate reason that you are keeping the variable around.  In this case, you may change the name of the variable to one that starts
-with an underscore, e.g. change `foo` to `_foo`.  This is a convention for unused variables.
-
-Once you've addressed all of the problems, the `eslint` CI/CD script should give you a green check.
-
-If you run `npx eslint .` and get back no output, that means you are good to go:
-
-```text
-pconrad@Phillips-MacBook-Pro frontend % npx eslint .                              
-pconrad@Phillips-MacBook-Pro frontend % 
-```
+If you finish in the meantime, here are three articles you can read that help you to prepare for upcoming assignments; they are all about MongoDB:
+* <https://ucsb-cs156.github.io/topics/mongodb_new_database/>
+* <https://ucsb-cs156.github.io/topics/mongodb_spring_boot_basic_collection/>
+* <https://ucsb-cs156.github.io/topics/mongodb_spring_boot_nested_collection/>
