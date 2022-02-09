@@ -13,8 +13,8 @@ ready: true
 
 It will look like this (upper left corner where it says "pinned posts".  Otherwise you can search for some of the text, e.g. `In preparation for lecture on Wednesday, a small clerical task: Please check that you:`
 
-![image](https://user-images.githubusercontent.com/1119017/153278953-6a9502b3-3431-4c1a-9943-abaf2914f230.png)
 
+<img alt="pinned post" src="https://user-images.githubusercontent.com/1119017/153278953-6a9502b3-3431-4c1a-9943-abaf2914f230.png" width="600" />
 
 In that folder, create a folder called `Retros` and in that folder, create a document `Retro01-02-09-2022`
 
