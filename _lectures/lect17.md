@@ -6,7 +6,25 @@ ready: true
 ---
 
  
+# Tech Tip: `npx stryker run` on a single file
 
+Running mutation testing on the entire code base can take a long time.  If you know that all of the surviving mutants are in a single file (typically the one you just added), it's wasteful to run mutation testing on the entire code base each time.
+
+Fortunately, you don't have to.  
+
+Suppose your mutation testing report looks like this:
+
+![image](https://user-images.githubusercontent.com/1119017/153695047-f1b777aa-8be9-4a04-bb80-06055d534cd9.png)
+
+Clearly all of the problems are in a single file, `src/main/components/UCSBDates/UCSBDateForm.js`
+
+Here's how you can run  mutation testing on just that one file:
+
+```text
+npx stryker run -m src/main/components/UCSBDates/UCSBDateForm.js
+```
+
+In this particular case, the mutation testing ran in 19 seconds on the one file, vs. 68 seconds on the entire code base.
 
 # Tech Tip: ESLint
 
