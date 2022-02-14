@@ -5,6 +5,9 @@ desc: "Mon Lecture: Front End "
 ready: true
 ---
 
+# Announcements
+* Masks
+* Office Hours
 
 # Today's Plan: Straight lecture on frontend code
 
