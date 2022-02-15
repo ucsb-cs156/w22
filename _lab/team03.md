@@ -1,5 +1,5 @@
 ---
-desc: "Team Project: Spring Boot Backend, part 2 (authenticated CRUD)"
+desc: "Team Project: React Frontend for CRUD, MongoDB Backend"
 assigned: 2022-02-15 12:30
 due: 2022-02-22 23:59
 github_org: ucsb-cs156-w22
@@ -92,6 +92,15 @@ Coding Tasks:
   - Purge Earthquakes (Admin only: this will delete all Earthquakes in the collection)
   - List Earthquakes (All Users: this will list all Earthquakes in the collection) 
 * Full test coverage for all of that
+
+# More about MongoDB
+
+To learn more about MongoDB, you can read these three articles, which also reference code that is part of the starter repo
+for this project:
+
+* [MongoDB: New Database](https://ucsb-cs156.github.io/topics/mongodb_new_database/)—Setting up a new database on cloud.mongodb.com
+* [MongoDB: Spring Boot - Basic Collection](https://ucsb-cs156.github.io/topics/mongodb_spring_boot_basic_collection/)—Accessing a MongoDB collection from Spring Boot
+* [MongoDB: Spring Boot - Nested Document](https://ucsb-cs156.github.io/topics/mongodb_spring_boot_nested_collection/)—Creating a document class for nested JSON
 
 # A reminder about open source
 
