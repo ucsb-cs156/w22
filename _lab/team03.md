@@ -84,7 +84,7 @@ Set up Tasks:
 
 Coding Tasks:
 * Adding CRUD operations for University Subreddits, and UCSB Subjects (we'll leave off UCSB Requirements)
-* Copying your the EarthquakeQueryService and EarthquakeQueryServiceTests from your team01 project into team03
+* Copying your the [EarthquakeQueryService](https://github.com/ucsb-cs156-w22/STARTER-TEAM01/blob/main/src/main/java/edu/ucsb/cs156/spring/backenddemo/services/EarthquakeQueryService.java) and [EarthquakeQueryServiceTests](https://github.com/ucsb-cs156-w22/STARTER-TEAM01/blob/main/src/test/java/edu/ucsb/cs156/spring/backenddemo/services/EarthquakeQueryServiceTests.java) from the [team01](https://ucsb-cs156.github.io/w22/lab/team01/) project into your team03 repo.
 * Adding classes that model the JSON retrieved by the EarthquakeQueryService, with a Document class representing the `Feature` level in this JSON.
 * Setting up a MongoDB collection for Features documents that represent individual earthquakes.
 * Setting up an Earthquakes menu with three options: 
@@ -96,11 +96,175 @@ Coding Tasks:
 # More about MongoDB
 
 To learn more about MongoDB, you can read these three articles, which also reference code that is part of the starter repo
-for this project:
+for this project.   They should be read in this order, but the third article is the one that is most relevant to this project.
 
 * [MongoDB: New Database](https://ucsb-cs156.github.io/topics/mongodb_new_database/)—Setting up a new database on cloud.mongodb.com
 * [MongoDB: Spring Boot - Basic Collection](https://ucsb-cs156.github.io/topics/mongodb_spring_boot_basic_collection/)—Accessing a MongoDB collection from Spring Boot
 * [MongoDB: Spring Boot - Nested Document](https://ucsb-cs156.github.io/topics/mongodb_spring_boot_nested_collection/)—Creating a document class for nested JSON
+
+The third article describes how to set up Java classes for a nested collection, which is precisely the problem that is being posed here.  
+The [US Geological Survey API for Earthquakes](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) that we used in [team01](https://ucsb-cs156.github.io/w22/lab/team01/), has this structure (I've edited this to show only two earthquakes instead of the 18 that 
+were returned by this query, in order to keep this shorter; sorry, it's still quite long.)
+
+```json
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1644953348000,
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&minmagnitude=2.0&maxradiuskm=100&latitude=34.4140&longitude=-119.8489",
+        "title": "USGS Earthquakes",
+        "status": 200,
+        "api": "1.13.2",
+        "count": 2
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.16,
+                "place": "10km ESE of Ojai, CA",
+                "time": 1644571919000,
+                "updated": 1644648614363,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40182864",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40182864&format=geojson",
+                "felt": 1,
+                "cdi": 2,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 72,
+                "net": "ci",
+                "code": "40182864",
+                "ids": ",ci40182864,",
+                "sources": ",ci,",
+                "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 72,
+                "dmin": 0.01068,
+                "rms": 0.3,
+                "gap": 40,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.2 - 10km ESE of Ojai, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.1321667,
+                    34.4271667,
+                    16.08
+                ]
+            },
+            "id": "ci40182864"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.64,
+                "place": "10km NW of Santa Paula, CA",
+                "time": 1644539746380,
+                "updated": 1644905608040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40182600",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40182600&format=geojson",
+                "felt": 41,
+                "cdi": 4.5,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 126,
+                "net": "ci",
+                "code": "40182600",
+                "ids": ",ci40182600,us7000gjva,",
+                "sources": ",ci,us,",
+                "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 86,
+                "dmin": 0.01655,
+                "rms": 0.32,
+                "gap": 27,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.6 - 10km NW of Santa Paula, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.1346667,
+                    34.4205,
+                    16.29
+                ]
+            },
+            "id": "ci40182600"
+        }
+    ],
+    "bbox": [
+        -120.6706667,
+        33.9791667,
+        -0.05,
+        -118.9346667,
+        35.0601667,
+        18.74
+    ]
+}
+```
+
+To summarize the "shape" of this JSON, we have essentially four objects:
+
+* `FeatureCollection`
+* `Metadata`
+* `Feature`
+* `FeatureProperties`
+
+We could also optionally set up classes for 
+
+Each of these will be set up as a Java class using the [Lombok](https://ucsb-cs156.github.io/topics/lombok/) `@Data` annotation which automatically sets up setters and getters for each of the private fields.   The `@NoArgConstructor` and `@Builder` annotationsa are also useful (as explained in the documentation above.)  
+
+A `FeatureCollection`, which is the top level object, has these fields.  
+ 
+```java
+    private String type;
+    private Metadata metadata;
+    private List<Feature> features;
+```
+
+It could also have a `bbox` field of type `List<Double>`, but we can leave that out. (If you've read the three tutorials above, you may recall that we do not have to represent every field in the JSON in our Java objects; we only need to represent the parts of the JSON that we are interested in retrieving, storing, and displaying&mdash;though, this requires us to configure the `ObjectMapper` object (typically the variable is `mapper` to set  `DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES` to `false`:
+
+```java
+ObjectMapper mapper = new ObjectMapper();
+mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+```
+
+A `Metadata` object looks like this in JSON.  This time, I won't give you the Java code, but you can see that it would simply be `private String` fields for everything here except for the `count`, which would be a `private int`.   
+
+```json
+ "metadata": {
+        "generated": 1644953348000,
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&minmagnitude=2.0&maxradiuskm=100&latitude=34.4140&longitude=-119.8489",
+        "title": "USGS Earthquakes",
+        "status": 200,
+        "api": "1.13.2",
+        "count": 2
+    },
+```
+
+A `Feature` object would look like this:
+
+```java
+   private String type;
+   private FeatureProperties properties;
+   private String id;
+```
+
+It could also contain a `private Geometry geometry` object, which might look like this, but I think we can leave that out.
+
+```java
+  private String type
+  private List<Double> coordinates; 
+```
+
+With that, and the example of the `RedditPosts` in the sample code, my hope is that you can figure out how to set up appropriate classes under the `documents` package to represent the JSON objects returned by the USGS (which are a special case of a format called [GeoJSON](https://geojson.org/), along with a class under `collections` to represent the MongoDB collection. 
 
 # A reminder about open source
 
