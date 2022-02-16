@@ -61,7 +61,7 @@ Here's how that will play out in detail:
    ```
 4. Then, as in team02, there is a GitHub actions script which you can manually trigger that should populate your Kanban board with the issues under the `/issues` subdirectory.
    - You may need to first enable GitHub Actions, and you may also need to enable issue if they are not enabled on the Repo.
-   - To enable Issue, go under Settings, then the General Tab, the scroll down to Features:
+   - To enable Issues, go under Settings, then the General Tab, the scroll down to Features:
      <img width="747" alt="image" src="https://user-images.githubusercontent.com/1119017/154173897-16539bd5-c07a-4ae8-9911-a401fe51ed59.png">
 
 6. Then, as in team02, you'll assign those tasks to members of the team, moving them into the "In Progress" as each task is assigned.  
