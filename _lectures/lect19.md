@@ -9,6 +9,12 @@ Our course meeting on 02/16 is a pure work session on [team03](https://ucsb-cs15
 
 Here are some notes that were put on the Slack before the work session:
 
+# Be sure to fill out CATME survey
+
+* It is a particpation grade to fill it out.  Avoid a zero (and frequent nag emails) by spending a few minutes to fill it out!
+* Once you fill it out, the nag emails stop :-)
+* Be honest: it is important to give helpful critical feedback early so that folks have a chance to improve.
+
 # Start with Standup
 
 We'll invite you to start with a "standup meeting" on team03
