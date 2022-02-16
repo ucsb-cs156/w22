@@ -52,6 +52,9 @@ Here's how that will play out in detail:
    - You may need to first enable GitHub Actions, and you may also need to enable issue if they are not enabled on the Repo.
    - To enable Issues, go under Settings, then the General Tab, the scroll down to Features:
      <img width="747" alt="image" src="https://user-images.githubusercontent.com/1119017/154173897-16539bd5-c07a-4ae8-9911-a401fe51ed59.png">
+   - The script looks like this:
+     <img width="1191" alt="image" src="https://user-images.githubusercontent.com/1119017/154175289-d5ed5bcc-b024-44cf-bc1b-ecf25e12efa6.png">
+
 
 6. Then, as in team02, you'll assign those tasks to members of the team, moving them into the "In Progress" as each task is assigned.  
    - You may assign tasks either to individuals, pairs, or even larger groups (so-called "mobs", as in [*Mob Programming*](https://en.wikipedia.org/wiki/Mob_programming))
