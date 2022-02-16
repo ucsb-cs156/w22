@@ -60,10 +60,14 @@ Here's how that will play out in detail:
    git push origin main
    ```
 4. Then, as in team02, there is a GitHub actions script which you can manually trigger that should populate your Kanban board with the issues under the `/issues` subdirectory.
-5. Then, as in team02, you'll assign those tasks to members of the team, moving them into the "In Progress" as each task is assigned.  
+   - You may need to first enable GitHub Actions, and you may also need to enable issue if they are not enabled on the Repo.
+   - To enable Issue, go under Settings, then the General Tab, the scroll down to Features:
+     <img width="747" alt="image" src="https://user-images.githubusercontent.com/1119017/154173897-16539bd5-c07a-4ae8-9911-a401fe51ed59.png">
+
+6. Then, as in team02, you'll assign those tasks to members of the team, moving them into the "In Progress" as each task is assigned.  
    - You may assign tasks either to individuals, pairs, or even larger groups (so-called "mobs", as in [*Mob Programming*](https://en.wikipedia.org/wiki/Mob_programming))
    - But be sure that if you assign a task to more than one person, that each member of the pair or mob is legitimately committed to contributing to working on the task, and committed to getting it finished.
-6. Once a pull request is complete for a given task, you move it into the `In Review` column
+7. Once a pull request is complete for a given task, you move it into the `In Review` column
    - At this stage, you seek a code review from a member of the team that was not involved in the coding.
    - If it was a true "all-team mob", than it's fine to get a code review from someone that participated, but this is rare.
    - Also, at this stage, if the PR is not "green on CI", meaning that all of the GitHub actions scripts show green checks, this is when you 
