@@ -5,21 +5,10 @@ due: 2022-02-22 23:59
 github_org: ucsb-cs156-w22
 layout: lab
 num: team03
-ready: false
+ready: true
 ---
 
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-
-In this team project, our starter code has a full frontend and backend.  Our main focus is the frontend, but we also introduce one new backend element: working with MongoDB
-databases.
+In this team project, our starter code has a full frontend and backend.  Our main focus is the frontend, but we also introduce one new backend element: working with MongoDB databases.
 
 * Creating support for a MongoDB collection with `@Document` and `@Repository` with `MongoRepository`
 * Creating React components and pages in a site that was piloted with the [Create React App](https://create-react-app.dev/) script
