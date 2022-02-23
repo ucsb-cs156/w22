@@ -1,7 +1,7 @@
 ---
 desc: "Team Project: React Frontend for CRUD, MongoDB Backend"
 assigned: 2022-02-15 12:30
-due: 2022-02-22 23:59
+due: 2022-02-28 11:59
 github_org: ucsb-cs156-w22
 layout: lab
 num: team03
