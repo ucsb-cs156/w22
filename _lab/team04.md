@@ -17,3 +17,12 @@ ready: true
 | 5pm-2, 6pm-2, 7pm-2 | Courses Search | Admin and Personal Schedule | <https://github.com/ucsb-cs156-w22/STARTER-team04-courses> |
 | 5pm-3, 6pm-3, 7pm-3 | Happy Cows | Game Play Features | <https://github.com/ucsb-cs156-w22/STARTER-team04-cows> |
 | 5pm-4, 6pm-4, 7pm-4 | Happy Cows | Admin Features | <https://github.com/ucsb-cs156-w22/STARTER-team04-cows> |
+
+
+In these two repos, you will find these directories:
+
+* w22-5pm-1, w22-6pm-1 and w22-7pm-1 does issues from `issues/epic01` under courses
+* w22-5pm-2, w22-6pm-2 and w22-7pm-2 does issues from `issues/epic02` under courses
+* w22-5pm-3 w22-6pm-3 and w22-7pm-3 does issues from `issues/epic03` under cows
+* w22-5pm-4 w22-6pm-4 and w22-7pm-4 does issues from `issues/epic04` under cows
+
