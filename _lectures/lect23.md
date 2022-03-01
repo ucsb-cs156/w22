@@ -10,6 +10,10 @@ Today:
 
 # Standup on team04
 
+* Always start with a standup meeting
+* Keep updates short—if you haven't had time to start anything yet, just say so
+* But if you have gotten started, it will be helpful to bring everyone up to speed on what you've done so far.
+
 # Sprint Planning (at a minimum, do this)
 
 Some teams have already created a Kanban board.  For those that didn't, I  created them.  Links are in the table below.
