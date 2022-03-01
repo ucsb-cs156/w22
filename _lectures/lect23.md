@@ -16,5 +16,7 @@ Some teams have already created a Kanban board.  For those that didn't, I  creat
 
 | Team | Repo | Kanban Board | 
 |------|------|---------------|
-| w22-5pm-1 | <https://github.com/ucsb-cs156-w22/team04-5pm-courses> | [Kanban](https://github.com/ucsb-cs156-w22/team04-w22-5pm-courses/projects/1) |
-| w22-5pm-2 | <https://github.com/ucsb-cs156-w22/team04-5pm-courses> | [Kanban](https://github.com/ucsb-cs156-w22/team04-w22-5pm-courses/projects/2) |
+| w22-5pm-1 | <https://github.com/ucsb-cs156-w22/team04-w22-5pm-courses> | [Kanban](https://github.com/ucsb-cs156-w22/team04-w22-5pm-courses/projects/1) |
+| w22-5pm-2 | <https://github.com/ucsb-cs156-w22/team04-w22-5pm-courses> | [Kanban](https://github.com/ucsb-cs156-w22/team04-w22-5pm-courses/projects/2) |
+| w22-5pm-3 | <https://github.com/ucsb-cs156-w22/team04-w22-5pm-HappyCows> | [Kanban](https://github.com/ucsb-cs156-w22/team04-w22-5pm-HappyCows/projects/1) |
+| w22-5pm-4 | <https://github.com/ucsb-cs156-w22/team04-w22-5pm-HappyCows> | [Kanban](https://github.com/ucsb-cs156-w22/team04-w22-5pm-HappyCows/projects/2) |
