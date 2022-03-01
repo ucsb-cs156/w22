@@ -24,6 +24,7 @@ Today, at a minimum, before your discussion section is over, please aim to:
   - NOTE that since you SHARE a repo with another team, your "Issues" column is shared with that team.
   - You can find sample issues under the `/issues` directory in your team's repo, under `epic01`, `epic02`, `epic03`, or `epic04`
   - Unlike in previous assignments, it is now *your team's responsibility* to create the Issue in GitHub, and "groom" it (i.e. add Acceptance Criteria)
+  - For grooming of issues, TA Kevin Heffernan suggests this resource (about an 8 minute read): <https://www.productplan.com/glossary/backlog-grooming/>
 * Make sure that each team member is assigned to at least one in-progress issue
 
 That's the minimum bar for today's discussion section.  If you have time to do more, some suggesitons appear below the table of Kanban boards.   There are also a few reminders.
