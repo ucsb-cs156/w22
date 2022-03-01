@@ -19,7 +19,11 @@ Today:
 Some teams have already created a Kanban board.  For those that didn't, I  created them.  Links are in the table below.
 
 Today, at a minimum, before your discussion section is over, please aim to:
-* Create the columns `Todo`, `In Progress`, `In Review`, `Done` on your team's board.
+* At a minimum, create the columns `Todo`, `In Progress`, `In Review`, `Done` on your team's board.
+* We suggest that you consider splitting the `In Review` column into two columns:
+  - `Team Review`: Stories/Issues/PRs that are ready for the *team* to review
+  - `Staff Review`: Stories/Issues/PRs that are ready for the *staff* to review.
+  This should make it easier to determine where the PRs/Issues are in the process, and who needs to take action to move things along. (Thanks Kevin H. for this suggestion.)
 * Create at least a few issues in your repo 
   - NOTE that since you SHARE a repo with another team, your "Issues" column is shared with that team.
   - You can find sample issues under the `/issues` directory in your team's repo, under `epic01`, `epic02`, `epic03`, or `epic04`
