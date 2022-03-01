@@ -32,3 +32,6 @@ At the end of the process, you should have in your document:
 
 When the retro is done, post on `#help-lecture-discussion` that you are finished, and then a team member will help you get started on team04.
 
+# team04
+
+Instructions for team04 are here: <https://ucsb-cs156.github.io/w22/lab/team04/>
