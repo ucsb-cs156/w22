@@ -69,6 +69,27 @@ Here are some things to do if you have time to go beyond the minimum
 
 1. Get your qa deployments are set up.   See Slack discussion in either [`#help-proj-courses-search`](https://ucsb-cs156-w22.slack.com/archives/C0350JFKJPM/p1646172077158749) or [#help-proj-happycows](https://ucsb-cs156-w22.slack.com/archives/C034XMDFSER/p1646172600790119)
 2. Make sure you can clone the repo and get it up and running on localhost.  The discussion at the previous link has some hints about reusuing your OAuth credentials.
+3. Talk with the staff about the "big picture" of your sprint.   
+   - That is, try to understand what it is you are trying to build.  
+   - What is in scope, and what is out of scope? 
+   - What does the end user want/need from this feature?
+   - For courses search, Prof. Conrad, Andrew, Pranav are the ones most familiar with the app
+   - For Happy Cows, Seth, Kevin, Bryan Z are the best sources
+   - Bryan T is equally familiar with both.
 
+# Some high level observations
 
+Courses Search and Happy Cows are in vary different stages of development
+
+For, Courses Search, this is our third major version of the app: some of the staff have been working on it for over two years now, and we really know the features very well, inside and out.
+
+For Happy Cows, we are at a much earlier stage.  Some of the dev team (Conrad, Bryan T, and Seth V) did some maintenance programming on an earlier version of the app, and then started on a re-write using this tech stack in S21.  But we didn't very far, and there are still many things that are still being defined.
+
+Thie means you'll have very different experiences, with different tradeoffs.
+
+Courses Search will be a more straightforward path; the user/customer/product manager has a much clearer idea of what they want, and the staff has a pretty clear idea how to build that.
+
+Happy Cows will be less straightforward. There is less clarity about what the finished product should look like, or the best way to get there.
+
+You may think that this means that Courses Search folks are the more fortunate ones.  I'd suggest, though, that the experience of the Happy Cows folks is much more authentic and typical of real world coding.  They may have the better learning experience.
 
