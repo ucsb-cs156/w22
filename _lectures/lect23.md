@@ -83,6 +83,7 @@ The complexity of rebasing on main can range dramatically:
 It isn't possible to write a full guide for every possible permutation of what can happen.  But we'll provide a guide to the simple cases,
 and then encourage you to reach out for help if and when the complex ones arise.
 
+Here's the article: <https://ucsb-cs156.github.io/topics/git_pull_rebase_main/>
 
 # If you have time to do more than the minimum
 
