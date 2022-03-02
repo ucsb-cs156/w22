@@ -68,6 +68,22 @@ That's the minimum bar for today's discussion section.  If you have time to do m
   - Approving code review from member of team that didn't work on the issue
   - Approving code review from a staff member
 
+# You may need to rebase on main often
+
+You are now working in a repo where more than just your own team is working.
+
+This increases the chance for merge conflicts.
+
+This means that you should rebase on main early and often.
+
+The complexity of rebasing on main can range dramatically:
+* In some cases, super easy!
+* In others, mind-bogglingly hard
+
+It isn't possible to write a full guide for every possible permutation of what can happen.  But we'll provide a guide to the simple cases,
+and then encourage you to reach out for help if and when the complex ones arise.
+
+
 # If you have time to do more than the minimum
 
 Here are some things to do if you have time to go beyond the minimum
