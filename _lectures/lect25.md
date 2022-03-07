@@ -27,4 +27,12 @@ Like this:
 
 <img width="987" alt="image" src="https://user-images.githubusercontent.com/1119017/157112889-1c64047f-bed2-4a13-b9e1-e51a3e042554.png">
 
+# PRs need:
 
+* Everything passing on CI/CD
+* A decent description (with screenshots before/after if possible.)
+* Label for the team
+
+# When Staff merges:
+
+* Add the points label
