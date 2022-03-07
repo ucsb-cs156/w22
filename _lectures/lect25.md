@@ -32,6 +32,7 @@ Like this:
 * Everything passing on CI/CD
 * A decent description (with screenshots before/after if possible.)
 * Label for the team
+* Legit approving code review from team member
 
 # When Staff merges:
 
