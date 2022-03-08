@@ -23,8 +23,31 @@ Students, do likewise.
 | <https://github.com/ucsb-cs156-w22/team04-w22-7pm-HappyCows/pulls> |
 {:.table .table-sm .table-striped .table-bordered}
 
+# Commented out code is generally a no-no...
 
+If you have commented out code in your PR, you can expect some push back from staff.
 
+(Even Conrad gets push back from the TAs and LAs when he tries to put commented out code in a PR.)
+
+There are *some* exceptions, but in general, ask yourself: do I *really* need this commented out code?
+
+Or would it be better to remove it?   
+
+One reason you *might* think you want commented out code is, for example:
+* You are setting up CRUD operations, and using an existing controller as an example
+* In the initial PR, you might only be using half of the methods in the controller you used as the example, so the 
+  other half is commented out--e.g. the methods for PUT and DELETE 
+* Instead of dozens of lines of commented out code, consider just putting in a comment such as:
+  ```
+  // Later work may add controller methods for PUT and DELETE
+  // For examples, see: https://github.com/some-org/some-repo/some-path-to-file/SampleController.java
+  ```
+  
+  That way, it is clear where to get the sample code from, and you have far less clutter in the code base.
+  
+  Even better, leave this out of the code, and put this kind of documentation on the issue in GitHub.
+  
+  
 
 # Remember: sand vs. boulders
 
