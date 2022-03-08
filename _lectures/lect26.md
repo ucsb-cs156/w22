@@ -23,6 +23,14 @@ Students, do likewise.
 | <https://github.com/ucsb-cs156-w22/team04-w22-7pm-HappyCows/pulls> |
 {:.table .table-sm .table-striped .table-bordered}
 
+# PR Titles:
+
+Make sure that anyone on the project can glance at your title and know immediately what the PR is about.
+
+* Not Good: "fixed backend problem".  "added new table",  "updated page", "finished issue 7"
+* Better, but still not great: "fixed backend problem with Cows", "added column to users table", "updated courses page"
+* Best: "Added health calculation to backend route for selling cows", "added delete button to users table", "updated courses page with column for units"
+
 # Commented out code is generally a no-no...
 
 If you have commented out code in your PR, you can expect some push back from staff.
