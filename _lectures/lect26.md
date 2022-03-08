@@ -5,6 +5,27 @@ desc: "Tue Discussion: Continue work on team04, more notes on PRs"
 ready: true
 ---
 
+# The PR boards (staff and students alike, review these)
+
+It's important to keep the PR pipeline flowing.
+
+So staff, please spend some time reviewing the status of PRs here.
+
+Students, do likewise.
+
+| PR List |
+|---------|
+| <https://github.com/ucsb-cs156-w22/team04-w22-5pm-courses/pulls> |
+| <https://github.com/ucsb-cs156-w22/team04-w22-5pm-HappyCows/pulls> |
+| <https://github.com/ucsb-cs156-w22/team04-w22-6pm-courses/pulls> |
+| <https://github.com/ucsb-cs156-w22/team04-w22-6pm-HappyCows/pulls> |
+| <https://github.com/ucsb-cs156-w22/team04-w22-7pm-courses/pulls> |
+| <https://github.com/ucsb-cs156-w22/team04-w22-7pm-HappyCows/pulls> |
+{:.table .table-sm .table-striped .table-bordered}
+
+
+
+
 # Remember: sand vs. boulders
 
 "It's easier to move sand through a pipe than boulders."
