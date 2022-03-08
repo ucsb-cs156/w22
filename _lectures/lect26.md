@@ -5,6 +5,35 @@ desc: "Tue Discussion: Continue work on team04, more notes on PRs"
 ready: true
 ---
 
+# Remember: sand vs. boulders
+
+"It's easier to move sand through a pipe than boulders."
+
+This saying is a metaphor for the fact that is is easier to code review, test, and merge small pull requests.
+
+* They tend to have fewer merge conflicts.
+* If/when they have merge conflicts, they are easier to resolve
+* They are easier to test, because typically only a small number of things is changing at once
+
+There may be a temptation to gather lots of features into one *giant* PR.  This is typically not a good idea.  There are exceptions, but even in those cases, there is a price to be paid:
+
+* More likely to have merge conflicts
+* Harder to resolve when they do happen
+* Harder to test
+
+But the biggest reason not to do this is that the whole idea of CI/CD is "Continuous Integration/Continuous Delivery".
+
+* Continuous Integration means: integrating your changes into the default branch *continuously*
+* Not all at once in a giant clump, at the tail end of the process
+* But incrementally, in small pieces, over time.
+
+One of the main reasons is that it helps you catch architectural conflicts early:
+
+* Suppose team A and team B are heading in different, incompatible directions
+* Example might include: different views on the methods/use of a class, a database table design, a set of routes, the props that a React component takes, or how a user interface will work.
+* Integrating changes *early* helps you *find that out early* instead of later.
+* Finding out sooner makes it easier to resolve the disagreement, and results in less "wasted effort".
+
 # An important note about "updating from main"
 
 Occasionally, you may see this on a PR.   
