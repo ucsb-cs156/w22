@@ -35,6 +35,13 @@ I'll be asking questions about these topics that I think are the type you might 
   it suggests that you have not really internalized the content, but have to rely on others understanding.  So use direct quotes sparingly, if at all; try instead
   to answer in your own words.
   
+ 
+Academic integrity investigations are unpleasant for everyone, and they don't help anyone learn. 
+
+I really dont want to spend my time on those, so please don't create conditions where I have to do that.
+
+Work independently, and let your learning speak for itself.
+
 # Clarity and consiseness counts
 
 * Small grammar / spelling errors may or may not be penalized; if an interviewer would be confused by the answer, or have some doubt as to your understanding,
