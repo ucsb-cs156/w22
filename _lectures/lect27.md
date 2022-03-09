@@ -5,6 +5,24 @@ desc: "Wed Lecture: Continue work on team04"
 ready: true
 ---
 
+# ESCIs: please don't forget to fill them out!
+
+They are super important.
+
+# Final Exam Slot: for presentations
+
+You may participate in that final exam slot on zoom or in person, your choice.
+
+# Final CATME survey
+
+Open now, but not due until midnight, Tuesday of Exam week, the night after final presentations.
+
+(The final presentation is the last work the team will do "as a team").
+
+I'll remind you at the final presentations (final exam slot, Tuesday noon-3pm) to fill this out;
+the last one is the most important!
+
+
 # Notes about the final
 
 The final exam will be an online take home exam, and will be mainly high level questions about the process of software development that you learned in team01, team02, team03 and team04.
