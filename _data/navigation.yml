@@ -7,6 +7,8 @@
 #    https://ucsb-cs156.github.io/s21
 #    etc.
 
+current: false
+
 production_url: https://ucsb-cs156.github.io
 
 # List the title and url for each item on navigation bar.
